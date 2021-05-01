@@ -3,16 +3,30 @@
 The Sample Data Generator produces realistic, cohesive, and 100% fictional
 datasets for use in demonstrations and testing.
 
+The SDG prefers statistically realistic patterns (e.g., a student with poor
+attendance generally tracks to poor grades, students are the appropriate age for
+their grade level, students who are English learners have home languages that
+track to their ethnicity, and so forth). The system is configurable, and can
+produce arbitrarily large datasets.
+
+While the SDG creates data with realistic patterns, it is randomly generated and
+must not be used in place of real-world data for scenarios such as training for
+machine learning or other algorithmic approaches.
+
 For more information, see:
 
-* For a detailed description see [Sample Data
-  Generator](https://techdocs.ed-fi.org/display/EDFITOOLS/Sample+Data+Generator)
-  in Tech Docs.
+* [User's Guide](https://techdocs.ed-fi.org/display/SDG/User+Guide)
+* [Developer's
+  Guide](https://techdocs.ed-fi.org/display/SDG/Developers%27+Guide)
+
+## Roadmap
+
 * [How to Submit an
   Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
 * [How Submit a Feature
   Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
-* Review on-going development work at [Link to appropriate Tracker project]
+* Review on-going development work at [SDG
+  Project](https://tracker.ed-fi.org/projects/SDG/)
 
 ## Contributing
 
@@ -32,10 +46,9 @@ Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
 
 See [NOTICES](NOTICES.md) for additional copyright and license notifications.
