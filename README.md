@@ -1,12 +1,17 @@
 # Ed-Fi-SampleDataGenerator
 
-The Sample Data Generator produces realistic, cohesive, and 100% fictional datasets for use in demonstrations and testing.
+The Sample Data Generator produces realistic, cohesive, and 100% fictional
+datasets for use in demonstrations and testing.
 
 For more information, see:
 
-* For a detailed description see [Sample Data Generator](https://techdocs.ed-fi.org/display/EDFITOOLS/Sample+Data+Generator) in Tech Docs.
-* [How to Submit an Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
-* [How Submit a Feature Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
+* For a detailed description see [Sample Data
+  Generator](https://techdocs.ed-fi.org/display/EDFITOOLS/Sample+Data+Generator)
+  in Tech Docs.
+* [How to Submit an
+  Issue](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+an+Issue)
+* [How Submit a Feature
+  Request](https://techdocs.ed-fi.org/display/ETKB/How+To%3A+Submit+a+Feature+Request)
 * Review on-going development work at [Link to appropriate Tracker project]
 
 ## Contributing
@@ -17,12 +22,13 @@ Guidelines](https://techdocs.ed-fi.org/display/ETKB/Code+Contribution+Guidelines
 for detailed information on how to contribute source code.
 
 Looking for an easy way to get started? Search for tickets with label
-"up-for-grabs" in [Tracker](https://tracker.ed-fi.org/issues/?filter=14108); these are nice-to-have but low priority tickets that should not
-require in-depth knowledge of the code base and architecture.
+"up-for-grabs" in [Tracker](https://tracker.ed-fi.org/issues/?filter=14108);
+these are nice-to-have but low priority tickets that should not require in-depth
+knowledge of the code base and architecture.
 
 ## Legal Information
 
-Copyright (c) 2020 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
