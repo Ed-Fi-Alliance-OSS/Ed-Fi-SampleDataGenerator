@@ -1,0 +1,4 @@
+CodeValue,Description,Namespace,ShortDescription,BeginDate,EndDate
+BOY,Beginning of Year,http://ed-fi.org/Descriptor/AssessmentPeriodDescriptor.xml,BOY,8/22/2012 0:00,11/15/2012 0:00
+MOY,Middle of Year,http://ed-fi.org/Descriptor/AssessmentPeriodDescriptor.xml,MOY,11/16/2012 0:00,1/4/2013 0:00
+EOY,End of Year,http://ed-fi.org/Descriptor/AssessmentPeriodDescriptor.xml,EOY,1/5/2013 0:00,6/15/2013 0:00

@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace,SchoolFoodServicesEligibilityMap
+Free,Free,Free,http://www.ed-fi.org/Descriptor/SchoolFoodServicesEligibilityDescriptor.xml,Free
+FullPrice,FullPrice,Full price,http://www.ed-fi.org/Descriptor/SchoolFoodServicesEligibilityDescriptor.xml,Full price
+ReducedPrice,ReducedPrice,Reduced price,http://www.ed-fi.org/Descriptor/SchoolFoodServicesEligibilityDescriptor.xml,Reduced price
+Other,Other,Other,http://www.ed-fi.org/Descriptor/SchoolFoodServicesEligibilityDescriptor.xml,Unknown

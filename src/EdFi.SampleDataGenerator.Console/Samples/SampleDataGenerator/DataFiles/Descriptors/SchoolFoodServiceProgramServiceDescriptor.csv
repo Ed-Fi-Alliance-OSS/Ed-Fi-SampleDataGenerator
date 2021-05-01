@@ -1,0 +1,16 @@
+CodeValue,ShortDescription,Description,Namespace
+Free Breakfast,Free Breakfast,Free Breakfast,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Free Lunch,Free Lunch,Free Lunch,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Free Milk,Free Milk,Free Milk,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Free Snack,Free Snack,Free Snack,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Free Supper,Free Supper,Free Supper,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Full Price Breakfast,Full Price Breakfast,Full Price Breakfast,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Full Price Lunch,Full Price Lunch,Full Price Lunch,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Full Price Milk,Full Price Milk,Full Price Milk,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Full Price Snack,Full Price Snack,Full Price Snack,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Full Price Supper,Full Price Supper,Full Price Supper,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Reduced Price Breakfast,Reduced Price Breakfast,Reduced Price Breakfast,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Reduced Price Lunch,Reduced Price Lunch,Reduced Price Lunch,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Reduced Price Snack,Reduced Price Snack,Reduced Price Snack,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Reduced Price Supper,Reduced Price Supper,Reduced Price Supper,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor
+Other,Other,Other,uri://ed-fi.org/SchoolFoodServiceProgramServiceDescriptor

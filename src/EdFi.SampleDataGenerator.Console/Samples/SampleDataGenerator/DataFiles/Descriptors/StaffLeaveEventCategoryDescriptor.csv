@@ -1,0 +1,19 @@
+CodeValue,ShortDescription,Description,Namespace
+Administrative,Administrative,Administrative,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Annual leave,Annual leave,Annual leave,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Bereavement,Bereavement,Bereavement,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Compensatory leave time,Compensatory leave time,Compensatory leave time,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Family and medical leave,Family and medical leave,Family and medical leave,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Flex time,Flex time,Flex time,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Government-requested,Government-requested,Government-requested,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Jury duty,Jury duty,Jury duty,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Military leave,Military leave,Military leave,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Other,Other,Other,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Personal,Personal,Personal,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Professional development,Professional development,Professional development,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Release time,Release time,Release time,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Sabbatical leave,Sabbatical leave,Sabbatical leave,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Sick leave,Sick leave,Sick leave,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Suspension,Suspension,Suspension,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Vacation,Vacation,Vacation,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor
+Work compensation,Work compensation,Work compensation,uri://ed-fi.org/StaffLeaveEventCategoryDescriptor

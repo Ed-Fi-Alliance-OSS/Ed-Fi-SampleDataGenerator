@@ -1,0 +1,23 @@
+<DistrictProfile DistrictName="Springfield ISD" StateId="255901">
+	<LocationInfo State="TX">
+		<City Name="Springfield" County="Travis">
+			<AreaCode Value="512" />
+			<PostalCode Value="77889" />
+		</City>
+	</LocationInfo>
+	<SchoolProfile SchoolType="High School" Count="1">
+		<GradeProfile GradeLevel="Ninth grade" InitialStudentCount="625" />
+		<GradeProfile GradeLevel="Tenth grade" InitialStudentCount="625" />
+		<GradeProfile GradeLevel="Eleventh grade" InitialStudentCount="625" />
+		<GradeProfile GradeLevel="Twelfth grade" InitialStudentCount="625" />
+	</SchoolProfile>
+	<SchoolProfile SchoolType="Middle School" Count="2">
+		<GradeProfile GradeLevel="Seventh grade" InitialStudentCount="400" />
+		<GradeProfile GradeLevel="Eighth grade" InitialStudentCount="450" />
+	</SchoolProfile>
+	<SchoolProfile SchoolType="Elementary School" Count="2">
+		<GradeProfile GradeLevel="Fourth grade" InitialStudentCount="400" />
+		<GradeProfile GradeLevel="Fifth grade" InitialStudentCount="400" />
+		<GradeProfile GradeLevel="Sixth grade" InitialStudentCount="450" />
+	</SchoolProfile>
+</DistrictProfile>

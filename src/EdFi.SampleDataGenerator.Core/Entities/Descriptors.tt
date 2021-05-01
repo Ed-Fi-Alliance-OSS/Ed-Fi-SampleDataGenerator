@@ -1,0 +1,123 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Linq" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ assembly name="EnvDTE" #>
+<#@ import namespace="EnvDTE" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#@ import namespace="System.Xml" #>
+<#@ import namespace="System.Xml.Linq" #>
+<#@ import namespace="System.Xml.XPath" #>
+<#@ output extension=".cs" #>
+<#
+string ProjectPath = Host.ResolveAssemblyReference("$(ProjectDir)");
+const string DescriptorDirectoryPath = "Entities\\Schema\\v30\\Descriptors\\";
+#>
+namespace EdFi.SampleDataGenerator.Core.Entities
+{
+<#
+foreach (var xmlFile in Directory.GetFiles(Path.Combine(ProjectPath, DescriptorDirectoryPath), "*.xml"))
+{
+	var descriptorClassName = Path.GetFileNameWithoutExtension(xmlFile);
+#>
+	public partial class <#= descriptorClassName #>
+	{
+<#
+	var xmlDocument = new XmlDocument();
+	xmlDocument.Load(xmlFile);
+	foreach (XmlNode node in xmlDocument.SelectNodes("/*[local-name() = 'InterchangeDescriptors']/*"))
+	{
+		var shortDescriptionNode = node["ShortDescription"];
+		var codeValueNode = node["CodeValue"];
+
+		if (shortDescriptionNode != null)
+		{
+			var descriptorValueName = "";
+			if (descriptorClassName == "LanguageDescriptor")
+			{
+				descriptorValueName = GetCSharpNameFromDescriptionAndCodeValue(shortDescriptionNode.InnerText, codeValueNode?.InnerText);
+			}
+
+			else
+			{
+				descriptorValueName = GetCSharpNameFromDescription(shortDescriptionNode.InnerText);
+			}
+#>
+		public static readonly <#= descriptorClassName #> <#= descriptorValueName #> = new <#= descriptorClassName #>
+		{
+<#
+		foreach (XmlNode propertyNode in node.ChildNodes)
+		{
+#>
+			<#= propertyNode.Name #> = "<#= EscapeQuotes(propertyNode.InnerText) #>",
+<#
+		}
+#>
+		};
+
+<#
+		}
+	}
+#>
+	}
+
+<#
+}
+#>
+}
+<#+
+public string FirstCharToUpper(string str)
+{
+	if (string.IsNullOrEmpty(str)) return str;
+	return str.First().ToString().ToUpper() + str.Substring(1);
+}
+
+public string ReplaceAccentedCharsWithAscii(string str)
+{
+		var accentedChars = "àèìòùÀÈÌÒÙäëïöüÄËÏÖÜâêîôûÂÊÎÔÛáéíóúÁÉÍÓÚðÐýÝãñõÃÑÕšŠžŽçÇåÅøØ";
+		var replacementChars = "aeiouAEIOUaeiouAEIOUaeiouAEIOUaeiouAEIOUdDyYanoANOsSzZcCaAoO";
+
+		var accentedCharIndex = -1;
+		do {
+			accentedCharIndex = str.IndexOfAny(accentedChars.ToCharArray());
+			if (accentedCharIndex >=0 )
+			{
+				var accentedChar = str[accentedCharIndex];
+				var charIndex = accentedChars.IndexOf(accentedChar);
+				var replacementChar = replacementChars[charIndex];
+
+				str = str.Replace(accentedChar, replacementChar);
+			}
+		}		
+		while (accentedCharIndex >= 0);
+
+		return str;
+}
+
+public string GetCSharpNameFromDescription(string description)
+{
+	description = ReplaceAccentedCharsWithAscii(description);
+	description = Regex.Replace(description, "[^A-Za-z0-9]+", " ");
+	var titleCasedDescription = String.Join("", description.Split(' ').Select(FirstCharToUpper));
+
+	return Char.IsLetter(titleCasedDescription.First())
+		? titleCasedDescription
+		: $"_{titleCasedDescription}";
+}
+
+public string GetCSharpNameFromDescriptionAndCodeValue(string description, string codeValue)
+{
+	var csharpName = GetCSharpNameFromDescription(description);
+	return $"{csharpName}_{codeValue}";
+}
+
+public string EscapeQuotes(string input)
+{
+	return input.Replace("\"", "\\\"");
+}
+#>

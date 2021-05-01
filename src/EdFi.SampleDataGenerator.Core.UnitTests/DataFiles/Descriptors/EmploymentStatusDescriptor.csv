@@ -1,0 +1,11 @@
+CodeValue,ShortDescription,Description,Namespace,EmploymentStatusMap
+Probationary,Probationary,Probationary,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Probationary
+Contractual,Contractual,Contractual,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Contractual
+Employed or affiliated with outside agency part-ti,Employed or affiliated with outside agency part-time,Employed or affiliated with outside agency part-time,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Employed or affiliated with outside agency part-time
+Employed or affiliated with outside organization,Employed or affiliated with outside organization,Employed or affiliated with outside organization,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Employed or affiliated with outside organization
+Employed part-time,Employed part-time,Employed part-time,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Employed part-time
+Non-contractual,Non-contractual,Non-contractual,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Non-contractual
+Other,Other,Other,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Other
+Substitute/temporary,Substitute/temporary,Substitute/temporary,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Substitute/temporary
+Tenured or permanent,Tenured or permanent,Tenured or permanent,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Tenured or permanent
+Volunteer/no contract,Volunteer/no contract,Volunteer/no contract,http://ed-fi.org/Descriptor/EmploymentStatusDescriptor.xml,Volunteer/no contract

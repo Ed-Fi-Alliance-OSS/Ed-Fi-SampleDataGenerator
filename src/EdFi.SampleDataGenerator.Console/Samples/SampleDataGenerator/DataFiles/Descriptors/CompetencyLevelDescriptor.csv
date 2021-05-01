@@ -1,0 +1,8 @@
+CodeValue,Description,Namespace,ShortDescription,PriorDescriptor,EffectiveBeginDate,EffectiveEndDate
+Advanced,Advanced,uri://ed-fi.org/CompetencyLevelDescriptor,Advanced,,,
+Basic,Basic,uri://ed-fi.org/CompetencyLevelDescriptor,Basic,,,
+Below Basic,Below Basic,uri://ed-fi.org/CompetencyLevelDescriptor,Below Basic,,,
+Fail,Fail,uri://ed-fi.org/CompetencyLevelDescriptor,Fail,,,
+Pass,Pass,uri://ed-fi.org/CompetencyLevelDescriptor,Pass,,,
+Proficient,Proficient,uri://ed-fi.org/CompetencyLevelDescriptor,Proficient,,,
+Well Below Basic,Well Below Basic,uri://ed-fi.org/CompetencyLevelDescriptor,Well Below Basic,,,

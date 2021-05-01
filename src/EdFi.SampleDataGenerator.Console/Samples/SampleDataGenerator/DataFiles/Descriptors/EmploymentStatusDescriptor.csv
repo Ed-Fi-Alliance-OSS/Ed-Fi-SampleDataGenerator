@@ -1,0 +1,11 @@
+CodeValue,ShortDescription,Description,Namespace
+Probationary,Probationary,Probationary,uri://ed-fi.org/EmploymentStatusDescriptor
+Contractual,Contractual,Contractual,uri://ed-fi.org/EmploymentStatusDescriptor
+Employed or affiliated with outside agency part-ti,Employed or affiliated with outside agency part-time,Employed or affiliated with outside agency part-time,uri://ed-fi.org/EmploymentStatusDescriptor
+Employed or affiliated with outside organization,Employed or affiliated with outside organization,Employed or affiliated with outside organization,uri://ed-fi.org/EmploymentStatusDescriptor
+Employed part-time,Employed part-time,Employed part-time,uri://ed-fi.org/EmploymentStatusDescriptor
+Non-contractual,Non-contractual,Non-contractual,uri://ed-fi.org/EmploymentStatusDescriptor
+Other,Other,Other,uri://ed-fi.org/EmploymentStatusDescriptor
+Substitute/temporary,Substitute/temporary,Substitute/temporary,uri://ed-fi.org/EmploymentStatusDescriptor
+Tenured or permanent,Tenured or permanent,Tenured or permanent,uri://ed-fi.org/EmploymentStatusDescriptor
+Volunteer/no contract,Volunteer/no contract,Volunteer/no contract,uri://ed-fi.org/EmploymentStatusDescriptor

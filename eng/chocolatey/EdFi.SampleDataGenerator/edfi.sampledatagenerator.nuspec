@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>edfi.sampledatagenerator</id>
+    <version>1.0.0.0</version>
+    <title>Ed-Fi Sample Data Generator</title>
+    <authors>Ed-Fi Alliance</authors>
+    <projectUrl>https://github.com/Ed-Fi-Alliance/Ed-Fi-SDG</projectUrl>
+    <copyright>Copyright ©Ed-Fi Alliance, LLC. 2018</copyright>
+    <summary>Generates random sample data that conforms to Ed-Fi's standard format.</summary>
+    <description>Generates random sample data that conforms to Ed-Fi's standard format.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" exclude="tools\.gitignore" />
+  </files>
+</package>

@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace,LimitedEnglishProficiencyMap
+Limited,Limited,Limited,http://www.ed-fi.org/Descriptor/LimitedEnglishProficiencyDescriptor.xml,Limited
+Limited Monitored 1,Limited Monitored 1,Limited Monitored 1,http://www.ed-fi.org/Descriptor/LimitedEnglishProficiencyDescriptor.xml,Limited Monitored 1
+Limited Monitored 2,Limited Monitored 2,Limited Monitored 2,http://www.ed-fi.org/Descriptor/LimitedEnglishProficiencyDescriptor.xml,Limited Monitored 2
+NotLimited,NotLimited,NotLimited,http://www.ed-fi.org/Descriptor/LimitedEnglishProficiencyDescriptor.xml,NotLimited

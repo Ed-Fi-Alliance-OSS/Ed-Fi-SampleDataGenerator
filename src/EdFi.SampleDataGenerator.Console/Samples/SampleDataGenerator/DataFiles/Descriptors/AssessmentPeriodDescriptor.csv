@@ -1,0 +1,4 @@
+CodeValue,Description,Namespace,ShortDescription,EffectiveBeginDate,EffectiveEndDate
+BOY,Beginning of Year,uri://ed-fi.org/AssessmentPeriodDescriptor,BOY,,
+MOY,Middle of Year,uri://ed-fi.org/AssessmentPeriodDescriptor,MOY,,
+EOY,End of Year,uri://ed-fi.org/AssessmentPeriodDescriptor,EOY,,

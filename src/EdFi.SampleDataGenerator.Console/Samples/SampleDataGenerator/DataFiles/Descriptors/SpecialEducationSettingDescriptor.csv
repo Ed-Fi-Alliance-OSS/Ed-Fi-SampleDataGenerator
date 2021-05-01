@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace
+Correctional Facilities,Correctional Facilities,Correctional Facilities,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Homebound/Hospital,Homebound/Hospital,Homebound/Hospital,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Inside regular class 80% or more of the day,Inside regular class 80% or more of the day,Inside regular class 80% or more of the day,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Inside regular class less than 40% of the day,Inside regular class less than 40% of the day,Inside regular class less than 40% of the day,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Inside reg class between 40-79% of the day,Inside reg class between 40-79% of the day,Inside regular class no more than 79% of day and no less than 40% of the day,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Parentally-placed in Private Schools,Parentally-placed in Private Schools,Parentally-placed in Private Schools,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Residential Facility,Residential Facility,Residential Facility,uri://ed-fi.org/SpecialEducationSettingDescriptor
+Separate School,Separate School,Separate School,uri://ed-fi.org/SpecialEducationSettingDescriptor

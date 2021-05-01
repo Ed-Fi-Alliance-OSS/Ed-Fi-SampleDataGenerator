@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+Academic Honor,Academic Honor,Academic Honor,uri://ed-fi.org/AchievementCategoryDescriptor
+Certificate Earned,Certificate Earned,Certificate Earned,uri://ed-fi.org/AchievementCategoryDescriptor
+Competency Mastered,Competency Mastered,Competency Mastered,uri://ed-fi.org/AchievementCategoryDescriptor
+Competency Retained,Competency Retained,Competency Retained,uri://ed-fi.org/AchievementCategoryDescriptor
+Course Completed,Course Completed,Course Completed,uri://ed-fi.org/AchievementCategoryDescriptor
+Diploma Earned,Diploma Earned,Diploma Earned,uri://ed-fi.org/AchievementCategoryDescriptor
+Level Completed,Level Completed,Level Completed,uri://ed-fi.org/AchievementCategoryDescriptor
+License Earned,License Earned,License Earned,uri://ed-fi.org/AchievementCategoryDescriptor
+License Endorsement Earned,License Endorsement Earned,License Endorsement Earned,uri://ed-fi.org/AchievementCategoryDescriptor
+Non-Academic Honor,Non-Academic Honor,Non-Academic Honor,uri://ed-fi.org/AchievementCategoryDescriptor
+Participation,Participation,Participation,uri://ed-fi.org/AchievementCategoryDescriptor
+Recognition,Recognition,Recognition,uri://ed-fi.org/AchievementCategoryDescriptor

@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace
+Fund,Fund,Fund,uri://ed-fi.org/AccountClassificationDescriptor
+Program,Program,Program,uri://ed-fi.org/AccountClassificationDescriptor
+Function,Function,Function,uri://ed-fi.org/AccountClassificationDescriptor
+Object,Object,Object,uri://ed-fi.org/AccountClassificationDescriptor
+Project,Project,Project,uri://ed-fi.org/AccountClassificationDescriptor
+Level of Instruction,Level of Instruction,Level of Instruction,uri://ed-fi.org/AccountClassificationDescriptor
+Operational Unit,Operational Unit,Operational Unit,uri://ed-fi.org/AccountClassificationDescriptor
+Subject Matter,Subject Matter,Subject Matter,uri://ed-fi.org/AccountClassificationDescriptor
+Job Class,Job Class,Job Class,uri://ed-fi.org/AccountClassificationDescriptor

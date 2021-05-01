@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+Progress,Progress,Progress,uri://ed-fi.org/ProgressDescriptor
+No Progress,No Progress,No Progress,uri://ed-fi.org/ProgressDescriptor
+Proficient,Proficient,Proficient,uri://ed-fi.org/ProgressDescriptor

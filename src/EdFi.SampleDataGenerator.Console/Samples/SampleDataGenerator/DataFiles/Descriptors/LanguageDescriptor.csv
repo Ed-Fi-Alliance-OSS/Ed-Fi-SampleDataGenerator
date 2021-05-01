@@ -1,0 +1,485 @@
+CodeValue,ShortDescription,Description,Namespace
+ady,Adyghe,Adyghe,uri://ed-fi.org/LanguageDescriptor
+gsw,Swiss German,Swiss German,uri://ed-fi.org/LanguageDescriptor
+rup,Aromanian,Aromanian,uri://ed-fi.org/LanguageDescriptor
+ast,Asturian,Asturian,uri://ed-fi.org/LanguageDescriptor
+bej,Beja,Beja,uri://ed-fi.org/LanguageDescriptor
+byn,Blin,Blin,uri://ed-fi.org/LanguageDescriptor
+zbl,Blissymbols,Blissymbols,uri://ed-fi.org/LanguageDescriptor
+spa,Spanish,Spanish,uri://ed-fi.org/LanguageDescriptor
+nya,Chichewa,Chichewa,uri://ed-fi.org/LanguageDescriptor
+zha,Zhuang,Zhuang,uri://ed-fi.org/LanguageDescriptor
+rar,Rarotongan,Rarotongan,uri://ed-fi.org/LanguageDescriptor
+crh,Crimean Tatar,Crimean Tatar,uri://ed-fi.org/LanguageDescriptor
+chp,Chipewyan,Chipewyan,uri://ed-fi.org/LanguageDescriptor
+div,Divehi,Divehi,uri://ed-fi.org/LanguageDescriptor
+zza,Zaza,Zaza,uri://ed-fi.org/LanguageDescriptor
+bin,Bini,Bini,uri://ed-fi.org/LanguageDescriptor
+dut,Dutch,Dutch,uri://ed-fi.org/LanguageDescriptor
+kik,Kikuyu,Kikuyu,uri://ed-fi.org/LanguageDescriptor
+kal,Kalaallisut,Kalaallisut,uri://ed-fi.org/LanguageDescriptor
+hat,Haitian,Haitian,uri://ed-fi.org/LanguageDescriptor
+arc,Official Aramaic (700-300 BCE),Official Aramaic (700-300 BCE),uri://ed-fi.org/LanguageDescriptor
+kac,Kachin,Kachin,uri://ed-fi.org/LanguageDescriptor
+pam,Pampanga,Pampanga,uri://ed-fi.org/LanguageDescriptor
+kua,Kuanyama,Kuanyama,uri://ed-fi.org/LanguageDescriptor
+kir,Kirghiz,Kirghiz,uri://ed-fi.org/LanguageDescriptor
+ltz,Luxembourgish,Luxembourgish,uri://ed-fi.org/LanguageDescriptor
+lim,Limburgan,Limburgan,uri://ed-fi.org/LanguageDescriptor
+nds,Low German,Low German,uri://ed-fi.org/LanguageDescriptor
+arn,Mapudungun,Mapudungun,uri://ed-fi.org/LanguageDescriptor
+mic,Mi'kmaq,Mi'kmaq,uri://ed-fi.org/LanguageDescriptor
+hmn,Hmong,Hmong,uri://ed-fi.org/LanguageDescriptor
+nav,Navajo,Navajo,uri://ed-fi.org/LanguageDescriptor
+new,Nepal Bhasa,Nepal Bhasa,uri://ed-fi.org/LanguageDescriptor
+nde,"""Ndebele, North""","""Ndebele, North""",uri://ed-fi.org/LanguageDescriptor
+nob,"""Bokmål, Norwegian""","""Bokmål, Norwegian""",uri://ed-fi.org/LanguageDescriptor
+iii,Sichuan Yi,Sichuan Yi,uri://ed-fi.org/LanguageDescriptor
+nno,Norwegian Nynorsk,Norwegian Nynorsk,uri://ed-fi.org/LanguageDescriptor
+ile,Interlingue,Interlingue,uri://ed-fi.org/LanguageDescriptor
+pro,"""Provençal, Old (to 1500)""","""Provençal, Old (to 1500)""",uri://ed-fi.org/LanguageDescriptor
+xal,Kalmyk,Kalmyk,uri://ed-fi.org/LanguageDescriptor
+nwc,Classical Newari,Classical Newari,uri://ed-fi.org/LanguageDescriptor
+chu,Church Slavic,Church Slavic,uri://ed-fi.org/LanguageDescriptor
+oss,Ossetian,Ossetian,uri://ed-fi.org/LanguageDescriptor
+pus,Pushto,Pushto,uri://ed-fi.org/LanguageDescriptor
+fil,Filipino,Filipino,uri://ed-fi.org/LanguageDescriptor
+pan,Panjabi,Panjabi,uri://ed-fi.org/LanguageDescriptor
+kho,Khotanese,Khotanese,uri://ed-fi.org/LanguageDescriptor
+gla,Gaelic,Gaelic,uri://ed-fi.org/LanguageDescriptor
+nso,Pedi,Pedi,uri://ed-fi.org/LanguageDescriptor
+sin,Sinhala,Sinhala,uri://ed-fi.org/LanguageDescriptor
+nbl,"""Ndebele, South""","""Ndebele, South""",uri://ed-fi.org/LanguageDescriptor
+tlh,Klingon,Klingon,uri://ed-fi.org/LanguageDescriptor
+uig,Uighur,Uighur,uri://ed-fi.org/LanguageDescriptor
+cat,Catalan,Catalan,uri://ed-fi.org/LanguageDescriptor
+him,Himachali languages,Himachali languages,uri://ed-fi.org/LanguageDescriptor
+wal,Wolaitta,Wolaitta,uri://ed-fi.org/LanguageDescriptor
+aar,Afar,Afar,uri://ed-fi.org/LanguageDescriptor
+ace,Achinese,Achinese,uri://ed-fi.org/LanguageDescriptor
+ada,Adangme,Adangme,uri://ed-fi.org/LanguageDescriptor
+afa,Afro-Asiatic languages,Afro-Asiatic languages,uri://ed-fi.org/LanguageDescriptor
+afr,Afrikaans,Afrikaans,uri://ed-fi.org/LanguageDescriptor
+aka,Akan,Akan,uri://ed-fi.org/LanguageDescriptor
+alb,Albanian,Albanian,uri://ed-fi.org/LanguageDescriptor
+alg,Algonquian languages,Algonquian languages,uri://ed-fi.org/LanguageDescriptor
+amh,Amharic,Amharic,uri://ed-fi.org/LanguageDescriptor
+anp,Angika,Angika,uri://ed-fi.org/LanguageDescriptor
+ara,Arabic,Arabic,uri://ed-fi.org/LanguageDescriptor
+arg,Aragonese,Aragonese,uri://ed-fi.org/LanguageDescriptor
+art,Artificial languages,Artificial languages,uri://ed-fi.org/LanguageDescriptor
+asm,Assamese,Assamese,uri://ed-fi.org/LanguageDescriptor
+ath,Athapascan languages,Athapascan languages,uri://ed-fi.org/LanguageDescriptor
+ava,Avaric,Avaric,uri://ed-fi.org/LanguageDescriptor
+awa,Awadhi,Awadhi,uri://ed-fi.org/LanguageDescriptor
+aze,Azerbaijani,Azerbaijani,uri://ed-fi.org/LanguageDescriptor
+bai,Bamileke languages,Bamileke languages,uri://ed-fi.org/LanguageDescriptor
+bal,Baluchi,Baluchi,uri://ed-fi.org/LanguageDescriptor
+ban,Balinese,Balinese,uri://ed-fi.org/LanguageDescriptor
+bas,Basa,Basa,uri://ed-fi.org/LanguageDescriptor
+bem,Bemba,Bemba,uri://ed-fi.org/LanguageDescriptor
+ber,Berber languages,Berber languages,uri://ed-fi.org/LanguageDescriptor
+bih,Bihari languages,Bihari languages,uri://ed-fi.org/LanguageDescriptor
+bla,Siksika,Siksika,uri://ed-fi.org/LanguageDescriptor
+bos,Bosnian,Bosnian,uri://ed-fi.org/LanguageDescriptor
+bre,Breton,Breton,uri://ed-fi.org/LanguageDescriptor
+bua,Buriat,Buriat,uri://ed-fi.org/LanguageDescriptor
+bul,Bulgarian,Bulgarian,uri://ed-fi.org/LanguageDescriptor
+cai,Central American Indian languages,Central American Indian languages,uri://ed-fi.org/LanguageDescriptor
+ceb,Cebuano,Cebuano,uri://ed-fi.org/LanguageDescriptor
+cha,Chamorro,Chamorro,uri://ed-fi.org/LanguageDescriptor
+che,Chechen,Chechen,uri://ed-fi.org/LanguageDescriptor
+chi,Chinese,Chinese,uri://ed-fi.org/LanguageDescriptor
+chm,Mari,Mari,uri://ed-fi.org/LanguageDescriptor
+cho,Choctaw,Choctaw,uri://ed-fi.org/LanguageDescriptor
+chr,Cherokee,Cherokee,uri://ed-fi.org/LanguageDescriptor
+chv,Chuvash,Chuvash,uri://ed-fi.org/LanguageDescriptor
+cmc,Chamic languages,Chamic languages,uri://ed-fi.org/LanguageDescriptor
+cor,Cornish,Cornish,uri://ed-fi.org/LanguageDescriptor
+cpe,"""Creoles and pidgins, English based""","""Creoles and pidgins, English based""",uri://ed-fi.org/LanguageDescriptor
+cpp,"""Creoles and pidgins, Portuguese-based""","""Creoles and pidgins, Portuguese-based""",uri://ed-fi.org/LanguageDescriptor
+csb,Kashubian,Kashubian,uri://ed-fi.org/LanguageDescriptor
+cze,Czech,Czech,uri://ed-fi.org/LanguageDescriptor
+dan,Danish,Danish,uri://ed-fi.org/LanguageDescriptor
+day,Land Dayak languages,Land Dayak languages,uri://ed-fi.org/LanguageDescriptor
+den,Slave (Athapascan),Slave (Athapascan),uri://ed-fi.org/LanguageDescriptor
+din,Dinka,Dinka,uri://ed-fi.org/LanguageDescriptor
+doi,Dogri,Dogri,uri://ed-fi.org/LanguageDescriptor
+dsb,Lower Sorbian,Lower Sorbian,uri://ed-fi.org/LanguageDescriptor
+dum,"""Dutch, Middle (ca.1050-1350)""","""Dutch, Middle (ca.1050-1350)""",uri://ed-fi.org/LanguageDescriptor
+dyu,Dyula,Dyula,uri://ed-fi.org/LanguageDescriptor
+efi,Efik,Efik,uri://ed-fi.org/LanguageDescriptor
+eka,Ekajuk,Ekajuk,uri://ed-fi.org/LanguageDescriptor
+eng,English,English,uri://ed-fi.org/LanguageDescriptor
+epo,Esperanto,Esperanto,uri://ed-fi.org/LanguageDescriptor
+ewe,Ewe,Ewe,uri://ed-fi.org/LanguageDescriptor
+fan,Fang,Fang,uri://ed-fi.org/LanguageDescriptor
+fat,Fanti,Fanti,uri://ed-fi.org/LanguageDescriptor
+fiu,Finno-Ugrian languages,Finno-Ugrian languages,uri://ed-fi.org/LanguageDescriptor
+fre,French,French,uri://ed-fi.org/LanguageDescriptor
+fro,"""French, Old (842-ca.1400)""","""French, Old (842-ca.1400)""",uri://ed-fi.org/LanguageDescriptor
+frs,Eastern Frisian,Eastern Frisian,uri://ed-fi.org/LanguageDescriptor
+ful,Fulah,Fulah,uri://ed-fi.org/LanguageDescriptor
+gaa,Ga,Ga,uri://ed-fi.org/LanguageDescriptor
+gba,Gbaya,Gbaya,uri://ed-fi.org/LanguageDescriptor
+geo,Georgian,Georgian,uri://ed-fi.org/LanguageDescriptor
+gez,Geez,Geez,uri://ed-fi.org/LanguageDescriptor
+glg,Galician,Galician,uri://ed-fi.org/LanguageDescriptor
+gmh,"""German, Middle High (ca.1050-1500)""","""German, Middle High (ca.1050-1500)""",uri://ed-fi.org/LanguageDescriptor
+gon,Gondi,Gondi,uri://ed-fi.org/LanguageDescriptor
+got,Gothic,Gothic,uri://ed-fi.org/LanguageDescriptor
+grc,"""Greek, Ancient (to 1453)""","""Greek, Ancient (to 1453)""",uri://ed-fi.org/LanguageDescriptor
+grn,Guarani,Guarani,uri://ed-fi.org/LanguageDescriptor
+guj,Gujarati,Gujarati,uri://ed-fi.org/LanguageDescriptor
+hai,Haida,Haida,uri://ed-fi.org/LanguageDescriptor
+hau,Hausa,Hausa,uri://ed-fi.org/LanguageDescriptor
+heb,Hebrew,Hebrew,uri://ed-fi.org/LanguageDescriptor
+hil,Hiligaynon,Hiligaynon,uri://ed-fi.org/LanguageDescriptor
+hin,Hindi,Hindi,uri://ed-fi.org/LanguageDescriptor
+hrv,Croatian,Croatian,uri://ed-fi.org/LanguageDescriptor
+hun,Hungarian,Hungarian,uri://ed-fi.org/LanguageDescriptor
+iba,Iban,Iban,uri://ed-fi.org/LanguageDescriptor
+ice,Icelandic,Icelandic,uri://ed-fi.org/LanguageDescriptor
+iku,Inuktitut,Inuktitut,uri://ed-fi.org/LanguageDescriptor
+ilo,Iloko,Iloko,uri://ed-fi.org/LanguageDescriptor
+inc,Indic languages,Indic languages,uri://ed-fi.org/LanguageDescriptor
+ine,Indo-European languages,Indo-European languages,uri://ed-fi.org/LanguageDescriptor
+ipk,Inupiaq,Inupiaq,uri://ed-fi.org/LanguageDescriptor
+iro,Iroquoian languages,Iroquoian languages,uri://ed-fi.org/LanguageDescriptor
+jav,Javanese,Javanese,uri://ed-fi.org/LanguageDescriptor
+jpn,Japanese,Japanese,uri://ed-fi.org/LanguageDescriptor
+jrb,Judeo-Arabic,Judeo-Arabic,uri://ed-fi.org/LanguageDescriptor
+kab,Kabyle,Kabyle,uri://ed-fi.org/LanguageDescriptor
+kan,Kannada,Kannada,uri://ed-fi.org/LanguageDescriptor
+kas,Kashmiri,Kashmiri,uri://ed-fi.org/LanguageDescriptor
+kaw,Kawi,Kawi,uri://ed-fi.org/LanguageDescriptor
+kbd,Kabardian,Kabardian,uri://ed-fi.org/LanguageDescriptor
+khi,Khoisan languages,Khoisan languages,uri://ed-fi.org/LanguageDescriptor
+kin,Kinyarwanda,Kinyarwanda,uri://ed-fi.org/LanguageDescriptor
+kmb,Kimbundu,Kimbundu,uri://ed-fi.org/LanguageDescriptor
+kom,Komi,Komi,uri://ed-fi.org/LanguageDescriptor
+kor,Korean,Korean,uri://ed-fi.org/LanguageDescriptor
+kpe,Kpelle,Kpelle,uri://ed-fi.org/LanguageDescriptor
+krl,Karelian,Karelian,uri://ed-fi.org/LanguageDescriptor
+kru,Kurukh,Kurukh,uri://ed-fi.org/LanguageDescriptor
+kum,Kumyk,Kumyk,uri://ed-fi.org/LanguageDescriptor
+kut,Kutenai,Kutenai,uri://ed-fi.org/LanguageDescriptor
+lah,Lahnda,Lahnda,uri://ed-fi.org/LanguageDescriptor
+lao,Lao,Lao,uri://ed-fi.org/LanguageDescriptor
+lav,Latvian,Latvian,uri://ed-fi.org/LanguageDescriptor
+lit,Lithuanian,Lithuanian,uri://ed-fi.org/LanguageDescriptor
+loz,Lozi,Lozi,uri://ed-fi.org/LanguageDescriptor
+lua,Luba-Lulua,Luba-Lulua,uri://ed-fi.org/LanguageDescriptor
+lug,Ganda,Ganda,uri://ed-fi.org/LanguageDescriptor
+lun,Lunda,Lunda,uri://ed-fi.org/LanguageDescriptor
+lus,Lushai,Lushai,uri://ed-fi.org/LanguageDescriptor
+mad,Madurese,Madurese,uri://ed-fi.org/LanguageDescriptor
+mah,Marshallese,Marshallese,uri://ed-fi.org/LanguageDescriptor
+mak,Makasar,Makasar,uri://ed-fi.org/LanguageDescriptor
+man,Mandingo,Mandingo,uri://ed-fi.org/LanguageDescriptor
+map,Austronesian languages,Austronesian languages,uri://ed-fi.org/LanguageDescriptor
+mas,Masai,Masai,uri://ed-fi.org/LanguageDescriptor
+mdf,Moksha,Moksha,uri://ed-fi.org/LanguageDescriptor
+men,Mende,Mende,uri://ed-fi.org/LanguageDescriptor
+mis,Uncoded languages,Uncoded languages,uri://ed-fi.org/LanguageDescriptor
+mlg,Malagasy,Malagasy,uri://ed-fi.org/LanguageDescriptor
+mnc,Manchu,Manchu,uri://ed-fi.org/LanguageDescriptor
+mno,Manobo languages,Manobo languages,uri://ed-fi.org/LanguageDescriptor
+mon,Mongolian,Mongolian,uri://ed-fi.org/LanguageDescriptor
+mul,Multiple languages,Multiple languages,uri://ed-fi.org/LanguageDescriptor
+mus,Creek,Creek,uri://ed-fi.org/LanguageDescriptor
+mwr,Marwari,Marwari,uri://ed-fi.org/LanguageDescriptor
+myv,Erzya,Erzya,uri://ed-fi.org/LanguageDescriptor
+nai,North American Indian languages,North American Indian languages,uri://ed-fi.org/LanguageDescriptor
+nau,Nauru,Nauru,uri://ed-fi.org/LanguageDescriptor
+ndo,Ndonga,Ndonga,uri://ed-fi.org/LanguageDescriptor
+nep,Nepali,Nepali,uri://ed-fi.org/LanguageDescriptor
+nia,Nias,Nias,uri://ed-fi.org/LanguageDescriptor
+niu,Niuean,Niuean,uri://ed-fi.org/LanguageDescriptor
+non,"""Norse, Old""","""Norse, Old""",uri://ed-fi.org/LanguageDescriptor
+nqo,N'Ko,N'Ko,uri://ed-fi.org/LanguageDescriptor
+nub,Nubian languages,Nubian languages,uri://ed-fi.org/LanguageDescriptor
+nyn,Nyankole,Nyankole,uri://ed-fi.org/LanguageDescriptor
+nzi,Nzima,Nzima,uri://ed-fi.org/LanguageDescriptor
+oji,Ojibwa,Ojibwa,uri://ed-fi.org/LanguageDescriptor
+orm,Oromo,Oromo,uri://ed-fi.org/LanguageDescriptor
+oto,Otomian languages,Otomian languages,uri://ed-fi.org/LanguageDescriptor
+pag,Pangasinan,Pangasinan,uri://ed-fi.org/LanguageDescriptor
+pap,Papiamento,Papiamento,uri://ed-fi.org/LanguageDescriptor
+peo,"""Persian, Old (ca.600-400 B.C.)""","""Persian, Old (ca.600-400 B.C.)""",uri://ed-fi.org/LanguageDescriptor
+phi,Philippine languages,Philippine languages,uri://ed-fi.org/LanguageDescriptor
+pli,Pali,Pali,uri://ed-fi.org/LanguageDescriptor
+pon,Pohnpeian,Pohnpeian,uri://ed-fi.org/LanguageDescriptor
+pra,Prakrit languages,Prakrit languages,uri://ed-fi.org/LanguageDescriptor
+raj,Rajasthani,Rajasthani,uri://ed-fi.org/LanguageDescriptor
+roh,Romansh,Romansh,uri://ed-fi.org/LanguageDescriptor
+rum,Romanian,Romanian,uri://ed-fi.org/LanguageDescriptor
+sad,Sandawe,Sandawe,uri://ed-fi.org/LanguageDescriptor
+sah,Yakut,Yakut,uri://ed-fi.org/LanguageDescriptor
+sal,Salishan languages,Salishan languages,uri://ed-fi.org/LanguageDescriptor
+san,Sanskrit,Sanskrit,uri://ed-fi.org/LanguageDescriptor
+sat,Santali,Santali,uri://ed-fi.org/LanguageDescriptor
+sco,Scots,Scots,uri://ed-fi.org/LanguageDescriptor
+sem,Semitic languages,Semitic languages,uri://ed-fi.org/LanguageDescriptor
+sgn,Sign Languages,Sign Languages,uri://ed-fi.org/LanguageDescriptor
+sid,Sidamo,Sidamo,uri://ed-fi.org/LanguageDescriptor
+sio,Siouan languages,Siouan languages,uri://ed-fi.org/LanguageDescriptor
+sla,Slavic languages,Slavic languages,uri://ed-fi.org/LanguageDescriptor
+slv,Slovenian,Slovenian,uri://ed-fi.org/LanguageDescriptor
+sme,Northern Sami,Northern Sami,uri://ed-fi.org/LanguageDescriptor
+smj,Lule Sami,Lule Sami,uri://ed-fi.org/LanguageDescriptor
+smo,Samoan,Samoan,uri://ed-fi.org/LanguageDescriptor
+sna,Shona,Shona,uri://ed-fi.org/LanguageDescriptor
+snk,Soninke,Soninke,uri://ed-fi.org/LanguageDescriptor
+som,Somali,Somali,uri://ed-fi.org/LanguageDescriptor
+sot,"""Sotho, Southern""","""Sotho, Southern""",uri://ed-fi.org/LanguageDescriptor
+srd,Sardinian,Sardinian,uri://ed-fi.org/LanguageDescriptor
+srp,Serbian,Serbian,uri://ed-fi.org/LanguageDescriptor
+ssa,Nilo-Saharan languages,Nilo-Saharan languages,uri://ed-fi.org/LanguageDescriptor
+suk,Sukuma,Sukuma,uri://ed-fi.org/LanguageDescriptor
+sus,Susu,Susu,uri://ed-fi.org/LanguageDescriptor
+swa,Swahili,Swahili,uri://ed-fi.org/LanguageDescriptor
+syc,Classical Syriac,Classical Syriac,uri://ed-fi.org/LanguageDescriptor
+tah,Tahitian,Tahitian,uri://ed-fi.org/LanguageDescriptor
+tam,Tamil,Tamil,uri://ed-fi.org/LanguageDescriptor
+tel,Telugu,Telugu,uri://ed-fi.org/LanguageDescriptor
+ter,Tereno,Tereno,uri://ed-fi.org/LanguageDescriptor
+tgk,Tajik,Tajik,uri://ed-fi.org/LanguageDescriptor
+tha,Thai,Thai,uri://ed-fi.org/LanguageDescriptor
+tig,Tigre,Tigre,uri://ed-fi.org/LanguageDescriptor
+tiv,Tiv,Tiv,uri://ed-fi.org/LanguageDescriptor
+tmh,Tamashek,Tamashek,uri://ed-fi.org/LanguageDescriptor
+ton,Tonga (Tonga Islands),Tonga (Tonga Islands),uri://ed-fi.org/LanguageDescriptor
+tsi,Tsimshian,Tsimshian,uri://ed-fi.org/LanguageDescriptor
+tso,Tsonga,Tsonga,uri://ed-fi.org/LanguageDescriptor
+tum,Tumbuka,Tumbuka,uri://ed-fi.org/LanguageDescriptor
+tur,Turkish,Turkish,uri://ed-fi.org/LanguageDescriptor
+tvl,Tuvalu,Tuvalu,uri://ed-fi.org/LanguageDescriptor
+tyv,Tuvinian,Tuvinian,uri://ed-fi.org/LanguageDescriptor
+uga,Ugaritic,Ugaritic,uri://ed-fi.org/LanguageDescriptor
+ukr,Ukrainian,Ukrainian,uri://ed-fi.org/LanguageDescriptor
+und,Undetermined,Undetermined,uri://ed-fi.org/LanguageDescriptor
+uzb,Uzbek,Uzbek,uri://ed-fi.org/LanguageDescriptor
+ven,Venda,Venda,uri://ed-fi.org/LanguageDescriptor
+vol,Volapük,Volapük,uri://ed-fi.org/LanguageDescriptor
+wak,Wakashan languages,Wakashan languages,uri://ed-fi.org/LanguageDescriptor
+war,Waray,Waray,uri://ed-fi.org/LanguageDescriptor
+wel,Welsh,Welsh,uri://ed-fi.org/LanguageDescriptor
+wln,Walloon,Walloon,uri://ed-fi.org/LanguageDescriptor
+yao,Yao,Yao,uri://ed-fi.org/LanguageDescriptor
+yid,Yiddish,Yiddish,uri://ed-fi.org/LanguageDescriptor
+ypk,Yupik languages,Yupik languages,uri://ed-fi.org/LanguageDescriptor
+zgh,Standard Moroccan Tamazight,Standard Moroccan Tamazight,uri://ed-fi.org/LanguageDescriptor
+znd,Zande languages,Zande languages,uri://ed-fi.org/LanguageDescriptor
+zun,Zuni,Zuni,uri://ed-fi.org/LanguageDescriptor
+abk,Abkhazian,Abkhazian,uri://ed-fi.org/LanguageDescriptor
+ach,Acoli,Acoli,uri://ed-fi.org/LanguageDescriptor
+afh,Afrihili,Afrihili,uri://ed-fi.org/LanguageDescriptor
+ain,Ainu,Ainu,uri://ed-fi.org/LanguageDescriptor
+akk,Akkadian,Akkadian,uri://ed-fi.org/LanguageDescriptor
+ale,Aleut,Aleut,uri://ed-fi.org/LanguageDescriptor
+alt,Southern Altai,Southern Altai,uri://ed-fi.org/LanguageDescriptor
+ang,"""English, Old (ca.450-1100)""","""English, Old (ca.450-1100)""",uri://ed-fi.org/LanguageDescriptor
+apa,Apache languages,Apache languages,uri://ed-fi.org/LanguageDescriptor
+arm,Armenian,Armenian,uri://ed-fi.org/LanguageDescriptor
+arp,Arapaho,Arapaho,uri://ed-fi.org/LanguageDescriptor
+arw,Arawak,Arawak,uri://ed-fi.org/LanguageDescriptor
+aus,Australian languages,Australian languages,uri://ed-fi.org/LanguageDescriptor
+ave,Avestan,Avestan,uri://ed-fi.org/LanguageDescriptor
+aym,Aymara,Aymara,uri://ed-fi.org/LanguageDescriptor
+bad,Banda languages,Banda languages,uri://ed-fi.org/LanguageDescriptor
+bak,Bashkir,Bashkir,uri://ed-fi.org/LanguageDescriptor
+bam,Bambara,Bambara,uri://ed-fi.org/LanguageDescriptor
+baq,Basque,Basque,uri://ed-fi.org/LanguageDescriptor
+bat,Baltic languages,Baltic languages,uri://ed-fi.org/LanguageDescriptor
+bel,Belarusian,Belarusian,uri://ed-fi.org/LanguageDescriptor
+ben,Bengali,Bengali,uri://ed-fi.org/LanguageDescriptor
+bho,Bhojpuri,Bhojpuri,uri://ed-fi.org/LanguageDescriptor
+bik,Bikol,Bikol,uri://ed-fi.org/LanguageDescriptor
+bis,Bislama,Bislama,uri://ed-fi.org/LanguageDescriptor
+bnt,Bantu languages,Bantu languages,uri://ed-fi.org/LanguageDescriptor
+bra,Braj,Braj,uri://ed-fi.org/LanguageDescriptor
+btk,Batak languages,Batak languages,uri://ed-fi.org/LanguageDescriptor
+bug,Buginese,Buginese,uri://ed-fi.org/LanguageDescriptor
+bur,Burmese,Burmese,uri://ed-fi.org/LanguageDescriptor
+cad,Caddo,Caddo,uri://ed-fi.org/LanguageDescriptor
+car,Galibi Carib,Galibi Carib,uri://ed-fi.org/LanguageDescriptor
+cau,Caucasian languages,Caucasian languages,uri://ed-fi.org/LanguageDescriptor
+cel,Celtic languages,Celtic languages,uri://ed-fi.org/LanguageDescriptor
+chb,Chibcha,Chibcha,uri://ed-fi.org/LanguageDescriptor
+chg,Chagatai,Chagatai,uri://ed-fi.org/LanguageDescriptor
+chk,Chuukese,Chuukese,uri://ed-fi.org/LanguageDescriptor
+chn,Chinook jargon,Chinook jargon,uri://ed-fi.org/LanguageDescriptor
+chy,Cheyenne,Cheyenne,uri://ed-fi.org/LanguageDescriptor
+cop,Coptic,Coptic,uri://ed-fi.org/LanguageDescriptor
+cos,Corsican,Corsican,uri://ed-fi.org/LanguageDescriptor
+cpf,"""Creoles and pidgins, French-based""","""Creoles and pidgins, French-based""",uri://ed-fi.org/LanguageDescriptor
+cre,Cree,Cree,uri://ed-fi.org/LanguageDescriptor
+crp,Creoles and pidgins,Creoles and pidgins,uri://ed-fi.org/LanguageDescriptor
+cus,Cushitic languages,Cushitic languages,uri://ed-fi.org/LanguageDescriptor
+dak,Dakota,Dakota,uri://ed-fi.org/LanguageDescriptor
+dar,Dargwa,Dargwa,uri://ed-fi.org/LanguageDescriptor
+del,Delaware,Delaware,uri://ed-fi.org/LanguageDescriptor
+dgr,Dogrib,Dogrib,uri://ed-fi.org/LanguageDescriptor
+dra,Dravidian languages,Dravidian languages,uri://ed-fi.org/LanguageDescriptor
+dua,Duala,Duala,uri://ed-fi.org/LanguageDescriptor
+dzo,Dzongkha,Dzongkha,uri://ed-fi.org/LanguageDescriptor
+egy,Egyptian (Ancient),Egyptian (Ancient),uri://ed-fi.org/LanguageDescriptor
+elx,Elamite,Elamite,uri://ed-fi.org/LanguageDescriptor
+enm,"""English, Middle (1100-1500)""","""English, Middle (1100-1500)""",uri://ed-fi.org/LanguageDescriptor
+est,Estonian,Estonian,uri://ed-fi.org/LanguageDescriptor
+ewo,Ewondo,Ewondo,uri://ed-fi.org/LanguageDescriptor
+fao,Faroese,Faroese,uri://ed-fi.org/LanguageDescriptor
+fij,Fijian,Fijian,uri://ed-fi.org/LanguageDescriptor
+fin,Finnish,Finnish,uri://ed-fi.org/LanguageDescriptor
+fon,Fon,Fon,uri://ed-fi.org/LanguageDescriptor
+frm,"""French, Middle (ca.1400-1600)""","""French, Middle (ca.1400-1600)""",uri://ed-fi.org/LanguageDescriptor
+frr,Northern Frisian,Northern Frisian,uri://ed-fi.org/LanguageDescriptor
+fry,Western Frisian,Western Frisian,uri://ed-fi.org/LanguageDescriptor
+fur,Friulian,Friulian,uri://ed-fi.org/LanguageDescriptor
+gay,Gayo,Gayo,uri://ed-fi.org/LanguageDescriptor
+gem,Germanic languages,Germanic languages,uri://ed-fi.org/LanguageDescriptor
+ger,German,German,uri://ed-fi.org/LanguageDescriptor
+gil,Gilbertese,Gilbertese,uri://ed-fi.org/LanguageDescriptor
+gle,Irish,Irish,uri://ed-fi.org/LanguageDescriptor
+glv,Manx,Manx,uri://ed-fi.org/LanguageDescriptor
+goh,"""German, Old High (ca.750-1050)""","""German, Old High (ca.750-1050)""",uri://ed-fi.org/LanguageDescriptor
+gor,Gorontalo,Gorontalo,uri://ed-fi.org/LanguageDescriptor
+grb,Grebo,Grebo,uri://ed-fi.org/LanguageDescriptor
+gre,"""Greek, Modern (1453-)""","""Greek, Modern (1453-)""",uri://ed-fi.org/LanguageDescriptor
+gwi,Gwich'in,Gwich'in,uri://ed-fi.org/LanguageDescriptor
+haw,Hawaiian,Hawaiian,uri://ed-fi.org/LanguageDescriptor
+her,Herero,Herero,uri://ed-fi.org/LanguageDescriptor
+hit,Hittite,Hittite,uri://ed-fi.org/LanguageDescriptor
+hmo,Hiri Motu,Hiri Motu,uri://ed-fi.org/LanguageDescriptor
+hsb,Upper Sorbian,Upper Sorbian,uri://ed-fi.org/LanguageDescriptor
+hup,Hupa,Hupa,uri://ed-fi.org/LanguageDescriptor
+ibo,Igbo,Igbo,uri://ed-fi.org/LanguageDescriptor
+ido,Ido,Ido,uri://ed-fi.org/LanguageDescriptor
+ijo,Ijo languages,Ijo languages,uri://ed-fi.org/LanguageDescriptor
+ina,Interlingua (International Auxiliary Language Association),Interlingua (International Auxiliary Language Association),uri://ed-fi.org/LanguageDescriptor
+ind,Indonesian,Indonesian,uri://ed-fi.org/LanguageDescriptor
+inh,Ingush,Ingush,uri://ed-fi.org/LanguageDescriptor
+ira,Iranian languages,Iranian languages,uri://ed-fi.org/LanguageDescriptor
+ita,Italian,Italian,uri://ed-fi.org/LanguageDescriptor
+jbo,Lojban,Lojban,uri://ed-fi.org/LanguageDescriptor
+jpr,Judeo-Persian,Judeo-Persian,uri://ed-fi.org/LanguageDescriptor
+kaa,Kara-Kalpak,Kara-Kalpak,uri://ed-fi.org/LanguageDescriptor
+kam,Kamba,Kamba,uri://ed-fi.org/LanguageDescriptor
+kar,Karen languages,Karen languages,uri://ed-fi.org/LanguageDescriptor
+kau,Kanuri,Kanuri,uri://ed-fi.org/LanguageDescriptor
+kaz,Kazakh,Kazakh,uri://ed-fi.org/LanguageDescriptor
+kha,Khasi,Khasi,uri://ed-fi.org/LanguageDescriptor
+khm,Central Khmer,Central Khmer,uri://ed-fi.org/LanguageDescriptor
+kok,Konkani,Konkani,uri://ed-fi.org/LanguageDescriptor
+kon,Kongo,Kongo,uri://ed-fi.org/LanguageDescriptor
+kos,Kosraean,Kosraean,uri://ed-fi.org/LanguageDescriptor
+krc,Karachay-Balkar,Karachay-Balkar,uri://ed-fi.org/LanguageDescriptor
+kro,Kru languages,Kru languages,uri://ed-fi.org/LanguageDescriptor
+kur,Kurdish,Kurdish,uri://ed-fi.org/LanguageDescriptor
+lad,Ladino,Ladino,uri://ed-fi.org/LanguageDescriptor
+lam,Lamba,Lamba,uri://ed-fi.org/LanguageDescriptor
+lat,Latin,Latin,uri://ed-fi.org/LanguageDescriptor
+lez,Lezghian,Lezghian,uri://ed-fi.org/LanguageDescriptor
+lin,Lingala,Lingala,uri://ed-fi.org/LanguageDescriptor
+lol,Mongo,Mongo,uri://ed-fi.org/LanguageDescriptor
+lub,Luba-Katanga,Luba-Katanga,uri://ed-fi.org/LanguageDescriptor
+lui,Luiseno,Luiseno,uri://ed-fi.org/LanguageDescriptor
+luo,Luo (Kenya and Tanzania),Luo (Kenya and Tanzania),uri://ed-fi.org/LanguageDescriptor
+mac,Macedonian,Macedonian,uri://ed-fi.org/LanguageDescriptor
+mag,Magahi,Magahi,uri://ed-fi.org/LanguageDescriptor
+mai,Maithili,Maithili,uri://ed-fi.org/LanguageDescriptor
+mal,Malayalam,Malayalam,uri://ed-fi.org/LanguageDescriptor
+mao,Maori,Maori,uri://ed-fi.org/LanguageDescriptor
+mar,Marathi,Marathi,uri://ed-fi.org/LanguageDescriptor
+may,Malay,Malay,uri://ed-fi.org/LanguageDescriptor
+mdr,Mandar,Mandar,uri://ed-fi.org/LanguageDescriptor
+mga,"""Irish, Middle (900-1200)""","""Irish, Middle (900-1200)""",uri://ed-fi.org/LanguageDescriptor
+min,Minangkabau,Minangkabau,uri://ed-fi.org/LanguageDescriptor
+mkh,Mon-Khmer languages,Mon-Khmer languages,uri://ed-fi.org/LanguageDescriptor
+mlt,Maltese,Maltese,uri://ed-fi.org/LanguageDescriptor
+mni,Manipuri,Manipuri,uri://ed-fi.org/LanguageDescriptor
+moh,Mohawk,Mohawk,uri://ed-fi.org/LanguageDescriptor
+mos,Mossi,Mossi,uri://ed-fi.org/LanguageDescriptor
+mun,Munda languages,Munda languages,uri://ed-fi.org/LanguageDescriptor
+mwl,Mirandese,Mirandese,uri://ed-fi.org/LanguageDescriptor
+myn,Mayan languages,Mayan languages,uri://ed-fi.org/LanguageDescriptor
+nah,Nahuatl languages,Nahuatl languages,uri://ed-fi.org/LanguageDescriptor
+nap,Neapolitan,Neapolitan,uri://ed-fi.org/LanguageDescriptor
+nic,Niger-Kordofanian languages,Niger-Kordofanian languages,uri://ed-fi.org/LanguageDescriptor
+nog,Nogai,Nogai,uri://ed-fi.org/LanguageDescriptor
+nor,Norwegian,Norwegian,uri://ed-fi.org/LanguageDescriptor
+nym,Nyamwezi,Nyamwezi,uri://ed-fi.org/LanguageDescriptor
+nyo,Nyoro,Nyoro,uri://ed-fi.org/LanguageDescriptor
+oci,Occitan (post 1500),Occitan (post 1500),uri://ed-fi.org/LanguageDescriptor
+ori,Oriya,Oriya,uri://ed-fi.org/LanguageDescriptor
+osa,Osage,Osage,uri://ed-fi.org/LanguageDescriptor
+ota,"""Turkish, Ottoman (1500-1928)""","""Turkish, Ottoman (1500-1928)""",uri://ed-fi.org/LanguageDescriptor
+paa,Papuan languages,Papuan languages,uri://ed-fi.org/LanguageDescriptor
+pal,Pahlavi,Pahlavi,uri://ed-fi.org/LanguageDescriptor
+pau,Palauan,Palauan,uri://ed-fi.org/LanguageDescriptor
+per,Persian,Persian,uri://ed-fi.org/LanguageDescriptor
+phn,Phoenician,Phoenician,uri://ed-fi.org/LanguageDescriptor
+pol,Polish,Polish,uri://ed-fi.org/LanguageDescriptor
+por,Portuguese,Portuguese,uri://ed-fi.org/LanguageDescriptor
+que,Quechua,Quechua,uri://ed-fi.org/LanguageDescriptor
+rap,Rapanui,Rapanui,uri://ed-fi.org/LanguageDescriptor
+roa,Romance languages,Romance languages,uri://ed-fi.org/LanguageDescriptor
+rom,Romany,Romany,uri://ed-fi.org/LanguageDescriptor
+run,Rundi,Rundi,uri://ed-fi.org/LanguageDescriptor
+rus,Russian,Russian,uri://ed-fi.org/LanguageDescriptor
+sag,Sango,Sango,uri://ed-fi.org/LanguageDescriptor
+sai,South American Indian languages,South American Indian languages,uri://ed-fi.org/LanguageDescriptor
+sam,Samaritan Aramaic,Samaritan Aramaic,uri://ed-fi.org/LanguageDescriptor
+sas,Sasak,Sasak,uri://ed-fi.org/LanguageDescriptor
+scn,Sicilian,Sicilian,uri://ed-fi.org/LanguageDescriptor
+sel,Selkup,Selkup,uri://ed-fi.org/LanguageDescriptor
+sga,"""Irish, Old (to 900)""","""Irish, Old (to 900)""",uri://ed-fi.org/LanguageDescriptor
+shn,Shan,Shan,uri://ed-fi.org/LanguageDescriptor
+sit,Sino-Tibetan languages,Sino-Tibetan languages,uri://ed-fi.org/LanguageDescriptor
+slo,Slovak,Slovak,uri://ed-fi.org/LanguageDescriptor
+sma,Southern Sami,Southern Sami,uri://ed-fi.org/LanguageDescriptor
+smi,Sami languages,Sami languages,uri://ed-fi.org/LanguageDescriptor
+smn,Inari Sami,Inari Sami,uri://ed-fi.org/LanguageDescriptor
+sms,Skolt Sami,Skolt Sami,uri://ed-fi.org/LanguageDescriptor
+snd,Sindhi,Sindhi,uri://ed-fi.org/LanguageDescriptor
+sog,Sogdian,Sogdian,uri://ed-fi.org/LanguageDescriptor
+son,Songhai languages,Songhai languages,uri://ed-fi.org/LanguageDescriptor
+srn,Sranan Tongo,Sranan Tongo,uri://ed-fi.org/LanguageDescriptor
+srr,Serer,Serer,uri://ed-fi.org/LanguageDescriptor
+ssw,Swati,Swati,uri://ed-fi.org/LanguageDescriptor
+sun,Sundanese,Sundanese,uri://ed-fi.org/LanguageDescriptor
+sux,Sumerian,Sumerian,uri://ed-fi.org/LanguageDescriptor
+swe,Swedish,Swedish,uri://ed-fi.org/LanguageDescriptor
+syr,Syriac,Syriac,uri://ed-fi.org/LanguageDescriptor
+tai,Tai languages,Tai languages,uri://ed-fi.org/LanguageDescriptor
+tat,Tatar,Tatar,uri://ed-fi.org/LanguageDescriptor
+tem,Timne,Timne,uri://ed-fi.org/LanguageDescriptor
+tet,Tetum,Tetum,uri://ed-fi.org/LanguageDescriptor
+tgl,Tagalog,Tagalog,uri://ed-fi.org/LanguageDescriptor
+tib,Tibetan,Tibetan,uri://ed-fi.org/LanguageDescriptor
+tir,Tigrinya,Tigrinya,uri://ed-fi.org/LanguageDescriptor
+tkl,Tokelau,Tokelau,uri://ed-fi.org/LanguageDescriptor
+tli,Tlingit,Tlingit,uri://ed-fi.org/LanguageDescriptor
+tog,Tonga (Nyasa),Tonga (Nyasa),uri://ed-fi.org/LanguageDescriptor
+tpi,Tok Pisin,Tok Pisin,uri://ed-fi.org/LanguageDescriptor
+tsn,Tswana,Tswana,uri://ed-fi.org/LanguageDescriptor
+tuk,Turkmen,Turkmen,uri://ed-fi.org/LanguageDescriptor
+tup,Tupi languages,Tupi languages,uri://ed-fi.org/LanguageDescriptor
+tut,Altaic languages,Altaic languages,uri://ed-fi.org/LanguageDescriptor
+twi,Twi,Twi,uri://ed-fi.org/LanguageDescriptor
+udm,Udmurt,Udmurt,uri://ed-fi.org/LanguageDescriptor
+umb,Umbundu,Umbundu,uri://ed-fi.org/LanguageDescriptor
+urd,Urdu,Urdu,uri://ed-fi.org/LanguageDescriptor
+vai,Vai,Vai,uri://ed-fi.org/LanguageDescriptor
+vie,Vietnamese,Vietnamese,uri://ed-fi.org/LanguageDescriptor
+vot,Votic,Votic,uri://ed-fi.org/LanguageDescriptor
+was,Washo,Washo,uri://ed-fi.org/LanguageDescriptor
+wen,Sorbian languages,Sorbian languages,uri://ed-fi.org/LanguageDescriptor
+wol,Wolof,Wolof,uri://ed-fi.org/LanguageDescriptor
+xho,Xhosa,Xhosa,uri://ed-fi.org/LanguageDescriptor
+yap,Yapese,Yapese,uri://ed-fi.org/LanguageDescriptor
+yor,Yoruba,Yoruba,uri://ed-fi.org/LanguageDescriptor
+zap,Zapotec,Zapotec,uri://ed-fi.org/LanguageDescriptor
+zen,Zenaga,Zenaga,uri://ed-fi.org/LanguageDescriptor
+zul,Zulu,Zulu,uri://ed-fi.org/LanguageDescriptor

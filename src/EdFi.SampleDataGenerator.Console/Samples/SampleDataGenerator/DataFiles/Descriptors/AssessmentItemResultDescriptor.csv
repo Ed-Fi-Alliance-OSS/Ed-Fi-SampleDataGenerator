@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace
+Above Standard,Above Standard,Above Standard,uri://ed-fi.org/AssessmentItemResultDescriptor
+Below Standard,Below Standard,Below Standard,uri://ed-fi.org/AssessmentItemResultDescriptor
+Correct,Correct,Correct,uri://ed-fi.org/AssessmentItemResultDescriptor
+Incorrect,Incorrect,Incorrect,uri://ed-fi.org/AssessmentItemResultDescriptor
+Met Standard,Met Standard,Met Standard,uri://ed-fi.org/AssessmentItemResultDescriptor

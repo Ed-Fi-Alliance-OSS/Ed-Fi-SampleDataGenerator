@@ -1,0 +1,14 @@
+CodeValue,ShortDescription,Description,Namespace,TermMap
+Fall Semester,Fall Semester,Fall Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
+Spring Semester,Spring Semester,Spring Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
+Summer Semester,Summer Semester,Summer Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
+First Quarter,First Quarter,First Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
+Second Quarter,Second Quarter,Second Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
+Third Quarter,Third Quarter,Third Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
+Fourth Quarter,Fourth Quarter,Fourth Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
+First Trimester,First Trimester,First Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
+Second Trimester,Second Trimester,Second Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
+Third Trimester,Third Trimester,Third Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
+MiniTerm,MiniTerm,MiniTerm,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,MiniTerm
+Year Round,Year Round,Year Round,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Year Round
+Other,Other,Other,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Other

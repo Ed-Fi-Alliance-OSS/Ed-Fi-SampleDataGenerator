@@ -1,0 +1,14 @@
+CodeValue,ShortDescription,Description,Namespace
+Center-based instruction,Center-based instruction,Center-based instruction,uri://ed-fi.org/MediumOfInstructionDescriptor
+Correspondence instruction,Correspondence instruction,Correspondence instruction,uri://ed-fi.org/MediumOfInstructionDescriptor
+Distance Learning (other than online),Distance Learning (other than online),Distance Learning (other than online),uri://ed-fi.org/MediumOfInstructionDescriptor
+Face-to-face instruction,Face-to-face instruction,Face-to-face instruction,uri://ed-fi.org/MediumOfInstructionDescriptor
+Independent study,Independent study,Independent study,uri://ed-fi.org/MediumOfInstructionDescriptor
+Internship,Internship,Internship,uri://ed-fi.org/MediumOfInstructionDescriptor
+Other,Other,Other,uri://ed-fi.org/MediumOfInstructionDescriptor
+Other technology-based instruction,Other technology-based instruction,Other technology-based instruction,uri://ed-fi.org/MediumOfInstructionDescriptor
+Technology-based instruction in classroom,Technology-based instruction in classroom,Technology-based instruction in classroom,uri://ed-fi.org/MediumOfInstructionDescriptor
+Telepresence/video conference,Telepresence/video conference,Telepresence/video conference,uri://ed-fi.org/MediumOfInstructionDescriptor
+Televised,Televised,Televised,uri://ed-fi.org/MediumOfInstructionDescriptor
+Videotaped/prerecorded video,Videotaped/prerecorded video,Videotaped/prerecorded video,uri://ed-fi.org/MediumOfInstructionDescriptor
+Virtual/On-line Distance learning,Virtual/On-line Distance learning,Virtual/On-line Distance learning,uri://ed-fi.org/MediumOfInstructionDescriptor

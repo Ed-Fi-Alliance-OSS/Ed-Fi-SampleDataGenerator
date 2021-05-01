@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace,SpecialEducationSettingMap
+Correctional Facility,Correctional Facility,Correctional Facility,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Correctional Facilities
+Homebound/Hospital,Homebound/Hospital,Homebound/Hospital,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Homebound/Hospital
+Inside regular class 80% or more of the day,Inside regular class 80% or more of the day,Inside regular class 80% or more of the day,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Inside regular class 80% or more of the day
+Inside regular class less than 40% of the day,Inside regular class less than 40% of the day,Inside regular class less than 40% of the day,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Inside regular class less than 40% of the day
+Inside reg class between 40% and 79% of the day,Inside regular class no more than 79% of dy and no less than 40% of the dy,Inside regular class no more than 79% of day and no less than 40% of the day,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Inside regular class no more than 79% of day and no less than 40% of the day
+Parentally-placed in Private Schools,Parentally-placed in Private Schools,Parentally-placed in Private Schools,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Parentally-placed in Private Schools
+Residential Facility,Residential Facility,Residential Facility,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Residential Facility
+Separate School,Separate School,Separate School,http://www.ed-fi.org/Descriptor/SpecialEducationSettingDescriptor.xml,Separate School

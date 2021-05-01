@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace,EntryTypeMap
+Transfer,Transfer,Transfer,http://ed-fi.org/Descriptor/EntryTypeDescriptor.xml,Transfer
+New to education system,New to education system,New to education system,http://ed-fi.org/Descriptor/EntryTypeDescriptor.xml,New to education system
+Next year school,Next year school,Next year school,http://ed-fi.org/Descriptor/EntryTypeDescriptor.xml,Next year school
+Other,Other,Other,http://ed-fi.org/Descriptor/EntryTypeDescriptor.xml,Other
+Re-entry,Re-entry,Re-entry,http://ed-fi.org/Descriptor/EntryTypeDescriptor.xml,Re-entry

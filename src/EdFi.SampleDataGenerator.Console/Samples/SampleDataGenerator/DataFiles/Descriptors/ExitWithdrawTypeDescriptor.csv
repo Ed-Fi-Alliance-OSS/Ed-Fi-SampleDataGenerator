@@ -1,0 +1,16 @@
+CodeValue,ShortDescription,Description,Namespace
+Completed,Completed,Completed,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Died or is permanently incapacitated,Died or is permanently incapacitated,Died or is permanently incapacitated,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Dropout,Dropout,Dropout,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+End of school year,End of school year,End of school year,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Enrolled in a high school diploma program,Enrolled in a high school diploma program,Enrolled in a high school diploma program,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Expelled,Expelled,Expelled,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Graduated,Graduated,Graduated,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Incarcerated,Incarcerated,Incarcerated,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Invalid enrollment,Invalid enrollment,Invalid enrollment,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Involuntarily Removed,Involuntarily Removed,Involuntarily Removed,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+No show,No show,No show,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Reached maximum age,Reached maximum age,Reached maximum age,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Transferred,Transferred,Transferred,uri://ed-fi.org/ExitWithdrawTypeDescriptor
+Withdrawn,Withdrawn,Withdrawn,uri://ed-fi.org/ExitWithdrawTypeDescriptor

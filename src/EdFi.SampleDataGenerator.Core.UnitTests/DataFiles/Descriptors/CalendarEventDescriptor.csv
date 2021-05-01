@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace,CalendarEventMap
+Emergency day,Emergency day,Emergency day,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Emergency day
+Holiday,Holiday,Holiday,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Holiday
+Instructional day,Instructional day,Instructional day,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Instructional day
+Make-up day,Make-up day,Make-up day,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Make-up day
+Other,Other,Other,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Other
+Strike,Strike,Strike,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Strike
+Student late arrival/early dismissal,Student late arrival/early dismissal,Student late arrival/early dismissal,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Student late arrival/early dismissal
+Teacher only day,Teacher only day,Teacher only day,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Teacher only day
+Weather day,Weather day,Weather day,http://ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Weather day

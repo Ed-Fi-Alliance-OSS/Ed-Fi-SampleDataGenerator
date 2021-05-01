@@ -1,0 +1,96 @@
+<ConfigurationSnippets>
+	<DistrictProfileConfigurationSnippet>
+		<![CDATA[<DistrictProfile DistrictName="{DistrictName}" StateId="{StateId}">
+	<LocationInfo State="{State}">
+		{City}
+	</LocationInfo>{SchoolProfile}
+</DistrictProfile>]]>
+	</DistrictProfileConfigurationSnippet>	
+	<SchoolProfileConfigurationSnippet SchoolType="Elementary School">
+		<![CDATA[
+	<SchoolProfile SchoolName="{SchoolName}" SchoolId="{SchoolId}" CourseLoad="8">		
+		<DisciplineProfile AverageEventsPerStudentPerDay="0.01" RateOfSeriousEvents="0.015" />
+		<SchoolAttendanceProfile AverageAttendanceRate="0.93" AverageTardyRate="0.01" />
+		{GradeProfile}			
+		<StaffProfile>
+			<StaffRaceConfiguration>
+				<Option Value="White" Frequency="0.49" />
+				<Option Value="Hispanic" Frequency="0.29" />
+				<Option Value="Black" Frequency="0.16" />
+				<Option Value="Asian" Frequency="0.06" />
+			</StaffRaceConfiguration>
+			<StaffSexConfiguration>
+				<Option Value="Male" Frequency="0.24" />
+				<Option Value="Female" Frequency="0.76" />
+			</StaffSexConfiguration>
+		</StaffProfile>
+	</SchoolProfile>]]>
+	</SchoolProfileConfigurationSnippet>
+	<SchoolProfileConfigurationSnippet SchoolType="Middle School">
+		<![CDATA[
+	<SchoolProfile SchoolName="{SchoolName}" SchoolId="{SchoolId}" CourseLoad="8">		
+		<DisciplineProfile AverageEventsPerStudentPerDay="0.01" RateOfSeriousEvents="0.015" />
+		<SchoolAttendanceProfile AverageAttendanceRate="0.93" AverageTardyRate="0.01" />
+		{GradeProfile}			
+		<StaffProfile>
+			<StaffRaceConfiguration>
+				<Option Value="White" Frequency="0.49" />
+				<Option Value="Hispanic" Frequency="0.29" />
+				<Option Value="Black" Frequency="0.16" />
+				<Option Value="Asian" Frequency="0.06" />
+			</StaffRaceConfiguration>
+			<StaffSexConfiguration>
+				<Option Value="Male" Frequency="0.24" />
+				<Option Value="Female" Frequency="0.76" />
+			</StaffSexConfiguration>
+		</StaffProfile>
+	</SchoolProfile>]]>
+	</SchoolProfileConfigurationSnippet>
+	<SchoolProfileConfigurationSnippet SchoolType="High School">
+		<![CDATA[
+	<SchoolProfile SchoolName="{SchoolName}" SchoolId="{SchoolId}" CourseLoad="8">		
+		<DisciplineProfile AverageEventsPerStudentPerDay="0.01" RateOfSeriousEvents="0.015" />
+		<SchoolAttendanceProfile AverageAttendanceRate="0.93" AverageTardyRate="0.01" />
+		{GradeProfile}			
+		<StaffProfile>
+			<StaffRaceConfiguration>
+				<Option Value="White" Frequency="0.49" />
+				<Option Value="Hispanic" Frequency="0.29" />
+				<Option Value="Black" Frequency="0.16" />
+				<Option Value="Asian" Frequency="0.06" />
+			</StaffRaceConfiguration>
+			<StaffSexConfiguration>
+				<Option Value="Male" Frequency="0.24" />
+				<Option Value="Female" Frequency="0.76" />
+			</StaffSexConfiguration>
+		</StaffProfile>
+	</SchoolProfile>]]>
+	</SchoolProfileConfigurationSnippet>
+	<GradeProfileConfigurationSnippet SchoolType="Elementary School" InitialStudentCount="">
+		<![CDATA[
+		<GradeProfile GradeName="{GradeLevel}">
+			<StudentPopulationProfile StudentProfileReference="Default" InitialStudentCount="{InitialStudentCount}" />
+			<GraduationPlan Name="ElementarySchoolMinimum" />
+			<GraduationPlan Name="ElementarySchoolRecommended" />
+			<GraduationPlan Name="ElementarySchoolDistinguished" />
+		</GradeProfile>]]>
+	</GradeProfileConfigurationSnippet>
+	<GradeProfileConfigurationSnippet SchoolType="Middle School" InitialStudentCount="">
+		<![CDATA[
+		<GradeProfile GradeName="{GradeLevel}">
+			<StudentPopulationProfile StudentProfileReference="Default" InitialStudentCount="{InitialStudentCount}" />
+			<GraduationPlan Name="MiddleSchoolMinimum" />
+			<GraduationPlan Name="MiddleSchoolRecommended" />
+			<GraduationPlan Name="MiddleSchoolDistinguished" />
+		</GradeProfile>]]>
+	</GradeProfileConfigurationSnippet>
+	<GradeProfileConfigurationSnippet SchoolType="High School" InitialStudentCount="">
+		<![CDATA[
+		<GradeProfile GradeName="{GradeLevel}">
+			<StudentPopulationProfile StudentProfileReference="Default" InitialStudentCount="{InitialStudentCount}" />
+			<GraduationPlan Name="HighSchoolMinimum" />
+			<GraduationPlan Name="HighSchoolRecommended" />
+			<GraduationPlan Name="HighSchoolDistinguished" />
+		</GradeProfile>]]>
+	</GradeProfileConfigurationSnippet>
+</ConfigurationSnippets>

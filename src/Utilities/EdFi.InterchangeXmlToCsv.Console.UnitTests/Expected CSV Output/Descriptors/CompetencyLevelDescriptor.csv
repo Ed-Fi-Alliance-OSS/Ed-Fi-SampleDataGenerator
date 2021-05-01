@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace,PerformanceBaseConversion
+Advanced,Advanced,Advanced,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Advanced
+Basic,Basic,Basic,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Basic
+Below Basic,Below Basic,Below Basic,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Below Basic
+Fail,Fail,Fail,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Fail
+Pass,Pass,Pass,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Pass
+Proficient,Proficient,Proficient,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Proficient
+Well Below Basic,Well Below Basic,Well Below Basic,http://www.ed-fi.org/Descriptor/CompetencyLevelDescriptor.xml,Well Below Basic

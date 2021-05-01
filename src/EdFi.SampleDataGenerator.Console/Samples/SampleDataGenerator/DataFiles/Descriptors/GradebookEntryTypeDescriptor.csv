@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace
+Activity,Activity,Activity,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Assignment,Assignment,Assignment,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Classroom Assessment,Classroom Assessment,Classroom Assessment,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Homework,Homework,Homework,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Lesson,Lesson,Lesson,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Oral Presentation,Oral Presentation,Oral Presentation,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Quiz,Quiz,Quiz,uri://ed-fi.org/GradebookEntryTypeDescriptor
+Unit Test,Unit Test,Unit Test,uri://ed-fi.org/GradebookEntryTypeDescriptor

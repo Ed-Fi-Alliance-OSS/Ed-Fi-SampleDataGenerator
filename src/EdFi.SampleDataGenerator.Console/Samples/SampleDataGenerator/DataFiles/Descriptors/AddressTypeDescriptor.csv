@@ -1,0 +1,16 @@
+CodeValue,ShortDescription,Description,Namespace
+Billing,Billing,Billing,uri://ed-fi.org/AddressTypeDescriptor
+"Doubled - up (i.e., living with another family)","Doubled - up (i.e., living with another family)","Doubled - up (i.e., living with another family)",uri://ed-fi.org/AddressTypeDescriptor
+Father Address,Father Address,Father Address,uri://ed-fi.org/AddressTypeDescriptor
+Guardian Address,Guardian Address,Guardian Address,uri://ed-fi.org/AddressTypeDescriptor
+Home,Home,Home,uri://ed-fi.org/AddressTypeDescriptor
+Hotels/Motels,Hotels/Motels,Hotels/Motels,uri://ed-fi.org/AddressTypeDescriptor
+Mailing,Mailing,Mailing,uri://ed-fi.org/AddressTypeDescriptor
+Mother Address,Mother Address,Mother Address,uri://ed-fi.org/AddressTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/AddressTypeDescriptor
+Physical,Physical,Physical,uri://ed-fi.org/AddressTypeDescriptor
+"Shelter, Transitional housing, Awaiting Foster","Shelters, Transitional housing, Awaiting Foster Care","Shelters, Transitional housing, Awaiting Foster Care",uri://ed-fi.org/AddressTypeDescriptor
+Shipping,Shipping,Shipping,uri://ed-fi.org/AddressTypeDescriptor
+Temporary,Temporary,Temporary,uri://ed-fi.org/AddressTypeDescriptor
+Unsheltered,"Unsheltered (cars, parks, temporary trailers, or abandoned buildings)","Unsheltered (e.g. cars, parks, campgrounds, temporary trailers including FEMA trailers, or abandoned buildings)",uri://ed-fi.org/AddressTypeDescriptor
+Work,Work,Work,uri://ed-fi.org/AddressTypeDescriptor

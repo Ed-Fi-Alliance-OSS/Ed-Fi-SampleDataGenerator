@@ -1,0 +1,51 @@
+CodeValue,ShortDescription,Description,Namespace
+Aunt,Aunt,Aunt,uri://ed-fi.org/RelationDescriptor
+Brother,Brother,Brother,uri://ed-fi.org/RelationDescriptor
+BrotherInLaw,BrotherInLaw,BrotherInLaw,uri://ed-fi.org/RelationDescriptor
+CourtAppointedGuardian,CourtAppointedGuardian,CourtAppointedGuardian,uri://ed-fi.org/RelationDescriptor
+Cousin,Cousin,Cousin,uri://ed-fi.org/RelationDescriptor
+Daughter,Daughter,Daughter,uri://ed-fi.org/RelationDescriptor
+DaughterInLaw,DaughterInLaw,DaughterInLaw,uri://ed-fi.org/RelationDescriptor
+Emergency,Emergency,Emergency,uri://ed-fi.org/RelationDescriptor
+Employer,Employer,Employer,uri://ed-fi.org/RelationDescriptor
+Father,Father,Father,uri://ed-fi.org/RelationDescriptor
+"Father, step","Father, step","Father, step",uri://ed-fi.org/RelationDescriptor
+FatherInLaw,FatherInLaw,FatherInLaw,uri://ed-fi.org/RelationDescriptor
+FathersCivilPartner,FathersCivilPartner,FathersCivilPartner,uri://ed-fi.org/RelationDescriptor
+FathersSignificantOther,FathersSignificantOther,FathersSignificantOther,uri://ed-fi.org/RelationDescriptor
+Fiance,Fiance,Fiance,uri://ed-fi.org/RelationDescriptor
+Fiancee,Fiancee,Fiancee,uri://ed-fi.org/RelationDescriptor
+Foster parent,Foster parent,Foster parent,uri://ed-fi.org/RelationDescriptor
+Friend,Friend,Friend,uri://ed-fi.org/RelationDescriptor
+Godparent,Godparent,Godparent,uri://ed-fi.org/RelationDescriptor
+Grandfather,Grandfather,Grandfather,uri://ed-fi.org/RelationDescriptor
+Grandmother,Grandmother,Grandmother,uri://ed-fi.org/RelationDescriptor
+Grandparent,Grandparent,Grandparent,uri://ed-fi.org/RelationDescriptor
+Great aunt,Great aunt,Great aunt,uri://ed-fi.org/RelationDescriptor
+Great Grandparent,Great Grandparent,Great Grandparent,uri://ed-fi.org/RelationDescriptor
+Great uncle,Great uncle,Great uncle,uri://ed-fi.org/RelationDescriptor
+Guardian,Guardian,Guardian,uri://ed-fi.org/RelationDescriptor
+Husband,Husband,Husband,uri://ed-fi.org/RelationDescriptor
+Mother,Mother,Mother,uri://ed-fi.org/RelationDescriptor
+"Mother, step","Mother, step","Mother, step",uri://ed-fi.org/RelationDescriptor
+MotherInLaw,MotherInLaw,MotherInLaw,uri://ed-fi.org/RelationDescriptor
+MothersCivilPartner,MothersCivilPartner,MothersCivilPartner,uri://ed-fi.org/RelationDescriptor
+MothersSignificantOther,MothersSignificantOther,MothersSignificantOther,uri://ed-fi.org/RelationDescriptor
+Neighbor,Neighbor,Neighbor,uri://ed-fi.org/RelationDescriptor
+Nephew,Nephew,Nephew,uri://ed-fi.org/RelationDescriptor
+Niece,Niece,Niece,uri://ed-fi.org/RelationDescriptor
+Other,Other,Other,uri://ed-fi.org/RelationDescriptor
+Parent,Parent,Parent,uri://ed-fi.org/RelationDescriptor
+"Parent, step","Parent, step","Parent, step",uri://ed-fi.org/RelationDescriptor
+Relative,Relative,Relative,uri://ed-fi.org/RelationDescriptor
+Sibling,Sibling,Sibling,uri://ed-fi.org/RelationDescriptor
+SignificantOther,SignificantOther,SignificantOther,uri://ed-fi.org/RelationDescriptor
+Sister,Sister,Sister,uri://ed-fi.org/RelationDescriptor
+SisterInLaw,SisterInLaw,SisterInLaw,uri://ed-fi.org/RelationDescriptor
+Son,Son,Son,uri://ed-fi.org/RelationDescriptor
+SonInLaw,SonInLaw,SonInLaw,uri://ed-fi.org/RelationDescriptor
+Spouse,Spouse,Spouse,uri://ed-fi.org/RelationDescriptor
+Uncle,Uncle,Uncle,uri://ed-fi.org/RelationDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/RelationDescriptor
+Ward,Ward,Ward,uri://ed-fi.org/RelationDescriptor
+Wife,Wife,Wife,uri://ed-fi.org/RelationDescriptor

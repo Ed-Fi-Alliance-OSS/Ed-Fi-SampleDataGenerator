@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace
+Change of assignment,Change of assignment,Change of assignment,uri://ed-fi.org/SeparationReasonDescriptor
+Employment elsewhere,Employment elsewhere,Employment elsewhere,uri://ed-fi.org/SeparationReasonDescriptor
+Family/personal relocation,Family/personal relocation,Family/personal relocation,uri://ed-fi.org/SeparationReasonDescriptor
+Formal study or research,Formal study or research,Formal study or research,uri://ed-fi.org/SeparationReasonDescriptor
+Illness/disability/death,Illness/disability/death,Illness/disability/death,uri://ed-fi.org/SeparationReasonDescriptor
+Layoff,Layoff,Layoff,uri://ed-fi.org/SeparationReasonDescriptor
+Other,Other,Other,uri://ed-fi.org/SeparationReasonDescriptor
+Personal reason,Personal reason,Personal reason,uri://ed-fi.org/SeparationReasonDescriptor
+Retirement,Retirement,Retirement,uri://ed-fi.org/SeparationReasonDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/SeparationReasonDescriptor
+Discharge,Discharge,Discharge,uri://ed-fi.org/SeparationReasonDescriptor

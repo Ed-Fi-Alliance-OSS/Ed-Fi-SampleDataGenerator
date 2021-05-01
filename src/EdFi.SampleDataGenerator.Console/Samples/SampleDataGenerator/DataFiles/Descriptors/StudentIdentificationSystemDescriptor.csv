@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace
+Canadian SIN,Canadian SIN,Canadian SIN,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+District,District,District,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Family,Family,Family,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Local,Local,Local,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+National Migrant,National Migrant,National Migrant,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+SSN,SSN,SSN,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+State,State,State,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+State Migrant,State Migrant,State Migrant,uri://ed-fi.org/StudentIdentificationSystemDescriptor

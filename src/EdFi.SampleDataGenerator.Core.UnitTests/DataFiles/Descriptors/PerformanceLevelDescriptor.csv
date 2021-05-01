@@ -1,0 +1,8 @@
+CodeValue,Description,Namespace,ShortDescription,PerformanceBaseConversion
+Advanced,Advanced,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Advanced,Advanced
+Basic,Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Basic,Basic
+Below Basic,Below Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Below Basic,Below Basic
+Fail,Fail,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Fail,Fail
+Pass,Pass,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Pass,Pass
+Proficient,Proficient,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Proficient,Proficient
+Well Below Basic,Well Below Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Well Below Basic,Well Below Basic

@@ -1,0 +1,16 @@
+CodeValue,ShortDescription,Description,Namespace
+Baptismal or church certificate,Baptismal or church certificate,Baptismal or church certificate,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Birth certificate,Birth certificate,Birth certificate,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Drivers license,Drivers license,Drivers license,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Entry in family Bible,Entry in family Bible,Entry in family Bible,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Hospital certificate,Hospital certificate,Hospital certificate,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Immigration document/visa,Immigration document/visa,Immigration document/visa,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Life insurance policy,Life insurance policy,Life insurance policy,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Other,Other,Other,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Other non-official document,Other non-official document,Other non-official document,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Other official document,Other official document,Other official document,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Parents affidavit,Parents affidavit,Parents affidavit,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Passport,Passport,Passport,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Physicians certificate,Physicians certificate,Physicians certificate,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+Previously verified school records,Previously verified school records,Previously verified school records,uri://ed-fi.org/PersonalInformationVerificationDescriptor
+State-issued ID,State-issued ID,State-issued ID,uri://ed-fi.org/PersonalInformationVerificationDescriptor

@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+Associate's Degree (two years or more),Associate's Degree (two years or more),Associate's Degree (two years or more),uri://ed-fi.org/LevelOfEducationDescriptor
+Bachelor's,Bachelor's,Bachelor's,uri://ed-fi.org/LevelOfEducationDescriptor
+Did Not Graduate High School,Did Not Graduate High School,Did Not Graduate High School,uri://ed-fi.org/LevelOfEducationDescriptor
+Doctorate,Doctorate,Doctorate,uri://ed-fi.org/LevelOfEducationDescriptor
+High School Diploma,High School Diploma,High School Diploma,uri://ed-fi.org/LevelOfEducationDescriptor
+Master's,Master's,Master's,uri://ed-fi.org/LevelOfEducationDescriptor
+Some College No Degree,Some College No Degree,Some College No Degree,uri://ed-fi.org/LevelOfEducationDescriptor

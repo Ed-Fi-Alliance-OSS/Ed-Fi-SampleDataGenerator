@@ -1,0 +1,374 @@
+<SampleDataGeneratorConfig>
+	<MutatorConfig>
+		<Mutator Name="TransposeAreaCodeDigits" Type="Error" Probability="0.01" />
+		<Mutator Name="TransposePostalCodeDigits" Type="Error" Probability="0.05" />
+		<Mutator Name="TransposeBirthDateDigits" Type="Error"  Probability="0.01" />
+		<Mutator Name="SubstituteStudentMiddleName" Type="Error" Probability="0.05" />
+		<Mutator Name="SwapStudentSalutation" Type="Error" Probability="0.01" />
+		<Mutator Name="ShuffleStudentsClassPeriod" Type="Evolver" Probability="0.01" />
+		<Mutator Name="ChangeStudentPrimaryContactParent" Type="Evolver" Probability="0.01" />
+		<Mutator Name="ChangeStudentAddress" Type="Evolver" Probability="0.01" />
+		<Mutator Name="ChangeStudentPhone" Type="Evolver" Probability="0.01" />
+		<Mutator Name="ChangeStaffPersonalEmail" Type="Evolver" Probability="0.0" />
+		<Mutator Name="ChangeSectionMediumOfInstruction" Type="Evolver" Probability="0.0" />
+	</MutatorConfig>
+	<BatchSize>0</BatchSize>
+	<TimeConfig>
+		<SchoolCalendar>
+			<StartDate>2016-08-22</StartDate>
+			<EndDate>2017-05-26</EndDate>
+		</SchoolCalendar>
+		<DataClock>
+			<DataPeriod Name="2016-2017 School Year">
+				<StartDate>2016-08-22</StartDate>
+				<EndDate>2017-05-26</EndDate>
+			</DataPeriod>
+		</DataClock>
+	</TimeConfig>
+	<DistrictProfile DistrictName="Northridge ISD">
+		<LocationInfo State="TX">
+			<City Name="Northridge" County="Liberty">
+				<AreaCode Value="936" />
+				<AreaCode Value="832" />
+				<PostalCode Value="77535" />
+			</City>
+		</LocationInfo>
+		<HighPerformingStudentPercentile>0.90</HighPerformingStudentPercentile>
+		<SchoolProfile SchoolName="Riverdale High School" SchoolId="255901001" CourseLoad="8">
+			<DisciplineProfile TotalExpectedDisciplineEvents="200" TotalExpectedSeriousDisciplineEvents="3" />
+			<SchoolAttendanceProfile AverageAttendanceRate="0.96" AverageTardyRate="0.01" />
+			<GradeProfile GradeName="Ninth grade">
+				<StudentPopulationProfile StudentProfileReference="HighSchoolDefault" InitialStudentCount="600" TransfersIn="100" TransfersOut="30" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1.0"/>
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="0.5" Probability="0.95"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Tenth grade">
+				<StudentPopulationProfile StudentProfileReference="HighSchoolDefault" InitialStudentCount="500" TransfersIn="75" TransfersOut="50" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1.0"/>
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="0.5" Probability="0.95"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="PSAT">
+					<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1" Probability="0.99"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.45" UpperPerformancePercentile="0.5" Probability="0.1"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+					<ParticipationRate LowerPerformancePercentile="0.95" UpperPerformancePercentile="1.0" Probability="0.1"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.95" Probability="0.01"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="ACT">
+					<ParticipationRate LowerPerformancePercentile="0.95" UpperPerformancePercentile="1.0" Probability="0.1"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.95" Probability="0.01"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Eleventh grade">
+				<StudentPopulationProfile StudentProfileReference="HighSchoolDefault" InitialStudentCount="450" TransfersIn="50" TransfersOut="60" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="PSAT">
+					<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.45" UpperPerformancePercentile="0.5" Probability="0.1"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+					<ParticipationRate LowerPerformancePercentile="0.95" UpperPerformancePercentile="1.0" Probability="0.1"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.95" Probability="0.01"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="ACT">
+					<ParticipationRate LowerPerformancePercentile="0.95" UpperPerformancePercentile="1.0" Probability="0.1"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.95" Probability="0.01"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="0.5" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Twelfth grade">
+				<StudentPopulationProfile StudentProfileReference="HighSchoolDefault" InitialStudentCount="450" TransfersIn="25" TransfersOut="10" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+					<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="ACT">
+					<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1" Probability="0.99"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+				</AssessmentParticipationRate>
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="0.5" Probability="0.9"/>
+					<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<StaffProfile>
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.59" />
+					<Option Value="Hispanic" Frequency="0.29" />
+					<Option Value="Black" Frequency="0.06" />
+					<Option Value="Asian" Frequency="0.06" />
+				</StaffRaceConfiguration>
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.24" />
+					<Option Value="Female" Frequency="0.76" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+		<SchoolProfile SchoolName="Ridgemont Junior High" SchoolId="255901002" CourseLoad="8">
+			<DisciplineProfile TotalExpectedDisciplineEvents="75" TotalExpectedSeriousDisciplineEvents="1" />
+			<SchoolAttendanceProfile AverageAttendanceRate="0.97" AverageTardyRate="0.009" />
+			<GradeProfile GradeName="Seventh grade">
+				<StudentPopulationProfile StudentProfileReference="MiddleSchoolDefault" InitialStudentCount="375" TransfersIn="20" TransfersOut="30" />
+				<GraduationPlan Name="JuniorHighSchoolMinimum" />
+				<GraduationPlan Name="JuniorHighSchoolRecommended" />
+				<GraduationPlan Name="JuniorHighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Eighth grade">
+				<StudentPopulationProfile StudentProfileReference="MiddleSchoolDefault" InitialStudentCount="375" TransfersIn="20" TransfersOut="30" />
+				<GraduationPlan Name="JuniorHighSchoolMinimum" />
+				<GraduationPlan Name="JuniorHighSchoolRecommended" />
+				<GraduationPlan Name="JuniorHighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<StaffProfile>
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.52" />
+					<Option Value="Hispanic" Frequency="0.35" />
+					<Option Value="Black" Frequency="0.07" />
+					<Option Value="Asian" Frequency="0.06" />
+				</StaffRaceConfiguration>
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.20" />
+					<Option Value="Female" Frequency="0.80" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+		<SchoolProfile SchoolName="Greenwood Junior High" SchoolId="255901003" CourseLoad="8">
+			<DisciplineProfile TotalExpectedDisciplineEvents="80" TotalExpectedSeriousDisciplineEvents="1" />
+			<SchoolAttendanceProfile AverageAttendanceRate="0.93" AverageTardyRate="0.012" />
+			<GradeProfile GradeName="Seventh grade">
+				<StudentPopulationProfile StudentProfileReference="DisadvantagedSchool" InitialStudentCount="400" TransfersIn="30" TransfersOut="20" />
+				<GraduationPlan Name="JuniorHighSchoolMinimum" />
+				<GraduationPlan Name="JuniorHighSchoolRecommended" />
+				<GraduationPlan Name="JuniorHighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Eighth grade">
+				<StudentPopulationProfile StudentProfileReference="DisadvantagedSchool" InitialStudentCount="400" TransfersIn="30" TransfersOut="20" />
+				<GraduationPlan Name="JuniorHighSchoolMinimum" />
+				<GraduationPlan Name="JuniorHighSchoolRecommended" />
+				<GraduationPlan Name="JuniorHighSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<StaffProfile>
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.57" />
+					<Option Value="Hispanic" Frequency="0.30" />
+					<Option Value="Black" Frequency="0.07" />
+					<Option Value="Asian" Frequency="0.06" />
+				</StaffRaceConfiguration>
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.30" />
+					<Option Value="Female" Frequency="0.70" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+		<SchoolProfile SchoolName="Ash Williams Middle School" SchoolId="255901004" CourseLoad="8">
+			<DisciplineProfile TotalExpectedDisciplineEvents="122" TotalExpectedSeriousDisciplineEvents="3" />
+			<SchoolAttendanceProfile AverageAttendanceRate="0.93" AverageTardyRate="0.0115" />
+			<GradeProfile GradeName="Fourth grade">
+				<StudentPopulationProfile StudentProfileReference="DisadvantagedSchool" InitialStudentCount="420" TransfersIn="40" TransfersOut="40" />
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Fifth grade">
+				<StudentPopulationProfile StudentProfileReference="DisadvantagedSchool" InitialStudentCount="396"  TransfersIn="44" TransfersOut="20"/>
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Sixth grade">
+				<StudentPopulationProfile StudentProfileReference="DisadvantagedSchool" InitialStudentCount="403"  TransfersIn="62" TransfersOut="31"/>
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<StaffProfile>
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.52" />
+					<Option Value="Hispanic" Frequency="0.30" />
+					<Option Value="Black" Frequency="0.10" />
+					<Option Value="Asian" Frequency="0.08" />
+				</StaffRaceConfiguration>
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.33" />
+					<Option Value="Female" Frequency="0.67" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+		<SchoolProfile SchoolName="South Fork Middle School" SchoolId="255901005" CourseLoad="8">
+			<DisciplineProfile TotalExpectedDisciplineEvents="111" TotalExpectedSeriousDisciplineEvents="2" />
+			<SchoolAttendanceProfile AverageAttendanceRate="0.98" AverageTardyRate="0.01" />
+			<GradeProfile GradeName="Fourth grade">
+				<StudentPopulationProfile StudentProfileReference="MiddleSchoolDefault" InitialStudentCount="371" TransfersIn="23" TransfersOut="29" />
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Fifth grade">
+				<StudentPopulationProfile StudentProfileReference="MiddleSchoolDefault" InitialStudentCount="356" TransfersIn="42" TransfersOut="23" />
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Sixth grade">
+				<StudentPopulationProfile StudentProfileReference="MiddleSchoolDefault" InitialStudentCount="379" TransfersIn="65" TransfersOut="19" />
+				<GraduationPlan Name="MiddleSchoolMinimum" />
+				<GraduationPlan Name="MiddleSchoolRecommended" />
+				<GraduationPlan Name="MiddleSchoolDistinguished" />
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<StaffProfile>
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.48" />
+					<Option Value="Hispanic" Frequency="0.30" />
+					<Option Value="Black" Frequency="0.12" />
+					<Option Value="Asian" Frequency="0.10" />
+				</StaffRaceConfiguration>
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.24" />
+					<Option Value="Female" Frequency="0.76" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+	</DistrictProfile>
+	<StudentProfile Name="HighSchoolDefault">
+		<RaceConfiguration>
+			<Option Value="White" Frequency="0.53" />
+			<Option Value="Hispanic" Frequency="0.37" />
+			<Option Value="Black" Frequency="0.08" />
+			<Option Value="Asian" Frequency="0.02" />
+		</RaceConfiguration>
+		<SexConfiguration>
+			<Option Value="Male" Frequency="0.52" />
+			<Option Value="Female" Frequency="0.48" />
+		</SexConfiguration>
+		<EconomicDisadvantageConfiguration>
+			<Option Value="White" Frequency="0.10" />
+			<Option Value="Hispanic" Frequency="0.30" />
+			<Option Value="Black" Frequency="0.20" />
+			<Option Value="Asian" Frequency="0.15" />
+		</EconomicDisadvantageConfiguration>
+		<HomelessStatusConfiguration>
+			<Option Value="White" Frequency="0.01" />
+			<Option Value="Hispanic" Frequency="0.01" />
+			<Option Value="Black" Frequency="0.01" />
+			<Option Value="Asian" Frequency="0.01" />
+		</HomelessStatusConfiguration>
+		<ImmigrantProfile>
+			<CountryOfOrigin Name="MX" Race="Hispanic" Frequency="0.05" />
+		</ImmigrantProfile>
+	</StudentProfile>
+	<StudentProfile Name="MiddleSchoolDefault">
+		<RaceConfiguration>
+			<Option Value="White" Frequency="0.53" />
+			<Option Value="Hispanic" Frequency="0.37" />
+			<Option Value="Black" Frequency="0.08" />
+			<Option Value="Asian" Frequency="0.02" />
+		</RaceConfiguration>
+		<SexConfiguration>
+			<Option Value="Male" Frequency="0.51" />
+			<Option Value="Female" Frequency="0.49" />
+		</SexConfiguration>
+		<EconomicDisadvantageConfiguration>
+			<Option Value="White" Frequency="0.10" />
+			<Option Value="Hispanic" Frequency="0.30" />
+			<Option Value="Black" Frequency="0.20" />
+			<Option Value="Asian" Frequency="0.15" />
+		</EconomicDisadvantageConfiguration>
+		<HomelessStatusConfiguration>
+			<Option Value="White" Frequency="0.01" />
+			<Option Value="Hispanic" Frequency="0.01" />
+			<Option Value="Black" Frequency="0.01" />
+			<Option Value="Asian" Frequency="0.01" />
+		</HomelessStatusConfiguration>
+		<ImmigrantProfile>
+			<CountryOfOrigin Name="MX" Race="Hispanic" Frequency="0.05" />
+		</ImmigrantProfile>
+	</StudentProfile>
+	<StudentProfile Name="DisadvantagedSchool">
+		<RaceConfiguration>
+			<Option Value="White" Frequency="0.40" />
+			<Option Value="Hispanic" Frequency="0.40" />
+			<Option Value="Black" Frequency="0.18" />
+			<Option Value="Asian" Frequency="0.02" />
+		</RaceConfiguration>
+		<SexConfiguration>
+			<Option Value="Male" Frequency="0.54" />
+			<Option Value="Female" Frequency="0.46" />
+		</SexConfiguration>
+		<EconomicDisadvantageConfiguration>
+			<Option Value="White" Frequency="0.33" />
+			<Option Value="Hispanic" Frequency="0.40" />
+			<Option Value="Black" Frequency="0.35" />
+			<Option Value="Asian" Frequency="0.15" />
+		</EconomicDisadvantageConfiguration>
+		<HomelessStatusConfiguration>
+			<Option Value="White" Frequency="0.01" />
+			<Option Value="Hispanic" Frequency="0.01" />
+			<Option Value="Black" Frequency="0.01" />
+			<Option Value="Asian" Frequency="0.01" />
+		</HomelessStatusConfiguration>
+		<ImmigrantProfile>
+			<CountryOfOrigin Name="MX" Race="Hispanic" Frequency="0.10" />
+		</ImmigrantProfile>
+	</StudentProfile>
+	<GraduationPlanTemplate Name="HighSchoolMinimum" Type="Minimum" TotalCreditsRequired="24" />
+	<GraduationPlanTemplate Name="HighSchoolRecommended" Type="Recommended" TotalCreditsRequired="26" />
+	<GraduationPlanTemplate Name="HighSchoolDistinguished" Type="Distinguished" TotalCreditsRequired="28" />
+	<GraduationPlanTemplate Name="JuniorHighSchoolMinimum" Type="Minimum" TotalCreditsRequired="14" />
+	<GraduationPlanTemplate Name="JuniorHighSchoolRecommended" Type="Recommended" TotalCreditsRequired="14" />
+	<GraduationPlanTemplate Name="JuniorHighSchoolDistinguished" Type="Distinguished" TotalCreditsRequired="14" />
+	<GraduationPlanTemplate Name="MiddleSchoolMinimum" Type="Minimum" TotalCreditsRequired="21" />
+	<GraduationPlanTemplate Name="MiddleSchoolRecommended" Type="Recommended" TotalCreditsRequired="21" />
+	<GraduationPlanTemplate Name="MiddleSchoolDistinguished" Type="Distinguished" TotalCreditsRequired="21" />
+</SampleDataGeneratorConfig>

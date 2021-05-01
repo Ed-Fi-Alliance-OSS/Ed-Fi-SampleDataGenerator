@@ -1,0 +1,45 @@
+CodeValue,ShortDescription,Description,Namespace
+Achievement/proficiency level,Achievement/proficiency level,Achievement/proficiency level,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+ACT score,ACT score,ACT score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Adaptive scale score,Adaptive scale score,Adaptive scale score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Age score,Age score,Age score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+C-scaled scores,C-scaled scores,C-scaled scores,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+College Board examination scores,College Board examination scores,College Board examination scores,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Composite Score,Composite Score,Composite Score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Composite Rating,Composite Rating,Composite Rating,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Composition Score,Composition Score,Composition Score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Grade equivalent or grade-level indicator,Grade equivalent or grade-level indicator,Grade equivalent or grade-level indicator,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Graduation score,Graduation score,Graduation score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Growth/value-added/indexing,Growth/value-added/indexing,Growth/value-added/indexing,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+International Baccalaureate score,International Baccalaureate score,International Baccalaureate score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Letter grade/mark,Letter grade/mark,Letter grade/mark,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Mastery level,Mastery level,Mastery level,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Normal curve equivalent,Normal curve equivalent,Normal curve equivalent,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Normalized standard score,Normalized standard score,Normalized standard score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Number score,Number score,Number score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Pass-fail,Pass-fail,Pass-fail,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Percentile,Percentile,Percentile,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Percentile rank,Percentile rank,Percentile rank,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Proficiency level,Proficiency level,Proficiency level,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Promotion score,Promotion score,Promotion score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Ranking,Ranking,Ranking,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Ratio IQ's,Ratio IQ's,Ratio IQ's,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Raw score,Raw score,Raw score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Scale score,Scale score,Scale score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Standard age score,Standard age score,Standard age score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Standard error measurement,Standard error measurement,Standard error measurement,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Stanine score,Stanine score,Stanine score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Sten score,Sten score,Sten score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Theta,Theta,Theta,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+T-score,T-score,T-score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Vertical score,Vertical score,Vertical score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Workplace readiness score,Workplace readiness score,Workplace readiness score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Z-score,Z-score,Z-score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Other,Other,Other,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Not applicable,Not applicable,Not applicable,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Quantile Measure,Quantile Measure,Quantile Measure,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Lexile Measure,Lexile Measure,Lexile Measure,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+Vertical Scale Score,Vertical Scale Score,Vertical Scale Score,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+National College-Bound Percentile,National College-Bound Percentile,National College-Bound Percentile,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+State College-Bound Percentile,State College-Bound Percentile,State College-Bound Percentile,uri://ed-fi.org/AssessmentReportingMethodDescriptor
+RIT scale score,RIT scale score,RIT scale score,uri://ed-fi.org/AssessmentReportingMethodDescriptor

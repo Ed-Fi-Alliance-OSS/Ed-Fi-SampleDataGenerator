@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace
+Died or is permanently incapacitated,Died or is permanently incapacitated,Died or is permanently incapacitated,uri://ed-fi.org/AttemptStatusDescriptor
+Discontinued schooling,Discontinued schooling,Discontinued schooling,uri://ed-fi.org/AttemptStatusDescriptor
+Graduated with a high school diploma,Graduated with a high school diploma,Graduated with a high school diploma,uri://ed-fi.org/AttemptStatusDescriptor
+Moved out of state,Moved out of state,Moved out of state,uri://ed-fi.org/AttemptStatusDescriptor
+Other,Other,Other,uri://ed-fi.org/AttemptStatusDescriptor
+Reached maximum age,Reached maximum age,Reached maximum age,uri://ed-fi.org/AttemptStatusDescriptor
+Received certificate of completion or equivalent,"Received completion certificate, modified diploma, or met IEP requirements","Received certificate of completion, modified diploma, or finished IEP requirements",uri://ed-fi.org/AttemptStatusDescriptor
+Suspended or expelled from school,Suspended or expelled from school,Suspended or expelled from school,uri://ed-fi.org/AttemptStatusDescriptor
+Transferred to another district or school,Transferred to another district or school,Transferred to another district or school,uri://ed-fi.org/AttemptStatusDescriptor
+Unknown reason,Unknown reason,Unknown reason,uri://ed-fi.org/AttemptStatusDescriptor
+Withdrawal by a parent (or guardian),Withdrawal by a parent (or guardian),Withdrawal by a parent (or guardian),uri://ed-fi.org/AttemptStatusDescriptor

@@ -1,0 +1,23 @@
+CodeValue,ShortDescription,Description,Namespace
+Adult Education,Adult Education,Adult Education,uri://ed-fi.org/GradeLevelDescriptor
+Early Education,Early Education,Early Education,uri://ed-fi.org/GradeLevelDescriptor
+Eighth grade,Eighth grade,Eighth grade,uri://ed-fi.org/GradeLevelDescriptor
+Eleventh grade,Eleventh grade,Eleventh grade,uri://ed-fi.org/GradeLevelDescriptor
+Fifth grade,Fifth grade,Fifth grade,uri://ed-fi.org/GradeLevelDescriptor
+First grade,First grade,First grade,uri://ed-fi.org/GradeLevelDescriptor
+Fourth grade,Fourth grade,Fourth grade,uri://ed-fi.org/GradeLevelDescriptor
+Grade 13,Grade 13,Grade 13,uri://ed-fi.org/GradeLevelDescriptor
+Infant/toddler,Infant/toddler,Infant/toddler,uri://ed-fi.org/GradeLevelDescriptor
+Kindergarten,Kindergarten,Kindergarten,uri://ed-fi.org/GradeLevelDescriptor
+Ninth grade,Ninth grade,Ninth grade,uri://ed-fi.org/GradeLevelDescriptor
+Other,Other,Other,uri://ed-fi.org/GradeLevelDescriptor
+Postsecondary,Postsecondary,Postsecondary,uri://ed-fi.org/GradeLevelDescriptor
+Preschool/Prekindergarten,Preschool/Prekindergarten,Preschool/Prekindergarten,uri://ed-fi.org/GradeLevelDescriptor
+Second grade,Second grade,Second grade,uri://ed-fi.org/GradeLevelDescriptor
+Seventh grade,Seventh grade,Seventh grade,uri://ed-fi.org/GradeLevelDescriptor
+Sixth grade,Sixth grade,Sixth grade,uri://ed-fi.org/GradeLevelDescriptor
+Tenth grade,Tenth grade,Tenth grade,uri://ed-fi.org/GradeLevelDescriptor
+Third grade,Third grade,Third grade,uri://ed-fi.org/GradeLevelDescriptor
+Twelfth grade,Twelfth grade,Twelfth grade,uri://ed-fi.org/GradeLevelDescriptor
+Ungraded,Ungraded,Ungraded,uri://ed-fi.org/GradeLevelDescriptor
+No grade level,No grade level,No grade level,uri://ed-fi.org/GradeLevelDescriptor

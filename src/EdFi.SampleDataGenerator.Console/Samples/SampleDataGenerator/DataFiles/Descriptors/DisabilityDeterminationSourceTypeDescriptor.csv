@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace
+By health care provider,By health care provider,By health care provider,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+By licensed physical therapist,By licensed physical therapist,By licensed physical therapist,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+By physician,By physician,By physician,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+By school psychologist or other psychologist,By school psychologist or other psychologist,By school psychologist or other psychologist,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+By social service or other type of agency,By social service or other type of agency,By social service or other type of agency,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+Not applicable to the student,Not applicable to the student,Not applicable to the student,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+Self-reported,Self-reported,Self-reported,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor
+Unknown or Unreported,Unknown or Unreported,Unknown or Unreported,uri://ed-fi.org/DisabilityDeterminationSourceTypeDescriptor

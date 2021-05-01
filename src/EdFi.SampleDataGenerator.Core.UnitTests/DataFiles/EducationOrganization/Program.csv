@@ -1,0 +1,10 @@
+id,ProgramId,ProgramName,ProgramType,ProgramSponsor,EducationOrganizationReference.id,EducationOrganizationReference.ref,EducationOrganizationReference.EducationOrganizationIdentity.EducationOrganizationId
+PRGM_123456_01,123456_01,Athletics,uri://ed-fi.org/ProgramTypeDescriptor#Athletics,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_02,123456_02,Bilingual,uri://ed-fi.org/ProgramTypeDescriptor#Bilingual,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_03,123456_03,Bilingual Summer,uri://ed-fi.org/ProgramTypeDescriptor#Bilingual Summer,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_04,123456_04,English as a Second Language (ESL),uri://ed-fi.org/ProgramTypeDescriptor#English as a Second Language (ESL),uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_05,123456_05,Gifted and Talented,uri://ed-fi.org/ProgramTypeDescriptor#Gifted and Talented,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_06,123456_06,Regular Education,uri://ed-fi.org/ProgramTypeDescriptor#Regular Education,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_07,123456_07,Special Education,uri://ed-fi.org/ProgramTypeDescriptor#Special Education,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_08,123456_08,Title I Part A,uri://ed-fi.org/ProgramTypeDescriptor#Title I Part A,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456
+PRGM_123456_08,123456_08,Other,uri://ed-fi.org/ProgramTypeDescriptor#Other,uri://ed-fi.org/ProgramSponsorDescriptor#Local Education Agency,,,123456

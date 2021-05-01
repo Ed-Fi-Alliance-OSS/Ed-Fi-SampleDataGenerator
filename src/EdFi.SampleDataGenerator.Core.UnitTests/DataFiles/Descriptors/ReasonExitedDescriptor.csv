@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace,ReasonExitedMap
+Died or is permanently incapacitated,Died or is permanently incapacitated,Died or is permanently incapacitated,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Died or is permanently incapacitated
+Discontinued schooling,Discontinued schooling,Discontinued schooling,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Discontinued schooling
+Graduated with a high school diploma,Graduated with a high school diploma,Graduated with a high school diploma,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Graduated with a high school diploma
+Moved out of state,Moved out of state,Moved out of state,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Moved out of state
+Other,Other,Other,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Other
+Reached maximum age,Reached maximum age,Reached maximum age,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Reached maximum age
+"Received cert of completion, modified diploma, or","Received cert of completion, modified diploma, or finished IEP requirements","Received certificate of completion, modified diploma, or finished IEP requirements",http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,"Received certificate of completion, modified diploma, or finished IEP requirements"
+Suspended or expelled from school,Suspended or expelled from school,Suspended or expelled from school,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Suspended or expelled from school
+Transferred to another district or school,Transferred to another district or school,Transferred to another district or school,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Transferred to another district or school
+Unknown reason,Unknown reason,Unknown reason,http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Unknown reason
+Withdrawal by a parent (or guardian),Withdrawal by a parent (or guardian),Withdrawal by a parent (or guardian),http://ed-fi.org/Descriptor/ReasonExitedDescriptor.xml,Withdrawal by a parent (or guardian)

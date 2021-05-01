@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+Mixed Effects,Mixed Effects,Mixed Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+Negative Effects,Negative Effects,Negative Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+No Discernible Effects,No Discernible Effects,No Discernible Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+Other,Other,Other,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+Positive Effects,Positive Effects,Positive Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+Potentially Negative Effects,Potentially Negative Effects,Potentially Negative Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor
+Potentially Positive Effects,Potentially Positive Effects,Potentially Positive Effects,uri://ed-fi.org/InterventionEffectivenessRatingDescriptor

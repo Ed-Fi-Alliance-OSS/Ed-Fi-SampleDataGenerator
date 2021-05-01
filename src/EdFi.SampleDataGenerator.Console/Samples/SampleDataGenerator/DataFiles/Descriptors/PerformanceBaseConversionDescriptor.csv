@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+Advanced,Advanced,Advanced,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Basic,Basic,Basic,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Below Basic,Below Basic,Below Basic,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Fail,Fail,Fail,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Pass,Pass,Pass,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Proficient,Proficient,Proficient,uri://ed-fi.org/PerformanceBaseConversionDescriptor
+Well Below Basic,Well Below Basic,Well Below Basic,uri://ed-fi.org/PerformanceBaseConversionDescriptor

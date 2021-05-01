@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace
+ACT,ACT,ACT,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+DUNS,DUNS,DUNS,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+IPEDS,IPEDS,IPEDS,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+LEA,LEA,LEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+NCES,NCES,NCES,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Other Federal,Other Federal,Other Federal,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+SEA,SEA,SEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+USDE - OPE,USDE - OPE,USDE - OPE,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor

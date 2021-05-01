@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace
+Active,Active,Active,uri://ed-fi.org/OperationalStatusDescriptor
+Added,Added,Added,uri://ed-fi.org/OperationalStatusDescriptor
+Changed,Changed,Changed,uri://ed-fi.org/OperationalStatusDescriptor
+Closed,Closed,Closed,uri://ed-fi.org/OperationalStatusDescriptor
+Future,Future,Future,uri://ed-fi.org/OperationalStatusDescriptor
+Inactive,Inactive,Inactive,uri://ed-fi.org/OperationalStatusDescriptor
+New,New,New,uri://ed-fi.org/OperationalStatusDescriptor
+Reopened,Reopened,Reopened,uri://ed-fi.org/OperationalStatusDescriptor

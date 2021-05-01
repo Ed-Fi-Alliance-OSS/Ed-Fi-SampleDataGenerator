@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+Bereavement,Bereavement,Bereavement,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Compensatory leave time,Compensatory leave time,Compensatory leave time,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Flex time,Flex time,Flex time,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Jury duty,Jury duty,Jury duty,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Other,Other,Other,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Personal,Personal,Personal,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Professional development,Professional development,Professional development,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Release time,Release time,Release time,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Sick leave,Sick leave,Sick leave,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Suspension,Suspension,Suspension,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Vacation,Vacation,Vacation,uri://ed-fi.org/AbsenceEventCategoryDescriptor
+Work compensation,Work compensation,Work compensation,uri://ed-fi.org/AbsenceEventCategoryDescriptor

@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+Business,Business,Business,uri://ed-fi.org/ProgramSponsorDescriptor
+Education organization network,Education organization network,Education organization network,uri://ed-fi.org/ProgramSponsorDescriptor
+Education Service Center,Education Service Center,Education Service Center,uri://ed-fi.org/ProgramSponsorDescriptor
+Federal government,Federal government,Federal government,uri://ed-fi.org/ProgramSponsorDescriptor
+Local Education Agency,Local Education Agency,Local Education Agency,uri://ed-fi.org/ProgramSponsorDescriptor
+Non-profit organization,Non-profit organization,Non-profit organization,uri://ed-fi.org/ProgramSponsorDescriptor
+Other,Other,Other,uri://ed-fi.org/ProgramSponsorDescriptor
+Postsecondary institution,Postsecondary institution,Postsecondary institution,uri://ed-fi.org/ProgramSponsorDescriptor
+Private organization,Private organization,Private organization,uri://ed-fi.org/ProgramSponsorDescriptor
+Religious organization,Religious organization,Religious organization,uri://ed-fi.org/ProgramSponsorDescriptor
+School,School,School,uri://ed-fi.org/ProgramSponsorDescriptor
+State Education Agency,State Education Agency,State Education Agency,uri://ed-fi.org/ProgramSponsorDescriptor

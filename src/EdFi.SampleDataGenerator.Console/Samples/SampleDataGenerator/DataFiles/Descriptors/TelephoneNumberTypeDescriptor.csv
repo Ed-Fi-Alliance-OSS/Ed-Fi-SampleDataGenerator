@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace
+Emergency 1,Emergency 1,Emergency 1,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Emergency 2,Emergency 2,Emergency 2,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Fax,Fax,Fax,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Home,Home,Home,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Mobile,Mobile,Mobile,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Unlisted,Unlisted,Unlisted,uri://ed-fi.org/TelephoneNumberTypeDescriptor
+Work,Work,Work,uri://ed-fi.org/TelephoneNumberTypeDescriptor

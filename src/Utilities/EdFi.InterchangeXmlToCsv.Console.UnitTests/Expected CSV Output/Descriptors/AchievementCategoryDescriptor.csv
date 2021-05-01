@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace,AchievementCategoryMap
+Certificate Earned,Certificate Earned,Certificate Earned,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Certificate Earned
+Competency Mastered,Competency Mastered,Competency Mastered,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Competency Mastered
+Competency Retained,Competency Retained,Competency Retained,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Competency Retained
+Course Completed,Course Completed,Course Completed,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Course Completed
+Diploma Earned,Diploma Earned,Diploma Earned,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Diploma Earned
+Level Completed,Level Completed,Level Completed,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Level Completed
+License Earned,License Earned,License Earned,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,License Earned
+License Endorsement Earned,License Endorsement Earned,License Endorsement Earned,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,License Endorsement Earned
+Non-Academic Honor,Non-Academic Honor,Non-Academic Honor,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Non-Academic Honor
+Participation,Participation,Participation,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Participation
+Recognition,Recognition,Recognition,http://www.ed-fi.org/Descriptor/AchievementCategoryDescriptor.xml,Recognition

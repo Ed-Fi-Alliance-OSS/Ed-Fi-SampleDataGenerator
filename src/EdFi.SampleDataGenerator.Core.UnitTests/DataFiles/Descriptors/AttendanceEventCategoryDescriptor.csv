@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace,AttendanceEventCategoryMap
+In Attendance,In Attendance,In Attendance,http://ed-fi.org/Descriptor/AttendanceEventCategoryDescriptor.xml,In Attendance
+Excused Absence,Excused Absence,Excused Absence,http://ed-fi.org/Descriptor/AttendanceEventCategoryDescriptor.xml,Excused Absence
+Unexcused Absence,Unexcused Absence,Unexcused Absence,http://ed-fi.org/Descriptor/AttendanceEventCategoryDescriptor.xml,Unexcused Absence
+Tardy,Tardy,Tardy,http://ed-fi.org/Descriptor/AttendanceEventCategoryDescriptor.xml,Tardy
+Early departure,Early departure,Early departure,http://ed-fi.org/Descriptor/AttendanceEventCategoryDescriptor.xml,Early departure

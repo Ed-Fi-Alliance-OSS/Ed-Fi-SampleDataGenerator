@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace,StudentIdentificationSystemMap
+Canadian SIN,Canadian SIN,Canadian SIN,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Canadian SIN
+District,District,District,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,District
+Family,Family,Family,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Family
+Federal,Federal,Federal,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Federal
+Local,Local,Local,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Local
+National Migrant,National Migrant,National Migrant,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,National Migrant
+Other,Other,Other,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Other
+School,School,School,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,School
+SSN,SSN,SSN,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,SSN
+State,State,State,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,State
+State Migrant,State Migrant,State Migrant,http://ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,State Migrant

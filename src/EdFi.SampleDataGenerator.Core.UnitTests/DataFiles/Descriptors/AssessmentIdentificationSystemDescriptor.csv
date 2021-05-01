@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace,AssessmentIdentificationSystemMap
+District,District,District,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,District
+Federal,Federal,Federal,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Federal
+Other,Other,Other,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Other
+Other Federal,Other Federal,Other Federal,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Other Federal
+School,School,School,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,School
+State,State,State,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,State
+Test Contractor,Test Contractor,Test Contractor,http://ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Test Contractor

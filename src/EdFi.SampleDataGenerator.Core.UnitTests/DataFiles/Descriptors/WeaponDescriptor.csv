@@ -1,0 +1,11 @@
+CodeValue,ShortDescription,Description,Namespace,WeaponMap
+Club,Club,Club,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Club
+Handgun,Handgun,Handgun,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Handgun
+Knife,Knife,Knife,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Knife
+Other,Other,Other,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Other
+Other Firearm,Other Firearm,Other Firearm,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Firearm
+Other Object,Other Object,Other Object,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Object
+Other Sharp Objects,Other Sharp Objects,Other Sharp Objects,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Sharp Objects
+Rifle/Shotgun,Rifle/Shotgun,Rifle/Shotgun,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Rifle/Shotgun
+Substance Used as Weapon,Substance Used as Weapon,Substance Used as Weapon,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Substance Used as Weapon
+Unknown,Unknown,Unknown,http://ed-fi.org/Descriptor/WeaponDescriptor.xml,Unknown

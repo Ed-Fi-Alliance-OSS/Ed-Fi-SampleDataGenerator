@@ -1,0 +1,16 @@
+CodeValue,ShortDescription,Description,Namespace,ExitWithdrawTypeMap
+Completed,Completed,Completed,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Completed
+Died or is permanently incapacitated,Died or is permanently incapacitated,Died or is permanently incapacitated,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Died or is permanently incapacitated
+Dropout,Dropout,Dropout,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Dropout
+End of school year,End of school year,End of school year,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,End of school year
+Enrolled in a high school diploma program,Enrolled in a high school diploma program,Enrolled in a high school diploma program,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Enrolled in a high school diploma program
+Expelled,Expelled,Expelled,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Expelled
+Graduated,Graduated,Graduated,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Graduated
+Incarcerated,Incarcerated,Incarcerated,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Incarcerated
+Invalid enrollment,Invalid enrollment,Invalid enrollment,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Invalid enrollment
+Involuntarily Removed,Involuntarily Removed,Involuntarily Removed,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Involuntarily Removed
+No show,No show,No show,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,No show
+Other,Other,Other,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Other
+Reached maximum age,Reached maximum age,Reached maximum age,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Reached maximum age
+Transferred,Transferred,Transferred,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Transferred
+Withdrawn,Withdrawn,Withdrawn,http://ed-fi.org/Descriptor/ExitWithdrawTypeDescriptor.xml,Withdrawn

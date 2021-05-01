@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+Athletic awards,Athletic awards,Athletic awards,uri://ed-fi.org/RecognitionTypeDescriptor
+Awarding of units of value,Awarding of units of value,Awarding of units of value,uri://ed-fi.org/RecognitionTypeDescriptor
+Certificate,Certificate,Certificate,uri://ed-fi.org/RecognitionTypeDescriptor
+Citizenship award/recognition,Citizenship award/recognition,Citizenship award/recognition,uri://ed-fi.org/RecognitionTypeDescriptor
+"Completion of requirement, but no units awarded","Completion of requirement, but no units of value awarded","Completion of requirement, but no units of value awarded",uri://ed-fi.org/RecognitionTypeDescriptor
+Honor award,Honor award,Honor award,uri://ed-fi.org/RecognitionTypeDescriptor
+Letter of commendation,Letter of commendation,Letter of commendation,uri://ed-fi.org/RecognitionTypeDescriptor
+Medals,Medals,Medals,uri://ed-fi.org/RecognitionTypeDescriptor
+Monogram/letter,Monogram/letter,Monogram/letter,uri://ed-fi.org/RecognitionTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/RecognitionTypeDescriptor
+Points,Points,Points,uri://ed-fi.org/RecognitionTypeDescriptor
+Promotion or advancement,Promotion or advancement,Promotion or advancement,uri://ed-fi.org/RecognitionTypeDescriptor

@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace
+Emergency day,Emergency day,Emergency day,uri://ed-fi.org/CalendarEventDescriptor
+Holiday,Holiday,Holiday,uri://ed-fi.org/CalendarEventDescriptor
+Instructional day,Instructional day,Instructional day,uri://ed-fi.org/CalendarEventDescriptor
+Make-up day,Make-up day,Make-up day,uri://ed-fi.org/CalendarEventDescriptor
+Other,Other,Other,uri://ed-fi.org/CalendarEventDescriptor
+Strike,Strike,Strike,uri://ed-fi.org/CalendarEventDescriptor
+Student late arrival/early dismissal,Student late arrival/early dismissal,Student late arrival/early dismissal,uri://ed-fi.org/CalendarEventDescriptor
+Teacher only day,Teacher only day,Teacher only day,uri://ed-fi.org/CalendarEventDescriptor
+Weather day,Weather day,Weather day,uri://ed-fi.org/CalendarEventDescriptor

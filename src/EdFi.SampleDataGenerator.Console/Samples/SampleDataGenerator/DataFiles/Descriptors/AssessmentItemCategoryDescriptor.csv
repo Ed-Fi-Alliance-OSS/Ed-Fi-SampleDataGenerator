@@ -1,0 +1,22 @@
+CodeValue,ShortDescription,Description,Namespace
+Analytic,Analytic,Analytic,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Essay,Essay,Essay,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Fill-in-the-blank,Fill-in-the-blank,Fill-in-the-blank,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Innovative,Innovative,Innovative,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Labeling,Labeling,Labeling,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+List Question,List Question,List Question,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Matching,Matching,Matching,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Math Matrix,Math Matrix,Math Matrix,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Multiple-choice,Multiple-choice,Multiple-choice,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Other,Other,Other,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Other constructed response,Other constructed response,Other constructed response,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Other extended response,Other extended response,Other extended response,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Performance task,Performance task,Performance task,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Prose,Prose,Prose,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Reordering,Reordering,Reordering,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Rubric,Rubric,Rubric,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Short answer,Short answer,Short answer,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Show your work,Show your work,Show your work,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Substitution,Substitution,Substitution,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+True-False,True-False,True-False,uri://ed-fi.org/AssessmentItemCategoryDescriptor
+Visual representation,Visual representation,Visual representation,uri://ed-fi.org/AssessmentItemCategoryDescriptor

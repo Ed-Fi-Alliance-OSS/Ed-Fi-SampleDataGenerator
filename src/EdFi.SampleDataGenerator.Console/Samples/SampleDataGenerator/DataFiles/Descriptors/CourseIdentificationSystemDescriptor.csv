@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace
+CSSC course code,CSSC course code,CSSC course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+Intermediate agency course code,Intermediate agency course code,Intermediate agency course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+LEA course code,LEA course code,LEA course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+SCED course code,SCED course code,SCED course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+School course code,School course code,School course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+State course code,State course code,State course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+University course code,University course code,University course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor

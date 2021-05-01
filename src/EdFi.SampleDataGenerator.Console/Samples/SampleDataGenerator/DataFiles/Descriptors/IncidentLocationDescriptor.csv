@@ -1,0 +1,26 @@
+CodeValue,ShortDescription,Description,Namespace
+Administrative offices area,Administrative offices area,Administrative offices area,uri://ed-fi.org/IncidentLocationDescriptor
+Athletic field or playground,Athletic field or playground,Athletic field or playground,uri://ed-fi.org/IncidentLocationDescriptor
+Auditorium,Auditorium,Auditorium,uri://ed-fi.org/IncidentLocationDescriptor
+Bus stop,Bus stop,Bus stop,uri://ed-fi.org/IncidentLocationDescriptor
+Cafeteria area,Cafeteria area,Cafeteria area,uri://ed-fi.org/IncidentLocationDescriptor
+Classroom,Classroom,Classroom,uri://ed-fi.org/IncidentLocationDescriptor
+Computer lab,Computer lab,Computer lab,uri://ed-fi.org/IncidentLocationDescriptor
+Hallway or stairs,Hallway or stairs,Hallway or stairs,uri://ed-fi.org/IncidentLocationDescriptor
+Library/media center,Library/media center,Library/media center,uri://ed-fi.org/IncidentLocationDescriptor
+Locker room or gym areas,Locker room or gym areas,Locker room or gym areas,uri://ed-fi.org/IncidentLocationDescriptor
+Off campus,Off campus,Off campus,uri://ed-fi.org/IncidentLocationDescriptor
+Off-campus at a school sponsored activity,Off-campus at a school sponsored activity,Off-campus at a school sponsored activity,uri://ed-fi.org/IncidentLocationDescriptor
+Off-campus at another location unrelated to school,Off-campus at another location unrelated to school,Off-campus at another location unrelated to school,uri://ed-fi.org/IncidentLocationDescriptor
+Off-campus at other school,Off-campus at other school,Off-campus at other school,uri://ed-fi.org/IncidentLocationDescriptor
+Off-campus at other school district facility,Off-campus at other school district facility,Off-campus at other school district facility,uri://ed-fi.org/IncidentLocationDescriptor
+On campus,On campus,On campus,uri://ed-fi.org/IncidentLocationDescriptor
+On-campus other inside area,On-campus other inside area,On-campus other inside area,uri://ed-fi.org/IncidentLocationDescriptor
+On-campus other outside area,On-campus other outside area,On-campus other outside area,uri://ed-fi.org/IncidentLocationDescriptor
+Online,Online,Online,uri://ed-fi.org/IncidentLocationDescriptor
+Parking lot,Parking lot,Parking lot,uri://ed-fi.org/IncidentLocationDescriptor
+Restroom,Restroom,Restroom,uri://ed-fi.org/IncidentLocationDescriptor
+School bus,School bus,School bus,uri://ed-fi.org/IncidentLocationDescriptor
+Stadium,Stadium,Stadium,uri://ed-fi.org/IncidentLocationDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/IncidentLocationDescriptor
+Walking to or from school,Walking to or from school,Walking to or from school,uri://ed-fi.org/IncidentLocationDescriptor

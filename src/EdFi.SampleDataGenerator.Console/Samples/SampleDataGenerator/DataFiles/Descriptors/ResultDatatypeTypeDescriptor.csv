@@ -1,0 +1,7 @@
+CodeValue,ShortDescription,Description,Namespace
+Decimal,Decimal,Decimal,uri://ed-fi.org/ResultDatatypeTypeDescriptor
+Integer,Integer,Integer,uri://ed-fi.org/ResultDatatypeTypeDescriptor
+Level,Level,Level,uri://ed-fi.org/ResultDatatypeTypeDescriptor
+Percentage,Percentage,Percentage,uri://ed-fi.org/ResultDatatypeTypeDescriptor
+Percentile,Percentile,Percentile,uri://ed-fi.org/ResultDatatypeTypeDescriptor
+Range,Range,Range,uri://ed-fi.org/ResultDatatypeTypeDescriptor

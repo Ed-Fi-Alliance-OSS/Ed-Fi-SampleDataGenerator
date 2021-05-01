@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace,LevelOfEducationMap
+Associate's Degree (two years or more),Associate's Degree (two years or more),Associate's Degree (two years or more),http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Associate's Degree (two years or more)
+Bachelor's,Bachelor's,Bachelor's,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Bachelor's
+Did Not Graduate High School,Did Not Graduate High School,Did Not Graduate High School,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Did Not Graduate High School
+Doctorate,Doctorate,Doctorate,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Doctorate
+High School Diploma,High School Diploma,High School Diploma,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,High School Diploma
+Master's,Master's,Master's,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Master's
+Some College No Degree,Some College No Degree,Some College No Degree,http://ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Some College No Degree

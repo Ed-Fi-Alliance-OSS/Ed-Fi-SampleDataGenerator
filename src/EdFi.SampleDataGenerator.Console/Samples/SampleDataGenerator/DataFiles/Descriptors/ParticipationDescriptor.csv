@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Completed,Completed,Completed,uri://ed-fi.org/ParticipationDescriptor
+Attempted,Attempted,Attempted,uri://ed-fi.org/ParticipationDescriptor
+Did Not Take,Did Not Take,Did Not Take,uri://ed-fi.org/ParticipationDescriptor
+Unable Due To Medical Emergency,Unable Due To Medical Emergency,Unable Due To Medical Emergency,uri://ed-fi.org/ParticipationDescriptor

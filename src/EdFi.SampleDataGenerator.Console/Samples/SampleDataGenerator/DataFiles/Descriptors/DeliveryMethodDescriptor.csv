@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Individual,Individual,Individual,uri://ed-fi.org/DeliveryMethodDescriptor
+Small Group,Small Group,Small Group,uri://ed-fi.org/DeliveryMethodDescriptor
+Whole Class,Whole Class,Whole Class,uri://ed-fi.org/DeliveryMethodDescriptor
+Whole School,Whole School,Whole School,uri://ed-fi.org/DeliveryMethodDescriptor

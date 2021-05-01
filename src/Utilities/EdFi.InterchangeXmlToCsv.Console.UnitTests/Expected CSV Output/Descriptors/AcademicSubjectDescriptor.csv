@@ -1,0 +1,19 @@
+CodeValue,ShortDescription,Description,Namespace,AcademicSubjectMap
+Composite,Composite,Composite,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Composite
+Critical Reading,Critical Reading,Critical Reading,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Critical Reading
+English,English,English,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,English
+English Language Arts,English Language Arts,English Language Arts,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,English Language Arts
+Reading,Reading,Reading,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Reading
+Mathematics,Mathematics,Mathematics,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Mathematics
+Life and Physical Sciences,Life and Physical Sciences,Life and Physical Sciences,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Life and Physical Sciences
+Social Sciences and History,Social Sciences and History,Social Sciences and History,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Social Sciences and History
+Social Studies,Social Studies,Social Studies,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Social Studies
+Science,Science,Science,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Science
+Fine and Performing Arts,Fine and Performing Arts,Fine and Performing Arts,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Fine and Performing Arts
+Foreign Language and Literature,Foreign Language and Literature,Foreign Language and Literature,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Foreign Language and Literature
+Writing,Writing,Writing,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Writing
+"Physical, Health, and Safety Education","Physical, Health, and Safety Education","Physical, Health, and Safety Education",http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,"Physical, Health, and Safety Education"
+Career and Technical Education,Career and Technical Education,Career and Technical Education,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Career and Technical Education
+Religious Education and Theology,Religious Education and Theology,Religious Education and Theology,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Religious Education and Theology
+Military Science,Military Science,Military Science,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Military Science
+Other,Other,Other,http://www.ed-fi.org/Descriptor/AcademicSubjectDescriptor.xml,Other
