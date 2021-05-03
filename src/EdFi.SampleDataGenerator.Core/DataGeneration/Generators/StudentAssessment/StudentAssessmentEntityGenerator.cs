@@ -39,7 +39,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentAssessm
 
         private AdministrationEnvironmentDescriptor GetAssessmentAdministrationEnvironment(Assessment assessment)
         {
-            if (AssessmentCategoryDescriptor.CollegeEntranceExam.CodeValue == assessment.AssessmentCategory)
+            if (AssessmentCategoryDescriptor.CollegeEntranceExam.GetStructuredCodeValue() == assessment.AssessmentCategory)
                 return AdministrationEnvironmentDescriptor.TestingCenter;
 
             return AdministrationEnvironmentDescriptor.Classroom;
@@ -69,13 +69,13 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentAssessm
             if (performanceLevel.PerformanceLevel == null)
                 throw new ArgumentNullException(nameof(performanceLevel), "AssessmentPerformanceLevel.PerformanceLevel is null'");
 
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.Fail.CodeValue) return -3;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.WellBelowBasic.CodeValue) return -2;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.BelowBasic.CodeValue) return -1;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.Basic.CodeValue) return 0;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.Pass.CodeValue) return 0;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.Proficient.CodeValue) return 1;
-            if (performanceLevel.PerformanceLevel == PerformanceBaseConversionDescriptor.Advanced.CodeValue) return 2;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.Fail.GetStructuredCodeValue()) return -3;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.WellBelowBasic.GetStructuredCodeValue()) return -2;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.BelowBasic.GetStructuredCodeValue()) return -1;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.Basic.GetStructuredCodeValue()) return 0;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.Pass.GetStructuredCodeValue()) return 0;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.Proficient.GetStructuredCodeValue()) return 1;
+            if (performanceLevel.PerformanceLevel == PerformanceLevelDescriptor.Advanced.GetStructuredCodeValue()) return 2;
 
             throw new ArgumentException($"AssessmentPerformanceLevel '{performanceLevel.PerformanceLevel}' not currently supported");
         }
@@ -159,6 +159,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentAssessm
 
                 var studentAssessment = new Entities.StudentAssessment
                 {
+                    StudentAssessmentIdentifier = $"{assessment.AssessmentIdentifier}_{context.Student.StudentUniqueId}",
                     AdministrationDate = administrationDate.Value,
                     SerialNumber = "0",
                     AdministrationLanguage = GetAssessmentAdministrationLanguage(context, assessment),
@@ -180,7 +181,8 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentAssessm
                         new PerformanceLevel
                         {
                             PerformanceLevelMet = PerformanceLevelMet(studentPerformanceLevel),
-                            PerformanceLevel1 = studentPerformanceLevel.PerformanceLevel
+                            PerformanceLevel1 = studentPerformanceLevel.PerformanceLevel,
+                            AssessmentReportingMethod = assessmentReportingMethod
                         }
                     }
                 };
@@ -222,7 +224,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentAssessm
 
         private static string GetAssessmentAdministrationLanguage(StudentDataGeneratorContext context, Assessment assessment)
         {
-            var english = LanguageMapType.English.Value;
+            var english = LanguageDescriptor.English_eng.GetStructuredCodeValue();
 
             var studentLanguage = context.GetStudentEducationOrganization().Language?.FirstOrDefault()?.Language1 ?? english;
             var assessmentLanguages = assessment.Language ?? new[] { english };

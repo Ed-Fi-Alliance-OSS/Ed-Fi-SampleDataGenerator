@@ -1,0 +1,6 @@
+id,CalendarCode,SchoolYear,CalendarType,SchoolReference.id,SchoolReference.ref,SchoolReference.SchoolIdentity.SchoolId
+CAL_255901001_Item20162017,Calendar Code,2016-2017,uri://ed-fi.org/CalendarTypeDescriptor#IEP,,,255901001
+CAL_255901002_Item20162017,Calendar Code,2016-2017,uri://ed-fi.org/CalendarTypeDescriptor#IEP,,,255901002
+CAL_255901003_Item20162017,Calendar Code,2016-2017,uri://ed-fi.org/CalendarTypeDescriptor#IEP,,,255901003
+CAL_255901004_Item20162017,Calendar Code,2016-2017,uri://ed-fi.org/CalendarTypeDescriptor#IEP,,,255901004
+CAL_255901005_Item20162017,Calendar Code,2016-2017,uri://ed-fi.org/CalendarTypeDescriptor#IEP,,,255901005

@@ -99,6 +99,37 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
         }
 
         [Test]
+        public void ShouldParseFromStructuredCodeValue()
+        {
+            var english = LanguageDescriptor.English_eng.GetStructuredCodeValue();
+            var spanish = LanguageDescriptor.Spanish_spa.GetStructuredCodeValue();
+            var french = LanguageDescriptor.French_fre.GetStructuredCodeValue();
+            var firstGrade = GradeLevelDescriptor.FirstGrade.GetStructuredCodeValue();
+
+            english.ParseFromStructuredCodeValue<LanguageDescriptor>().ShouldBe(LanguageDescriptor.English_eng);
+            spanish.ParseFromStructuredCodeValue<LanguageDescriptor>().ShouldBe(LanguageDescriptor.Spanish_spa);
+            french.ParseFromStructuredCodeValue<LanguageDescriptor>().ShouldBe(LanguageDescriptor.French_fre);
+
+            firstGrade.ParseFromStructuredCodeValue<GradeLevelDescriptor>().ShouldBe(GradeLevelDescriptor.FirstGrade);
+
+            Assert.Throws<Exception>(() => firstGrade.ParseFromStructuredCodeValue<LanguageDescriptor>())
+                .Message.ShouldBe("LanguageDescriptor not found for: " + firstGrade);
+        }
+
+        [Test]
+        public void ShouldFindFirstOrDefaultDescriptorMatchingSomeGivenCondition()
+        {
+            DescriptorHelpers.FirstOrDefault<LanguageDescriptor>(x => x.CodeValue == "eng")
+                .ShouldBe(LanguageDescriptor.English_eng);
+
+            DescriptorHelpers.FirstOrDefault<LanguageDescriptor>(x => x.GetStructuredCodeValue() == "uri://ed-fi.org/LanguageDescriptor#spa")
+                .ShouldBe(LanguageDescriptor.Spanish_spa);
+
+            DescriptorHelpers.FirstOrDefault<LanguageDescriptor>(x => x.CodeValue == "TYPO")
+                .ShouldBeNull();
+        }
+
+        [Test]
         public void IsDescriptorFromCodeValue()
         {
             var codeValue = GradeLevelDescriptor.FirstGrade.CodeValue;

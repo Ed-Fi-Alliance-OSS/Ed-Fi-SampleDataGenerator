@@ -25,7 +25,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentProgram
             {
                 var studentProgramAssociation = new List<StudentProgramAssociation>();
 
-                if (context.GetStudentEducationOrganization().GetPrimaryLanguage().Value != LanguageMapType.English.Value)
+                if (context.GetStudentEducationOrganization().GetPrimaryLanguage().GetStructuredCodeValue() != LanguageDescriptor.English_eng.GetStructuredCodeValue())
                 {
                     var program = Configuration.GetProgram(ProgramTypeDescriptor.EnglishAsASecondLanguageESL);
 

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Generators;
-using EdFi.SampleDataGenerator.Core.DataGeneration.Generators.Student;
 using EdFi.SampleDataGenerator.Core.Entities;
 using EdFi.SampleDataGenerator.Core.Helpers;
 using EdFi.SampleDataGenerator.Core.Serialization.Output;
@@ -42,26 +41,26 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
         public void ShouldDetectLanguage()
         {
             var studentEd = new StudentEducationOrganizationAssociation();
-            studentEd.AddLanguage(LanguageMapType.Spanish, LanguageUseType.Homelanguage);
+            studentEd.AddLanguage(LanguageDescriptor.Spanish_spa, LanguageUseDescriptor.HomeLanguage);
 
-            studentEd.SpeaksLanguage(LanguageMapType.Spanish).ShouldBeTrue();
-            studentEd.SpeaksLanguageWithUseType(LanguageMapType.Spanish, LanguageUseType.Homelanguage).ShouldBe(true);
+            studentEd.SpeaksLanguage(LanguageDescriptor.Spanish_spa).ShouldBeTrue();
+            studentEd.SpeaksLanguageWithUseType(LanguageDescriptor.Spanish_spa, LanguageUseDescriptor.HomeLanguage).ShouldBe(true);
         }
 
         [Test]
         public void ShouldNotDetectLanguageIfAnotherLanguageNotSet()
         {
              var studentEd = new StudentEducationOrganizationAssociation();
-            studentEd.AddLanguage(LanguageMapType.English, LanguageUseType.Homelanguage);
+            studentEd.AddLanguage(LanguageDescriptor.English_eng, LanguageUseDescriptor.HomeLanguage);
 
-            studentEd.SpeaksLanguage(LanguageMapType.Spanish).ShouldBeFalse();
+            studentEd.SpeaksLanguage(LanguageDescriptor.Spanish_spa).ShouldBeFalse();
         }
 
         [Test]
         public void ShouldNotDetectLanguageIfNotSet()
         {
              var studentEd = new StudentEducationOrganizationAssociation();
-            studentEd.SpeaksLanguage(LanguageMapType.Spanish).ShouldBeFalse();
+            studentEd.SpeaksLanguage(LanguageDescriptor.Spanish_spa).ShouldBeFalse();
         }
 
         [Test]
@@ -73,21 +72,21 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 {
                     new Language
                     {
-                        Language1 = LanguageMapType.English.Value,
+                        Language1 = LanguageDescriptor.English_eng.GetStructuredCodeValue(),
                         LanguageUse = new[]
                         {
-                            LanguageUseType.Correspondencelanguage.Value,
+                            LanguageUseDescriptor.CorrespondenceLanguage.GetStructuredCodeValue()
                         }
                     }
                 }
             };
 
-            studentEd.AddLanguage(LanguageMapType.English, LanguageUseType.Homelanguage);
+            studentEd.AddLanguage(LanguageDescriptor.English_eng, LanguageUseDescriptor.HomeLanguage);
             studentEd.Language.Length.ShouldBe(1);
-            studentEd.Language[0].Language1.ShouldBe(LanguageMapType.English.Value);
+            studentEd.Language[0].Language1.ShouldBe(LanguageDescriptor.English_eng.GetStructuredCodeValue());
             studentEd.Language[0].LanguageUse.Length.ShouldBe(2);
-            studentEd.Language[0].LanguageUse.Contains(LanguageUseType.Correspondencelanguage.Value).ShouldBeTrue();
-            studentEd.Language[0].LanguageUse.Contains(LanguageUseType.Homelanguage.Value).ShouldBeTrue();
+            studentEd.Language[0].LanguageUse.Contains(LanguageUseDescriptor.CorrespondenceLanguage.GetStructuredCodeValue()).ShouldBeTrue();
+            studentEd.Language[0].LanguageUse.Contains(LanguageUseDescriptor.HomeLanguage.GetStructuredCodeValue()).ShouldBeTrue();
         }
 
         [Test]
@@ -95,11 +94,11 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
         {
              var studentEd = new StudentEducationOrganizationAssociation();
 
-            studentEd.AddLanguage(LanguageMapType.English, LanguageUseType.Homelanguage);
+            studentEd.AddLanguage(LanguageDescriptor.English_eng, LanguageUseDescriptor.HomeLanguage);
             studentEd.Language.Length.ShouldBe(1);
-            studentEd.Language[0].Language1.ShouldBe(LanguageMapType.English.Value);
+            studentEd.Language[0].Language1.ShouldBe(LanguageDescriptor.English_eng.GetStructuredCodeValue());
             studentEd.Language[0].LanguageUse.Length.ShouldBe(1);
-            studentEd.Language[0].LanguageUse.Contains(LanguageUseType.Homelanguage.Value).ShouldBeTrue();
+            studentEd.Language[0].LanguageUse.Contains(LanguageUseDescriptor.HomeLanguage.GetStructuredCodeValue()).ShouldBeTrue();
         }
 
         [Test]
@@ -111,18 +110,18 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 {
                     new Language
                     {
-                        Language1 = LanguageMapType.English.Value,
+                        Language1 = LanguageDescriptor.English_eng.GetStructuredCodeValue(),
                         LanguageUse = new[]
                         {
-                            LanguageUseType.Correspondencelanguage.Value,
+                            LanguageUseDescriptor.CorrespondenceLanguage.GetStructuredCodeValue(),
                         }
                     }
                 }
             };
-            studentEd.AddLanguage(LanguageMapType.Spanish, LanguageUseType.Homelanguage);
+            studentEd.AddLanguage(LanguageDescriptor.Spanish_spa, LanguageUseDescriptor.HomeLanguage);
             studentEd.Language.Length.ShouldBe(2);
-            studentEd.Language.Count(l => l.Language1 == LanguageMapType.Spanish.Value && l.LanguageUse[0] == LanguageUseType.Homelanguage.Value).ShouldBe(1);
-            studentEd.Language.Count(l => l.Language1 == LanguageMapType.English.Value && l.LanguageUse[0] == LanguageUseType.Correspondencelanguage.Value).ShouldBe(1);
+            studentEd.Language.Count(l => l.Language1 == LanguageDescriptor.Spanish_spa.GetStructuredCodeValue() && l.LanguageUse[0] == LanguageUseDescriptor.HomeLanguage.GetStructuredCodeValue()).ShouldBe(1);
+            studentEd.Language.Count(l => l.Language1 == LanguageDescriptor.English_eng.GetStructuredCodeValue() && l.LanguageUse[0] == LanguageUseDescriptor.CorrespondenceLanguage.GetStructuredCodeValue()).ShouldBe(1);
         }
 
         [Test]
@@ -130,11 +129,11 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
         {
              var studentEd = new StudentEducationOrganizationAssociation();
 
-            studentEd.SetPrimaryLanguage(LanguageMapType.English);
+            studentEd.SetPrimaryLanguage(LanguageDescriptor.English_eng);
             studentEd.Language.Length.ShouldBe(1);
-            studentEd.Language[0].Language1.ShouldBe(LanguageMapType.English.Value);
+            studentEd.Language[0].Language1.ShouldBe(LanguageDescriptor.English_eng.GetStructuredCodeValue());
             studentEd.Language[0].LanguageUse.Length.ShouldBe(1);
-            studentEd.Language[0].LanguageUse.Contains(StudentEducationOrganizationHelper.PrimaryLanguageUseType).ShouldBeTrue();
+            studentEd.Language[0].LanguageUse.Contains(StudentEducationOrganizationHelper.PrimaryLanguageUseType.GetStructuredCodeValue()).ShouldBeTrue();
         }
 
         [Test]
@@ -143,10 +142,10 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             var context = BuildContext();
             var studentEd = context.GetStudentEducationOrganization();
 
-            studentEd.SetPrimaryLanguage(LanguageMapType.Spanish);
-            studentEd.AddLanguage(LanguageMapType.English, LanguageUseType.Otherlanguageproficiency);
+            studentEd.SetPrimaryLanguage(LanguageDescriptor.Spanish_spa);
+            studentEd.AddLanguage(LanguageDescriptor.English_eng, LanguageUseDescriptor.OtherLanguageProficiency);
             studentEd.Language.Length.ShouldBe(2);
-            context.GetStudentEducationOrganization().GetPrimaryLanguage().ShouldBe(LanguageMapType.Spanish);
+            context.GetStudentEducationOrganization().GetPrimaryLanguage().ShouldBe(LanguageDescriptor.Spanish_spa);
         }
 
         [Test]
@@ -154,16 +153,16 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
         {
              var studentEd = new StudentEducationOrganizationAssociation();
 
-            studentEd.SetPrimaryLanguage(LanguageMapType.Spanish);
-            Assert.Throws<InvalidOperationException>(() => studentEd.SetPrimaryLanguage(LanguageMapType.English));
+            studentEd.SetPrimaryLanguage(LanguageDescriptor.Spanish_spa);
+            Assert.Throws<InvalidOperationException>(() => studentEd.SetPrimaryLanguage(LanguageDescriptor.English_eng));
         }
 
         [Test]
         public void ShouldThrowIfPrimaryLanguageAddedTwice()
         {
             var studentEd = new StudentEducationOrganizationAssociation();
-            studentEd.SetPrimaryLanguage(LanguageMapType.Spanish);
-            Assert.Throws<InvalidOperationException>(() => studentEd.AddLanguage(LanguageMapType.English, StudentEducationOrganizationHelper.PrimaryLanguageUseType));
+            studentEd.SetPrimaryLanguage(LanguageDescriptor.Spanish_spa);
+            Assert.Throws<InvalidOperationException>(() => studentEd.AddLanguage(LanguageDescriptor.English_eng, StudentEducationOrganizationHelper.PrimaryLanguageUseType));
         }
     }
 }

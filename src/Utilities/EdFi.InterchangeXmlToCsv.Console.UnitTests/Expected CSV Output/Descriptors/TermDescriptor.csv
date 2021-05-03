@@ -1,14 +1,17 @@
-CodeValue,ShortDescription,Description,Namespace,TermMap
-Fall Semester,Fall Semester,Fall Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
-Spring Semester,Spring Semester,Spring Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
-Summer Semester,Summer Semester,Summer Semester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Semester
-First Quarter,First Quarter,First Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
-Second Quarter,Second Quarter,Second Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
-Third Quarter,Third Quarter,Third Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
-Fourth Quarter,Fourth Quarter,Fourth Quarter,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Quarter
-First Trimester,First Trimester,First Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
-Second Trimester,Second Trimester,Second Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
-Third Trimester,Third Trimester,Third Trimester,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Trimester
-MiniTerm,MiniTerm,MiniTerm,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,MiniTerm
-Year Round,Year Round,Year Round,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Year Round
-Other,Other,Other,http://www.ed-fi.org/Descriptor/TermDescriptor.xml,Other
+CodeValue,ShortDescription,Description,Namespace
+Semester,Semester,Semester,uri://ed-fi.org/TermDescriptor
+Fall Semester,Fall Semester,Fall Semester,uri://ed-fi.org/TermDescriptor
+Spring Semester,Spring Semester,Spring Semester,uri://ed-fi.org/TermDescriptor
+Summer Semester,Summer Semester,Summer Semester,uri://ed-fi.org/TermDescriptor
+Quarter,Quarter,Quarter,uri://ed-fi.org/TermDescriptor
+First Quarter,First Quarter,First Quarter,uri://ed-fi.org/TermDescriptor
+Second Quarter,Second Quarter,Second Quarter,uri://ed-fi.org/TermDescriptor
+Third Quarter,Third Quarter,Third Quarter,uri://ed-fi.org/TermDescriptor
+Fourth Quarter,Fourth Quarter,Fourth Quarter,uri://ed-fi.org/TermDescriptor
+Trimester,Trimester,Trimester,uri://ed-fi.org/TermDescriptor
+First Trimester,First Trimester,First Trimester,uri://ed-fi.org/TermDescriptor
+Second Trimester,Second Trimester,Second Trimester,uri://ed-fi.org/TermDescriptor
+Third Trimester,Third Trimester,Third Trimester,uri://ed-fi.org/TermDescriptor
+MiniTerm,MiniTerm,MiniTerm,uri://ed-fi.org/TermDescriptor
+Year Round,Year Round,Year Round,uri://ed-fi.org/TermDescriptor
+Other,Other,Other,uri://ed-fi.org/TermDescriptor

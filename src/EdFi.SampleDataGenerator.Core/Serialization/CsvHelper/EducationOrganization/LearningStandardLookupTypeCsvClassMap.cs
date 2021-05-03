@@ -1,6 +1,5 @@
 using CsvHelper.Configuration;
 using EdFi.SampleDataGenerator.Core.Entities;
-using EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.Descriptors;
 using EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.Standards;
 
 namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrganization
@@ -10,9 +9,9 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrganiz
         public LearningStandardLookupTypeCsvClassMap()
         {
             Map(x => x.LearningStandardId);
-            References<AcademicSubjectDescriptorReferenceTypeCsvClassMap>(x => x.AcademicSubject);
+            Map(x => x.AcademicSubject);
             References<ContentStandardCsvClassMap>(x => x.ContentStandard);
-            References<GradeLevelDescriptorReferenceTypeCsvClassMap>(x => x.GradeLevel);
+            Map(x => x.GradeLevel);
             References<LearningStandardIdentificationCodeCsvClassMap>(x => x.LearningStandardIdentificationCode);
         }
     }

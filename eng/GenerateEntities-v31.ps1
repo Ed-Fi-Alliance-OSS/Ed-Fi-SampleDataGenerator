@@ -4,4 +4,4 @@ $env:PATH = "$env:PATH;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\
 $env:PATH = "$env:PATH;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools"
 
 # Invoke the XSD to C# code generator
-.\Ed-Fi-Ods-Xsd-Generator.ps1 Ed-Fi-Ods-Xsd-Generator-v30.xsd
+.\Ed-Fi-Ods-Xsd-Generator.ps1 Ed-Fi-Ods-Xsd-Generator-v31.xsd

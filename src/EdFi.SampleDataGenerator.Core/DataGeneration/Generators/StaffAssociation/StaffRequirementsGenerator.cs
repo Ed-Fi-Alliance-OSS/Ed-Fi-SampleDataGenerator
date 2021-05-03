@@ -138,15 +138,17 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StaffAssociati
             var programs = sections
                 .Where(x => x.ProgramReference != null && x.ProgramReference.Any())
                 .SelectMany(x => x.ProgramReference)
-                .Select(x => x.ProgramIdentity?.ProgramType ?? ProgramTypeDescriptor.RegularEducation.CodeValue)
+                .Select(x => x.ProgramIdentity?.ProgramType ?? ProgramTypeDescriptor.RegularEducation.GetStructuredCodeValue())
                 .ToList();
 
-            if (!programs.Any() || programs.TrueForAll(p => p == ProgramTypeDescriptor.RegularEducation.CodeValue))
+            if (!programs.Any() || programs.TrueForAll(p => p == ProgramTypeDescriptor.RegularEducation.GetStructuredCodeValue()))
             {
                 return ProgramAssignmentDescriptor.RegularEducation;
             }
 
-            if (programs.Contains(ProgramTypeDescriptor.Bilingual.CodeValue) || programs.Contains(ProgramTypeDescriptor.EnglishAsASecondLanguageESL.CodeValue)|| programs.Contains(ProgramTypeDescriptor.BilingualSummer.CodeValue)) {
+            if (programs.Contains(ProgramTypeDescriptor.Bilingual.GetStructuredCodeValue()) ||
+                programs.Contains(ProgramTypeDescriptor.EnglishAsASecondLanguageESL.GetStructuredCodeValue())||
+                programs.Contains(ProgramTypeDescriptor.BilingualSummer.GetStructuredCodeValue())) {
                 return ProgramAssignmentDescriptor.BilingualEnglishAsASecondLanguage;
             }
 
@@ -173,9 +175,10 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StaffAssociati
         private static bool SectionServesSpanishSpeakingStudents(Section section)
         {
             var populationServedLikelyRequiresSpanish =
-                 (section.PopulationServed == PopulationServedDescriptor.ESLStudents.CodeValue || section.PopulationServed == PopulationServedDescriptor.MigrantStudents.CodeValue);
+                 section.PopulationServed == PopulationServedDescriptor.ESLStudents.GetStructuredCodeValue() ||
+                 section.PopulationServed == PopulationServedDescriptor.MigrantStudents.GetStructuredCodeValue();
 
-            var sectionTaughtInSpanish = section.InstructionLanguage == LanguageMapType.Spanish.Value;
+            var sectionTaughtInSpanish = section.InstructionLanguage == LanguageDescriptor.Spanish_spa.GetStructuredCodeValue();
 
             var isBillengualEslProgram = 
                 GetProgramReference(new[] {section}) == ProgramAssignmentDescriptor.BilingualEnglishAsASecondLanguage;
@@ -188,7 +191,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StaffAssociati
             var gradeLevels = courses
                 .Where(x => x.OfferedGradeLevel != null)
                 .SelectMany(x => x.OfferedGradeLevel)
-                .Select(x => x.ToDescriptorFromCodeValue<GradeLevelDescriptor>())
+                .Select(x => x.ParseFromStructuredCodeValue<GradeLevelDescriptor>())
                 .GroupBy(x => x.CodeValue)
                 .Select(x => x.First())
                 .ToArray();
@@ -209,7 +212,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StaffAssociati
         {
             return courses
                 .Select(x => x.AcademicSubject).Distinct()
-                .Select(a => a.ToDescriptorFromCodeValue<AcademicSubjectDescriptor>()).ToArray();
+                .Select(a => a.ParseFromStructuredCodeValue<AcademicSubjectDescriptor>()).ToArray();
         }
     }
 }

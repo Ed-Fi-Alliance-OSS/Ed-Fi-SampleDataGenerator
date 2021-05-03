@@ -1,89 +1,89 @@
 id,CalendarEvent,Date,CalendarReference.id,CalendarReference.ref,CalendarReference.CalendarIdentity.CalendarCode,CalendarReference.CalendarIdentity.SchoolYear,CalendarReference.CalendarIdentity.SchoolReference.id,CalendarReference.CalendarIdentity.SchoolReference.ref,CalendarReference.CalendarIdentity.SchoolReference.SchoolIdentity.SchoolId
-CLND_20160822Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160823Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160824Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160825Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160826Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160829Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160830Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160831Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160901Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160902Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160822Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160823Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160824Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160825Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160826Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160829Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160830Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160831Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160901Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160902Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20160905Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,9/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160906Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160907Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160908Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160909Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160912Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160913Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160914Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160915Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160916Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160919Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160920Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160921Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160922Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160923Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160926Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160927Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160928Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160929Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160930Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161003Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161004Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161005Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161006Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161007Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161010Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161011Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161012Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161013Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161014Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161017Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161018Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161019Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161020Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161021Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161024Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161025Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161026Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161027Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161028Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161031Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161101Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161102Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161103Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161104Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161107Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161108Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161109Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161110Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161111Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161114Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161115Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161116Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161117Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161118Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161121Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161122Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161123Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160906Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160907Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160908Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160909Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160912Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160913Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160914Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160915Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160916Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160919Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160920Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160921Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160922Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160923Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160926Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160927Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160928Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160929Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160930Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161003Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161004Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161005Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161006Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161007Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161010Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161011Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161012Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161013Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161014Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161017Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161018Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161019Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161020Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161021Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161024Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161025Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161026Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161027Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161028Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161031Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161101Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161102Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161103Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161104Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161107Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161108Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161109Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161110Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161111Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161114Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161115Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161116Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161117Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161118Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161121Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161122Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161123Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161124Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161125Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161128Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161129Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161130Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161201Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161202Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161205Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161206Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161207Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161208Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161209Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161212Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161213Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161214Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161215Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20161216Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161128Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161129Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161130Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161201Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161202Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161205Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161206Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161207Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161208Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161209Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161212Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161213Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161214Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161215Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20161216Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161219Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161220Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161221Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
@@ -95,181 +95,181 @@ CLND_20161228Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/2
 CLND_20161229Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20161230Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
 CLND_20170102Holiday_123456,uri://ed-fi.org/CalendarEventDescriptor#Holiday,1/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170103Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170104Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170105Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170106Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170109Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170110Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170111Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170112Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170113Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170116Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170117Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170118Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170119Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170120Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170123Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170124Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170125Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170126Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170127Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170130Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170131Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170201Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170202Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170203Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170206Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170207Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170208Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170209Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170210Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170213Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170214Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170215Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170216Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170217Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170220Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170221Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170222Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170223Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170224Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170227Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170228Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170301Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170302Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170303Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170306Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170307Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170308Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170309Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170310Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170313Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170314Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170315Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170316Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170317Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170320Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170321Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170322Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170323Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170324Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170327Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170328Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170329Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170330Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170331Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170403Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170404Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170405Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170406Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170407Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170410Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170411Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170412Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170413Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170414Weather day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170417Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170418Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170419Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170420Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170421Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170424Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170425Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170426Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170427Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170428Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170501Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170502Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170503Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170504Instructional day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170505Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20170508Teacher only day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
-CLND_20160822Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160823Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160824Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160825Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160826Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160829Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160830Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160831Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160901Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160902Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170103Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170104Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170105Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170106Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170109Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170110Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170111Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170112Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170113Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170116Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170117Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170118Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170119Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170120Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170123Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170124Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170125Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170126Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170127Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170130Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170131Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170201Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170202Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170203Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170206Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170207Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170208Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170209Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170210Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170213Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170214Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170215Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170216Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170217Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170220Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170221Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170222Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170223Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170224Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170227Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170228Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170301Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170302Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170303Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170306Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170307Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170308Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170309Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170310Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170313Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170314Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170315Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170316Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170317Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170320Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170321Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170322Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170323Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170324Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170327Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170328Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170329Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170330Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170331Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170403Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170404Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170405Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170406Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170407Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170410Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170411Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170412Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170413Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170414Weather_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170417Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170418Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170419Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170420Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170421Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170424Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170425Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170426Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170427Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170428Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170501Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170502Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170503Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170504Instructional_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170505Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20170508Teacher only_day_123456,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456
+CLND_20160822Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160823Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160824Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160825Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160826Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160829Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160830Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160831Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160901Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160902Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20160905Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,9/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160906Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160907Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160908Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160909Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160912Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160913Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160914Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160915Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160916Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160919Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160920Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160921Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160922Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160923Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160926Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160927Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160928Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160929Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160930Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161003Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161004Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161005Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161006Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161007Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161010Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161011Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161012Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161013Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161014Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161017Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161018Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161019Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161020Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161021Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161024Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161025Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161026Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161027Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161028Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161031Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161101Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161102Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161103Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161104Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161107Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161108Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161109Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161110Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161111Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161114Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161115Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161116Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161117Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161118Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161121Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161122Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161123Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160906Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160907Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160908Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160909Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160912Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160913Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160914Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160915Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160916Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160919Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160920Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160921Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160922Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160923Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160926Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160927Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160928Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160929Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160930Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161003Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161004Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161005Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161006Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161007Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161010Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161011Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161012Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161013Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161014Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161017Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161018Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161019Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161020Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161021Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161024Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161025Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161026Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161027Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161028Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161031Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161101Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161102Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161103Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161104Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161107Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161108Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161109Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161110Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161111Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161114Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161115Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161116Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161117Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161118Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161121Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161122Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161123Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161124Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161125Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161128Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161129Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161130Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161201Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161202Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161205Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161206Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161207Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161208Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161209Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161212Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161213Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161214Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161215Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20161216Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161128Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161129Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161130Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161201Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161202Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161205Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161206Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161207Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161208Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161209Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161212Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161213Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161214Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161215Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20161216Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161219Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161220Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161221Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
@@ -281,181 +281,181 @@ CLND_20161228Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/28
 CLND_20161229Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20161230Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
 CLND_20170102Holiday_12346,uri://ed-fi.org/CalendarEventDescriptor#Holiday,1/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170103Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170104Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170105Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170106Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170109Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170110Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170111Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170112Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170113Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170116Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170117Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170118Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170119Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170120Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170123Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170124Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170125Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170126Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170127Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170130Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170131Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170201Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170202Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170203Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170206Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170207Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170208Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170209Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170210Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170213Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170214Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170215Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170216Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170217Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170220Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170221Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170222Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170223Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170224Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170227Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170228Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170301Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170302Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170303Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170306Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170307Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170308Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170309Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170310Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170313Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170314Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170315Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170316Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170317Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170320Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170321Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170322Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170323Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170324Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170327Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170328Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170329Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170330Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170331Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170403Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170404Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170405Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170406Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170407Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170410Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170411Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170412Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170413Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170414Weather day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170417Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170418Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170419Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170420Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170421Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170424Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170425Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170426Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170427Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170428Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170501Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170502Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170503Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170504Instructional day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170505Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20170508Teacher only day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
-CLND_20160822Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160823Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160824Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160825Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160826Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160829Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160830Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160831Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160901Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160902Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170103Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170104Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170105Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170106Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170109Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170110Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170111Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170112Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170113Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170116Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170117Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170118Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170119Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170120Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170123Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170124Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170125Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170126Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170127Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170130Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170131Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170201Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170202Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170203Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170206Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170207Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170208Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170209Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170210Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170213Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170214Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170215Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170216Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170217Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170220Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170221Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170222Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170223Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170224Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170227Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170228Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170301Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170302Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170303Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170306Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170307Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170308Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170309Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170310Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170313Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170314Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170315Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170316Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170317Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170320Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170321Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170322Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170323Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170324Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170327Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170328Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170329Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170330Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170331Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170403Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170404Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170405Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170406Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170407Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170410Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170411Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170412Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170413Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170414Weather_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170417Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170418Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170419Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170420Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170421Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170424Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170425Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170426Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170427Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170428Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170501Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170502Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170503Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170504Instructional_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170505Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20170508Teacher only_day_12346,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,12346
+CLND_20160822Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160823Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160824Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160825Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160826Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160829Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,8/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160830Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160831Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,8/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160901Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160902Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20160905Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,9/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160906Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160907Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160908Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160909Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160912Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160913Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160914Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160915Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160916Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160919Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160920Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160921Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160922Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160923Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160926Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160927Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160928Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160929Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20160930Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161003Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161004Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161005Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161006Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161007Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161010Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161011Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161012Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161013Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161014Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161017Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161018Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161019Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161020Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161021Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161024Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161025Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161026Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161027Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161028Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161031Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161101Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161102Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161103Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161104Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161107Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161108Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161109Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161110Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161111Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161114Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161115Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161116Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161117Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161118Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161121Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161122Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161123Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160906Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160907Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160908Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160909Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,9/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160912Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160913Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160914Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160915Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160916Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160919Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160920Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160921Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160922Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160923Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160926Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160927Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160928Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160929Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,9/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20160930Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,9/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161003Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161004Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161005Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161006Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161007Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161010Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161011Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161012Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161013Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161014Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161017Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,10/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161018Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161019Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161020Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161021Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161024Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161025Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161026Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/26/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161027Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,10/27/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161028Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161031Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,10/31/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161101Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161102Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161103Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/3/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161104Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/4/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161107Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161108Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161109Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161110Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/10/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161111Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,11/11/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161114Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161115Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161116Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161117Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/17/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161118Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/18/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161121Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161122Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/22/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161123Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/23/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161124Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/24/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161125Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,11/25/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161128Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161129Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161130Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161201Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161202Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161205Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161206Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161207Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161208Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161209Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161212Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161213Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161214Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161215Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20161216Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161128Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,11/28/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161129Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161130Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,11/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161201Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/1/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161202Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,12/2/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161205Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/5/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161206Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/6/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161207Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/7/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161208Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/8/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161209Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/9/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161212Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/12/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161213Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/13/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161214Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/14/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161215Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,12/15/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20161216Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,12/16/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161219Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/19/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161220Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/20/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161221Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/21/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
@@ -467,93 +467,93 @@ CLND_20161228Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,1
 CLND_20161229Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/29/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20161230Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,12/30/2016 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
 CLND_20170102Holiday_123456001,uri://ed-fi.org/CalendarEventDescriptor#Holiday,1/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170103Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170104Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170105Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170106Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170109Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170110Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170111Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170112Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170113Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170116Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170117Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170118Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170119Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170120Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170123Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170124Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170125Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170126Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170127Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170130Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170131Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170201Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170202Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170203Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170206Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170207Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170208Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170209Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170210Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170213Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170214Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170215Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170216Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170217Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170220Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170221Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170222Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170223Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170224Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170227Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170228Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170301Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170302Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170303Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170306Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170307Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170308Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170309Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170310Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170313Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170314Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170315Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170316Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170317Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170320Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170321Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170322Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170323Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170324Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170327Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170328Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170329Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170330Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170331Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170403Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170404Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170405Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170406Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170407Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170410Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170411Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170412Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170413Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170414Weather day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170417Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170418Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170419Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170420Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170421Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170424Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170425Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170426Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170427Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170428Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170501Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170502Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170503Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170504Instructional day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170505Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
-CLND_20170508Teacher only day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170103Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170104Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170105Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170106Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170109Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170110Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170111Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170112Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170113Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170116Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170117Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170118Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170119Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170120Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,1/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170123Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170124Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170125Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170126Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170127Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170130Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,1/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170131Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,1/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170201Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170202Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170203Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170206Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170207Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170208Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170209Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170210Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170213Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,2/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170214Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170215Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170216Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170217Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170220Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170221Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170222Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170223Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170224Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170227Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,2/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170228Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,2/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170301Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170302Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170303Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170306Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170307Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170308Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170309Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/9/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170310Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170313Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170314Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170315Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/15/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170316Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/16/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170317Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170320Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170321Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170322Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/22/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170323Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/23/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170324Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170327Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,3/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170328Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170329Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/29/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170330Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,3/30/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170331Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,3/31/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170403Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170404Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170405Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170406Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/6/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170407Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/7/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170410Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/10/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170411Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/11/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170412Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/12/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170413Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/13/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170414Weather_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Weather day,4/14/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170417Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/17/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170418Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/18/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170419Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/19/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170420Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/20/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170421Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/21/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170424Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/24/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170425Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/25/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170426Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/26/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170427Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,4/27/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170428Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,4/28/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170501Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/1/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170502Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/2/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170503Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/3/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170504Instructional_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Instructional day,5/4/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170505Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/5/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001
+CLND_20170508Teacher only_day_123456001,uri://ed-fi.org/CalendarEventDescriptor#Teacher only day,5/8/2017 12:00:00 AM,,,Calendar Code,2016-2017,,,123456001

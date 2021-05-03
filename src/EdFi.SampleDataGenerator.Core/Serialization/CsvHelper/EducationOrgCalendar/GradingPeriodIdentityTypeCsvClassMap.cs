@@ -1,5 +1,6 @@
 ﻿using CsvHelper.Configuration;
 using EdFi.SampleDataGenerator.Core.Entities;
+using EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrganization;
 
 namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrgCalendar
 {
@@ -10,6 +11,7 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrgCale
             Map(x => x.GradingPeriod);
             Map(x => x.PeriodSequence);
             Map(x => x.SchoolYear).ConvertEnumerationType();
+            References<SchoolReferenceTypeCsvClassMap>(x => x.SchoolReference);
         }
     }
 }

@@ -6,26 +6,26 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
     {
         public static int GetNumericGradeLevel(this string grade)
         {
-            if (grade == GradeLevelDescriptor.Kindergarten.CodeValue) return 0;
-            if (grade == GradeLevelDescriptor.FirstGrade.CodeValue) return 1;
-            if (grade == GradeLevelDescriptor.SecondGrade.CodeValue) return 2;
-            if (grade == GradeLevelDescriptor.ThirdGrade.CodeValue) return 3;
-            if (grade == GradeLevelDescriptor.FourthGrade.CodeValue) return 4;
-            if (grade == GradeLevelDescriptor.FifthGrade.CodeValue) return 5;
-            if (grade == GradeLevelDescriptor.SixthGrade.CodeValue) return 6;
-            if (grade == GradeLevelDescriptor.SeventhGrade.CodeValue) return 7;
-            if (grade == GradeLevelDescriptor.EighthGrade.CodeValue) return 8;
-            if (grade == GradeLevelDescriptor.NinthGrade.CodeValue) return 9;
-            if (grade == GradeLevelDescriptor.TenthGrade.CodeValue) return 10;
-            if (grade == GradeLevelDescriptor.EleventhGrade.CodeValue) return 11;
-            if (grade == GradeLevelDescriptor.TwelfthGrade.CodeValue) return 12;
-
-            return 99;
+            return grade.ParseFromStructuredCodeValue<GradeLevelDescriptor>().GetNumericGradeLevel();
         }
 
         public static int GetNumericGradeLevel(this GradeLevelDescriptor grade)
         {
-            return grade.CodeValue.GetNumericGradeLevel();
+            if (grade.CodeValue == GradeLevelDescriptor.Kindergarten.CodeValue) return 0;
+            if (grade.CodeValue == GradeLevelDescriptor.FirstGrade.CodeValue) return 1;
+            if (grade.CodeValue == GradeLevelDescriptor.SecondGrade.CodeValue) return 2;
+            if (grade.CodeValue == GradeLevelDescriptor.ThirdGrade.CodeValue) return 3;
+            if (grade.CodeValue == GradeLevelDescriptor.FourthGrade.CodeValue) return 4;
+            if (grade.CodeValue == GradeLevelDescriptor.FifthGrade.CodeValue) return 5;
+            if (grade.CodeValue == GradeLevelDescriptor.SixthGrade.CodeValue) return 6;
+            if (grade.CodeValue == GradeLevelDescriptor.SeventhGrade.CodeValue) return 7;
+            if (grade.CodeValue == GradeLevelDescriptor.EighthGrade.CodeValue) return 8;
+            if (grade.CodeValue == GradeLevelDescriptor.NinthGrade.CodeValue) return 9;
+            if (grade.CodeValue == GradeLevelDescriptor.TenthGrade.CodeValue) return 10;
+            if (grade.CodeValue == GradeLevelDescriptor.EleventhGrade.CodeValue) return 11;
+            if (grade.CodeValue == GradeLevelDescriptor.TwelfthGrade.CodeValue) return 12;
+
+            return 99;
         }
 
         /// <summary>

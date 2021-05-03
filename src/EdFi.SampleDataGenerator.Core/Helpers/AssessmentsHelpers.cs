@@ -19,9 +19,8 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
 
             return
                 from assessment in assessments
-                let maxGradeLevel = assessment.AssessedGradeLevel.GetNumericGradeLevel()
-                let minGradeLevel = assessment.LowestAssessedGradeLevel?.GetNumericGradeLevel() ??
-                                    maxGradeLevel
+                let maxGradeLevel = assessment.AssessedGradeLevel.Select(x => x.GetNumericGradeLevel()).Max()
+                let minGradeLevel = assessment.AssessedGradeLevel.Select(x => x.GetNumericGradeLevel()).Min()
                 where targetGradeLevel >= minGradeLevel && targetGradeLevel <= maxGradeLevel
                 select assessment;
         }

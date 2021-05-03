@@ -119,7 +119,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentGrade
                 LetterGradeEarned = letterGrade.DisplayName,
                 NumericGradeEarned = course.CourseGradeAverage,
                 NumericGradeEarnedSpecified = true,
-                DiagnosticStatement = string.Empty,
+                DiagnosticStatement = null,
                 GradeType = gradeType.GetStructuredCodeValue(),
                 PerformanceBaseConversion = letterGrade.ToPerformanceBaseConversionDescriptor().GetStructuredCodeValue(),
                 StudentSectionAssociationReference = studentSectionAssociation.GetStudentSectionAssociationReference(),

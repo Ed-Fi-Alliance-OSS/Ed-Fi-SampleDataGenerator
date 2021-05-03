@@ -1,20 +1,21 @@
-CodeValue,ShortDescription,Description,Namespace,StaffClassificationMap
-Instructional Aide,Instructional Aide,Instructional Aide,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Instructional Aide
-School Administrator,School Administrator,School Administrator,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,School Administrator
-Librarians/Media Specialists,Librarians/Media Specialists,Librarians/Media Specialists,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Librarians/Media Specialists
-Substitute Teacher,Substitute Teacher,Substitute Teacher,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Substitute Teacher
-Counselor,Counselor,Counselor,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Counselor
-Principal,Principal,Principal,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Principal
-Teacher,Teacher,Teacher,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Teacher
-Assistant Principal,Assistant Principal,Assistant Principal,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Assistant Principal
-Operational Support,Operational Support,Operational Support,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Operational Support
-Superintendent,Superintendent,Superintendent,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Superintendent
-Instructional Coordinator,Instructional Coordinator,Instructional Coordinator,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Instructional Coordinator
-School Leader,School Leader,School Leader,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,School Leader
-Assistant Superintendent,Assistant Superintendent,Assistant Superintendent,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Assistant Superintendent
-Other,Other,Other,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Other
-Support Services Staff,Support Services Staff,Support Services Staff,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,Support Services Staff
-LEA Specialist,LEA Specialist,LEA Specialist,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,LEA Specialist
-State Administrator,State Administrator,State Administrator,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,State Administrator
-LEA Administrator,LEA Administrator,LEA Administrator,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,LEA Administrator
-School Specialist,School Specialist,School Specialist,http://www.ed-fi.org/Descriptor/StaffClassificationDescriptor.xml,School Specialist
+CodeValue,ShortDescription,Description,Namespace
+Instructional Aide,Instructional Aide,Instructional Aide,uri://ed-fi.org/StaffClassificationDescriptor
+School Administrator,School Administrator,School Administrator,uri://ed-fi.org/StaffClassificationDescriptor
+Librarians/Media Specialists,Librarians/Media Specialists,Librarians/Media Specialists,uri://ed-fi.org/StaffClassificationDescriptor
+Substitute Teacher,Substitute Teacher,Substitute Teacher,uri://ed-fi.org/StaffClassificationDescriptor
+Counselor,Counselor,Counselor,uri://ed-fi.org/StaffClassificationDescriptor
+Principal,Principal,Principal,uri://ed-fi.org/StaffClassificationDescriptor
+Teacher,Teacher,Teacher,uri://ed-fi.org/StaffClassificationDescriptor
+Assistant Principal,Assistant Principal,Assistant Principal,uri://ed-fi.org/StaffClassificationDescriptor
+Operational Support,Operational Support,Operational Support,uri://ed-fi.org/StaffClassificationDescriptor
+Superintendent,Superintendent,Superintendent,uri://ed-fi.org/StaffClassificationDescriptor
+Instructional Coordinator,Instructional Coordinator,Instructional Coordinator,uri://ed-fi.org/StaffClassificationDescriptor
+School Leader,School Leader,School Leader,uri://ed-fi.org/StaffClassificationDescriptor
+Assistant Superintendent,Assistant Superintendent,Assistant Superintendent,uri://ed-fi.org/StaffClassificationDescriptor
+Other,Other,Other,uri://ed-fi.org/StaffClassificationDescriptor
+Support Services Staff,Support Services Staff,Support Services Staff,uri://ed-fi.org/StaffClassificationDescriptor
+LEA Specialist,LEA Specialist,LEA Specialist,uri://ed-fi.org/StaffClassificationDescriptor
+State Administrator,State Administrator,State Administrator,uri://ed-fi.org/StaffClassificationDescriptor
+LEA Administrator,LEA Administrator,LEA Administrator,uri://ed-fi.org/StaffClassificationDescriptor
+School Specialist,School Specialist,School Specialist,uri://ed-fi.org/StaffClassificationDescriptor
+LEA System Administrator,LEA System Administrator,LEA System Administrator,uri://ed-fi.org/StaffClassificationDescriptor

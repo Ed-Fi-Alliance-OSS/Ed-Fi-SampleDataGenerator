@@ -1,6 +1,6 @@
-CodeValue,ShortDescription,Description,Namespace,GraduationPlanTypeMap
-Career and Technical Education,Career and Technical Education,Career and Technical Education,http://ed-fi.org/Descriptor/GraduationPlanTypeDescriptor.xml,Career and Technical Education
-Distinguished,Distinguished,Distinguished,http://ed-fi.org/Descriptor/GraduationPlanTypeDescriptor.xml,Distinguished
-Minimum,Minimum,Minimum,http://ed-fi.org/Descriptor/GraduationPlanTypeDescriptor.xml,Minimum
-Recommended,Recommended,Recommended,http://ed-fi.org/Descriptor/GraduationPlanTypeDescriptor.xml,Recommended
-Standard,Standard,Standard,http://ed-fi.org/Descriptor/GraduationPlanTypeDescriptor.xml,Standard
+CodeValue,ShortDescription,Description,Namespace
+Career and Technical Education,Career and Technical Education,Career and Technical Education,uri://ed-fi.org/GraduationPlanTypeDescriptor
+Distinguished,Distinguished,Distinguished,uri://ed-fi.org/GraduationPlanTypeDescriptor
+Minimum,Minimum,Minimum,uri://ed-fi.org/GraduationPlanTypeDescriptor
+Recommended,Recommended,Recommended,uri://ed-fi.org/GraduationPlanTypeDescriptor
+Standard,Standard,Standard,uri://ed-fi.org/GraduationPlanTypeDescriptor

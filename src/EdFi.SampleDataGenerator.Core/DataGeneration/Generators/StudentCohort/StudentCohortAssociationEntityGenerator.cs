@@ -44,13 +44,13 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentCohort
         private StudentCohortAssociation AcademicInterventionStudentCohortAssociation(StudentDataGeneratorContext context, IEnumerable<Cohort> cohorts)
         {
             var studentGrades = context.GeneratedStudentData.StudentGradeData.Grades;
-            var academicInterventionCohort = cohorts.FirstOrDefault(x => x.CohortType == CohortTypeDescriptor.AcademicIntervention.CodeValue);
+            var academicInterventionCohort = cohorts.FirstOrDefault(x => x.CohortType == CohortTypeDescriptor.AcademicIntervention.GetStructuredCodeValue());
 
             var performanceForAcademicIntervention = new []
             {
-                PerformanceBaseConversionDescriptor.BelowBasic.CodeValue,
-                PerformanceBaseConversionDescriptor.WellBelowBasic.CodeValue,
-                PerformanceBaseConversionDescriptor.Fail.CodeValue,
+                PerformanceBaseConversionDescriptor.BelowBasic.GetStructuredCodeValue(),
+                PerformanceBaseConversionDescriptor.WellBelowBasic.GetStructuredCodeValue(),
+                PerformanceBaseConversionDescriptor.Fail.GetStructuredCodeValue(),
             };
 
             var letterGradesForAcademicIntervention = new []
@@ -83,7 +83,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentCohort
                 studentDisciplineIncidentAssociations.Any(
                     x =>
                         DisciplineHelpers.PerpetratorCodeDescriptors.ToStructuredCodeValueFormatArray().Contains(x.StudentParticipationCode) &&
-                         x.Behavior != null && x.Behavior.Any(behavior => DisciplineHelpers.SeriousBehaviors.ToCodeValueArray().Contains(behavior.Behavior1))))
+                         x.Behavior != null && x.Behavior.Any(behavior => DisciplineHelpers.SeriousBehaviors.ToStructuredCodeValueFormatArray().Contains(behavior.Behavior1))))
             {
                 return CreateStudentCohortAssociation(disciplineInterventionCohort, context.Student);
             }
@@ -95,7 +95,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentCohort
         {
             var studentSectionAttendanceEvents = context.GeneratedStudentData.StudentAttendanceData.StudentSectionAttendanceEvents;
             var studentSectionAssociations = context.GeneratedStudentData.StudentEnrollmentData.StudentSectionAssociations;
-            var attendanceInterventionCohort = cohorts.FirstOrDefault(x => x.CohortType == CohortTypeDescriptor.AttendanceIntervention.CodeValue);
+            var attendanceInterventionCohort = cohorts.FirstOrDefault(x => x.CohortType == CohortTypeDescriptor.AttendanceIntervention.GetStructuredCodeValue());
             
             var numberOfAbsenceEvents =
                 studentSectionAttendanceEvents.Count(

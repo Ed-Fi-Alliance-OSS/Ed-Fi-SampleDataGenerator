@@ -140,7 +140,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Serialization.CsvHelper
                 }
             };
             var expectedResult =
-                $"id,SessionName,SchoolYear,BeginDate,EndDate,TotalInstructionalDays,Term,id,ref,SchoolId,id,ref,GradingPeriod,PeriodSequence,SchoolYear\r\n,,2017-2018,6/13/2018 12:00:00 AM,1/1/0001 12:00:00 AM,0,,,,,1,1,,,\r\n";
+                $"id,SessionName,SchoolYear,BeginDate,EndDate,TotalInstructionalDays,Term,id,ref,SchoolId,id,ref,GradingPeriod,PeriodSequence,SchoolYear,id,ref,SchoolId\r\n,,2017-2018,6/13/2018 12:00:00 AM,1/1/0001 12:00:00 AM,0,,,,,1,1,,,,,,\r\n";
 
             var map = new SessionCsvClassMap();
             using (var writer = new StringWriter())

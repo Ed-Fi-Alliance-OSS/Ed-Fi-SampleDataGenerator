@@ -12820,7 +12820,106 @@
 
 	}
 
-	public partial class LocalEducationAgencyCategoryDescriptor
+    public partial class LocaleDescriptor
+    {
+        public static readonly LocaleDescriptor CityLarge = new LocaleDescriptor
+        {
+            CodeValue = "City-Large",
+            ShortDescription = "City-Large",
+            Description = "City-Large",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor CityMidsize = new LocaleDescriptor
+        {
+            CodeValue = "City-Midsize",
+            ShortDescription = "City-Midsize",
+            Description = "City-Midsize",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor CitySmall = new LocaleDescriptor
+        {
+            CodeValue = "City-Small",
+            ShortDescription = "City-Small",
+            Description = "City-Small",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor SuburbanLarge = new LocaleDescriptor
+        {
+            CodeValue = "Suburban-Large",
+            ShortDescription = "Suburban-Large",
+            Description = "Suburban-Large",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor SuburbanMidsize = new LocaleDescriptor
+        {
+            CodeValue = "Suburban-Midsize",
+            ShortDescription = "Suburban-Midsize",
+            Description = "Suburban-Midsize",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor SuburbanSmall = new LocaleDescriptor
+        {
+            CodeValue = "Suburban-Small",
+            ShortDescription = "Suburban-Small",
+            Description = "Suburban-Small",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor TownFringe = new LocaleDescriptor
+        {
+            CodeValue = "Town-Fringe",
+            ShortDescription = "Town-Fringe",
+            Description = "Town-Fringe",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor TownDistant = new LocaleDescriptor
+        {
+            CodeValue = "Town-Distant",
+            ShortDescription = "Town-Distant",
+            Description = "Town-Distant",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor TownRemote = new LocaleDescriptor
+        {
+            CodeValue = "Town-Remote",
+            ShortDescription = "Town-Remote",
+            Description = "Town-Remote",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor RuralFringe = new LocaleDescriptor
+        {
+            CodeValue = "Rural-Fringe",
+            ShortDescription = "Rural-Fringe",
+            Description = "Rural-Fringe",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor RuralDistant = new LocaleDescriptor
+        {
+            CodeValue = "Rural-Distant",
+            ShortDescription = "Rural-Distant",
+            Description = "Rural-Distant",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+
+        public static readonly LocaleDescriptor RuralRemote = new LocaleDescriptor
+        {
+            CodeValue = "Rural-Remote",
+            ShortDescription = "Rural-Remote",
+            Description = "Rural-Remote",
+            Namespace = "uri://ed-fi.org/LocaleDescriptor",
+        };
+    }
+
+    public partial class LocalEducationAgencyCategoryDescriptor
 	{
 		public static readonly LocalEducationAgencyCategoryDescriptor Charter = new LocalEducationAgencyCategoryDescriptor
 		{
@@ -18440,17 +18539,17 @@
 
 		public static readonly TitleIPartASchoolDesignationDescriptor TitleISchoolwideEligibleSchoolNoProgram = new TitleIPartASchoolDesignationDescriptor
 		{
-			CodeValue = "Title I Schoolwide Eligible School - No Program",
-			ShortDescription = "Title I Schoolwide Eligible School - No Program",
-			Description = "Title I Schoolwide Eligible School - No Program",
+			CodeValue = "Title I Schoolwide Eligible School-No Program",
+			ShortDescription = "Title I Schoolwide Eligible School-No Program",
+			Description = "Title I Schoolwide Eligible School-No Program",
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 
-		public static readonly TitleIPartASchoolDesignationDescriptor TitleISchoolwideEligibleTitleITargetedAssistanceProgram = new TitleIPartASchoolDesignationDescriptor
+		public static readonly TitleIPartASchoolDesignationDescriptor TitleISchoolwideEligibleTargetAssistProgram = new TitleIPartASchoolDesignationDescriptor
 		{
-			CodeValue = "Title I Schoolwide eligible-Target Assist Program",
-			ShortDescription = "Title I Schoolwide Eligible-Title I Targeted Assistance Program",
-			Description = "Title I Schoolwide Eligible-Title I Targeted Assistance Program",
+			CodeValue = "Title I Schoolwide Eligible-Target Assist Program",
+			ShortDescription = "Title I Schoolwide Eligible-Target Assist Program",
+			Description = "Title I Schoolwide Eligible-Target Assist Program",
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 
@@ -18462,11 +18561,11 @@
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 
-		public static readonly TitleIPartASchoolDesignationDescriptor TitleITargetedAssistanceEligibleSchoolNoProgram = new TitleIPartASchoolDesignationDescriptor
+		public static readonly TitleIPartASchoolDesignationDescriptor TitleITargetedAssistanceEligibleNoProgram = new TitleIPartASchoolDesignationDescriptor
 		{
 			CodeValue = "Title I Targeted Assistance Eligible-No Program",
-			ShortDescription = "Title I Targeted Assistance Eligible School- No Program",
-			Description = "Title I Targeted Assistance Eligible School- No Program",
+			ShortDescription = "Title I Targeted Assistance Eligible-No Program",
+			Description = "Title I Targeted Assistance Eligible-No Program",
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 
@@ -18478,11 +18577,11 @@
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 
-		public static readonly TitleIPartASchoolDesignationDescriptor MissingDataNotAvailableToTheSEAAtTheTimeTheFileIsSubmitted = new TitleIPartASchoolDesignationDescriptor
+		public static readonly TitleIPartASchoolDesignationDescriptor Missing = new TitleIPartASchoolDesignationDescriptor
 		{
 			CodeValue = "Missing",
-			ShortDescription = "Missing - Data not available to the SEA at the time the file is submitted.",
-			Description = "Missing - Data are not available to the SEA at the time the file is submitted.",
+			ShortDescription = "Missing",
+			Description = "Missing",
 			Namespace = "uri://ed-fi.org/TitleIPartASchoolDesignationDescriptor",
 		};
 

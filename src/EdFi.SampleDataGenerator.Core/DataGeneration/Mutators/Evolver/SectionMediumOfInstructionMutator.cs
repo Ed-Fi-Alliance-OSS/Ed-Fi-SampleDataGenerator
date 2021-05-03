@@ -7,6 +7,7 @@ using EdFi.SampleDataGenerator.Core.DataGeneration.Generators;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Generators.MasterSchedule;
 using EdFi.SampleDataGenerator.Core.DataGeneration.InterchangeEntities;
 using EdFi.SampleDataGenerator.Core.Entities;
+using EdFi.SampleDataGenerator.Core.Helpers;
 
 namespace EdFi.SampleDataGenerator.Core.DataGeneration.Mutators.Evolver
 {
@@ -38,7 +39,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Mutators.Evolver
                 {
                     var newValue = MediumOfInstructionDescriptor.FaceToFaceInstruction;
 
-                    section.MediumOfInstruction = newValue.CodeValue;
+                    section.MediumOfInstruction = newValue.GetStructuredCodeValue();
 
                     yield return MutationResult.NewMutation(null, newValue);
                 }

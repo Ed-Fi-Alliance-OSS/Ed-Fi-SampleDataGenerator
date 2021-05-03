@@ -51,7 +51,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Test",
                 EducationOrganizationReference = new EducationOrganizationReferenceType {},
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -75,7 +75,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Foo",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -90,7 +90,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Bar",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -106,7 +106,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -114,7 +114,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Foo",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -130,7 +130,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationIdentity = new EducationOrganizationIdentityType { EducationOrganizationId = 1 } },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -138,7 +138,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Foo",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationIdentity = new EducationOrganizationIdentityType { EducationOrganizationId = 1 } },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -154,7 +154,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationLookup = new EducationOrganizationLookupType { EducationOrganizationId = 1} },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -162,7 +162,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Foo",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationLookup = new EducationOrganizationLookupType { EducationOrganizationId = 1 } },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -178,7 +178,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -186,7 +186,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Test",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Bar" },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -202,7 +202,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationIdentity = new EducationOrganizationIdentityType {EducationOrganizationId = 1} },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -210,7 +210,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Test",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { EducationOrganizationIdentity = new EducationOrganizationIdentityType { EducationOrganizationId = 2 } },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -226,7 +226,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Minimum.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Minimum.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19901991
                 }
             };
@@ -234,7 +234,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Test",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 
@@ -250,7 +250,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
                 GraduationPlanIdentity = new GraduationPlanIdentityType
                 {
                     EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                     GraduationSchoolYear = SchoolYearType.Item19911992
                 }
             };
@@ -258,7 +258,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 id = "Test",
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = "Foo" },
-                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.CodeValue,
+                GraduationPlanType = GraduationPlanTypeDescriptor.Recommended.GetStructuredCodeValue(),
                 GraduationSchoolYear = SchoolYearType.Item19901991
             };
 

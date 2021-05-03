@@ -14,10 +14,8 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
             {
                 AssessmentIdentity = new AssessmentIdentityType
                 {
-                    AssessmentTitle = assessment.AssessmentTitle,
-                    AcademicSubject = assessment.AcademicSubject,
-                    AssessmentVersion = assessment.AssessmentVersion,
-                    AssessedGradeLevel = assessment.AssessedGradeLevel
+                    AssessmentIdentifier = assessment.AssessmentIdentifier,
+                    Namespace = assessment.Namespace
                 }
             };
         }
@@ -134,7 +132,6 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
         {
             return new StudentDisciplineIncidentAssociationReferenceType
             {
-                @ref = disciplineIncident.id,
                 StudentDisciplineIncidentAssociationIdentity = new StudentDisciplineIncidentAssociationIdentityType
                 {
                     DisciplineIncidentReference = new DisciplineIncidentReferenceType
@@ -153,7 +150,6 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
         {
             return new DisciplineIncidentReferenceType
             {
-                @ref = disciplineIncident.id,
                 DisciplineIncidentIdentity = new DisciplineIncidentIdentityType
                 {
                     IncidentIdentifier = disciplineIncident.IncidentIdentifier,
@@ -300,17 +296,6 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
                            (reference1.SchoolIdentity != null && reference2.SchoolIdentity != null && reference1.SchoolIdentity.SchoolId == reference2.SchoolIdentity.SchoolId) ||
                            (reference1.SchoolLookup != null && reference2.SchoolLookup != null && reference1.SchoolLookup.SchoolId == reference2.SchoolLookup.SchoolId)
                        )
-                   );
-        }
-
-        public static bool ReferencesSameDescriptorAs(this DescriptorReferenceType descriptorReference1, DescriptorReferenceType descriptorReference2)
-        {
-            return descriptorReference1 != null &&
-                   descriptorReference2 != null &&
-                   (
-                        !string.IsNullOrEmpty(descriptorReference1.CodeValue) &&
-                        string.Equals(descriptorReference1.CodeValue, descriptorReference2.CodeValue, StringComparison.OrdinalIgnoreCase) &&
-                        string.Equals(descriptorReference1.Namespace, descriptorReference2.Namespace, StringComparison.OrdinalIgnoreCase)
                    );
         }
 

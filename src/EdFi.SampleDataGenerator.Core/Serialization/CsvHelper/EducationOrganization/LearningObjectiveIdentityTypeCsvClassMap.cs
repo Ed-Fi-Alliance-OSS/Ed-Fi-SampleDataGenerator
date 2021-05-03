@@ -7,7 +7,8 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.EducationOrganiz
     {
         public LearningObjectiveIdentityTypeCsvClassMap()
         {
-            Map(x => x.Objective);
+            Map(x => x.LearningObjectiveId);
+            Map(x => x.Namespace);
         }
     }
 }

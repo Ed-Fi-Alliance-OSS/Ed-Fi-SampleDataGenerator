@@ -53,13 +53,20 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentEnrollm
 
             var dataPeriodDateRange = dataPeriod.AsDateRange();
 
-            var transcriptSessionsToGenerateThisDataPeriod = context.GeneratedStudentData.StudentTranscriptData.StudentTranscriptSessions
-                .Where
-                (
-                    session => 
-                        (session.BeganInDateRange(dataPeriodDateRange) && session.StudentEnrolledAtStartOfSession(context.EnrollmentDateRange)) ||
-                        (session.IsInProgressDuring(dataPeriodDateRange) && session.StudentBecameEnrolledDuringSession(context.EnrollmentDateRange)) 
-                );
+            var transcriptSessionsToGenerateThisDataPeriod = context.GeneratedStudentData.StudentTranscriptData
+                .StudentTranscriptSessions
+                .Where(session =>
+                {
+                    if (session.Session == null)
+                        return false;
+
+                    var sessionDateRange = session.Session.AsDateRange();
+                    var enrollmentDateRange = context.EnrollmentDateRange;
+
+                    var sectionAssociationBeginDate = sessionDateRange.Intersect(enrollmentDateRange)?.StartDate;
+
+                    return sectionAssociationBeginDate != null && dataPeriodDateRange.Contains(sectionAssociationBeginDate.Value);
+                });
 
             foreach (var transcriptSession in transcriptSessionsToGenerateThisDataPeriod)
             {

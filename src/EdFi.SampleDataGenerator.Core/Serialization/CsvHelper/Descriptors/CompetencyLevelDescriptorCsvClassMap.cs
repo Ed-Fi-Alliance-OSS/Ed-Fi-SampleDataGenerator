@@ -17,8 +17,4 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.Descriptors
             ExtensionMappings();
         }
     }
-
-    public sealed class CompetencyLevelDescriptorReferenceTypeCsvClassMap : DescriptorReferenceTypeCsvClassMap<CompetencyLevelDescriptorReferenceType>
-    {
-    }
 }

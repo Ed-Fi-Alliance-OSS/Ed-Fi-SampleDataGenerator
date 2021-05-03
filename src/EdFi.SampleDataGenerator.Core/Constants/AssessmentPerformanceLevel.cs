@@ -1,4 +1,5 @@
 ﻿using EdFi.SampleDataGenerator.Core.Entities;
+using EdFi.SampleDataGenerator.Core.Helpers;
 
 namespace EdFi.SampleDataGenerator.Core.Constants
 {
@@ -6,17 +7,17 @@ namespace EdFi.SampleDataGenerator.Core.Constants
     {
         public static readonly string[] PerformanceLevelMetValues =
         {
-            PerformanceBaseConversionDescriptor.Pass.CodeValue,
-            PerformanceBaseConversionDescriptor.Basic.CodeValue,
-            PerformanceBaseConversionDescriptor.Proficient.CodeValue,
-            PerformanceBaseConversionDescriptor.Advanced.CodeValue,
+            PerformanceLevelDescriptor.Pass.GetStructuredCodeValue(),
+            PerformanceLevelDescriptor.Basic.GetStructuredCodeValue(),
+            PerformanceLevelDescriptor.Proficient.GetStructuredCodeValue(),
+            PerformanceLevelDescriptor.Advanced.GetStructuredCodeValue(),
         };
 
         public static readonly string[] PerformanceLevelNotMetValues =
         {
-            PerformanceBaseConversionDescriptor.Fail.CodeValue,
-            PerformanceBaseConversionDescriptor.BelowBasic.CodeValue,
-            PerformanceBaseConversionDescriptor.WellBelowBasic.CodeValue,
+            PerformanceLevelDescriptor.Fail.GetStructuredCodeValue(),
+            PerformanceLevelDescriptor.BelowBasic.GetStructuredCodeValue(),
+            PerformanceLevelDescriptor.WellBelowBasic.GetStructuredCodeValue(),
         };
     }
 }

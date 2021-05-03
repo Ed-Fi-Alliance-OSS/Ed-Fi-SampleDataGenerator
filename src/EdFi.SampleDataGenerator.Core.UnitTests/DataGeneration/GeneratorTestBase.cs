@@ -47,7 +47,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration
                 sp.GradeProfiles.Select(gp => new GraduationPlan
                 {
                     EducationOrganizationReference = sp.GetEducationOrganizationReference(),
-                    GraduationPlanType = GraduationPlanTypeDescriptor.Standard.CodeValue,
+                    GraduationPlanType = GraduationPlanTypeDescriptor.Standard.GetStructuredCodeValue(),
                     GraduationSchoolYear = gp.GetGraduationYear(sp, config.GlobalConfig.TimeConfig.SchoolCalendarConfig.SchoolYear())
                 })
             )
@@ -103,7 +103,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration
 
         private static CohortData GetCohortData()
         {
-            var academicInterventionCohort = new Cohort { CohortIdentifier = "Test Cohort", CohortScope = CohortScopeDescriptor.School.CodeValue, CohortType = CohortTypeDescriptor.AcademicIntervention.CodeValue };
+            var academicInterventionCohort = new Cohort { CohortIdentifier = "Test Cohort", CohortScope = CohortScopeDescriptor.School.GetStructuredCodeValue(), CohortType = CohortTypeDescriptor.AcademicIntervention.GetStructuredCodeValue() };
 
             return new CohortData
             {
@@ -149,8 +149,8 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration
                 StaffUniqueId = Guid.NewGuid().ToString(),
                 Name = new Name {FirstName = "Testy", MiddleName = "Test", LastSurname = "McTesterson"},
                 HispanicLatinoEthnicity = false,
-                Race = new[] {DescriptorHelpers.ToCodeValueArray<RaceDescriptor>().GetRandomItem(_randomNumberGenerator)},
-                Sex = DescriptorHelpers.ToCodeValueArray<SexDescriptor>().GetRandomItem(_randomNumberGenerator),
+                Race = new[] {DescriptorHelpers.ToStructuredCodeValueArray<RaceDescriptor>().GetRandomItem(_randomNumberGenerator)},
+                Sex = DescriptorHelpers.ToStructuredCodeValueArray<SexDescriptor>().GetRandomItem(_randomNumberGenerator),
             };
         }
 

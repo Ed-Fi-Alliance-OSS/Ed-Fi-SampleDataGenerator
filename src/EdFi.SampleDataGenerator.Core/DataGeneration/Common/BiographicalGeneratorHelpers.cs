@@ -24,7 +24,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Common
             {
                 OrderOfPriority = 1,
                 TelephoneNumber = phoneNumber,
-                TelephoneNumberType = telephoneNumberType.CodeValue
+                TelephoneNumberType = telephoneNumberType.GetStructuredCodeValue()
             };
         }
 
@@ -44,7 +44,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Common
             return new ElectronicMail
             {
                 ElectronicMailAddress = $"{name.FirstName}.{name.LastSurname}{uniqueId}@{domainName}",
-                ElectronicMailType = ElectronicMailTypeDescriptor.HomePersonal.CodeValue
+                ElectronicMailType = ElectronicMailTypeDescriptor.HomePersonal.GetStructuredCodeValue()
             };
         }
 
@@ -53,7 +53,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Common
             return new ElectronicMail
             {
                 ElectronicMailAddress = $"{loginId}@{domainName}",
-                ElectronicMailType = ElectronicMailTypeDescriptor.HomePersonal.CodeValue
+                ElectronicMailType = ElectronicMailTypeDescriptor.HomePersonal.GetStructuredCodeValue()
             };
         }
 
@@ -62,7 +62,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Common
             return new ElectronicMail
             {
                 ElectronicMailAddress = $"{loginId}@{educationOrganizationName.LettersOnly()}.edu",
-                ElectronicMailType = ElectronicMailTypeDescriptor.Organization.CodeValue
+                ElectronicMailType = ElectronicMailTypeDescriptor.Organization.GetStructuredCodeValue()
             };
         }
 
@@ -97,10 +97,10 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Common
 
             return new Address
             {
-                AddressType = addressType.CodeValue,
+                AddressType = addressType.GetStructuredCodeValue(),
                 StreetNumberName = $"{streetNumber} {streetName} {streetType}",
                 City = city.Name,
-                StateAbbreviation = state.CodeValue,
+                StateAbbreviation = state.GetStructuredCodeValue(),
                 NameOfCounty = city.County,
                 PostalCode = postalCode
             };

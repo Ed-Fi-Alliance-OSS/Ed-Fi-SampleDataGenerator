@@ -1,43 +1,50 @@
 ﻿using System;
 using System.Linq;
-using EdFi.SampleDataGenerator.Core.DataGeneration.Generators;
 using EdFi.SampleDataGenerator.Core.Entities;
 
 namespace EdFi.SampleDataGenerator.Core.Helpers
 {
     public static class StudentEducationOrganizationHelper
     {
-        public static LanguageUseType PrimaryLanguageUseType = LanguageUseType.Homelanguage;
-        public static LanguageMapType DefaultLanguage = LanguageMapType.English;
+        public static readonly LanguageUseDescriptor PrimaryLanguageUseType;
+        private static readonly string PrimaryLanguageUse;
+        public static readonly LanguageDescriptor DefaultLanguage;
 
-        public static LanguageMapType GetPrimaryLanguage(this StudentEducationOrganizationAssociation edOrgAssociation)
+        static StudentEducationOrganizationHelper()
         {
-            var primaryLanguage = edOrgAssociation.Language?.FirstOrDefault(l => l.LanguageUse != null && l.LanguageUse.Any(lu => lu == PrimaryLanguageUseType));
-            return primaryLanguage?.Language1.ToLanguageMapType() ?? DefaultLanguage;
+            PrimaryLanguageUseType = LanguageUseDescriptor.HomeLanguage;
+            PrimaryLanguageUse = PrimaryLanguageUseType.GetStructuredCodeValue();
+            DefaultLanguage = LanguageDescriptor.English_eng;
         }
 
-        public static bool SpeaksLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageMapType language)
+        public static LanguageDescriptor GetPrimaryLanguage(this StudentEducationOrganizationAssociation edOrgAssociation)
         {
-            return edOrgAssociation.Language?.Any(l => l.Language1 == language.Value) ?? false;
+            var primaryLanguage = edOrgAssociation.Language?.FirstOrDefault(l => l.LanguageUse != null && l.LanguageUse.Any(lu => lu == PrimaryLanguageUse));
+            return primaryLanguage?.Language1.ParseFromStructuredCodeValue<LanguageDescriptor>() ?? DefaultLanguage;
         }
 
-        public static bool SpeaksLanguageWithUseType(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageMapType language, LanguageUseType languageUse)
+        public static bool SpeaksLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageDescriptor language)
+        {
+            return edOrgAssociation.Language?.Any(l => l.Language1 == language.GetStructuredCodeValue()) ?? false;
+        }
+
+        public static bool SpeaksLanguageWithUseType(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageDescriptor language, LanguageUseDescriptor languageUse)
         {
             return edOrgAssociation.Language?.Any(l =>
-                (l.Language1 == language) &&
-                (l.LanguageUse?.Any(lu => lu == languageUse) ?? false)) ?? false;
+                (l.Language1 == language.GetStructuredCodeValue()) &&
+                (l.LanguageUse?.Any(lu => lu == languageUse.GetStructuredCodeValue()) ?? false)) ?? false;
         }
 
-        public static void SetPrimaryLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageMapType language)
+        public static void SetPrimaryLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageDescriptor language)
         {
             edOrgAssociation.AddLanguage(language, PrimaryLanguageUseType);
         }
 
-        public static void AddLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageMapType language, LanguageUseType languageUse)
+        public static void AddLanguage(this StudentEducationOrganizationAssociation edOrgAssociation, LanguageDescriptor language, LanguageUseDescriptor languageUse)
         {
-            if (languageUse == PrimaryLanguageUseType &&
+            if (languageUse.CodeValue == PrimaryLanguageUseType.CodeValue &&
                 edOrgAssociation.Language != null &&
-                edOrgAssociation.Language.Any(studentLanguage => studentLanguage.LanguageUse != null && studentLanguage.LanguageUse.Any(lu => lu == PrimaryLanguageUseType)))
+                edOrgAssociation.Language.Any(studentLanguage => studentLanguage.LanguageUse != null && studentLanguage.LanguageUse.Any(lu => lu == PrimaryLanguageUse)))
             {
                 throw new InvalidOperationException("Primary language may only be set one time");
             }
@@ -46,18 +53,18 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
 
             if (edOrgAssociation.SpeaksLanguage(language))
             {
-                var languageToUpdate = edOrgAssociation.Language.Single(l => l.Language1 == language.Value);
-                languageToUpdate.LanguageUse = languageToUpdate.LanguageUse.CreateCopyAndAppend(languageUse);
+                var languageToUpdate = edOrgAssociation.Language.Single(l => l.Language1 == language.GetStructuredCodeValue());
+                languageToUpdate.LanguageUse = languageToUpdate.LanguageUse.CreateCopyAndAppend(languageUse.GetStructuredCodeValue());
             }
 
             else
             {
                 var newLanguage = new Language
                 {
-                    Language1 = language.Value,
+                    Language1 = language.GetStructuredCodeValue(),
                     LanguageUse = new[]
                     {
-                        (string) languageUse
+                        languageUse.GetStructuredCodeValue()
                     }
                 };
 

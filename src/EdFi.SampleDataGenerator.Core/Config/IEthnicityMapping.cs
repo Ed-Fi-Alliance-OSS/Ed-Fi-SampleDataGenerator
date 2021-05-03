@@ -27,19 +27,9 @@ namespace EdFi.SampleDataGenerator.Core.Config
             return mappings.FirstOrDefault(m => m.GetRaceDescriptor() == raceDescriptor && m.HispanicLatinoEthnicity == hispanicLatinoEthnicity);
         }
 
-        public static IEthnicityMapping MappingFor(this IEthnicityMapping[] mappings, string race, bool hispanicLatinoEthnicity)
-        {
-            return mappings.FirstOrDefault(m => m.GetRaceDescriptor().CodeValue == race && m.HispanicLatinoEthnicity == hispanicLatinoEthnicity);
-        }
-
         public static IEthnicityMapping MappingFor(this IEthnicityMapping[] mappings, StudentDataGeneratorContext context)
         {
             return mappings.FirstOrDefault(m => m.GetRaceDescriptor() == context.StudentCharacteristics.Race && m.HispanicLatinoEthnicity == context.StudentCharacteristics.HispanicLatinoEthnicity);
-        }
-
-        public static RaceDescriptor RaceDescriptorFor(this IEthnicityMapping[] mappings, string ethnicity)
-        {
-            return mappings.MappingFor(ethnicity).GetRaceDescriptor();
         }
 
         //not all race/ethnicity types have a corresponding OldEthnicityType

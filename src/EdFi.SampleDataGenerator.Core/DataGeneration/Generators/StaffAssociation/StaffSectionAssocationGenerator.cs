@@ -29,10 +29,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StaffAssociati
                         HighlyQualifiedTeacher = staffMember.HighlyQualified,
                         StaffReference = staffMember.StaffReference,
 
-                        ClassroomPosition = new ClassroomPositionDescriptorReferenceType
-                        {
-                            CodeValue = ClassroomPositionDescriptor.TeacherOfRecord.GetStructuredCodeValue(),
-                        },
+                        ClassroomPosition = ClassroomPositionDescriptor.TeacherOfRecord.GetStructuredCodeValue(),
 
                         TeacherStudentDataLinkExclusionSpecified = false,
                         PercentageContributionSpecified = false,

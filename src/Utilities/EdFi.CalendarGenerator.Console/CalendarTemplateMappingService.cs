@@ -8,6 +8,9 @@ namespace EdFi.CalendarGenerator.Console
 {
     public static class CalendarTemplateMappingService
     {
+        private const string CalendarCode = "Calendar Code";
+        private const SchoolYearType SchoolYear = SchoolYearType.Item20162017;
+
         public static IEnumerable<GradingPeriod> MapToGradingPeriods(CalendarGeneratorConfig config, SchoolYearTemplate template)
         {
             return from schoolId in config.SchoolIds
@@ -20,6 +23,12 @@ namespace EdFi.CalendarGenerator.Console
             return from schoolId in config.SchoolIds
                 from term in template.Terms
                 select Map(config, schoolId, template, term);
+        }
+
+        public static IEnumerable<Calendar> MapToCalendars(CalendarGeneratorConfig config, SchoolYearTemplate template)
+        {
+            return from schoolId in config.SchoolIds
+                select Map(schoolId);
         }
 
         public static IEnumerable<CalendarDate> MapToCalendarDates(CalendarGeneratorConfig config, SchoolYearTemplate template)
@@ -39,20 +48,32 @@ namespace EdFi.CalendarGenerator.Console
                         : gp.CalendarDates.Concat<SchoolCalendarDate>(gp.AdditionalHolidays)));
         } 
 
+        private static Calendar Map(string schoolId)
+        {
+            return new Calendar
+            {
+                id = $"CAL_{schoolId}_{SchoolYear}",
+                CalendarCode = CalendarCode,
+                CalendarType = CalendarTypeDescriptor.IEP.GetStructuredCodeValue(),
+                SchoolReference = GetSchoolReference(schoolId),
+                SchoolYear = SchoolYear
+            };
+        }
+
         private static CalendarDate Map(string schoolId, SchoolCalendarDate calendarDate)
         {
             return new CalendarDate
             {
-                id = $"CLND_{calendarDate.Date:yyyyMMdd}{calendarDate.Descriptor.CodeValue}_{schoolId}",
+                id = $"CLND_{calendarDate.Date:yyyyMMdd}{calendarDate.Descriptor.CodeValue.Replace(" ", "_")}_{schoolId}",
                 CalendarEvent = new[] {calendarDate.Descriptor.GetStructuredCodeValue()},
                 Date = calendarDate.Date, 
                 CalendarReference  =  new CalendarReferenceType
                 {
                     CalendarIdentity =  new CalendarIdentityType
                     {
-                        CalendarCode = "Calendar Code",
+                        CalendarCode = CalendarCode,
                         SchoolReference = GetSchoolReference(schoolId),
-                        SchoolYear = SchoolYearType.Item20162017
+                        SchoolYear = SchoolYear
                     }
                 }
             };
@@ -96,23 +117,13 @@ namespace EdFi.CalendarGenerator.Console
 
         private static TermDescriptor GetTerm(int termNumber)
         {
-            var result = new TermDescriptor
-            {
-                Namespace = DescriptorHelpers.GetDescriptorNamespace<TermDescriptor>()
-            };
+            if (termNumber == 1)
+                return TermDescriptor.FallSemester;
 
-            switch (termNumber)
-            {
-                case 1:
-                    result.CodeValue = "Fall Semester";
-                    break;
+            if (termNumber == 2)
+                return TermDescriptor.SpringSemester;
 
-                case 2:
-                    result.CodeValue = "Spring Semester";
-                    break;
-            }
-
-            return result;
+            throw new NotSupportedException($"Cannot infer TermDescriptor for term {termNumber}");
         }
 
         private static SchoolYearType GetSchoolYear(SchoolYearTemplate template)
@@ -141,11 +152,12 @@ namespace EdFi.CalendarGenerator.Console
         {
             return new GradingPeriodReferenceType
             {
-                @ref = gradingPeriod.id,
                 GradingPeriodIdentity = new GradingPeriodIdentityType
                 {
+                    SchoolReference = gradingPeriod.SchoolReference,
                     GradingPeriod = gradingPeriod.GradingPeriod1,
-                    PeriodSequence = gradingPeriod.PeriodSequence
+                    PeriodSequence = gradingPeriod.PeriodSequence,
+                    SchoolYear = gradingPeriod.SchoolYear
                 }
             };
         }

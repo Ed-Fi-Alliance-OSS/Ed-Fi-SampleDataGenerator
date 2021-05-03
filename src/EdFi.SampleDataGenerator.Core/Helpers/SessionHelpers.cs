@@ -31,7 +31,7 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
 
         public static string GenerateSessionId(SchoolYearType schoolYear, string term)
         {
-            return $"{schoolYear.ToCodeValue()}_{term}".Replace(' ', '_').Replace('-', '_');
+            return $"{schoolYear.ToCodeValue()}_{term.ParseToCodeValue()}".Replace(' ', '_').Replace('-', '_');
         }
 
         public static SessionReferenceType GetSessionReferenceType(this Session session)

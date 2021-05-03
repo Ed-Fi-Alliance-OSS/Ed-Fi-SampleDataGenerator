@@ -48,7 +48,7 @@ namespace EdFi.MasterScheduleGenerator.Console.Generators
                                     SchoolReference = school.GetSchoolReference(),
                                     SchoolYear = Configuration.SchoolYear,
                                     SessionName = session.SessionName,
-                                    Term = session.Term.ToDescriptorFromCodeValue<TermDescriptor>().GetStructuredCodeValue()
+                                    Term = session.Term
                                 }
                             },
                             CourseReference = new CourseReferenceType

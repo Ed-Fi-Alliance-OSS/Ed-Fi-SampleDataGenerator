@@ -37,7 +37,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentCohort
             };
 
             var administrativeStaff = context.GlobalData.StaffAssociationData.StaffEducationOrganizationAssignmentAssociation
-                                    .Where(staff => administrativeStaffClassifications.Any(sc => sc.CodeValue == staff.StaffClassification)).ToList();
+                                    .Where(staff => administrativeStaffClassifications.Any(sc => sc.GetStructuredCodeValue() == staff.StaffClassification)).ToList();
 
             return context.GlobalData.CohortData.Cohorts.SelectMany(
                     c => CreateStaffCohortAssociationByStaffEdOrgAssignments(c,

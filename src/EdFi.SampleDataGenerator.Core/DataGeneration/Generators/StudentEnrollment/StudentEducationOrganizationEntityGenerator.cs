@@ -33,7 +33,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentEnrollm
                 HispanicLatinoEthnicity = context.StudentCharacteristics.HispanicLatinoEthnicity,
                 StudentReference = context.Student.GetStudentReference(),
                 EducationOrganizationReference = EdFiReferenceTypeHelpers.GetEducationOrganizationReference(schoolId),
-                LimitedEnglishProficiency = "",
+                LimitedEnglishProficiency = LimitedEnglishProficiencyDescriptor.NotLimited.GetStructuredCodeValue(),
                 Address = GenerateAddress(context),
                 ElectronicMail = GenerateElectronicMail(context),
                 Sex = context.StudentCharacteristics.Sex.GetStructuredCodeValue(),
@@ -50,7 +50,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentEnrollm
         {
             if (!context.StudentCharacteristics.IsImmigrant) return;
 
-            var language = edOrgAssociation.HispanicLatinoEthnicity ? LanguageMapType.Spanish : LanguageMapType.Other;
+            var language = edOrgAssociation.HispanicLatinoEthnicity ? LanguageDescriptor.Spanish_spa : LanguageDescriptor.French_fre;
             edOrgAssociation.SetPrimaryLanguage(language);
         }
 

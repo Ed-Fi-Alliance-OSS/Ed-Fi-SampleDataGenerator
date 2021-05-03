@@ -285,12 +285,12 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators
             return assessmentPerformanceLevels.Any(pl =>
             {
                 propertyValidatorContext.MessageFormatter.AppendArgument("AssessmentTitle", assessment.AssessmentTitle);
-                return Constants.AssessmentPerformanceLevel.PerformanceLevelMetValues.Contains(pl.PerformanceLevel?.ParseToCodeValue());
+                return Constants.AssessmentPerformanceLevel.PerformanceLevelMetValues.Contains(pl.PerformanceLevel);
             }) &&
             assessmentPerformanceLevels.Any(pl =>
             {
                 propertyValidatorContext.MessageFormatter.AppendArgument("AssessmentTitle", assessment.AssessmentTitle);
-                return Constants.AssessmentPerformanceLevel.PerformanceLevelNotMetValues.Contains(pl.PerformanceLevel?.ParseToCodeValue());
+                return Constants.AssessmentPerformanceLevel.PerformanceLevelNotMetValues.Contains(pl.PerformanceLevel);
             });
         }
 

@@ -163,7 +163,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             {
                 SchoolReference = new SchoolReferenceType { SchoolIdentity = new SchoolIdentityType { SchoolId = schoolId } },
                 SchoolYear = schoolYear,
-                Term = termType.CodeValue,
+                Term = termType.GetStructuredCodeValue(),
                 SessionName = sessionName ?? termType.CodeValue
             };
         }

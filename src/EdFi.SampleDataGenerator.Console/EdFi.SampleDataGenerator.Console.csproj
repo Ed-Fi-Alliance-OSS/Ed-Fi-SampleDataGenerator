@@ -613,6 +613,9 @@
     <None Include="Samples\SampleDataGenerator\DataFiles\EducationOrganization\School.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Samples\SampleDataGenerator\DataFiles\EducationOrgCalendar\Calendar.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Samples\SampleDataGenerator\DataFiles\EducationOrgCalendar\CalendarDate.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -709,6 +712,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Samples\SampleDataGenerator\ChangeQueryConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Samples\SampleDataGenerator\NorthridgeConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -26,30 +26,6 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.Output
 
     public static class StudentTranscriptSessionHelpers
     {
-        public static bool BeganInDateRange(this StudentTranscriptSession session, DateRange dateRange)
-        {
-            return session?.Session != null && dateRange != null && dateRange.Contains(session.Session.BeginDate);
-        }
-
-        public static bool IsInProgressDuring(this StudentTranscriptSession session, DateRange dateRange)
-        {
-            return session?.Session != null && dateRange != null && session.Session.AsDateRange().Overlaps(dateRange);
-        }
-
-        public static bool StudentEnrolledAtStartOfSession(this StudentTranscriptSession session, DateRange studentEnrollmentDateRange)
-        {
-            return session?.Session != null &&
-                   studentEnrollmentDateRange != null &&
-                   studentEnrollmentDateRange.Contains(session.Session.BeginDate);
-        }
-
-        public static bool StudentBecameEnrolledDuringSession(this StudentTranscriptSession session, DateRange studentEnrollmentDateRange)
-        {
-            return session?.Session != null &&
-                   studentEnrollmentDateRange != null &&
-                   session.Session.AsDateRange().Contains(studentEnrollmentDateRange.StartDate);
-        }
-
         public static IEnumerable<StudentTranscriptSession> CompletedInDateRange(this IEnumerable<StudentTranscriptSession> studentTranscriptSessions, DateRange dateRange)
         {
             return studentTranscriptSessions.Where(sts => sts.Session != null && dateRange.Contains(sts.Session.EndDate));

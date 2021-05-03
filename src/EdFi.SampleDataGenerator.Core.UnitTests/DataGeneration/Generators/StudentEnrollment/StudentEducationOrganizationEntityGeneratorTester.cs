@@ -195,7 +195,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Generators.Stud
             studentEd.Telephone.Length.ShouldBe(1);
 
             var telephone = studentEd.Telephone.First();
-            telephone.TelephoneNumberType.ShouldBe(TelephoneNumberTypeDescriptor.Mobile.CodeValue);
+            telephone.TelephoneNumberType.ShouldBe(TelephoneNumberTypeDescriptor.Mobile.GetStructuredCodeValue());
             telephone.TelephoneNumber.ShouldBe($"(555) 000-0000");
         }
 
@@ -235,12 +235,12 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Generators.Stud
             var studentEd = context.GetStudentEducationOrganization();
 
             studentEd.Language.Length.ShouldBe(1);
-            studentEd.Language[0].Language1.ShouldBe(LanguageMapType.Spanish.Value);
-            studentEd.Language[0].LanguageUse.First().ShouldBe(LanguageUseType.Homelanguage);
+            studentEd.Language[0].Language1.ShouldBe(LanguageDescriptor.Spanish_spa.GetStructuredCodeValue());
+            studentEd.Language[0].LanguageUse.First().ShouldBe(LanguageUseDescriptor.HomeLanguage.GetStructuredCodeValue());
         }
 
         [Test]
-        public void ShouldSetOtherLanguageForNonHispanicLatinoImmigrant()
+        public void ShouldSetFrenchAsOtherLanguageForNonHispanicLatinoImmigrant()
         {
             var randomNumberGenerator = new TestRandomNumberGenerator { RandomIntSequence = new[] { 0 }, RandomDoubleSequence = new[] { 0.0 } };
             var context = BuildContext();
@@ -254,8 +254,8 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Generators.Stud
             var studentEd = context.GetStudentEducationOrganization();
 
             studentEd.Language.Length.ShouldBe(1);
-            studentEd.Language[0].Language1.ShouldBe(LanguageMapType.Other.Value);
-            studentEd.Language[0].LanguageUse.First().ShouldBe(LanguageUseType.Homelanguage.Value);
+            studentEd.Language[0].Language1.ShouldBe(LanguageDescriptor.French_fre.GetStructuredCodeValue());
+            studentEd.Language[0].LanguageUse.First().ShouldBe(LanguageUseDescriptor.HomeLanguage.GetStructuredCodeValue());
         }
 
         [Test]

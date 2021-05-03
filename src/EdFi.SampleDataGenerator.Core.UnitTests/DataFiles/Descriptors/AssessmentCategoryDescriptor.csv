@@ -1,45 +1,45 @@
-CodeValue,ShortDescription,Description,Namespace,AssessmentCategoryMap
-Advanced Placement,Advanced Placement,Advanced Placement,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Advanced Placement
-Class quiz,Class quiz,Class quiz,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Class quiz
-Early Learning - Physical well-being and motor dev,Early Learning - Physical well-being and motor development,Early Learning - Physical well-being and motor development,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Early Learning - Physical well-being and motor development
-Language proficiency test,Language proficiency test,Language proficiency test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Language proficiency test
-Psychomotor test,Psychomotor test,Psychomotor test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Psychomotor test
-State alternate assessment/ELL,State alternate assessment/ELL,State alternate assessment/ELL,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State alternate assessment/ELL
-Alternate assessment/ELL,Alternate assessment/ELL,Alternate assessment/ELL,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Alternate assessment/ELL
-College entrance exam,College entrance exam,College entrance exam,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,College entrance exam
-Early Learning - Social and emotional development,Early Learning - Social and emotional development,Early Learning - Social and emotional development,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Early Learning - Social and emotional development
-Manual dexterity test,Manual dexterity test,Manual dexterity test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Manual dexterity test
-Reading readiness test,Reading readiness test,Reading readiness test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Reading readiness test
-State English proficiency test,State English proficiency test,State English proficiency test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State English proficiency test
-Achievement test,Achievement test,Achievement test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Achievement test
-Class test,Class test,Class test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Class test
-Early Learning - Language and literacy development,Early Learning - Language and literacy development,Early Learning - Language and literacy development,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Early Learning - Language and literacy development
-International Baccalaureate,International Baccalaureate,International Baccalaureate,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,International Baccalaureate
-Psychological test,Psychological test,Psychological test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Psychological test
-State alternative assessment/modified standards,State alternative assessment/modified standards,State alternative assessment/modified standards,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State alternative assessment/modified standards
-Alternative assessment/modified standards,Alternative assessment/modified standards,Alternative assessment/modified standards,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Alternative assessment/modified standards
-Developmental observation,Developmental observation,Developmental observation,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Developmental observation
-Foreign language proficiency test,Foreign language proficiency test,Foreign language proficiency test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Foreign language proficiency test
-Performance assessment,Performance assessment,Performance assessment,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Performance assessment
-State summative assessment 3-8 general,State summative assessment 3-8 general,State summative assessment 3-8 general,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State summative assessment 3-8 general
-Aptitude test,Aptitude test,Aptitude test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Aptitude test
-Diagnostic,Diagnostic,Diagnostic,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Diagnostic
-Formative,Formative,Formative,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Formative
-Personality test,Personality test,Personality test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Personality test
-State high school subject assessment,State high school subject assessment,State high school subject assessment,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State high school subject assessment
-Benchmark test,Benchmark test,Benchmark test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Benchmark test
-Early Learning - Cognition and general knowledge,Early Learning - Cognition and general knowledge,Early Learning - Cognition and general knowledge,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Early Learning - Cognition and general knowledge
-Interim,Interim,Interim,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Interim
-Prekindergarten Readiness,Prekindergarten Readiness,Prekindergarten Readiness,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Prekindergarten Readiness
-State alternative assessment/grade-level standards,State alternative assessment/grade-level standards,State alternative assessment/grade-level standards,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State alternative assessment/grade-level standards
-Attitudinal test,Attitudinal test,Attitudinal test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Attitudinal test
-Early Learning - Approaches toward learning,Early Learning - Approaches toward learning,Early Learning - Approaches toward learning,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Early Learning - Approaches toward learning
-Interest inventory,Interest inventory,Interest inventory,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Interest inventory
-Portfolio assessment,Portfolio assessment,Portfolio assessment,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Portfolio assessment
-State high school course assessment,State high school course assessment,State high school course assessment,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State high school course assessment
-Alternate assessment/grade-level standards,Alternate assessment/grade-level standards,Alternate assessment/grade-level standards,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Alternate assessment/grade-level standards
-Cognitive and perceptual skills test,Cognitive and perceptual skills test,Cognitive and perceptual skills test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Cognitive and perceptual skills test
-English proficiency screening test,English proficiency screening test,English proficiency screening test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,English proficiency screening test
-Mental ability (intelligence) test,Mental ability (intelligence) test,Mental ability (intelligence) test,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Mental ability (intelligence) test
-State assessment,State assessment,State assessment,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,State assessment
-Other,Other,Other,http://ed-fi.org/Descriptor/AssessmentCategoryDescriptor.xml,Other
+CodeValue,ShortDescription,Description,Namespace
+Advanced Placement,Advanced Placement,Advanced Placement,uri://ed-fi.org/AssessmentCategoryDescriptor
+Class quiz,Class quiz,Class quiz,uri://ed-fi.org/AssessmentCategoryDescriptor
+Early Learning - Physical well-being and motor dev,Early Learning - Physical well-being and motor development,Early Learning - Physical well-being and motor development,uri://ed-fi.org/AssessmentCategoryDescriptor
+Language proficiency test,Language proficiency test,Language proficiency test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Psychomotor test,Psychomotor test,Psychomotor test,uri://ed-fi.org/AssessmentCategoryDescriptor
+State alternate assessment/ELL,State alternate assessment/ELL,State alternate assessment/ELL,uri://ed-fi.org/AssessmentCategoryDescriptor
+Alternate assessment/ELL,Alternate assessment/ELL,Alternate assessment/ELL,uri://ed-fi.org/AssessmentCategoryDescriptor
+College entrance exam,College entrance exam,College entrance exam,uri://ed-fi.org/AssessmentCategoryDescriptor
+Early Learning - Social and emotional development,Early Learning - Social and emotional development,Early Learning - Social and emotional development,uri://ed-fi.org/AssessmentCategoryDescriptor
+Manual dexterity test,Manual dexterity test,Manual dexterity test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Reading readiness test,Reading readiness test,Reading readiness test,uri://ed-fi.org/AssessmentCategoryDescriptor
+State English proficiency test,State English proficiency test,State English proficiency test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Achievement test,Achievement test,Achievement test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Class test,Class test,Class test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Early Learning - Language and literacy development,Early Learning - Language and literacy development,Early Learning - Language and literacy development,uri://ed-fi.org/AssessmentCategoryDescriptor
+International Baccalaureate,International Baccalaureate,International Baccalaureate,uri://ed-fi.org/AssessmentCategoryDescriptor
+Psychological test,Psychological test,Psychological test,uri://ed-fi.org/AssessmentCategoryDescriptor
+State alternative assessment/modified standards,State alternative assessment/modified standards,State alternative assessment/modified standards,uri://ed-fi.org/AssessmentCategoryDescriptor
+Alternative assessment/modified standards,Alternative assessment/modified standards,Alternative assessment/modified standards,uri://ed-fi.org/AssessmentCategoryDescriptor
+Developmental observation,Developmental observation,Developmental observation,uri://ed-fi.org/AssessmentCategoryDescriptor
+Foreign language proficiency test,Foreign language proficiency test,Foreign language proficiency test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Performance assessment,Performance assessment,Performance assessment,uri://ed-fi.org/AssessmentCategoryDescriptor
+State summative assessment 3-8 general,State summative assessment 3-8 general,State summative assessment 3-8 general,uri://ed-fi.org/AssessmentCategoryDescriptor
+Aptitude test,Aptitude test,Aptitude test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Diagnostic,Diagnostic,Diagnostic,uri://ed-fi.org/AssessmentCategoryDescriptor
+Formative,Formative,Formative,uri://ed-fi.org/AssessmentCategoryDescriptor
+Personality test,Personality test,Personality test,uri://ed-fi.org/AssessmentCategoryDescriptor
+State high school subject assessment,State high school subject assessment,State high school subject assessment,uri://ed-fi.org/AssessmentCategoryDescriptor
+Benchmark test,Benchmark test,Benchmark test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Early Learning - Cognition and general knowledge,Early Learning - Cognition and general knowledge,Early Learning - Cognition and general knowledge,uri://ed-fi.org/AssessmentCategoryDescriptor
+Interim,Interim,Interim,uri://ed-fi.org/AssessmentCategoryDescriptor
+Prekindergarten Readiness,Prekindergarten Readiness,Prekindergarten Readiness,uri://ed-fi.org/AssessmentCategoryDescriptor
+State alternative assessment/grade-level standards,State alternative assessment/grade-level standards,State alternative assessment/grade-level standards,uri://ed-fi.org/AssessmentCategoryDescriptor
+Attitudinal test,Attitudinal test,Attitudinal test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Early Learning - Approaches toward learning,Early Learning - Approaches toward learning,Early Learning - Approaches toward learning,uri://ed-fi.org/AssessmentCategoryDescriptor
+Interest inventory,Interest inventory,Interest inventory,uri://ed-fi.org/AssessmentCategoryDescriptor
+Portfolio assessment,Portfolio assessment,Portfolio assessment,uri://ed-fi.org/AssessmentCategoryDescriptor
+State high school course assessment,State high school course assessment,State high school course assessment,uri://ed-fi.org/AssessmentCategoryDescriptor
+Alternate assessment/grade-level standards,Alternate assessment/grade-level standards,Alternate assessment/grade-level standards,uri://ed-fi.org/AssessmentCategoryDescriptor
+Cognitive and perceptual skills test,Cognitive and perceptual skills test,Cognitive and perceptual skills test,uri://ed-fi.org/AssessmentCategoryDescriptor
+English proficiency screening test,English proficiency screening test,English proficiency screening test,uri://ed-fi.org/AssessmentCategoryDescriptor
+Mental ability (intelligence) test,Mental ability (intelligence) test,Mental ability (intelligence) test,uri://ed-fi.org/AssessmentCategoryDescriptor
+State assessment,State assessment,State assessment,uri://ed-fi.org/AssessmentCategoryDescriptor
+Other,Other,Other,uri://ed-fi.org/AssessmentCategoryDescriptor

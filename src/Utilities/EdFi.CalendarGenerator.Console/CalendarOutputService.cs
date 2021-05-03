@@ -10,6 +10,7 @@ namespace EdFi.CalendarGenerator.Console
         public const string GradingPeriodFileName = "GradingPeriod.csv";
         public const string SessionFileName = "Session.csv";
         public const string CalendDateFileName = "CalendarDate.csv";
+        public const string CalendarFileName = "Calendar.csv";
 
         public void WriteGradingPeriodFile(CalendarGeneratorConfig config, IEnumerable<GradingPeriod> gradingPeriods)
         {
@@ -21,6 +22,12 @@ namespace EdFi.CalendarGenerator.Console
         {
             var outputPath = Path.Combine(config.OutputPath, SessionFileName);
             MappedCsvFileWriter.WriteEntityFile(outputPath, sessions);
+        }
+
+        public void WriteCalendarFile(CalendarGeneratorConfig config, IEnumerable<Calendar> calendars)
+        {
+            var outputPath = Path.Combine(config.OutputPath, CalendarFileName);
+            MappedCsvFileWriter.WriteEntityFile(outputPath, calendars);
         }
 
         public void WriteCalendarDateFile(CalendarGeneratorConfig config, IEnumerable<CalendarDate> calendarDates)

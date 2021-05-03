@@ -126,6 +126,7 @@ EndDate={termTemplates.EndDate.Date:D}
         {
             var outputService = new CalendarOutputService();
             outputService.WriteGradingPeriodFile(config, CalendarTemplateMappingService.MapToGradingPeriods(config, termTemplates));
+            outputService.WriteCalendarFile(config, CalendarTemplateMappingService.MapToCalendars(config, termTemplates));
             outputService.WriteCalendarDateFile(config, CalendarTemplateMappingService.MapToCalendarDates(config, termTemplates));
             outputService.WriteSessionFile(config, CalendarTemplateMappingService.MapToSessions(config, termTemplates));
         }

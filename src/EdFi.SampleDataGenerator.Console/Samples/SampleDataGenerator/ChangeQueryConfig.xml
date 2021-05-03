@@ -1,0 +1,272 @@
+<SampleDataGeneratorConfig>
+	<MutatorConfig>
+		<!-- Mutators modify a subset of records in each generation pass. -->
+		<!-- Disable them by setting their Probability to 0. -->
+		<!-- NOTE: All probabilities in this file are expressed as DECIMAL numbers in the range [0.0, 1.0] -->
+		<Mutator Name="TransposeAreaCodeDigits" Type="Error" Probability="0.00" />
+		<Mutator Name="TransposePostalCodeDigits" Type="Error" Probability="0.00" />
+		<Mutator Name="TransposeBirthDateDigits" Type="Error"  Probability="0.00" />
+		<Mutator Name="SubstituteStudentMiddleName" Type="Error" Probability="0.00" />
+		<Mutator Name="SwapStudentSalutation" Type="Error" Probability="0.00" />
+		<Mutator Name="ShuffleStudentsClassPeriod" Type="Evolver" Probability="0.00" />
+		<Mutator Name="ChangeStudentPrimaryContactParent" Type="Evolver" Probability="0.00" />
+		<Mutator Name="ChangeStudentAddress" Type="Evolver" Probability="0.00" />
+		<Mutator Name="ChangeStudentPhone" Type="Evolver" Probability="0.02" />
+		<Mutator Name="ChangeStaffPersonalEmail" Type="Evolver" Probability="0.57" />
+		<Mutator Name="ChangeSectionMediumOfInstruction" Type="Evolver" Probability="0.03" />
+	</MutatorConfig>
+	<!-- When BatchSize is set to anything greater than 0, output will be batched to XML files -->
+	<!-- in sets to match BatchSize.  Note that output is grouped per School,  -->
+	<!-- so if your BatchSize is smaller than the total students in a given School, -->
+	<!-- output batching will never apply. -->
+	<!-- -->
+	<!-- The idea here is to help control your output file size to a manageable number of records per file. -->
+	<BatchSize>1000</BatchSize>
+	<TimeConfig>
+		<SchoolCalendar>
+			<!-- Set the start and end dates of your SchoolCalendar.  These dates MUST match -->
+			<!-- the calendar dates in your input EducationOrgCalendar CSV files.  -->
+			<StartDate>2016-08-22</StartDate>
+			<EndDate>2017-05-26</EndDate>
+		</SchoolCalendar>
+		<DataClock>
+			<!-- DataPeriods define separate periods for which data is generated and output. -->
+			<!-- Typically you would align these with some school calendar interval, such as -->
+			<!-- grading period, semester or year. -->
+			<!-- This allows for simulation of changing/additive data throughout the school year.  -->
+			<!-- -->
+			<!-- DataPeriods must start on the first day of the configured school year -->
+			<!-- and must be consecutive and non-overlapping. -->
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 1">
+				<StartDate>2016-08-22</StartDate>
+				<EndDate>2016-09-29</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 2">
+				<StartDate>2016-09-30</StartDate>
+				<EndDate>2016-11-08</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 3">
+				<StartDate>2016-11-09</StartDate>
+				<EndDate>2016-12-17</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 4">
+				<StartDate>2016-12-18</StartDate>
+				<EndDate>2017-01-26</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 5">
+				<StartDate>2017-01-27</StartDate>
+				<EndDate>2017-03-07</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 6">
+				<StartDate>2017-03-08</StartDate>
+				<EndDate>2017-04-16</EndDate>
+			</DataPeriod>
+
+			<DataPeriod Name="Change Events Performance Test - Data Period 7">
+				<StartDate>2017-04-17</StartDate>
+				<EndDate>2017-05-26</EndDate>
+			</DataPeriod>
+
+		</DataClock>
+	</TimeConfig>
+	<!-- Configure your school district using the DistrictProfile element. -->
+	<DistrictProfile DistrictName="Grand Bend ISD">
+		<LocationInfo State="TX">
+			<City Name="Grand Bend" County="Liberty">
+				<!-- Set as many AreaCodes for the City as necessary. -->
+				<AreaCode Value="936" />
+				<AreaCode Value="832" />
+				<!-- Multiple PostalCodes may also be defined for a given City. -->
+				<PostalCode Value="77535" />
+			</City>
+		</LocationInfo>
+		<!-- High-performing students can take part in advanced courses. -->
+		<HighPerformingStudentPercentile>0.93</HighPerformingStudentPercentile>
+		<!-- Each district is composed of one or more schools. -->
+		<!-- Your SchoolId must be an Id also found in your School.csv input file. -->
+		<!-- The CourseLoad property controls the number of classes assigned per term to the student population. -->
+		<SchoolProfile SchoolName="Grand Bend High School" SchoolId="255901001" CourseLoad="8">
+			<!-- Control discipline for your school with these properties. -->
+			<!-- Note that this is an /expected/ number of events. Your results won't necessarily -->
+			<!-- match these numbers exactly for every run of the SDG because the model is based on probabilities. -->
+			<!-- However, the average over multiple runs of the SDG should average to these numbers. -->
+			<DisciplineProfile TotalExpectedDisciplineEvents="20" TotalExpectedSeriousDisciplineEvents="3" />
+			<!-- Set your school-wide attendance rate here.	 The SDG generates Section attendance. -->
+			<SchoolAttendanceProfile AverageAttendanceRate="0.80" AverageTardyRate="0.01" />
+			<!-- GradeProfile defines attributes about a given grade level at this school. -->
+			<GradeProfile GradeName="Ninth grade">
+				<!-- One or more StudentPopulationProfiles may be defined per grade. -->
+				<!-- Control the number of students in this population via the InitialStudentCount attribute; -->
+				<!-- the biographical stats of this population are defined below using the StudentProfile element. -->
+				<StudentPopulationProfile StudentProfileReference="Default" InitialStudentCount="25000" TransfersIn="1400" TransfersOut="700" />
+				<!-- GraduationPlan elements configure the available graduation plans for this grade. -->
+				<!-- The Name element is actually a reference to a GraduationPlanTemplate, which you can configure below. -->
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+				<!-- Zero or more AssessmentParticipationRate elements may be defined per GradeProfile. -->
+				<!-- This element is used to define which Assements your students participate in, and at what rate. -->
+				<!-- Match with assessments defined in your AssessmentsMetadata.csv input file based  -->
+				<!-- on the assessment title.  If the RegexMatch attribute is set to "true", a regular expression -->
+				<!-- may be used in assessment title matching.  This is a great way to group a set of related -->
+				<!-- assessments together (for example, all State assessments) for the purposes of modeling -->
+				<!-- student performance.  If RegexMatch is not present or "false", an exact match on title -->
+				<!-- will be necessary for the rule to apply. -->
+				<AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+					<!-- One or more ParticipationRate rules can be present per assessment.  -->
+					<!-- Rules match students' percentile rank according to their performance index -->
+					<!-- and provide a probability that the students in that percentile take the given assessment. -->
+					<!-- For example, with the rule below, every single student in this grade will take all matched -->
+					<!-- state assessments since we span all performance percentiles with a probability of 1.0. -->
+					<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+				</AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Tenth grade">
+				<StudentPopulationProfile StudentProfileReference="Default" InitialStudentCount="25000" TransfersIn="1400" TransfersOut="700" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+			  <AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+				<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="1.0" Probability="1.0"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="PSAT">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.45" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="ACT">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Eleventh grade">
+				<StudentPopulationProfile StudentProfileReference="AllWhiteMale" InitialStudentCount="25000" TransfersIn="1400" TransfersOut="700" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+			  <AssessmentParticipationRate AssessmentTitle="PSAT">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.45" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="ACT">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+				<ParticipationRate LowerPerformancePercentile="0.0" UpperPerformancePercentile="0.5" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1"/>
+			  </AssessmentParticipationRate>
+			</GradeProfile>
+			<GradeProfile GradeName="Twelfth grade">
+				<StudentPopulationProfile StudentProfileReference="AllBlackFemale" InitialStudentCount="25000" TransfersIn="1400" TransfersOut="700" />
+				<GraduationPlan Name="HighSchoolMinimum" />
+				<GraduationPlan Name="HighSchoolRecommended" />
+				<GraduationPlan Name="HighSchoolDistinguished" />
+			  <AssessmentParticipationRate AssessmentTitle="rSAT-MostRecent">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1.0" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="ACT">
+				<ParticipationRate LowerPerformancePercentile="0.75" UpperPerformancePercentile="1" Probability="0.99"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="0.75" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.4" UpperPerformancePercentile="0.5" Probability="0.1"/>
+			  </AssessmentParticipationRate>
+			  <AssessmentParticipationRate AssessmentTitle="STATE" RegexMatch ="true">
+				<ParticipationRate LowerPerformancePercentile="0" UpperPerformancePercentile="0.5" Probability="0.9"/>
+				<ParticipationRate LowerPerformancePercentile="0.5" UpperPerformancePercentile="1.0" Probability="1.0"/>
+			  </AssessmentParticipationRate>
+			</GradeProfile>
+			<!-- Each SchoolProfile must have a StaffProfile, which defines the biographical makeup of the school's staff. -->
+			<StaffProfile>
+				<!-- Define race population statistics. -->
+				<StaffRaceConfiguration>
+					<Option Value="White" Frequency="0.49" />
+					<Option Value="Hispanic" Frequency="0.29" />
+					<Option Value="Black" Frequency="0.16" />
+					<Option Value="Asian" Frequency="0.06" />
+				</StaffRaceConfiguration>
+				<!-- Define gender population statistics. -->
+				<StaffSexConfiguration>
+					<Option Value="Male" Frequency="0.24" />
+					<Option Value="Female" Frequency="0.76" />
+				</StaffSexConfiguration>
+			</StaffProfile>
+		</SchoolProfile>
+	</DistrictProfile>
+	<!-- StudentProfiles model cohorts of students.  Define as many StudentProfiles as needed to model -->
+	<!-- your district and reference from your GradeProfile elements. -->
+	<StudentProfile Name="Default">
+		<!-- Define race population statistics. -->
+		<RaceConfiguration>
+			<Option Value="White" Frequency="0.50" />
+			<Option Value="Hispanic" Frequency="0.20" />
+			<Option Value="Black" Frequency="0.10" />
+			<Option Value="Asian" Frequency="0.20" />
+		</RaceConfiguration>
+		<!-- Define gender population statistics. -->
+		<SexConfiguration>
+			<Option Value="Male" Frequency="0.52" />
+			<Option Value="Female" Frequency="0.48" />
+		</SexConfiguration>
+		<!-- Control percentages of students for each race who are economically disadvantaged. -->
+		<EconomicDisadvantageConfiguration>
+			<Option Value="White" Frequency="0.10" />
+			<Option Value="Hispanic" Frequency="0.30" />
+			<Option Value="Black" Frequency="0.20" />
+			<Option Value="Asian" Frequency="0.15" />
+		</EconomicDisadvantageConfiguration>
+		<!-- Control percentages of students for each race who are homeless. -->
+		<HomelessStatusConfiguration>
+			<Option Value="White" Frequency="0.01" />
+			<Option Value="Hispanic" Frequency="0.01" />
+			<Option Value="Black" Frequency="0.01" />
+			<Option Value="Asian" Frequency="0.01" />
+		</HomelessStatusConfiguration>
+		<!-- ImmigrantProfile sets the number of students from a given Race -->
+		<!-- that are marked as immigrants, along with their country of origin. -->
+		<ImmigrantProfile>
+			<CountryOfOrigin Name="MX" Race="Hispanic" Frequency="0.05" />
+		</ImmigrantProfile>
+	</StudentProfile>
+	<StudentProfile Name="AllWhiteMale">
+		<RaceConfiguration>
+			<Option Value="White" Frequency="1.0" />
+		</RaceConfiguration>
+		<SexConfiguration>
+			<Option Value="Male" Frequency="1.0" />
+		</SexConfiguration>
+	</StudentProfile>
+	<StudentProfile Name="AllBlackFemale">
+		<RaceConfiguration>
+			<Option Value="Black" Frequency="1.0" />
+		</RaceConfiguration>
+		<SexConfiguration>
+			<Option Value="Female" Frequency="1.0" />
+		</SexConfiguration>
+	</StudentProfile>
+	<!-- One or more GraduationPlanTemplate elements should be defined to set the number of credits -->
+	<!-- required for a student to graduation from their current school. -->
+	<GraduationPlanTemplate Name="HighSchoolMinimum" Type="Minimum" TotalCreditsRequired="24" />
+	<GraduationPlanTemplate Name="HighSchoolRecommended" Type="Recommended" TotalCreditsRequired="26" />
+	<GraduationPlanTemplate Name="HighSchoolDistinguished" Type="Distinguished" TotalCreditsRequired="28" />
+</SampleDataGeneratorConfig>

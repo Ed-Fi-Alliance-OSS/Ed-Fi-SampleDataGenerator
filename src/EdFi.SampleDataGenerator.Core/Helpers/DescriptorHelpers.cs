@@ -9,8 +9,6 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
 {
     public static class DescriptorHelpers
     {
-        public const string DescriptorNamespacePrefix = "http://ed-fi.org/Descriptor";
-
         private const string DescriptorText = "Descriptor";
         private const string MapText = "Map";
         public const string DescriptorFormatUri = @"uri://ed-fi.org/";
@@ -67,17 +65,6 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
         {
             var list = descriptorType.GetFields().Where(a => a.FieldType == descriptorType).ToList();
             return list.ToDictionary(b => b.Name, c => (DescriptorType)c.GetValue(null));
-        }
-
-        public static string GetDescriptorNamespace<TDescriptor>()
-            where TDescriptor : DescriptorType
-        {
-            return GetDescriptorNamespace(typeof(TDescriptor).Name);
-        }
-
-        public static string GetDescriptorNamespace(string descriptorName)
-        {
-            return $"{DescriptorNamespacePrefix}/{descriptorName}.xml";
         }
 
         public static bool IsParseableToDescriptorFromName<TDescriptor>(string name) where TDescriptor : DescriptorType
@@ -141,30 +128,23 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
             }
         }
 
-        public static TDescriptorReferenceType GetDescriptorReference<TDescriptorReferenceType, TDescriptor>(this TDescriptor descriptor)
-            where TDescriptorReferenceType : DescriptorReferenceType, new()
-            where TDescriptor : DescriptorType
+        public static TDescriptorType ParseFromStructuredCodeValue<TDescriptorType>(this string value) where TDescriptorType: DescriptorType
         {
+            var result = FirstOrDefault<TDescriptorType>(d => d.GetStructuredCodeValue() == value);
 
-            return new TDescriptorReferenceType
-            {
-                CodeValue = descriptor.CodeValue,
-                Namespace = DescriptorReferenceTypeHelpers.GetDescriptorNamespace<TDescriptorReferenceType>()
-            };
+            if (result == null)
+                throw new Exception($"{typeof(TDescriptorType).Name} not found for: {value}");
+
+            return result;
         }
 
-        public static string[] ToCodeValueArray<TDescriptor>()
+        public static string[] ToStructuredCodeValueArray<TDescriptor>()
             where TDescriptor : DescriptorType
         {
             var descriptorType = typeof(TDescriptor);
-            return DescriptorsDictionary[descriptorType.Name].Select(x => x.Value.CodeValue).ToArray();
+            return DescriptorsDictionary[descriptorType.Name].Select(x => x.Value.GetStructuredCodeValue()).ToArray();
         }
 
-        public static string[] ToCodeValueArray<TDescriptor>(this TDescriptor[] descriptors)
-            where TDescriptor : DescriptorType
-        {
-            return descriptors.Select(x => x.CodeValue).ToArray();
-        }
         public static string[] ToStructuredCodeValueArray<TDescriptor>(this TDescriptor[] descriptors)
             where TDescriptor : DescriptorType
         {
@@ -199,6 +179,15 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
             var descriptorType = typeof(TDescriptor);
             if (DescriptorsDictionary.ContainsKey(descriptorType.Name))
                 return DescriptorsDictionary[descriptorType.Name].Values.Cast<TDescriptor>().ToArray();
+
+            throw new Exception("Descriptor Type not found");
+        }
+
+        public static TDescriptor FirstOrDefault<TDescriptor>(Func<TDescriptor, bool> condition) where TDescriptor : DescriptorType
+        {
+            var descriptorType = typeof(TDescriptor);
+            if (DescriptorsDictionary.ContainsKey(descriptorType.Name))
+                return DescriptorsDictionary[descriptorType.Name].Values.Cast<TDescriptor>().FirstOrDefault(condition);
 
             throw new Exception("Descriptor Type not found");
         }

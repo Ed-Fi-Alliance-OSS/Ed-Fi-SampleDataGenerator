@@ -157,7 +157,7 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentTranscr
             if (course.RestrictedToHighPerformingStudents())
             {
                 bool courseIsForGiftedAndTalentedProgram =
-                    course.CourseLevelCharacteristic.Contains(CourseLevelCharacteristicDescriptor.GiftedAndTalented.CodeValue);
+                    course.CourseLevelCharacteristic.Contains(CourseLevelCharacteristicDescriptor.GiftedAndTalented.GetStructuredCodeValue());
 
                 if (courseIsForGiftedAndTalentedProgram)
                 {

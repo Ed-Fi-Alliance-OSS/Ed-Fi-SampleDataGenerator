@@ -8,6 +8,7 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.AssessmentMetada
     {
         public AssessmentCsvClassMap()
         {
+            Map(x => x.AssessmentIdentifier);
             Map(x => x.AssessmentTitle);
             Map(x => x.AssessmentVersion);
             Map(x => x.RevisionDate);
@@ -15,7 +16,6 @@ namespace EdFi.SampleDataGenerator.Core.Serialization.CsvHelper.AssessmentMetada
             Map(x => x.AssessmentCategory);
             Map(x => x.AcademicSubject);
             Map(x => x.AssessedGradeLevel);
-            Map(x => x.LowestAssessedGradeLevel);
             Map(x => x.Namespace);
             References<AssessmentIdentificationCodeCsvClassMap>(x => x.AssessmentIdentificationCode);
             References<AssessmentPerformanceLevelCsvClassMap>(x => x.AssessmentPerformanceLevel);

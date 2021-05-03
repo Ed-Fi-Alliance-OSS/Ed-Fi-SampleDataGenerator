@@ -47,7 +47,7 @@ namespace EdFi.EducationOrganizationGenerator.Console.Generators
                 {
                     new InstitutionTelephone
                     {
-                        InstitutionTelephoneNumberType = InstitutionTelephoneNumberTypeDescriptor.Main.CodeValue,
+                        InstitutionTelephoneNumberType = InstitutionTelephoneNumberTypeDescriptor.Main.GetStructuredCodeValue(),
                         TelephoneNumber = Configuration.DistrictProfile.LocationInfo.GetPhoneNumberForCity(RandomNumberGenerator, physicalAddress.City)
                     }
                 },

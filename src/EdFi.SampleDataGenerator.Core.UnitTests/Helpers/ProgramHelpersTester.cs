@@ -150,7 +150,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             return new ProgramIdentityType
             {
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = edOrgId },
-                ProgramType = programType.CodeValue,
+                ProgramType = programType.GetStructuredCodeValue(),
                 ProgramName = programName
             };
         }
@@ -159,7 +159,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Helpers
             return new ProgramLookupType
             {
                 EducationOrganizationReference = new EducationOrganizationReferenceType { @ref = edOrgId },
-                ProgramType = programType.CodeValue,
+                ProgramType = programType.GetStructuredCodeValue(),
                 ProgramName = programName
             };
         }

@@ -28,19 +28,9 @@ namespace EdFi.SampleDataGenerator.Core.Helpers
             };
         }
 
-        public static GraduationPlan GetGraduationPlan(this IEnumerable<GraduationPlan> graduationPlans, GraduationPlanReferenceType graduationPlanReference)
-        {
-            return graduationPlans.SingleOrDefault(gp => graduationPlanReference.ReferencesGraduationPlan(gp));
-        }
-
         public static IEnumerable<GraduationPlan> GetGraduationPlans(this IEnumerable<GraduationPlan> graduationPlans, ISchoolProfile school, SchoolYearType planYear)
         {
             return graduationPlans.Where(gp => gp.GraduationSchoolYear == planYear && gp.EducationOrganizationReference?.EducationOrganizationIdentity?.EducationOrganizationId == school.SchoolId);
-        }
-
-        public static string GetGraduationPlanId(this IEnumerable<GraduationPlan> graduationPlans, ISchoolProfile school, SchoolYearType planYear, GraduationPlanTypeDescriptor graduationPlanType)
-        {
-            return graduationPlans.GetGraduationPlans(school, planYear).SingleOrDefault(gp => gp.GraduationPlanType.Equals(graduationPlanType.CodeValue, StringComparison.OrdinalIgnoreCase))?.id;
         }
 
         public static string GetGraduationPlanId(this IGraduationPlanTemplate template, ISchoolProfile school, SchoolYearType planYear)

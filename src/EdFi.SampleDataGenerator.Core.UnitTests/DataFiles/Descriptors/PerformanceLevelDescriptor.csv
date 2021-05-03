@@ -1,8 +1,14 @@
-CodeValue,Description,Namespace,ShortDescription,PerformanceBaseConversion
-Advanced,Advanced,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Advanced,Advanced
-Basic,Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Basic,Basic
-Below Basic,Below Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Below Basic,Below Basic
-Fail,Fail,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Fail,Fail
-Pass,Pass,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Pass,Pass
-Proficient,Proficient,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Proficient,Proficient
-Well Below Basic,Well Below Basic,http://ed-fi.org/Descriptor/PerformanceLevelDescriptor.xml,Well Below Basic,Well Below Basic
+CodeValue,Description,Namespace,ShortDescription,EffectiveBeginDate,EffectiveEndDate
+Advanced,Advanced,uri://ed-fi.org/PerformanceLevelDescriptor,Advanced,,
+Basic,Basic,uri://ed-fi.org/PerformanceLevelDescriptor,Basic,,
+Below Basic,Below Basic,uri://ed-fi.org/PerformanceLevelDescriptor,Below Basic,,
+Fail,Fail,uri://ed-fi.org/PerformanceLevelDescriptor,Fail,,
+Pass,Pass,uri://ed-fi.org/PerformanceLevelDescriptor,Pass,,
+Proficient,Proficient,uri://ed-fi.org/PerformanceLevelDescriptor,Proficient,,
+Well Below Basic,Well Below Basic,uri://ed-fi.org/PerformanceLevelDescriptor,Well Below Basic,,
+Met Standard,Met Standard,uri://ed-fi.org/PerformanceLevelDescriptor,Met Standard,,
+Above Benchmark,Above Benchmark,uri://ed-fi.org/PerformanceLevelDescriptor,Above Benchmark,,
+Commended Performance,Commended Performance,uri://ed-fi.org/PerformanceLevelDescriptor,Commended Performance,,
+Satisfactory,Satisfactory,uri://ed-fi.org/PerformanceLevelDescriptor,Satisfactory,,
+Minimum,Minimum,uri://ed-fi.org/PerformanceLevelDescriptor,Minimum,,
+Unsatisfactory,Unsatisfactory,uri://ed-fi.org/PerformanceLevelDescriptor,Unsatisfactory,,
