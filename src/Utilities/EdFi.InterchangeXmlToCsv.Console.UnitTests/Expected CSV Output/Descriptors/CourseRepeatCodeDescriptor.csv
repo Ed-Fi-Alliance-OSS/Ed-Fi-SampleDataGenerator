@@ -1,0 +1,7 @@
+CodeValue,ShortDescription,Description,Namespace
+Not Counted Other,Not Counted Other,Not Counted Other,uri://ed-fi.org/CourseRepeatCodeDescriptor
+Repeat Counted,Repeat Counted,Repeat Counted,uri://ed-fi.org/CourseRepeatCodeDescriptor
+Repeat NotCounted,Repeat NotCounted,Repeat NotCounted,uri://ed-fi.org/CourseRepeatCodeDescriptor
+Repeat Other Institution,Repeat Other Institution,Repeat Other Institution,uri://ed-fi.org/CourseRepeatCodeDescriptor
+Replaced NotCounted,Replaced NotCounted,Replaced NotCounted,uri://ed-fi.org/CourseRepeatCodeDescriptor
+Replacement Counted,Replacement Counted,Replacement Counted,uri://ed-fi.org/CourseRepeatCodeDescriptor

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--
+		This file exists only so that xsd.exe can infer
+		the output file name of EdFiEntities.cs. This
+		<xs:schema> is intended to remain empty.
+	-->
+</xs:schema>

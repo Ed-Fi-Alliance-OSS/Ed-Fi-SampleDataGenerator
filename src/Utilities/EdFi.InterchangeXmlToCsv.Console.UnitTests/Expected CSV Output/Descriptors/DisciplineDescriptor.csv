@@ -1,8 +1,9 @@
-CodeValue,ShortDescription,Description,Namespace,DisciplineMap
-Removal from Classroom,Removal from Classroom,Removal from Classroom,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Removal from Classroom
-In School Suspension,In School Suspension,In School Suspension,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,In School Suspension
-Out of School Suspension,Out of School Suspension,Out of School Suspension,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Out of School Suspension
-Expulsion,Expulsion,Expulsion,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Expulsion
-Expulsion with Services,Expulsion with Services,Expulsion with Services,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Expulsion with Services
-Community Service,Community Service,Community Service,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Community Service
-Other,Other,Other,http://www.ed-fi.org/Descriptor/DisciplineDescriptor.xml,Other
+CodeValue,ShortDescription,Description,Namespace
+Removal from Classroom,Removal from Classroom,Removal from Classroom,uri://ed-fi.org/DisciplineDescriptor
+In School Suspension,In School Suspension,In School Suspension,uri://ed-fi.org/DisciplineDescriptor
+Out of School Suspension,Out of School Suspension,Out of School Suspension,uri://ed-fi.org/DisciplineDescriptor
+Expulsion,Expulsion,Expulsion,uri://ed-fi.org/DisciplineDescriptor
+Expulsion with Services,Expulsion with Services,Expulsion with Services,uri://ed-fi.org/DisciplineDescriptor
+Community Service,Community Service,Community Service,uri://ed-fi.org/DisciplineDescriptor
+Other,Other,Other,uri://ed-fi.org/DisciplineDescriptor
+No action for incident,No action for incident,No action for incident,uri://ed-fi.org/DisciplineDescriptor

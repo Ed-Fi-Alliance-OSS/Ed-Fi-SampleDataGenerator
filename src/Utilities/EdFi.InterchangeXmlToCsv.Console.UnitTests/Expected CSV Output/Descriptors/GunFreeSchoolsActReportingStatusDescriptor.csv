@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+No,No,No,uri://ed-fi.org/GunFreeSchoolsActReportingStatusDescriptor
+Not applicable,Not applicable,Not applicable,uri://ed-fi.org/GunFreeSchoolsActReportingStatusDescriptor
+"Yes, with no reported offenses","Yes, with no reported offenses","Yes, with no reported offenses",uri://ed-fi.org/GunFreeSchoolsActReportingStatusDescriptor
+"Yes, with one or more student offenses","Yes, with reporting of one or more students for an offense","Yes, with reporting of one or more students for an offense",uri://ed-fi.org/GunFreeSchoolsActReportingStatusDescriptor

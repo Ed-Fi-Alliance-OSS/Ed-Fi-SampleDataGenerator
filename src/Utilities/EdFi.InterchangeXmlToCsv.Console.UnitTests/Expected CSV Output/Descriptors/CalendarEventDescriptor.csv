@@ -1,10 +1,11 @@
-CodeValue,ShortDescription,Description,Namespace,CalendarEventMap
-Emergency day,Emergency day,Emergency day,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Emergency day
-Holiday,Holiday,Holiday,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Holiday
-Instructional day,Instructional day,Instructional day,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Instructional day
-Make-up day,Make-up day,Make-up day,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Make-up day
-Other,Other,Other,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Other
-Strike,Strike,Strike,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Strike
-Student late arrival/early dismissal,Student late arrival/early dismissal,Student late arrival/early dismissal,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Student late arrival/early dismissal
-Teacher only day,Teacher only day,Teacher only day,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Teacher only day
-Weather day,Weather day,Weather day,http://www.ed-fi.org/Descriptor/CalendarEventDescriptor.xml,Weather day
+CodeValue,ShortDescription,Description,Namespace
+Emergency day,Emergency day,Instruction cancelled or reduced due to an emergency,uri://ed-fi.org/CalendarEventDescriptor
+Holiday,Holiday,Instruction cancelled or reduced due to a holiday,uri://ed-fi.org/CalendarEventDescriptor
+Instructional day,Instructional day,Student instructional day,uri://ed-fi.org/CalendarEventDescriptor
+Make-up day,Make-up day,Make-up instructional day,uri://ed-fi.org/CalendarEventDescriptor
+Other,Other,Other,uri://ed-fi.org/CalendarEventDescriptor
+Strike,Strike,Instruction cancelled or reduced due to a strike,uri://ed-fi.org/CalendarEventDescriptor
+Student late arrival/early dismissal,Student late arrival/early dismissal,Abbreviated instructional day due to student late arrival or early dismissal,uri://ed-fi.org/CalendarEventDescriptor
+Teacher only day,Teacher only day,"Non-instructional day for students designated for teachers (e.g., staff development, work day)",uri://ed-fi.org/CalendarEventDescriptor
+Weather day,Weather day,Instruction cancelled or reduced due to weather,uri://ed-fi.org/CalendarEventDescriptor
+Non-instructional day,Non-instructional day,Non-instructional day,uri://ed-fi.org/CalendarEventDescriptor

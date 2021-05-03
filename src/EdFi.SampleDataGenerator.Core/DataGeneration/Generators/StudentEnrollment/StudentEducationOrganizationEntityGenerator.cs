@@ -60,9 +60,9 @@ namespace EdFi.SampleDataGenerator.Core.DataGeneration.Generators.StudentEnrollm
             {
                 new StudentIdentificationCode
                 {
-                    AssigningOrganizationIdentificationCode = "Local",
+                    AssigningOrganizationIdentificationCode = "School",
                     IdentificationCode = uniqueId,
-                    StudentIdentificationSystem = StudentIdentificationSystemDescriptor.Local.GetStructuredCodeValue()
+                    StudentIdentificationSystem = StudentIdentificationSystemDescriptor.School.GetStructuredCodeValue()
                 }
             };
         }

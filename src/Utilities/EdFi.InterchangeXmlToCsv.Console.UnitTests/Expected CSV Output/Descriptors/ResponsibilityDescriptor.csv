@@ -1,7 +1,8 @@
-CodeValue,ShortDescription,Description,Namespace,ResponsibilityMap
-Accountability,Accountability,Accountability,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Accountability
-Attendance,Attendance,Attendance,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Attendance
-Funding,Funding,Funding,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Funding
-Graduation,Graduation,Graduation,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Graduation
-Individualized Education Program,Individualized Education Program,Individualized Education Program,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Individualized Education Program
-Transportation,Transportation,Transportation,http://www.ed-fi.org/Descriptor/ResponsibilityDescriptor.xml,Transportation
+CodeValue,ShortDescription,Description,Namespace
+Accountability,Accountability,Accountability,uri://ed-fi.org/ResponsibilityDescriptor
+Attendance,Attendance,Attendance,uri://ed-fi.org/ResponsibilityDescriptor
+Discipline,Discipline,Discipline,uri://ed-fi.org/ResponsibilityDescriptor
+Funding,Funding,Funding,uri://ed-fi.org/ResponsibilityDescriptor
+Graduation,Graduation,Graduation,uri://ed-fi.org/ResponsibilityDescriptor
+Individualized Education Program,Individualized Education Program,Individualized Education Program,uri://ed-fi.org/ResponsibilityDescriptor
+Transportation,Transportation,Transportation,uri://ed-fi.org/ResponsibilityDescriptor

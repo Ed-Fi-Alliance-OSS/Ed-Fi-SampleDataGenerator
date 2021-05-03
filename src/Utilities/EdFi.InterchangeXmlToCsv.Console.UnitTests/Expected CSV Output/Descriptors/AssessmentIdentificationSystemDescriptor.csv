@@ -1,8 +1,8 @@
-CodeValue,ShortDescription,Description,Namespace,AssessmentIdentificationSystemMap
-District,District,District,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,District
-Federal,Federal,Federal,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Federal
-Other,Other,Other,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Other
-Other Federal,Other Federal,Other Federal,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Other Federal
-School,School,School,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,School
-State,State,State,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,State
-Test Contractor,Test Contractor,Test Contractor,http://www.ed-fi.org/Descriptor/AssessmentIdentificationSystemDescriptor.xml,Test Contractor
+CodeValue,ShortDescription,Description,Namespace
+District,District,District,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+Other Federal,Other Federal,Other Federal,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+State,State,State,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor
+Test Contractor,Test Contractor,Test Contractor,uri://ed-fi.org/AssessmentIdentificationSystemDescriptor

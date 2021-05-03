@@ -1,0 +1,10 @@
+CodeValue,ShortDescription,Description,Namespace
+Classroom,Classroom,Classroom,uri://ed-fi.org/CohortScopeDescriptor
+Counselor,Counselor,Counselor,uri://ed-fi.org/CohortScopeDescriptor
+District,District,District,uri://ed-fi.org/CohortScopeDescriptor
+Network,Network,Network,uri://ed-fi.org/CohortScopeDescriptor
+Other,Other,Other,uri://ed-fi.org/CohortScopeDescriptor
+Principal,Principal,Principal,uri://ed-fi.org/CohortScopeDescriptor
+School,School,School,uri://ed-fi.org/CohortScopeDescriptor
+Statewide,Statewide,Statewide,uri://ed-fi.org/CohortScopeDescriptor
+Teacher,Teacher,Teacher,uri://ed-fi.org/CohortScopeDescriptor

@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+Applicable,Applicable,Applicable,uri://ed-fi.org/CourseGPAApplicabilityDescriptor
+Not Applicable,Not Applicable,Not Applicable,uri://ed-fi.org/CourseGPAApplicabilityDescriptor
+Weighted,Weighted,Weighted,uri://ed-fi.org/CourseGPAApplicabilityDescriptor

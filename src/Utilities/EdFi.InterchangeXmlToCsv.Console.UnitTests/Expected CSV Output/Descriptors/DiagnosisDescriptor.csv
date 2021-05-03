@@ -1,3 +1,3 @@
-CodeValue,ShortDescription,Description,Namespace,DiagnosisMap
-Low Attendance,Low Attendance,Low Attendance,http://www.ed-fi.org/Descriptor/DiagnosisDescriptor.xml,Low Attendance
-Dropout Risk,Dropout Risk,Dropout Risk,http://www.ed-fi.org/Descriptor/DiagnosisDescriptor.xml,Dropout Risk
+CodeValue,ShortDescription,Description,Namespace
+Low Attendance,Low Attendance,Low Attendance,uri://ed-fi.org/DiagnosisDescriptor
+Dropout Risk,Dropout Risk,Dropout Risk,uri://ed-fi.org/DiagnosisDescriptor

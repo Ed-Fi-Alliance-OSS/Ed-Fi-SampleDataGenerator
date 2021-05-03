@@ -1,21 +1,21 @@
-CodeValue,ShortDescription,Description,Namespace,DisabilityCategory,DisabilityMap
-AUT,AUT,Autism,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Autism Spectrum Disorders
-DB,DB,Deaf-blindness,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Deaf-Blindness
-HI,HI,Hearing impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,"Hearing Impairment, including Deafness"
-ID,ID,Intellectual Disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Intellectual Disability
-ITD,ITD,Infant/Toddler with a Disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Infant/Toddler with a Disability
-Medical condition,Medical condition,Medical condition,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Section 504,Medical condition
-Mental impairment,Mental impairment,Mental impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Mental impairment
-Motor impairment,Motor impairment,Motor impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Section 504,Motor impairment
-MD,MD,Multiple disabilities,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Multiple Disabilities
-OI,OI,Orthopedic Impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Section 504,Orthopedic Impairment
-Other,Other,Other,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Other,Other
-OHI,OHI,Other health impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Other Health Impairment
-Physical Disability,Physical Disability,Physical Disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Physical Disability
-PSD,PSD,Preschooler with a Disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Preschooler with a Disability
-Sensory impairment,Sensory impairment,Sensory impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Section 504,Sensory impairment
-Serious Emotional Disability,Serious Emotional Disability,Serious Emotional Disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Section 504,Serious Emotional Disability
-SLI,SLI,Speech or language impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Speech or Language Impairment
-SLD,SLD,Specific learning disability,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Specific Learning Disability
-TBI,TBI,Traumatic brain injury,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,Traumatic Brain Injury
-VI,VI,Visual impairment,http://www.ed-fi.org/Descriptor/DisabilityDescriptor.xml,Individuals with Disabilities Education Act,"Visual Impairment, including Blindness"
+CodeValue,Description,Namespace,ShortDescription,EffectiveBeginDate,EffectiveEndDate
+Autism Spectrum Disorders,Autism Spectrum Disorders,uri://ed-fi.org/DisabilityDescriptor,Autism Spectrum Disorders,,
+Deaf-Blindness,Deaf-Blindness,uri://ed-fi.org/DisabilityDescriptor,Deaf-Blindness,,
+"Hearing Impairment, including Deafness","Hearing Impairment, including Deafness",uri://ed-fi.org/DisabilityDescriptor,"Hearing Impairment, including Deafness",,
+Intellectual Disability,Intellectual Disability,uri://ed-fi.org/DisabilityDescriptor,Intellectual Disability,,
+Infant/Toddler with a Disability,Infant/Toddler with a Disability,uri://ed-fi.org/DisabilityDescriptor,Infant/Toddler with a Disability,,
+Medical condition,Medical condition,uri://ed-fi.org/DisabilityDescriptor,Medical condition,,
+Mental impairment,Mental impairment,uri://ed-fi.org/DisabilityDescriptor,Mental impairment,,
+Motor impairment,Motor impairment,uri://ed-fi.org/DisabilityDescriptor,Motor impairment,,
+Multiple Disabilities,Multiple disabilities,uri://ed-fi.org/DisabilityDescriptor,Multiple Disabilities,,
+Orthopedic Impairment,Orthopedic Impairment,uri://ed-fi.org/DisabilityDescriptor,Orthopedic Impairment,,
+Other,Other,uri://ed-fi.org/DisabilityDescriptor,Other,,
+Other Health Impairment,Other Health Impairment,uri://ed-fi.org/DisabilityDescriptor,Other Health Impairment,,
+Physical Disability,Physical Disability,uri://ed-fi.org/DisabilityDescriptor,Physical Disability,,
+Preschooler with a Disability,Preschooler with a Disability,uri://ed-fi.org/DisabilityDescriptor,Preschooler with a Disability,,
+Sensory impairment,Sensory impairment,uri://ed-fi.org/DisabilityDescriptor,Sensory impairment,,
+Serious Emotional Disability,Serious Emotional Disability,uri://ed-fi.org/DisabilityDescriptor,Serious Emotional Disability,,
+Speech or Language Impairment,Speech or Language Impairment,uri://ed-fi.org/DisabilityDescriptor,Speech or Language Impairment,,
+Specific Learning Disability,Specific Learning Disability,uri://ed-fi.org/DisabilityDescriptor,Specific Learning Disability,,
+Traumatic Brain Injury,Traumatic Brain Injury,uri://ed-fi.org/DisabilityDescriptor,Traumatic Brain Injury,,
+"Visual Impairment, including Blindness","Visual Impairment, including Blindness",uri://ed-fi.org/DisabilityDescriptor,"Visual Impairment, including Blindness",,

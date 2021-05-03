@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+City-Large,City-Large,City-Large,uri://ed-fi.org/LocaleDescriptor
+City-Midsize,City-Midsize,City-Midsize,uri://ed-fi.org/LocaleDescriptor
+City-Small,City-Small,City-Small,uri://ed-fi.org/LocaleDescriptor
+Suburban-Large,Suburban-Large,Suburban-Large,uri://ed-fi.org/LocaleDescriptor
+Suburban-Midsize,Suburban-Midsize,Suburban-Midsize,uri://ed-fi.org/LocaleDescriptor
+Suburban-Small,Suburban-Small,Suburban-Small,uri://ed-fi.org/LocaleDescriptor
+Town-Fringe,Town-Fringe,Town-Fringe,uri://ed-fi.org/LocaleDescriptor
+Town-Distant,Town-Distant,Town-Distant,uri://ed-fi.org/LocaleDescriptor
+Town-Remote,Town-Remote,Town-Remote,uri://ed-fi.org/LocaleDescriptor
+Rural-Fringe,Rural-Fringe,Rural-Fringe,uri://ed-fi.org/LocaleDescriptor
+Rural-Distant,Rural-Distant,Rural-Distant,uri://ed-fi.org/LocaleDescriptor
+Rural-Remote,Rural-Remote,Rural-Remote,uri://ed-fi.org/LocaleDescriptor

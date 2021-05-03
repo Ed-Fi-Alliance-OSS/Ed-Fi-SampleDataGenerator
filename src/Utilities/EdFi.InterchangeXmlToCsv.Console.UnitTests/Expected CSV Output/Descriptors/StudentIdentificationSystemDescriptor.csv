@@ -1,12 +1,13 @@
-CodeValue,ShortDescription,Description,Namespace,StudentIdentificationSystemMap
-Canadian SIN,Canadian SIN,Canadian SIN,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Canadian SIN
-District,District,District,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,District
-Family,Family,Family,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Family
-Federal,Federal,Federal,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Federal
-Local,Local,Local,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Local
-National Migrant,National Migrant,National Migrant,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,National Migrant
-Other,Other,Other,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,Other
-School,School,School,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,School
-SSN,SSN,SSN,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,SSN
-State,State,State,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,State
-State Migrant,State Migrant,State Migrant,http://www.ed-fi.org/Descriptor/StudentIdentificationSystemDescriptor.xml,State Migrant
+CodeValue,ShortDescription,Description,Namespace
+Canadian SIN,Canadian SIN,Canadian SIN,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+District,District,"The student identification system for the student at the district level, generally managed by the district student information system, and the one that assigns the principal IDs used to join student data for district operations.",uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Family,Family,Family,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Local,DEPRECATED: Local,DEPRECATED: Local,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+National Migrant,National Migrant,National Migrant,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+SSN,SSN,SSN,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+State,State,The state identification system for students that assigns a state ID to each student.,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+State Migrant,State Migrant,State Migrant,uri://ed-fi.org/StudentIdentificationSystemDescriptor
+Student Number,Student Number,"A category of IDs often provided to enable students and others to remember and use in daily operations. If none exists, the Student Number system is generally equivalent to the District system.",uri://ed-fi.org/StudentIdentificationSystemDescriptor

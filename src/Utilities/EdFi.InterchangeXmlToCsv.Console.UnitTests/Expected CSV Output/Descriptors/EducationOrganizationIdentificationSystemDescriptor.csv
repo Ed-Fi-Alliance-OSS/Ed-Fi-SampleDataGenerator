@@ -1,12 +1,12 @@
-CodeValue,ShortDescription,Description,Namespace,EducationOrganizationIdentificationSystemMap
-ACT,ACT,ACT,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,ACT
-DUNS,DUNS,DUNS,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,DUNS
-Federal,Federal,Federal,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,Federal
-IPEDS,IPEDS,IPEDS,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,IPEDS
-LEA,LEA,LEA,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,LEA
-NCES,NCES,NCES,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,NCES
-Other,Other,Other,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,Other
-Other Federal,Other Federal,Other Federal,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,Other Federal
-School,School,School,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,School
-SEA,SEA,SEA,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,SEA
-USDE - OPE,USDE - OPE,USDE - OPE,http://www.ed-fi.org/Descriptor/EducationOrganizationIdentificationSystemDescriptor.xml,USDE - OPE
+CodeValue,ShortDescription,Description,Namespace
+ACT,ACT,ACT,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+DUNS,DUNS,DUNS,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+IPEDS,IPEDS,IPEDS,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+LEA,LEA,LEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+NCES,NCES,NCES,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+Other Federal,Other Federal,Other Federal,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+SEA,SEA,SEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor
+USDE - OPE,USDE - OPE,USDE - OPE,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor

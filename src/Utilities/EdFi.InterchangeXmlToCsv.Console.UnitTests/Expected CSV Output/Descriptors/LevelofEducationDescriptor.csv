@@ -1,8 +1,8 @@
-CodeValue,ShortDescription,Description,Namespace,LevelOfEducationMap
-Associate's Degree (two years or more),Associate's Degree (two years or more),Associate's Degree (two years or more),http://www.ed-fi.org/Descriptor/LevelOfEducationDescriptor.xml,Associate's Degree (two years or more)
-Bachelor's,Bachelor's,Bachelor's,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,Bachelor's
-Did Not Graduate High School,Did Not Graduate High School,Did Not Graduate High School,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,Did Not Graduate High School
-Doctorate,Doctorate,Doctorate,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,Doctorate
-High School Diploma,High School Diploma,High School Diploma,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,High School Diploma
-Master's,Master's,Master's,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,Master's
-Some College No Degree,Some College No Degree,Some College No Degree,http://www.ed-fi.org/Descriptor/LevelofEducationDescriptor.xml,Some College No Degree
+CodeValue,ShortDescription,Description,Namespace
+Associate's Degree (two years or more),Associate's Degree (two years or more),Associate's Degree (two years or more),uri://ed-fi.org/LevelOfEducationDescriptor
+Bachelor's,Bachelor's,Bachelor's,uri://ed-fi.org/LevelOfEducationDescriptor
+Did Not Graduate High School,Did Not Graduate High School,Did Not Graduate High School,uri://ed-fi.org/LevelOfEducationDescriptor
+Doctorate,Doctorate,Doctorate,uri://ed-fi.org/LevelOfEducationDescriptor
+High School Diploma,High School Diploma,High School Diploma,uri://ed-fi.org/LevelOfEducationDescriptor
+Master's,Master's,Master's,uri://ed-fi.org/LevelOfEducationDescriptor
+Some College No Degree,Some College No Degree,Some College No Degree,uri://ed-fi.org/LevelOfEducationDescriptor

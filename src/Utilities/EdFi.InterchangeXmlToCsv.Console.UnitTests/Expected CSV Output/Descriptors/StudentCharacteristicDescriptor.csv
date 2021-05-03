@@ -1,16 +1,15 @@
-CodeValue,ShortDescription,Description,Namespace,StudentCharacteristicMap
-Asylee,Asylee,Asylee,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Asylee
-Displaced Homemaker,Displaced Homemaker,Displaced Homemaker,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Displaced Homemaker
-Foster Care,Foster Care,Foster Care,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Foster Care
-Homeless,Homeless,Homeless,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Homeless
-Immigrant,Immigrant,Immigrant,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Immigrant
-Migrant,Migrant,Migrant,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Migrant
-Neglected or Delinquent,Neglected or Delinquent,Neglected or Delinquent,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Neglected or Delinquent
-Parent in Military,Parent in Military,Parent in Military,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Parent in Military
-Pregnant,Pregnant,Pregnant,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Pregnant
-Refugee,Refugee,Refugee,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Refugee
-Runaway,Runaway,Runaway,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Runaway
-Section 504 Handicapped,Section 504 Handicapped,Section 504 Handicapped,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Section 504 Handicapped
-Single Parent,Single Parent,Single Parent,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Single Parent
-Unaccompanied Youth,Unaccompanied Youth,Unaccompanied Youth,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Unaccompanied Youth
-Other,Other,Other,http://www.ed-fi.org/Descriptor/StudentCharacteristicDescriptor.xml,Other
+CodeValue,ShortDescription,Description,Namespace
+Asylee,Asylee,Asylee,uri://ed-fi.org/StudentCharacteristicDescriptor
+Displaced Homemaker,Displaced Homemaker,Displaced Homemaker,uri://ed-fi.org/StudentCharacteristicDescriptor
+Foster Care,Foster Care,Foster Care,uri://ed-fi.org/StudentCharacteristicDescriptor
+Homeless,Homeless,Homeless,uri://ed-fi.org/StudentCharacteristicDescriptor
+Immigrant,Immigrant,Immigrant,uri://ed-fi.org/StudentCharacteristicDescriptor
+Parent in Military,Parent in Military,Parent in Military,uri://ed-fi.org/StudentCharacteristicDescriptor
+Pregnant,Pregnant,Pregnant,uri://ed-fi.org/StudentCharacteristicDescriptor
+Refugee,Refugee,Refugee,uri://ed-fi.org/StudentCharacteristicDescriptor
+Runaway,Runaway,Runaway,uri://ed-fi.org/StudentCharacteristicDescriptor
+Single Parent,Single Parent,Single Parent,uri://ed-fi.org/StudentCharacteristicDescriptor
+Unaccompanied Youth,Unaccompanied Youth,Unaccompanied Youth,uri://ed-fi.org/StudentCharacteristicDescriptor
+Other,Other,Other,uri://ed-fi.org/StudentCharacteristicDescriptor
+Displaced,Displaced,Displaced,uri://ed-fi.org/StudentCharacteristicDescriptor
+Economic Disadvantaged,Economic Disadvantaged,Economic Disadvantaged,uri://ed-fi.org/StudentCharacteristicDescriptor

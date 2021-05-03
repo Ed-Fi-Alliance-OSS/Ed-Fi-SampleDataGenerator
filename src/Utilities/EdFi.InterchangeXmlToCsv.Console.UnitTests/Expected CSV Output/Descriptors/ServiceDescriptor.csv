@@ -1,14 +1,16 @@
-CodeValue,ShortDescription,Description,Namespace
-Assistive technology device or service,Assistive technology device or service,Assistive technology device or service,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Counseling services,Counseling services,Counseling services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Interpreting services,Interpreting services,Interpreting services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Medical diagnostic services,Medical diagnostic services,Medical diagnostic services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Physical therapy,Physical therapy,Physical therapy,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Orientation and mobility training services,Orientation and mobility training services,Orientation and mobility training services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Occupational therapy,Occupational therapy,Occupational therapy,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Preschool children with disabilites program,Preschool children with disabilites program,Preschool children with disabilites program,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Psychological services,Psychological services,Psychological services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Recreational services,Recreational services,Recreational services,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Audiological Impairment,Audiological Impairment,Audiological Impairment,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Dyslexia,Dyslexia,Dyslexia,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
-Disgraphia,Disgraphia,Disgraphia,http://www.ed-fi.org/Descriptor/ServiceDescriptor.xml
+CodeValue,Description,Namespace,ShortDescription,EffectiveBeginDate,EffectiveEndDate
+Assistive technology device or service,Assistive technology device or service,uri://ed-fi.org/ServiceDescriptor,Assistive technology device or service,,
+Counseling services,Counseling services,uri://ed-fi.org/ServiceDescriptor,Counseling services,,
+Interpreting services,Interpreting services,uri://ed-fi.org/ServiceDescriptor,Interpreting services,,
+Medical diagnostic services,Medical diagnostic services,uri://ed-fi.org/ServiceDescriptor,Medical diagnostic services,,
+Physical therapy,Physical therapy,uri://ed-fi.org/ServiceDescriptor,Physical therapy,,
+Orientation and mobility training services,Orientation and mobility training services,uri://ed-fi.org/ServiceDescriptor,Orientation and mobility training services,,
+Occupational therapy,Occupational therapy,uri://ed-fi.org/ServiceDescriptor,Occupational therapy,,
+Preschool children with disabilites program,Preschool children with disabilites program,uri://ed-fi.org/ServiceDescriptor,Preschool children with disabilites program,,
+Psychological services,Psychological services,uri://ed-fi.org/ServiceDescriptor,Psychological services,,
+Recreational services,Recreational services,uri://ed-fi.org/ServiceDescriptor,Recreational services,,
+Audiological Impairment,Audiological Impairment,uri://ed-fi.org/ServiceDescriptor,Audiological Impairment,,
+Dyslexia,Dyslexia,uri://ed-fi.org/ServiceDescriptor,Dyslexia,,
+Disgraphia,Disgraphia,uri://ed-fi.org/ServiceDescriptor,Disgraphia,,
+Audiological services,Audiological services,uri://ed-fi.org/ServiceDescriptor,Audiological services,,
+Speech therapy,Speech therapy,uri://ed-fi.org/ServiceDescriptor,Speech therapy,,

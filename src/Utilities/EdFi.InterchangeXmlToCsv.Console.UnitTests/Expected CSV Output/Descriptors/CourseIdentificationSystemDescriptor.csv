@@ -1,10 +1,10 @@
-CodeValue,ShortDescription,Description,Namespace,CourseIdentificationSystemMap
-CSSC course code,CSSC course code,CSSC course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,CSSC course code
-Intermediate agency course code,Intermediate agency course code,Intermediate agency course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,Intermediate agency course code
-LEA course code,LEA course code,LEA course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,LEA course code
-NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,NCES Pilot SNCCS course code
-Other,Other,Other,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,Other
-SCED course code,SCED course code,SCED course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,SCED course code
-School course code,School course code,School course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,School course code
-State course code,State course code,State course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,State course code
-University course code,University course code,University course code,http://www.ed-fi.org/Descriptor/CourseIdentificationSystemDescriptor.xml,University course code
+CodeValue,ShortDescription,Description,Namespace
+CSSC course code,CSSC course code,CSSC course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+Intermediate agency course code,Intermediate agency course code,Intermediate agency course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+LEA course code,LEA course code,LEA course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,NCES Pilot SNCCS course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+SCED course code,SCED course code,SCED course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+School course code,School course code,School course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+State course code,State course code,State course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor
+University course code,University course code,University course code,uri://ed-fi.org/CourseIdentificationSystemDescriptor

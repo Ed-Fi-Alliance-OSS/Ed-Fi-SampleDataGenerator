@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+Exempt,Exempt,Exempt,uri://ed-fi.org/LicenseStatusDescriptor
+Regulated,Regulated,Regulated,uri://ed-fi.org/LicenseStatusDescriptor
+Unregulated,Unregulated,Unregulated,uri://ed-fi.org/LicenseStatusDescriptor

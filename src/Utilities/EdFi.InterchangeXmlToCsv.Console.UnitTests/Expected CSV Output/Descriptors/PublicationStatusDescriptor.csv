@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace
+Adopted,Adopted,Adopted,uri://ed-fi.org/PublicationStatusDescriptor
+Deprecated,Deprecated,Deprecated,uri://ed-fi.org/PublicationStatusDescriptor
+Draft,Draft,Draft,uri://ed-fi.org/PublicationStatusDescriptor
+Published,Published,Published,uri://ed-fi.org/PublicationStatusDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/PublicationStatusDescriptor

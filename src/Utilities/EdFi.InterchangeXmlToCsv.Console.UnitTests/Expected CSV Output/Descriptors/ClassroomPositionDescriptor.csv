@@ -1,5 +1,5 @@
-CodeValue,ShortDescription,Description,Namespace,ClassroomPositionMap
-Assistant Teacher,Assistant Teacher,Assistant Teacher,http://www.ed-fi.org/Descriptor/ClassroomPositionDescriptor.xml,Assistant Teacher
-Substitute Teacher,Substitute Teacher,Substitute Teacher,http://www.ed-fi.org/Descriptor/ClassroomPositionDescriptor.xml,Substitute Teacher
-Support Teacher,Support Teacher,Support Teacher,http://www.ed-fi.org/Descriptor/ClassroomPositionDescriptor.xml,Support Teacher
-Teacher of Record,Teacher of Record,Teacher of Record,http://www.ed-fi.org/Descriptor/ClassroomPositionDescriptor.xml,Teacher of Record
+CodeValue,ShortDescription,Description,Namespace
+Assistant Teacher,Assistant Teacher,Assistant Teacher,uri://ed-fi.org/ClassroomPositionDescriptor
+Substitute Teacher,Substitute Teacher,Substitute Teacher,uri://ed-fi.org/ClassroomPositionDescriptor
+Support Teacher,Support Teacher,Support Teacher,uri://ed-fi.org/ClassroomPositionDescriptor
+Teacher of Record,Teacher of Record,Teacher of Record,uri://ed-fi.org/ClassroomPositionDescriptor

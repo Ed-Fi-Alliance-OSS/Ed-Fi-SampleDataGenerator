@@ -1,21 +1,21 @@
-CodeValue,ShortDescription,Description,Namespace,GradingPeriodMap
-End of Year,End of Year,End of Year,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,End of Year
-Fifth Six Weeks,Fifth Six Weeks,Fifth Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Fifth Six Weeks
-First Nine Weeks,First Nine Weeks,First Nine Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,First Nine Weeks
-First Semester,First Semester,First Semester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,First Semester
-First Six Weeks,First Six Weeks,First Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,First Six Weeks
-First Summer Session,First Summer Session,First Summer Session,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,First Summer Session
-First Trimester,First Trimester,First Trimester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,First Trimester
-Fourth Nine Weeks,Fourth Nine Weeks,Fourth Nine Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Fourth Nine Weeks
-Fourth Six Weeks,Fourth Six Weeks,Fourth Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Fourth Six Weeks
-Second Nine Weeks,Second Nine Weeks,Second Nine Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Second Nine Weeks
-Second Semester,Second Semester,Second Semester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Second Semester
-Second Six Weeks,Second Six Weeks,Second Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Second Six Weeks
-Second Summer Session,Second Summer Session,Second Summer Session,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Second Summer Session
-Second Trimester,Second Trimester,Second Trimester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Second Trimester
-Sixth Six Weeks,Sixth Six Weeks,Sixth Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Sixth Six Weeks
-Summer Semester,Summer Semester,Summer Semester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Summer Semester
-Third Nine Weeks,Third Nine Weeks,Third Nine Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Third Nine Weeks
-Third Six Weeks,Third Six Weeks,Third Six Weeks,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Third Six Weeks
-Third Summer Session,Third Summer Session,Third Summer Session,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Third Summer Session
-Third Trimester,Third Trimester,Third Trimester,http://www.ed-fi.org/Descriptor/GradingPeriodDescriptor.xml,Third Trimester
+CodeValue,ShortDescription,Description,Namespace
+End of Year,End of Year,End of Year,uri://ed-fi.org/GradingPeriodDescriptor
+Fifth Six Weeks,Fifth Six Weeks,Fifth Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+First Nine Weeks,First Nine Weeks,First Nine Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+First Semester,First Semester,First Semester,uri://ed-fi.org/GradingPeriodDescriptor
+First Six Weeks,First Six Weeks,First Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+First Summer Session,First Summer Session,First Summer Session,uri://ed-fi.org/GradingPeriodDescriptor
+First Trimester,First Trimester,First Trimester,uri://ed-fi.org/GradingPeriodDescriptor
+Fourth Nine Weeks,Fourth Nine Weeks,Fourth Nine Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Fourth Six Weeks,Fourth Six Weeks,Fourth Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Second Nine Weeks,Second Nine Weeks,Second Nine Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Second Semester,Second Semester,Second Semester,uri://ed-fi.org/GradingPeriodDescriptor
+Second Six Weeks,Second Six Weeks,Second Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Second Summer Session,Second Summer Session,Second Summer Session,uri://ed-fi.org/GradingPeriodDescriptor
+Second Trimester,Second Trimester,Second Trimester,uri://ed-fi.org/GradingPeriodDescriptor
+Sixth Six Weeks,Sixth Six Weeks,Sixth Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Summer Semester,Summer Semester,Summer Semester,uri://ed-fi.org/GradingPeriodDescriptor
+Third Nine Weeks,Third Nine Weeks,Third Nine Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Third Six Weeks,Third Six Weeks,Third Six Weeks,uri://ed-fi.org/GradingPeriodDescriptor
+Third Summer Session,Third Summer Session,Third Summer Session,uri://ed-fi.org/GradingPeriodDescriptor
+Third Trimester,Third Trimester,Third Trimester,uri://ed-fi.org/GradingPeriodDescriptor

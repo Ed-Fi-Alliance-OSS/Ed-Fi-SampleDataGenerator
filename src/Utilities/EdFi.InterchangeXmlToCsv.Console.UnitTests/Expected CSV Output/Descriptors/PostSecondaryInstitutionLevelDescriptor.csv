@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+At least 2 but less than 4 years,At least 2 but less than 4 years,At least 2 but less than 4 years,uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor
+Four or more years,Four or more years,Four or more years,uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor
+Less than 2 years (below associate),Less than 2 years (below associate),Less than 2 years (below associate),uri://ed-fi.org/PostSecondaryInstitutionLevelDescriptor

@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+1st Retest,1st Retest,1st Retest,uri://ed-fi.org/RetestIndicatorDescriptor
+2nd Retest,2nd Retest,2nd Retest,uri://ed-fi.org/RetestIndicatorDescriptor
+3rd or more Retest,3rd or more Retest,3rd or more Retest,uri://ed-fi.org/RetestIndicatorDescriptor
+Primary Administration,Primary Administration,Primary Administration,uri://ed-fi.org/RetestIndicatorDescriptor

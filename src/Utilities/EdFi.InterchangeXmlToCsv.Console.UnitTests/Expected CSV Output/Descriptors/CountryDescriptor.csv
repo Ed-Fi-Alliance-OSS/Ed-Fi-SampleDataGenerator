@@ -1,250 +1,250 @@
 CodeValue,ShortDescription,Description,Namespace
-AD,Andorra,Andorra,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AE,United Arab Emirates,United Arab Emirates,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AF,Afghanistan,Afghanistan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AG,Antigua and Barbuda,Antigua and Barbuda,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AI,Anguilla,Anguilla,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AL,Albania,Albania,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AM,Armenia,Armenia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AO,Angola,Angola,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AQ,Antarctica,Antarctica,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AR,Argentina,Argentina,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AS,American Samoa,American Samoa,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AT,Austria,Austria,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AU,Australia,Australia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AW,Aruba,Aruba,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AX,Åland Islands,Åland Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-AZ,Azerbaijan,Azerbaijan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BA,Bosnia and Herzegovina,Bosnia and Herzegovina,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BB,Barbados,Barbados,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BD,Bangladesh,Bangladesh,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BE,Belgium,Belgium,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BF,Burkina Faso,Burkina Faso,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BG,Bulgaria,Bulgaria,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BH,Bahrain,Bahrain,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BI,Burundi,Burundi,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BJ,Benin,Benin,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BL,Saint Barthélemy,Saint Barthélemy,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BM,Bermuda,Bermuda,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BN,Brunei Darussalam,Brunei Darussalam,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BO,"Bolivia, Plurinational State of","Bolivia, Plurinational State of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BQ,"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BR,Brazil,Brazil,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BS,Bahamas,Bahamas,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BT,Bhutan,Bhutan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BV,Bouvet Island,Bouvet Island,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BW,Botswana,Botswana,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BY,Belarus,Belarus,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-BZ,Belize,Belize,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CA,Canada,Canada,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CC,Cocos (Keeling) Islands,Cocos (Keeling) Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CD,"Congo, the Democratic Republic of the","Congo, the Democratic Republic of the",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CF,Central African Republic,Central African Republic,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CG,Congo,Congo,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CH,Switzerland,Switzerland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CI,Côte d'Ivoire,Côte d'Ivoire,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CK,Cook Islands,Cook Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CL,Chile,Chile,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CM,Cameroon,Cameroon,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CN,China,China,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CO,Colombia,Colombia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CR,Costa Rica,Costa Rica,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CU,Cuba,Cuba,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CV,Cabo Verde,Cabo Verde,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CW,Curaçao,Curaçao,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CX,Christmas Island,Christmas Island,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CY,Cyprus,Cyprus,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-CZ,Czech Republic,Czech Republic,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DE,Germany,Germany,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DJ,Djibouti,Djibouti,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DK,Denmark,Denmark,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DM,Dominica,Dominica,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DO,Dominican Republic,Dominican Republic,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-DZ,Algeria,Algeria,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-EC,Ecuador,Ecuador,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-EE,Estonia,Estonia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-EG,Egypt,Egypt,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-EH,Western Sahara,Western Sahara,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ER,Eritrea,Eritrea,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ES,Spain,Spain,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ET,Ethiopia,Ethiopia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FI,Finland,Finland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FJ,Fiji,Fiji,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FK,Falkland Islands (Malvinas),Falkland Islands (Malvinas),http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FM,"Micronesia, Federated States of","Micronesia, Federated States of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FO,Faroe Islands,Faroe Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-FR,France,France,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GA,Gabon,Gabon,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GB,United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GD,Grenada,Grenada,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GE,Georgia,Georgia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GF,French Guiana,French Guiana,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GG,Guernsey,Guernsey,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GH,Ghana,Ghana,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GI,Gibraltar,Gibraltar,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GL,Greenland,Greenland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GM,Gambia,Gambia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GN,Guinea,Guinea,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GP,Guadeloupe,Guadeloupe,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GQ,Equatorial Guinea,Equatorial Guinea,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GR,Greece,Greece,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GS,South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GT,Guatemala,Guatemala,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GU,Guam,Guam,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GW,Guinea-Bissau,Guinea-Bissau,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-GY,Guyana,Guyana,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HK,Hong Kong,Hong Kong,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HM,Heard Island and McDonald Islands,Heard Island and McDonald Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HN,Honduras,Honduras,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HR,Croatia,Croatia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HT,Haiti,Haiti,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-HU,Hungary,Hungary,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ID,Indonesia,Indonesia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IE,Ireland,Ireland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IL,Israel,Israel,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IM,Isle of Man,Isle of Man,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IN,India,India,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IO,British Indian Ocean Territory,British Indian Ocean Territory,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IQ,Iraq,Iraq,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IR,"Iran, Islamic Republic of","Iran, Islamic Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IS,Iceland,Iceland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-IT,Italy,Italy,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-JE,Jersey,Jersey,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-JM,Jamaica,Jamaica,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-JO,Jordan,Jordan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-JP,Japan,Japan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KE,Kenya,Kenya,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KG,Kyrgyzstan,Kyrgyzstan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KH,Cambodia,Cambodia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KI,Kiribati,Kiribati,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KM,Comoros,Comoros,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KN,Saint Kitts and Nevis,Saint Kitts and Nevis,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KP,"Korea, Democratic People's Republic of","Korea, Democratic People's Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KR,"Korea, Republic of","Korea, Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KW,Kuwait,Kuwait,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KY,Cayman Islands,Cayman Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-KZ,Kazakhstan,Kazakhstan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LA,Lao People's Democratic Republic,Lao People's Democratic Republic,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LB,Lebanon,Lebanon,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LC,Saint Lucia,Saint Lucia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LI,Liechtenstein,Liechtenstein,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LK,Sri Lanka,Sri Lanka,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LR,Liberia,Liberia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LS,Lesotho,Lesotho,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LT,Lithuania,Lithuania,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LU,Luxembourg,Luxembourg,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LV,Latvia,Latvia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-LY,Libya,Libya,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MA,Morocco,Morocco,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MC,Monaco,Monaco,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MD,"Moldova, Republic of","Moldova, Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ME,Montenegro,Montenegro,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MF,Saint Martin (French part),Saint Martin (French part),http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MG,Madagascar,Madagascar,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MH,Marshall Islands,Marshall Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MK,"Macedonia, the former Yugoslav Republic of","Macedonia, the former Yugoslav Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ML,Mali,Mali,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MM,Myanmar,Myanmar,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MN,Mongolia,Mongolia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MO,Macao,Macao,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MP,Northern Mariana Islands,Northern Mariana Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MQ,Martinique,Martinique,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MR,Mauritania,Mauritania,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MS,Montserrat,Montserrat,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MT,Malta,Malta,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MU,Mauritius,Mauritius,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MV,Maldives,Maldives,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MW,Malawi,Malawi,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MX,Mexico,Mexico,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MY,Malaysia,Malaysia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-MZ,Mozambique,Mozambique,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NA,Namibia,Namibia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NC,New Caledonia,New Caledonia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NE,Niger,Niger,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NF,Norfolk Island,Norfolk Island,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NG,Nigeria,Nigeria,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NI,Nicaragua,Nicaragua,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NL,Netherlands,Netherlands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NO,Norway,Norway,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NP,Nepal,Nepal,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NR,Nauru,Nauru,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NU,Niue,Niue,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-NZ,New Zealand,New Zealand,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-OM,Oman,Oman,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PA,Panama,Panama,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PE,Peru,Peru,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PF,French Polynesia,French Polynesia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PG,Papua New Guinea,Papua New Guinea,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PH,Philippines,Philippines,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PK,Pakistan,Pakistan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PL,Poland,Poland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PM,Saint Pierre and Miquelon,Saint Pierre and Miquelon,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PN,Pitcairn,Pitcairn,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PR,Puerto Rico,Puerto Rico,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PS,"Palestine, State of","Palestine, State of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PT,Portugal,Portugal,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PW,Palau,Palau,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-PY,Paraguay,Paraguay,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-QA,Qatar,Qatar,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-RE,Réunion,Réunion,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-RO,Romania,Romania,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-RS,Serbia,Serbia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-RU,Russian Federation,Russian Federation,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-RW,Rwanda,Rwanda,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SA,Saudi Arabia,Saudi Arabia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SB,Solomon Islands,Solomon Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SC,Seychelles,Seychelles,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SD,Sudan,Sudan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SE,Sweden,Sweden,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SG,Singapore,Singapore,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SH,"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SI,Slovenia,Slovenia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SJ,Svalbard and Jan Mayen,Svalbard and Jan Mayen,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SK,Slovakia,Slovakia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SL,Sierra Leone,Sierra Leone,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SM,San Marino,San Marino,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SN,Senegal,Senegal,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SO,Somalia,Somalia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SR,Suriname,Suriname,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SS,South Sudan,South Sudan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ST,Sao Tome and Principe,Sao Tome and Principe,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SV,El Salvador,El Salvador,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SX,Sint Maarten (Dutch part),Sint Maarten (Dutch part),http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SY,Syrian Arab Republic,Syrian Arab Republic,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-SZ,Swaziland,Swaziland,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TC,Turks and Caicos Islands,Turks and Caicos Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TD,Chad,Chad,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TF,French Southern Territories,French Southern Territories,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TG,Togo,Togo,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TH,Thailand,Thailand,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TJ,Tajikistan,Tajikistan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TK,Tokelau,Tokelau,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TL,Timor-Leste,Timor-Leste,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TM,Turkmenistan,Turkmenistan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TN,Tunisia,Tunisia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TO,Tonga,Tonga,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TR,Turkey,Turkey,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TT,Trinidad and Tobago,Trinidad and Tobago,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TV,Tuvalu,Tuvalu,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TW,"Taiwan, Province of China","Taiwan, Province of China",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-TZ,"Tanzania, United Republic of","Tanzania, United Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-UA,Ukraine,Ukraine,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-UG,Uganda,Uganda,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-UM,United States Minor Outlying Islands,United States Minor Outlying Islands,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-US,United States of America,United States of America,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-UY,Uruguay,Uruguay,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-UZ,Uzbekistan,Uzbekistan,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VA,Holy See,Holy See,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VC,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VE,"Venezuela, Bolivarian Republic of","Venezuela, Bolivarian Republic of",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VG,"Virgin Islands, British","Virgin Islands, British",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VI,"Virgin Islands, U.S.","Virgin Islands, U.S.",http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VN,Viet Nam,Viet Nam,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-VU,Vanuatu,Vanuatu,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-WF,Wallis and Futuna,Wallis and Futuna,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-WS,Samoa,Samoa,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-YE,Yemen,Yemen,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-YT,Mayotte,Mayotte,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ZA,South Africa,South Africa,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ZM,Zambia,Zambia,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
-ZW,Zimbabwe,Zimbabwe,http://www.ed-fi.org/Descriptor/CountryDescriptor.xml
+AD,Andorra,Andorra,uri://ed-fi.org/CountryDescriptor
+AE,United Arab Emirates,United Arab Emirates,uri://ed-fi.org/CountryDescriptor
+AF,Afghanistan,Afghanistan,uri://ed-fi.org/CountryDescriptor
+AG,Antigua and Barbuda,Antigua and Barbuda,uri://ed-fi.org/CountryDescriptor
+AI,Anguilla,Anguilla,uri://ed-fi.org/CountryDescriptor
+AL,Albania,Albania,uri://ed-fi.org/CountryDescriptor
+AM,Armenia,Armenia,uri://ed-fi.org/CountryDescriptor
+AO,Angola,Angola,uri://ed-fi.org/CountryDescriptor
+AQ,Antarctica,Antarctica,uri://ed-fi.org/CountryDescriptor
+AR,Argentina,Argentina,uri://ed-fi.org/CountryDescriptor
+AS,American Samoa,American Samoa,uri://ed-fi.org/CountryDescriptor
+AT,Austria,Austria,uri://ed-fi.org/CountryDescriptor
+AU,Australia,Australia,uri://ed-fi.org/CountryDescriptor
+AW,Aruba,Aruba,uri://ed-fi.org/CountryDescriptor
+AX,Åland Islands,Åland Islands,uri://ed-fi.org/CountryDescriptor
+AZ,Azerbaijan,Azerbaijan,uri://ed-fi.org/CountryDescriptor
+BA,Bosnia and Herzegovina,Bosnia and Herzegovina,uri://ed-fi.org/CountryDescriptor
+BB,Barbados,Barbados,uri://ed-fi.org/CountryDescriptor
+BD,Bangladesh,Bangladesh,uri://ed-fi.org/CountryDescriptor
+BE,Belgium,Belgium,uri://ed-fi.org/CountryDescriptor
+BF,Burkina Faso,Burkina Faso,uri://ed-fi.org/CountryDescriptor
+BG,Bulgaria,Bulgaria,uri://ed-fi.org/CountryDescriptor
+BH,Bahrain,Bahrain,uri://ed-fi.org/CountryDescriptor
+BI,Burundi,Burundi,uri://ed-fi.org/CountryDescriptor
+BJ,Benin,Benin,uri://ed-fi.org/CountryDescriptor
+BL,Saint Barthélemy,Saint Barthélemy,uri://ed-fi.org/CountryDescriptor
+BM,Bermuda,Bermuda,uri://ed-fi.org/CountryDescriptor
+BN,Brunei Darussalam,Brunei Darussalam,uri://ed-fi.org/CountryDescriptor
+BO,"Bolivia, Plurinational State of","Bolivia, Plurinational State of",uri://ed-fi.org/CountryDescriptor
+BQ,"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",uri://ed-fi.org/CountryDescriptor
+BR,Brazil,Brazil,uri://ed-fi.org/CountryDescriptor
+BS,Bahamas,Bahamas,uri://ed-fi.org/CountryDescriptor
+BT,Bhutan,Bhutan,uri://ed-fi.org/CountryDescriptor
+BV,Bouvet Island,Bouvet Island,uri://ed-fi.org/CountryDescriptor
+BW,Botswana,Botswana,uri://ed-fi.org/CountryDescriptor
+BY,Belarus,Belarus,uri://ed-fi.org/CountryDescriptor
+BZ,Belize,Belize,uri://ed-fi.org/CountryDescriptor
+CA,Canada,Canada,uri://ed-fi.org/CountryDescriptor
+CC,Cocos (Keeling) Islands,Cocos (Keeling) Islands,uri://ed-fi.org/CountryDescriptor
+CD,"Congo, the Democratic Republic of the","Congo, the Democratic Republic of the",uri://ed-fi.org/CountryDescriptor
+CF,Central African Republic,Central African Republic,uri://ed-fi.org/CountryDescriptor
+CG,Congo,Congo,uri://ed-fi.org/CountryDescriptor
+CH,Switzerland,Switzerland,uri://ed-fi.org/CountryDescriptor
+CI,Côte d'Ivoire,Côte d'Ivoire,uri://ed-fi.org/CountryDescriptor
+CK,Cook Islands,Cook Islands,uri://ed-fi.org/CountryDescriptor
+CL,Chile,Chile,uri://ed-fi.org/CountryDescriptor
+CM,Cameroon,Cameroon,uri://ed-fi.org/CountryDescriptor
+CN,China,China,uri://ed-fi.org/CountryDescriptor
+CO,Colombia,Colombia,uri://ed-fi.org/CountryDescriptor
+CR,Costa Rica,Costa Rica,uri://ed-fi.org/CountryDescriptor
+CU,Cuba,Cuba,uri://ed-fi.org/CountryDescriptor
+CV,Cabo Verde,Cabo Verde,uri://ed-fi.org/CountryDescriptor
+CW,Curaçao,Curaçao,uri://ed-fi.org/CountryDescriptor
+CX,Christmas Island,Christmas Island,uri://ed-fi.org/CountryDescriptor
+CY,Cyprus,Cyprus,uri://ed-fi.org/CountryDescriptor
+CZ,Czech Republic,Czech Republic,uri://ed-fi.org/CountryDescriptor
+DE,Germany,Germany,uri://ed-fi.org/CountryDescriptor
+DJ,Djibouti,Djibouti,uri://ed-fi.org/CountryDescriptor
+DK,Denmark,Denmark,uri://ed-fi.org/CountryDescriptor
+DM,Dominica,Dominica,uri://ed-fi.org/CountryDescriptor
+DO,Dominican Republic,Dominican Republic,uri://ed-fi.org/CountryDescriptor
+DZ,Algeria,Algeria,uri://ed-fi.org/CountryDescriptor
+EC,Ecuador,Ecuador,uri://ed-fi.org/CountryDescriptor
+EE,Estonia,Estonia,uri://ed-fi.org/CountryDescriptor
+EG,Egypt,Egypt,uri://ed-fi.org/CountryDescriptor
+EH,Western Sahara,Western Sahara,uri://ed-fi.org/CountryDescriptor
+ER,Eritrea,Eritrea,uri://ed-fi.org/CountryDescriptor
+ES,Spain,Spain,uri://ed-fi.org/CountryDescriptor
+ET,Ethiopia,Ethiopia,uri://ed-fi.org/CountryDescriptor
+FI,Finland,Finland,uri://ed-fi.org/CountryDescriptor
+FJ,Fiji,Fiji,uri://ed-fi.org/CountryDescriptor
+FK,Falkland Islands (Malvinas),Falkland Islands (Malvinas),uri://ed-fi.org/CountryDescriptor
+FM,"Micronesia, Federated States of","Micronesia, Federated States of",uri://ed-fi.org/CountryDescriptor
+FO,Faroe Islands,Faroe Islands,uri://ed-fi.org/CountryDescriptor
+FR,France,France,uri://ed-fi.org/CountryDescriptor
+GA,Gabon,Gabon,uri://ed-fi.org/CountryDescriptor
+GB,United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,uri://ed-fi.org/CountryDescriptor
+GD,Grenada,Grenada,uri://ed-fi.org/CountryDescriptor
+GE,Georgia,Georgia,uri://ed-fi.org/CountryDescriptor
+GF,French Guiana,French Guiana,uri://ed-fi.org/CountryDescriptor
+GG,Guernsey,Guernsey,uri://ed-fi.org/CountryDescriptor
+GH,Ghana,Ghana,uri://ed-fi.org/CountryDescriptor
+GI,Gibraltar,Gibraltar,uri://ed-fi.org/CountryDescriptor
+GL,Greenland,Greenland,uri://ed-fi.org/CountryDescriptor
+GM,Gambia,Gambia,uri://ed-fi.org/CountryDescriptor
+GN,Guinea,Guinea,uri://ed-fi.org/CountryDescriptor
+GP,Guadeloupe,Guadeloupe,uri://ed-fi.org/CountryDescriptor
+GQ,Equatorial Guinea,Equatorial Guinea,uri://ed-fi.org/CountryDescriptor
+GR,Greece,Greece,uri://ed-fi.org/CountryDescriptor
+GS,South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,uri://ed-fi.org/CountryDescriptor
+GT,Guatemala,Guatemala,uri://ed-fi.org/CountryDescriptor
+GU,Guam,Guam,uri://ed-fi.org/CountryDescriptor
+GW,Guinea-Bissau,Guinea-Bissau,uri://ed-fi.org/CountryDescriptor
+GY,Guyana,Guyana,uri://ed-fi.org/CountryDescriptor
+HK,Hong Kong,Hong Kong,uri://ed-fi.org/CountryDescriptor
+HM,Heard Island and McDonald Islands,Heard Island and McDonald Islands,uri://ed-fi.org/CountryDescriptor
+HN,Honduras,Honduras,uri://ed-fi.org/CountryDescriptor
+HR,Croatia,Croatia,uri://ed-fi.org/CountryDescriptor
+HT,Haiti,Haiti,uri://ed-fi.org/CountryDescriptor
+HU,Hungary,Hungary,uri://ed-fi.org/CountryDescriptor
+ID,Indonesia,Indonesia,uri://ed-fi.org/CountryDescriptor
+IE,Ireland,Ireland,uri://ed-fi.org/CountryDescriptor
+IL,Israel,Israel,uri://ed-fi.org/CountryDescriptor
+IM,Isle of Man,Isle of Man,uri://ed-fi.org/CountryDescriptor
+IN,India,India,uri://ed-fi.org/CountryDescriptor
+IO,British Indian Ocean Territory,British Indian Ocean Territory,uri://ed-fi.org/CountryDescriptor
+IQ,Iraq,Iraq,uri://ed-fi.org/CountryDescriptor
+IR,"Iran, Islamic Republic of","Iran, Islamic Republic of",uri://ed-fi.org/CountryDescriptor
+IS,Iceland,Iceland,uri://ed-fi.org/CountryDescriptor
+IT,Italy,Italy,uri://ed-fi.org/CountryDescriptor
+JE,Jersey,Jersey,uri://ed-fi.org/CountryDescriptor
+JM,Jamaica,Jamaica,uri://ed-fi.org/CountryDescriptor
+JO,Jordan,Jordan,uri://ed-fi.org/CountryDescriptor
+JP,Japan,Japan,uri://ed-fi.org/CountryDescriptor
+KE,Kenya,Kenya,uri://ed-fi.org/CountryDescriptor
+KG,Kyrgyzstan,Kyrgyzstan,uri://ed-fi.org/CountryDescriptor
+KH,Cambodia,Cambodia,uri://ed-fi.org/CountryDescriptor
+KI,Kiribati,Kiribati,uri://ed-fi.org/CountryDescriptor
+KM,Comoros,Comoros,uri://ed-fi.org/CountryDescriptor
+KN,Saint Kitts and Nevis,Saint Kitts and Nevis,uri://ed-fi.org/CountryDescriptor
+KP,"Korea, Democratic People's Republic of","Korea, Democratic People's Republic of",uri://ed-fi.org/CountryDescriptor
+KR,"Korea, Republic of","Korea, Republic of",uri://ed-fi.org/CountryDescriptor
+KW,Kuwait,Kuwait,uri://ed-fi.org/CountryDescriptor
+KY,Cayman Islands,Cayman Islands,uri://ed-fi.org/CountryDescriptor
+KZ,Kazakhstan,Kazakhstan,uri://ed-fi.org/CountryDescriptor
+LA,Lao People's Democratic Republic,Lao People's Democratic Republic,uri://ed-fi.org/CountryDescriptor
+LB,Lebanon,Lebanon,uri://ed-fi.org/CountryDescriptor
+LC,Saint Lucia,Saint Lucia,uri://ed-fi.org/CountryDescriptor
+LI,Liechtenstein,Liechtenstein,uri://ed-fi.org/CountryDescriptor
+LK,Sri Lanka,Sri Lanka,uri://ed-fi.org/CountryDescriptor
+LR,Liberia,Liberia,uri://ed-fi.org/CountryDescriptor
+LS,Lesotho,Lesotho,uri://ed-fi.org/CountryDescriptor
+LT,Lithuania,Lithuania,uri://ed-fi.org/CountryDescriptor
+LU,Luxembourg,Luxembourg,uri://ed-fi.org/CountryDescriptor
+LV,Latvia,Latvia,uri://ed-fi.org/CountryDescriptor
+LY,Libya,Libya,uri://ed-fi.org/CountryDescriptor
+MA,Morocco,Morocco,uri://ed-fi.org/CountryDescriptor
+MC,Monaco,Monaco,uri://ed-fi.org/CountryDescriptor
+MD,"Moldova, Republic of","Moldova, Republic of",uri://ed-fi.org/CountryDescriptor
+ME,Montenegro,Montenegro,uri://ed-fi.org/CountryDescriptor
+MF,Saint Martin (French part),Saint Martin (French part),uri://ed-fi.org/CountryDescriptor
+MG,Madagascar,Madagascar,uri://ed-fi.org/CountryDescriptor
+MH,Marshall Islands,Marshall Islands,uri://ed-fi.org/CountryDescriptor
+MK,"Macedonia, the former Yugoslav Republic of","Macedonia, the former Yugoslav Republic of",uri://ed-fi.org/CountryDescriptor
+ML,Mali,Mali,uri://ed-fi.org/CountryDescriptor
+MM,Myanmar,Myanmar,uri://ed-fi.org/CountryDescriptor
+MN,Mongolia,Mongolia,uri://ed-fi.org/CountryDescriptor
+MO,Macao,Macao,uri://ed-fi.org/CountryDescriptor
+MP,Northern Mariana Islands,Northern Mariana Islands,uri://ed-fi.org/CountryDescriptor
+MQ,Martinique,Martinique,uri://ed-fi.org/CountryDescriptor
+MR,Mauritania,Mauritania,uri://ed-fi.org/CountryDescriptor
+MS,Montserrat,Montserrat,uri://ed-fi.org/CountryDescriptor
+MT,Malta,Malta,uri://ed-fi.org/CountryDescriptor
+MU,Mauritius,Mauritius,uri://ed-fi.org/CountryDescriptor
+MV,Maldives,Maldives,uri://ed-fi.org/CountryDescriptor
+MW,Malawi,Malawi,uri://ed-fi.org/CountryDescriptor
+MX,Mexico,Mexico,uri://ed-fi.org/CountryDescriptor
+MY,Malaysia,Malaysia,uri://ed-fi.org/CountryDescriptor
+MZ,Mozambique,Mozambique,uri://ed-fi.org/CountryDescriptor
+NA,Namibia,Namibia,uri://ed-fi.org/CountryDescriptor
+NC,New Caledonia,New Caledonia,uri://ed-fi.org/CountryDescriptor
+NE,Niger,Niger,uri://ed-fi.org/CountryDescriptor
+NF,Norfolk Island,Norfolk Island,uri://ed-fi.org/CountryDescriptor
+NG,Nigeria,Nigeria,uri://ed-fi.org/CountryDescriptor
+NI,Nicaragua,Nicaragua,uri://ed-fi.org/CountryDescriptor
+NL,Netherlands,Netherlands,uri://ed-fi.org/CountryDescriptor
+NO,Norway,Norway,uri://ed-fi.org/CountryDescriptor
+NP,Nepal,Nepal,uri://ed-fi.org/CountryDescriptor
+NR,Nauru,Nauru,uri://ed-fi.org/CountryDescriptor
+NU,Niue,Niue,uri://ed-fi.org/CountryDescriptor
+NZ,New Zealand,New Zealand,uri://ed-fi.org/CountryDescriptor
+OM,Oman,Oman,uri://ed-fi.org/CountryDescriptor
+PA,Panama,Panama,uri://ed-fi.org/CountryDescriptor
+PE,Peru,Peru,uri://ed-fi.org/CountryDescriptor
+PF,French Polynesia,French Polynesia,uri://ed-fi.org/CountryDescriptor
+PG,Papua New Guinea,Papua New Guinea,uri://ed-fi.org/CountryDescriptor
+PH,Philippines,Philippines,uri://ed-fi.org/CountryDescriptor
+PK,Pakistan,Pakistan,uri://ed-fi.org/CountryDescriptor
+PL,Poland,Poland,uri://ed-fi.org/CountryDescriptor
+PM,Saint Pierre and Miquelon,Saint Pierre and Miquelon,uri://ed-fi.org/CountryDescriptor
+PN,Pitcairn,Pitcairn,uri://ed-fi.org/CountryDescriptor
+PR,Puerto Rico,Puerto Rico,uri://ed-fi.org/CountryDescriptor
+PS,"Palestine, State of","Palestine, State of",uri://ed-fi.org/CountryDescriptor
+PT,Portugal,Portugal,uri://ed-fi.org/CountryDescriptor
+PW,Palau,Palau,uri://ed-fi.org/CountryDescriptor
+PY,Paraguay,Paraguay,uri://ed-fi.org/CountryDescriptor
+QA,Qatar,Qatar,uri://ed-fi.org/CountryDescriptor
+RE,Réunion,Réunion,uri://ed-fi.org/CountryDescriptor
+RO,Romania,Romania,uri://ed-fi.org/CountryDescriptor
+RS,Serbia,Serbia,uri://ed-fi.org/CountryDescriptor
+RU,Russian Federation,Russian Federation,uri://ed-fi.org/CountryDescriptor
+RW,Rwanda,Rwanda,uri://ed-fi.org/CountryDescriptor
+SA,Saudi Arabia,Saudi Arabia,uri://ed-fi.org/CountryDescriptor
+SB,Solomon Islands,Solomon Islands,uri://ed-fi.org/CountryDescriptor
+SC,Seychelles,Seychelles,uri://ed-fi.org/CountryDescriptor
+SD,Sudan,Sudan,uri://ed-fi.org/CountryDescriptor
+SE,Sweden,Sweden,uri://ed-fi.org/CountryDescriptor
+SG,Singapore,Singapore,uri://ed-fi.org/CountryDescriptor
+SH,"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",uri://ed-fi.org/CountryDescriptor
+SI,Slovenia,Slovenia,uri://ed-fi.org/CountryDescriptor
+SJ,Svalbard and Jan Mayen,Svalbard and Jan Mayen,uri://ed-fi.org/CountryDescriptor
+SK,Slovakia,Slovakia,uri://ed-fi.org/CountryDescriptor
+SL,Sierra Leone,Sierra Leone,uri://ed-fi.org/CountryDescriptor
+SM,San Marino,San Marino,uri://ed-fi.org/CountryDescriptor
+SN,Senegal,Senegal,uri://ed-fi.org/CountryDescriptor
+SO,Somalia,Somalia,uri://ed-fi.org/CountryDescriptor
+SR,Suriname,Suriname,uri://ed-fi.org/CountryDescriptor
+SS,South Sudan,South Sudan,uri://ed-fi.org/CountryDescriptor
+ST,Sao Tome and Principe,Sao Tome and Principe,uri://ed-fi.org/CountryDescriptor
+SV,El Salvador,El Salvador,uri://ed-fi.org/CountryDescriptor
+SX,Sint Maarten (Dutch part),Sint Maarten (Dutch part),uri://ed-fi.org/CountryDescriptor
+SY,Syrian Arab Republic,Syrian Arab Republic,uri://ed-fi.org/CountryDescriptor
+SZ,Swaziland,Swaziland,uri://ed-fi.org/CountryDescriptor
+TC,Turks and Caicos Islands,Turks and Caicos Islands,uri://ed-fi.org/CountryDescriptor
+TD,Chad,Chad,uri://ed-fi.org/CountryDescriptor
+TF,French Southern Territories,French Southern Territories,uri://ed-fi.org/CountryDescriptor
+TG,Togo,Togo,uri://ed-fi.org/CountryDescriptor
+TH,Thailand,Thailand,uri://ed-fi.org/CountryDescriptor
+TJ,Tajikistan,Tajikistan,uri://ed-fi.org/CountryDescriptor
+TK,Tokelau,Tokelau,uri://ed-fi.org/CountryDescriptor
+TL,Timor-Leste,Timor-Leste,uri://ed-fi.org/CountryDescriptor
+TM,Turkmenistan,Turkmenistan,uri://ed-fi.org/CountryDescriptor
+TN,Tunisia,Tunisia,uri://ed-fi.org/CountryDescriptor
+TO,Tonga,Tonga,uri://ed-fi.org/CountryDescriptor
+TR,Turkey,Turkey,uri://ed-fi.org/CountryDescriptor
+TT,Trinidad and Tobago,Trinidad and Tobago,uri://ed-fi.org/CountryDescriptor
+TV,Tuvalu,Tuvalu,uri://ed-fi.org/CountryDescriptor
+TW,"Taiwan, Province of China","Taiwan, Province of China",uri://ed-fi.org/CountryDescriptor
+TZ,"Tanzania, United Republic of","Tanzania, United Republic of",uri://ed-fi.org/CountryDescriptor
+UA,Ukraine,Ukraine,uri://ed-fi.org/CountryDescriptor
+UG,Uganda,Uganda,uri://ed-fi.org/CountryDescriptor
+UM,United States Minor Outlying Islands,United States Minor Outlying Islands,uri://ed-fi.org/CountryDescriptor
+US,United States of America,United States of America,uri://ed-fi.org/CountryDescriptor
+UY,Uruguay,Uruguay,uri://ed-fi.org/CountryDescriptor
+UZ,Uzbekistan,Uzbekistan,uri://ed-fi.org/CountryDescriptor
+VA,Holy See,Holy See,uri://ed-fi.org/CountryDescriptor
+VC,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,uri://ed-fi.org/CountryDescriptor
+VE,"Venezuela, Bolivarian Republic of","Venezuela, Bolivarian Republic of",uri://ed-fi.org/CountryDescriptor
+VG,"Virgin Islands, British","Virgin Islands, British",uri://ed-fi.org/CountryDescriptor
+VI,"Virgin Islands, U.S.","Virgin Islands, U.S.",uri://ed-fi.org/CountryDescriptor
+VN,Viet Nam,Viet Nam,uri://ed-fi.org/CountryDescriptor
+VU,Vanuatu,Vanuatu,uri://ed-fi.org/CountryDescriptor
+WF,Wallis and Futuna,Wallis and Futuna,uri://ed-fi.org/CountryDescriptor
+WS,Samoa,Samoa,uri://ed-fi.org/CountryDescriptor
+YE,Yemen,Yemen,uri://ed-fi.org/CountryDescriptor
+YT,Mayotte,Mayotte,uri://ed-fi.org/CountryDescriptor
+ZA,South Africa,South Africa,uri://ed-fi.org/CountryDescriptor
+ZM,Zambia,Zambia,uri://ed-fi.org/CountryDescriptor
+ZW,Zimbabwe,Zimbabwe,uri://ed-fi.org/CountryDescriptor

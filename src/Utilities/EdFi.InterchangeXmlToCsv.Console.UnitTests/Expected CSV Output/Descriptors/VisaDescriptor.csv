@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+B1 - Business Visa,B1 - Business Visa,B1 - Business Visa,uri://ed-fi.org/VisaDescriptor
+B2 - Tourist Visa,B2 - Tourist Visa,B2 - Tourist Visa,uri://ed-fi.org/VisaDescriptor
+F1 - Foreign Student Visa,F1 - Foreign Student Visa,F1 - Foreign Student Visa,uri://ed-fi.org/VisaDescriptor
+H1 - Employment Visa,H1 - Employment Visa,H1 - Employment Visa,uri://ed-fi.org/VisaDescriptor
+J1 - Exchange Scholar Visa,J1 - Exchange Scholar Visa,J1 - Exchange Scholar Visa,uri://ed-fi.org/VisaDescriptor
+M1 - Foreign Student vocational/non-academic Visa,M1 - Foreign Student pursuing vocational or non-academic studies Visa,M1 - Foreign Student pursuing vocational or non-academic studies Visa,uri://ed-fi.org/VisaDescriptor
+Other Visa,Other Visa,Other Visa,uri://ed-fi.org/VisaDescriptor

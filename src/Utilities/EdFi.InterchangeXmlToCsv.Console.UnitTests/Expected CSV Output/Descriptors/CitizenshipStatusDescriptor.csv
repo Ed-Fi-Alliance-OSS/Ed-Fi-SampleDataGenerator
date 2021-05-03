@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace
+Non-resident alien,Non-resident alien,Non-resident alien,uri://ed-fi.org/CitizenshipStatusDescriptor
+Permanent resident,Permanent resident,Permanent resident,uri://ed-fi.org/CitizenshipStatusDescriptor
+Refugee,Refugee,Refugee,uri://ed-fi.org/CitizenshipStatusDescriptor
+Resident alien,Resident alien,Resident alien,uri://ed-fi.org/CitizenshipStatusDescriptor
+US Citizen,US Citizen,US Citizen,uri://ed-fi.org/CitizenshipStatusDescriptor

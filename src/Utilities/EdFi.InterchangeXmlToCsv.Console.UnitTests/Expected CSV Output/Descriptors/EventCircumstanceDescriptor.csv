@@ -1,0 +1,33 @@
+CodeValue,ShortDescription,Description,Namespace
+Administration or system failure,Administration or system failure,Administration or system failure,uri://ed-fi.org/EventCircumstanceDescriptor
+Catastrophic illness or accident,Catastrophic illness or accident,Catastrophic illness or accident,uri://ed-fi.org/EventCircumstanceDescriptor
+Cheating,Cheating,Cheating,uri://ed-fi.org/EventCircumstanceDescriptor
+Chronic absences,Chronic absences,Chronic absences,uri://ed-fi.org/EventCircumstanceDescriptor
+Cross-enrolled,Cross-enrolled,Cross-enrolled,uri://ed-fi.org/EventCircumstanceDescriptor
+Earlier truancy,Earlier truancy,Earlier truancy,uri://ed-fi.org/EventCircumstanceDescriptor
+Fire alarm,Fire alarm,Fire alarm,uri://ed-fi.org/EventCircumstanceDescriptor
+Foreign exchange student,Foreign exchange student,Foreign exchange student,uri://ed-fi.org/EventCircumstanceDescriptor
+Home schooled for assessed subjects,Home schooled for assessed subjects,Home schooled for assessed subjects,uri://ed-fi.org/EventCircumstanceDescriptor
+Homebound,Homebound,Homebound,uri://ed-fi.org/EventCircumstanceDescriptor
+Incarcerated at adult facility,Incarcerated at adult facility,Incarcerated at adult facility,uri://ed-fi.org/EventCircumstanceDescriptor
+Left testing,Left testing,Left testing,uri://ed-fi.org/EventCircumstanceDescriptor
+Long-term suspension - non-special education,Long-term suspension - non-special education,Long-term suspension - non-special education,uri://ed-fi.org/EventCircumstanceDescriptor
+Non-special ed student used calculator,Non-special education student used calculator on non-calculator items,Non-special education student used calculator on non-calculator items,uri://ed-fi.org/EventCircumstanceDescriptor
+Only for writing,Only for writing,Only for writing,uri://ed-fi.org/EventCircumstanceDescriptor
+Other,Other,Other,uri://ed-fi.org/EventCircumstanceDescriptor
+Other reason for ineligibility,Other reason for ineligibility,Other reason for ineligibility,uri://ed-fi.org/EventCircumstanceDescriptor
+Other reason for nonparticipation,Other reason for nonparticipation,Other reason for nonparticipation,uri://ed-fi.org/EventCircumstanceDescriptor
+Parent refusal,Parent refusal,Parent refusal,uri://ed-fi.org/EventCircumstanceDescriptor
+Psychological factors of emotional trauma,Psychological factors of emotional trauma,Psychological factors of emotional trauma,uri://ed-fi.org/EventCircumstanceDescriptor
+Reading passage read to student (IEP),Reading passage read to student (IEP),Reading passage read to student (IEP),uri://ed-fi.org/EventCircumstanceDescriptor
+Short-term suspension - non-special education,Short-term suspension - non-special education,Short-term suspension - non-special education,uri://ed-fi.org/EventCircumstanceDescriptor
+Special detention center,Special detention center,Special detention center,uri://ed-fi.org/EventCircumstanceDescriptor
+Special treatment center,Special treatment center,Special treatment center,uri://ed-fi.org/EventCircumstanceDescriptor
+Student not showing adequate effort,Student not showing adequate effort,Student not showing adequate effort,uri://ed-fi.org/EventCircumstanceDescriptor
+Student refusal,Student refusal,Student refusal,uri://ed-fi.org/EventCircumstanceDescriptor
+Student took this grade level assessment last year,Student took this grade level assessment last year,Student took this grade level assessment last year,uri://ed-fi.org/EventCircumstanceDescriptor
+Student used math journal (non-IEP),Student used math journal (non-IEP),Student used math journal (non-IEP),uri://ed-fi.org/EventCircumstanceDescriptor
+Suspension - special education,Suspension - special education,Suspension - special education,uri://ed-fi.org/EventCircumstanceDescriptor
+Teacher cheating or mis-admin,Teacher cheating or mis-admin,Teacher cheating or mis-admin,uri://ed-fi.org/EventCircumstanceDescriptor
+Truancy - no paperwork filed,Truancy - no paperwork filed,Truancy - no paperwork filed,uri://ed-fi.org/EventCircumstanceDescriptor
+Truancy - paperwork filed,Truancy - paperwork filed,Truancy - paperwork filed,uri://ed-fi.org/EventCircumstanceDescriptor

@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Implemented at all grade levels,Implemented at all grade levels,Implemented at all grade levels,uri://ed-fi.org/SchoolChoiceImplementStatusDescriptor
+Implemented at some but not all grade levels,Implemented at some but not all grade levels,Implemented at some but not all grade levels,uri://ed-fi.org/SchoolChoiceImplementStatusDescriptor
+Not required to implement public school choice,Not required to implement public school choice,Not required to implement public school choice,uri://ed-fi.org/SchoolChoiceImplementStatusDescriptor
+Unable to implement at any grades levels,Unable to implement at any grades levels,Unable to implement at any grades levels,uri://ed-fi.org/SchoolChoiceImplementStatusDescriptor

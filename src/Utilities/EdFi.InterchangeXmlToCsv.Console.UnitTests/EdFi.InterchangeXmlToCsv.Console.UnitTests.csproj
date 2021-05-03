@@ -67,18 +67,21 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Expected CSV Output\Descriptors\AbsenceEventCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\AcademicHonorCategoryDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\AcademicSubjectDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\AccommodationDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Expected CSV Output\Descriptors\AccountCodeDescriptor.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Expected CSV Output\Descriptors\AccountClassificationDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\AchievementCategoryDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\AdditionalCreditTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\AddressTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\AdministrationEnvironmentDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\AdministrativeFundingControlDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -88,9 +91,13 @@
     <None Include="Expected CSV Output\Descriptors\AssessmentIdentificationSystemDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\AssessmentItemCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\AssessmentItemResultDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\AssessmentPeriodDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\AssessmentReportingMethodDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\AttemptStatusDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\AttendanceEventCategoryDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -100,99 +107,193 @@
     <None Include="Expected CSV Output\Descriptors\CalendarEventDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CalendarTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CareerPathwayDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CharterApprovalAgencyTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CharterStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CitizenshipStatusDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ClassroomPositionDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CohortScopeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CohortTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CohortYearTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\CompetencyLevelDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\ContactTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ContentClassDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ContinuationOfServicesReasonDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CostRateDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\CountryDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CourseAttemptResultDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CourseDefinedByDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CourseGPAApplicabilityDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\CourseIdentificationSystemDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CourseLevelCharacteristicDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CourseRepeatCodeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\CredentialFieldDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\CredentialTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CreditTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CTEProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\CurriculumUsedDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\DeliveryMethodDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\DiagnosisDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\DiplomaLevelDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\DiplomaTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\DisabilityDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\DisabilityDesignationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\DisabilityDeterminationSourceTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\DisciplineActionLengthDifferenceReasonDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\DisciplineDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\DisciplineIncidentParticipationCodeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\EducationalEnvironmentDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\EducationOrganizationCategoryDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\EducationOrganizationIdentificationSystemDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\EducationPlanDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ElectronicMailTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\EmploymentStatusDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\EntryGradeLevelReasonDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\EntryTypeDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\EventCircumstanceDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ExitWithdrawTypeDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\GradebookEntryTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\GradeLevelDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\GradePointAverageWeightSystemDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\GradeTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\GradingPeriodDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\GraduationPlanTypeDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\GunFreeSchoolsActReportingStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\HomelessPrimaryNighttimeResidenceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\HomelessProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\IdentificationDocumentUseDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\IncidentLocationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\InstitutionTelephoneNumberTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\InteractivityStyleDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\InternetAccessDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\InterventionClassDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\InterventionEffectivenessRatingDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\LanguageDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Expected CSV Output\Descriptors\LevelDescriptor.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Expected CSV Output\Descriptors\LanguageInstructionProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LanguageUseDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LearningStandardCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LearningStandardEquivalenceStrengthDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LearningStandardScopeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\LevelofEducationDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\LicenseStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LicenseTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\LimitedEnglishProficiencyDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\LocaleDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\LocalEducationAgencyCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\MagnetSpecialProgramEmphasisSchoolDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\MediumOfInstructionDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\MethodCreditEarnedDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\MigrantEducationProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\MonitoredDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\NeglectedOrDelinquentProgramDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\NeglectedOrDelinquentProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\NetworkPurposeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\OldEthnicityDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\OperationalStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\OtherNameTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ParticipationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ParticipationStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PerformanceBaseConversionDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\PerformanceLevelDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\PersonalInformationVerificationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PlatformTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PopulationServedDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PostingResultDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PostSecondaryEventCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PostSecondaryInstitutionLevelDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProficiencyDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ProgramAssignmentDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\ProgramCharacteristicDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\ProgramSponsorDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProgramTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProgressDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProgressLevelDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProviderCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProviderProfitabilityDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ProviderStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\PublicationStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\RaceDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ReasonExitedDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\ReasonNotTestedDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\RecognitionTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\RelationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\RepeatIdentifierDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ReporterDescriptionDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\ResidencyStatusDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\ResponseIndicatorDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\ResponsibilityDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Expected CSV Output\Descriptors\SchoolFoodServicesEligibilityDescriptor.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Expected CSV Output\Descriptors\RestraintEventReasonDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\ResultDatatypeTypeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\RetestIndicatorDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\SchoolCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\SchoolChoiceImplementStatusDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\SchoolFoodServiceProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\SchoolTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\SectionCharacteristicDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\SeparationDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\SeparationReasonDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\ServiceDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\SexDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\SpecialEducationProgramServiceDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\SpecialEducationSettingDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -202,18 +303,29 @@
     <None Include="Expected CSV Output\Descriptors\StaffIdentificationSystemDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\StaffLeaveEventCategoryDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\StateAbbreviationDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\StudentCharacteristicDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Expected CSV Output\Descriptors\StudentIdentificationSystemDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\StudentParticipationCodeDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\TeachingCredentialBasisDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\TeachingCredentialDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\TechnicalSkillsAssessmentDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\TelephoneNumberTypeDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\TermDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Expected CSV Output\Descriptors\TitleIPartAParticipantDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\TitleIPartAProgramServiceDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\TitleIPartASchoolDesignationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\TribalAffiliationDescriptor.csv" />
+    <None Include="Expected CSV Output\Descriptors\VisaDescriptor.csv" />
     <None Include="Expected CSV Output\Descriptors\WeaponDescriptor.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -227,9 +339,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Sample XML\Descriptors\AccommodationDescriptor.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Sample XML\Descriptors\AccountCodeDescriptor.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Sample XML\Descriptors\AchievementCategoryDescriptor.xml">
@@ -307,9 +416,6 @@
     <None Include="Sample XML\Descriptors\LanguageDescriptor.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Sample XML\Descriptors\LevelDescriptor.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Sample XML\Descriptors\LevelofEducationDescriptor.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -335,9 +441,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Sample XML\Descriptors\ResponsibilityDescriptor.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Sample XML\Descriptors\SchoolFoodServicesEligibilityDescriptor.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Sample XML\Descriptors\SectionCharacteristicDescriptor.xml">
@@ -376,6 +479,129 @@
     <None Include="Sample XML\Standards\Standards.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sample XML\Descriptors\AbsenceEventCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AcademicHonorCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AccountClassificationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AdditionalCreditTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AddressTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AdministrationEnvironmentDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AssessmentItemCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AssessmentItemResultDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AssessmentReportingMethodDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\AttemptStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CalendarTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CareerPathwayDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CharterApprovalAgencyTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CharterStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CitizenshipStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CohortScopeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CohortTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CohortYearTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ContactTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ContentClassDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CostRateDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CourseAttemptResultDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CourseDefinedByDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CourseGPAApplicabilityDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CourseLevelCharacteristicDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CourseRepeatCodeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CredentialTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CreditTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CTEProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\CurriculumUsedDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DeliveryMethodDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DiplomaLevelDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DiplomaTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DisabilityDesignationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DisabilityDeterminationSourceTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DisciplineActionLengthDifferenceReasonDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\DisciplineIncidentParticipationCodeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\EducationalEnvironmentDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\EducationOrganizationCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\EducationPlanDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ElectronicMailTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\EntryGradeLevelReasonDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\EventCircumstanceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\GradebookEntryTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\GradePointAverageWeightSystemDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\GradeTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\GunFreeSchoolsActReportingStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\HomelessPrimaryNighttimeResidenceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\HomelessProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\IdentificationDocumentUseDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\IncidentLocationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\InstitutionTelephoneNumberTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\InteractivityStyleDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\InternetAccessDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\InterventionClassDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\InterventionEffectivenessRatingDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LanguageInstructionProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LanguageUseDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LearningStandardCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LearningStandardEquivalenceStrengthDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LearningStandardScopeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LicenseStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LicenseTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LocaleDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\LocalEducationAgencyCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\MagnetSpecialProgramEmphasisSchoolDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\MediumOfInstructionDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\MethodCreditEarnedDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\MigrantEducationProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\MonitoredDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\NeglectedOrDelinquentProgramDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\NeglectedOrDelinquentProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\NetworkPurposeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\OldEthnicityDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\OperationalStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\OtherNameTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ParticipationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ParticipationStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PerformanceBaseConversionDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PersonalInformationVerificationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PlatformTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PopulationServedDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PostingResultDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PostSecondaryEventCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PostSecondaryInstitutionLevelDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProficiencyDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProgramSponsorDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProgramTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProgressDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProgressLevelDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProviderCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProviderProfitabilityDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ProviderStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\PublicationStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RaceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ReasonNotTestedDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RecognitionTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RelationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RepeatIdentifierDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ResponseIndicatorDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RestraintEventReasonDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\ResultDatatypeTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\RetestIndicatorDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SchoolCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SchoolChoiceImplementStatusDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SchoolFoodServiceProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SchoolTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SeparationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SexDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\SpecialEducationProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\StaffLeaveEventCategoryDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\StateAbbreviationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\StudentParticipationCodeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TeachingCredentialBasisDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TechnicalSkillsAssessmentDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TelephoneNumberTypeDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TitleIPartAParticipantDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TitleIPartAProgramServiceDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TitleIPartASchoolDesignationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\TribalAffiliationDescriptor.xml" />
+    <Content Include="Sample XML\Descriptors\VisaDescriptor.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+Active,Active,Active,uri://ed-fi.org/ProviderStatusDescriptor
+Inactive,Inactive,Inactive,uri://ed-fi.org/ProviderStatusDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/ProviderStatusDescriptor

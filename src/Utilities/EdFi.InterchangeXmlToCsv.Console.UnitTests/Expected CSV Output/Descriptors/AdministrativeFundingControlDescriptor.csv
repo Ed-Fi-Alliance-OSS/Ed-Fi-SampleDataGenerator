@@ -1,4 +1,4 @@
-CodeValue,ShortDescription,Description,Namespace,AdministrativeFundingControlMap
-Other,Other,Other,http://www.ed-fi.org/Descriptor/AdministrativeFundingControlDescriptor.xml,Other
-Private School,Private School,Private School,http://www.ed-fi.org/Descriptor/AdministrativeFundingControlDescriptor.xml,Private School
-Public School,Public School,Public School,http://www.ed-fi.org/Descriptor/AdministrativeFundingControlDescriptor.xml,Public School
+CodeValue,ShortDescription,Description,Namespace
+Other,Other,Other,uri://ed-fi.org/AdministrativeFundingControlDescriptor
+Private School,Private School,Private School,uri://ed-fi.org/AdministrativeFundingControlDescriptor
+Public School,Public School,Public School,uri://ed-fi.org/AdministrativeFundingControlDescriptor

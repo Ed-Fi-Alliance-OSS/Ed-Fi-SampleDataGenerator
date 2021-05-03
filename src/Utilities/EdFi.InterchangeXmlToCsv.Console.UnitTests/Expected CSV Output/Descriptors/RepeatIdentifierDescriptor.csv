@@ -1,0 +1,9 @@
+CodeValue,ShortDescription,Description,Namespace
+Not repeated,Not repeated,Not repeated,uri://ed-fi.org/RepeatIdentifierDescriptor
+Other,Other,Other,uri://ed-fi.org/RepeatIdentifierDescriptor
+"Other, not counted in GPA","Other, not counted in GPA","Other, not counted in GPA",uri://ed-fi.org/RepeatIdentifierDescriptor
+"Repeated, counted in grade point average","Repeated, counted in grade point average","Repeated, counted in grade point average",uri://ed-fi.org/RepeatIdentifierDescriptor
+"Repeated, not counted in grade point average","Repeated, not counted in grade point average","Repeated, not counted in grade point average",uri://ed-fi.org/RepeatIdentifierDescriptor
+"Repeated, other institution","Repeated, other institution","Repeated, other institution",uri://ed-fi.org/RepeatIdentifierDescriptor
+Replacement counted,Replacement counted,Replacement counted,uri://ed-fi.org/RepeatIdentifierDescriptor
+Replacement not counted,Replacement not counted,Replacement not counted,uri://ed-fi.org/RepeatIdentifierDescriptor

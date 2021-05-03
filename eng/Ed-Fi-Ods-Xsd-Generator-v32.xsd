@@ -1,0 +1,27 @@
+﻿<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/'>
+  <generateClasses language='CS' namespace='EdFi.SampleDataGenerator.Core.Entities'>
+    <schema>.\Schema\v32\Ed-Fi-Core.xsd</schema>
+    <schema>.\Schema\v32\Interchange-AssessmentMetadata.xsd</schema>
+    <schema>.\Schema\v32\Interchange-Descriptors.xsd</schema>
+    <schema>.\Schema\v32\Interchange-EducationOrganization.xsd</schema>
+    <schema>.\Schema\v32\Interchange-EducationOrgCalendar.xsd</schema>
+    <schema>.\Schema\v32\Interchange-Finance.xsd</schema>
+    <schema>.\Schema\v32\Interchange-MasterSchedule.xsd</schema>
+    <schema>.\Schema\v32\Interchange-Parent.xsd</schema>
+    <schema>.\Schema\v32\Interchange-PostSecondaryEvent.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StaffAssociation.xsd</schema>
+    <schema>.\Schema\v32\Interchange-Standards.xsd</schema>
+    <schema>.\Schema\v32\Interchange-Student.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentAssessment.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentAttendance.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentCohort.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentDiscipline.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentEnrollment.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentGrade.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentGradebook.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentIntervention.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentProgram.xsd</schema>
+    <schema>.\Schema\v32\Interchange-StudentTranscript.xsd</schema>
+    <schema>.\Schema\v32\SchemaAnnotation.xsd</schema>
+  </generateClasses>
+</xsd>

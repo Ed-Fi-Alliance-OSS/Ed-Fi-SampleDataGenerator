@@ -1370,6 +1370,14 @@
 			Namespace = "uri://ed-fi.org/AssessmentItemCategoryDescriptor",
 		};
 
+		public static readonly AssessmentItemCategoryDescriptor MultipleChoiceMultiSelect = new AssessmentItemCategoryDescriptor
+		{
+			CodeValue = "Multiple-choice multi-select",
+			ShortDescription = "Multiple-choice multi-select",
+			Description = "Multiple-choice multi-select",
+			Namespace = "uri://ed-fi.org/AssessmentItemCategoryDescriptor",
+		};
+
 		public static readonly AssessmentItemCategoryDescriptor Other = new AssessmentItemCategoryDescriptor
 		{
 			CodeValue = "Other",
@@ -1510,6 +1518,14 @@
 			Namespace = "uri://ed-fi.org/AssessmentItemResultDescriptor",
 		};
 
+		public static readonly AssessmentItemResultDescriptor PartiallyCorrect = new AssessmentItemResultDescriptor
+		{
+			CodeValue = "Partially Correct",
+			ShortDescription = "Partially Correct",
+			Description = "Partially Correct",
+			Namespace = "uri://ed-fi.org/AssessmentItemResultDescriptor",
+		};
+
 	}
 
 	public partial class AssessmentPeriodDescriptor
@@ -1550,11 +1566,11 @@
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
-		public static readonly AssessmentReportingMethodDescriptor ACTScore = new AssessmentReportingMethodDescriptor
+		public static readonly AssessmentReportingMethodDescriptor DEPRECATEDACTScore = new AssessmentReportingMethodDescriptor
 		{
 			CodeValue = "ACT score",
-			ShortDescription = "ACT score",
-			Description = "ACT score",
+			ShortDescription = "DEPRECATED: ACT score",
+			Description = "DEPRECATED: ACT score",
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
@@ -1582,11 +1598,11 @@
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
-		public static readonly AssessmentReportingMethodDescriptor CollegeBoardExaminationScores = new AssessmentReportingMethodDescriptor
+		public static readonly AssessmentReportingMethodDescriptor DEPRECATEDCollegeBoardExaminationScores = new AssessmentReportingMethodDescriptor
 		{
 			CodeValue = "College Board examination scores",
-			ShortDescription = "College Board examination scores",
-			Description = "College Board examination scores",
+			ShortDescription = "DEPRECATED: College Board examination scores",
+			Description = "DEPRECATED: College Board examination scores",
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
@@ -1638,11 +1654,11 @@
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
-		public static readonly AssessmentReportingMethodDescriptor InternationalBaccalaureateScore = new AssessmentReportingMethodDescriptor
+		public static readonly AssessmentReportingMethodDescriptor DEPRECATEDInternationalBaccalaureateScore = new AssessmentReportingMethodDescriptor
 		{
 			CodeValue = "International Baccalaureate score",
-			ShortDescription = "International Baccalaureate score",
-			Description = "International Baccalaureate score",
+			ShortDescription = "DEPRECATED: International Baccalaureate score",
+			Description = "DEPRECATED: International Baccalaureate score",
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
@@ -1838,11 +1854,11 @@
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
-		public static readonly AssessmentReportingMethodDescriptor NotApplicable = new AssessmentReportingMethodDescriptor
+		public static readonly AssessmentReportingMethodDescriptor DEPRECATEDNotApplicable = new AssessmentReportingMethodDescriptor
 		{
 			CodeValue = "Not applicable",
-			ShortDescription = "Not applicable",
-			Description = "Not applicable",
+			ShortDescription = "DEPRECATED: Not applicable",
+			Description = "DEPRECATED: Not applicable",
 			Namespace = "uri://ed-fi.org/AssessmentReportingMethodDescriptor",
 		};
 
@@ -1898,91 +1914,131 @@
 
 	public partial class AttemptStatusDescriptor
 	{
-		public static readonly AttemptStatusDescriptor DiedOrIsPermanentlyIncapacitated = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor Pass = new AttemptStatusDescriptor
+		{
+			CodeValue = "Pass",
+			ShortDescription = "Pass",
+			Description = "Pass",
+			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
+		};
+
+		public static readonly AttemptStatusDescriptor Fail = new AttemptStatusDescriptor
+		{
+			CodeValue = "Fail",
+			ShortDescription = "Fail",
+			Description = "Fail",
+			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
+		};
+
+		public static readonly AttemptStatusDescriptor Incomplete = new AttemptStatusDescriptor
+		{
+			CodeValue = "Incomplete",
+			ShortDescription = "Incomplete",
+			Description = "Incomplete",
+			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
+		};
+
+		public static readonly AttemptStatusDescriptor Withdrawn = new AttemptStatusDescriptor
+		{
+			CodeValue = "Withdrawn",
+			ShortDescription = "Withdrawn",
+			Description = "Withdrawn",
+			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
+		};
+
+		public static readonly AttemptStatusDescriptor Audited = new AttemptStatusDescriptor
+		{
+			CodeValue = "Audited",
+			ShortDescription = "Audited",
+			Description = "Audited",
+			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
+		};
+
+		public static readonly AttemptStatusDescriptor DEPRECATEDDiedOrIsPermanentlyIncapacitated = new AttemptStatusDescriptor
 		{
 			CodeValue = "Died or is permanently incapacitated",
-			ShortDescription = "Died or is permanently incapacitated",
-			Description = "Died or is permanently incapacitated",
+			ShortDescription = "DEPRECATED: Died or is permanently incapacitated",
+			Description = "DEPRECATED: Died or is permanently incapacitated",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor DiscontinuedSchooling = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDDiscontinuedSchooling = new AttemptStatusDescriptor
 		{
 			CodeValue = "Discontinued schooling",
-			ShortDescription = "Discontinued schooling",
-			Description = "Discontinued schooling",
+			ShortDescription = "DEPRECATED: Discontinued schooling",
+			Description = "DEPRECATED: Discontinued schooling",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor GraduatedWithAHighSchoolDiploma = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDGraduatedWithAHighSchoolDiploma = new AttemptStatusDescriptor
 		{
 			CodeValue = "Graduated with a high school diploma",
-			ShortDescription = "Graduated with a high school diploma",
-			Description = "Graduated with a high school diploma",
+			ShortDescription = "DEPRECATED: Graduated with a high school diploma",
+			Description = "DEPRECATED: Graduated with a high school diploma",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor MovedOutOfState = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDMovedOutOfState = new AttemptStatusDescriptor
 		{
 			CodeValue = "Moved out of state",
-			ShortDescription = "Moved out of state",
-			Description = "Moved out of state",
+			ShortDescription = "DEPRECATED: Moved out of state",
+			Description = "DEPRECATED: Moved out of state",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor Other = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDOther = new AttemptStatusDescriptor
 		{
 			CodeValue = "Other",
-			ShortDescription = "Other",
-			Description = "Other",
+			ShortDescription = "DEPRECATED: Other",
+			Description = "DEPRECATED: Other",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor ReachedMaximumAge = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDReachedMaximumAge = new AttemptStatusDescriptor
 		{
 			CodeValue = "Reached maximum age",
-			ShortDescription = "Reached maximum age",
-			Description = "Reached maximum age",
+			ShortDescription = "DEPRECATED: Reached maximum age",
+			Description = "DEPRECATED: Reached maximum age",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor ReceivedCompletionCertificateModifiedDiplomaOrMetIEPRequirements = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDReceivedCompletionCertificateModifiedDiplomaOrMetIEPR = new AttemptStatusDescriptor
 		{
 			CodeValue = "Received certificate of completion or equivalent",
-			ShortDescription = "Received completion certificate, modified diploma, or met IEP requirements",
-			Description = "Received certificate of completion, modified diploma, or finished IEP requirements",
+			ShortDescription = "DEPRECATED: Received completion certificate, modified diploma, or met IEP r",
+			Description = "DEPRECATED: Received certificate of completion, modified diploma, or finished IEP requirements",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor SuspendedOrExpelledFromSchool = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDSuspendedOrExpelledFromSchool = new AttemptStatusDescriptor
 		{
 			CodeValue = "Suspended or expelled from school",
-			ShortDescription = "Suspended or expelled from school",
-			Description = "Suspended or expelled from school",
+			ShortDescription = "DEPRECATED: Suspended or expelled from school",
+			Description = "DEPRECATED: Suspended or expelled from school",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor TransferredToAnotherDistrictOrSchool = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDTransferredToAnotherDistrictOrSchool = new AttemptStatusDescriptor
 		{
 			CodeValue = "Transferred to another district or school",
-			ShortDescription = "Transferred to another district or school",
-			Description = "Transferred to another district or school",
+			ShortDescription = "DEPRECATED: Transferred to another district or school",
+			Description = "DEPRECATED: Transferred to another district or school",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor UnknownReason = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDUnknownReason = new AttemptStatusDescriptor
 		{
 			CodeValue = "Unknown reason",
-			ShortDescription = "Unknown reason",
-			Description = "Unknown reason",
+			ShortDescription = "DEPRECATED: Unknown reason",
+			Description = "DEPRECATED: Unknown reason",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
-		public static readonly AttemptStatusDescriptor WithdrawalByAParentOrGuardian = new AttemptStatusDescriptor
+		public static readonly AttemptStatusDescriptor DEPRECATEDWithdrawalByAParentOrGuardian = new AttemptStatusDescriptor
 		{
 			CodeValue = "Withdrawal by a parent (or guardian)",
-			ShortDescription = "Withdrawal by a parent (or guardian)",
-			Description = "Withdrawal by a parent (or guardian)",
+			ShortDescription = "DEPRECATED: Withdrawal by a parent (or guardian)",
+			Description = "DEPRECATED: Withdrawal by a parent (or guardian)",
 			Namespace = "uri://ed-fi.org/AttemptStatusDescriptor",
 		};
 
@@ -2082,7 +2138,7 @@
 		{
 			CodeValue = "Emergency day",
 			ShortDescription = "Emergency day",
-			Description = "Emergency day",
+			Description = "Instruction cancelled or reduced due to an emergency",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2090,7 +2146,7 @@
 		{
 			CodeValue = "Holiday",
 			ShortDescription = "Holiday",
-			Description = "Holiday",
+			Description = "Instruction cancelled or reduced due to a holiday",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2098,7 +2154,7 @@
 		{
 			CodeValue = "Instructional day",
 			ShortDescription = "Instructional day",
-			Description = "Instructional day",
+			Description = "Student instructional day",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2106,7 +2162,7 @@
 		{
 			CodeValue = "Make-up day",
 			ShortDescription = "Make-up day",
-			Description = "Make-up day",
+			Description = "Make-up instructional day",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2122,7 +2178,7 @@
 		{
 			CodeValue = "Strike",
 			ShortDescription = "Strike",
-			Description = "Strike",
+			Description = "Instruction cancelled or reduced due to a strike",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2130,7 +2186,7 @@
 		{
 			CodeValue = "Student late arrival/early dismissal",
 			ShortDescription = "Student late arrival/early dismissal",
-			Description = "Student late arrival/early dismissal",
+			Description = "Abbreviated instructional day due to student late arrival or early dismissal",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2138,7 +2194,7 @@
 		{
 			CodeValue = "Teacher only day",
 			ShortDescription = "Teacher only day",
-			Description = "Teacher only day",
+			Description = "Non-instructional day for students designated for teachers (e.g., staff development, work day)",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2146,7 +2202,15 @@
 		{
 			CodeValue = "Weather day",
 			ShortDescription = "Weather day",
-			Description = "Weather day",
+			Description = "Instruction cancelled or reduced due to weather",
+			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
+		};
+
+		public static readonly CalendarEventDescriptor NonInstructionalDay = new CalendarEventDescriptor
+		{
+			CodeValue = "Non-instructional day",
+			ShortDescription = "Non-instructional day",
+			Description = "Non-instructional day",
 			Namespace = "uri://ed-fi.org/CalendarEventDescriptor",
 		};
 
@@ -2167,6 +2231,30 @@
 			CodeValue = "Student Specific",
 			ShortDescription = "Student Specific",
 			Description = "Student Specific",
+			Namespace = "uri://ed-fi.org/CalendarTypeDescriptor",
+		};
+
+		public static readonly CalendarTypeDescriptor GradeLevel = new CalendarTypeDescriptor
+		{
+			CodeValue = "Grade Level",
+			ShortDescription = "Grade Level",
+			Description = "Grade Level",
+			Namespace = "uri://ed-fi.org/CalendarTypeDescriptor",
+		};
+
+		public static readonly CalendarTypeDescriptor School = new CalendarTypeDescriptor
+		{
+			CodeValue = "School",
+			ShortDescription = "School",
+			Description = "School",
+			Namespace = "uri://ed-fi.org/CalendarTypeDescriptor",
+		};
+
+		public static readonly CalendarTypeDescriptor Staff = new CalendarTypeDescriptor
+		{
+			CodeValue = "Staff",
+			ShortDescription = "Staff",
+			Description = "Staff",
 			Namespace = "uri://ed-fi.org/CalendarTypeDescriptor",
 		};
 
@@ -5616,6 +5704,146 @@
 
 	}
 
+	public partial class CTEProgramServiceDescriptor
+	{
+		public static readonly CTEProgramServiceDescriptor AgricultureFoodAndNaturalResources = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Agriculture, Food and Natural Resources",
+			ShortDescription = "Agriculture, Food and Natural Resources",
+			Description = "Agriculture, Food and Natural Resources",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor ArchitectureAndConstruction = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Architecture and Construction",
+			ShortDescription = "Architecture and Construction",
+			Description = "Architecture and Construction",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor ArtsAVTechnologyAndCommunications = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Arts, A/V Technology and Communications",
+			ShortDescription = "Arts, A/V Technology and Communications",
+			Description = "Arts, A/V Technology and Communications",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor BusinessManagementAndAdministration = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Business, Management and Administration",
+			ShortDescription = "Business, Management and Administration",
+			Description = "Business, Management and Administration",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor EducationAndTraining = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Education and Training",
+			ShortDescription = "Education and Training",
+			Description = "Education and Training",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor Finance = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Finance",
+			ShortDescription = "Finance",
+			Description = "Finance",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor GovernmentAndPublicAdministration = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Government and Public Administration",
+			ShortDescription = "Government and Public Administration",
+			Description = "Government and Public Administration",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor HealthScience = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Health Science",
+			ShortDescription = "Health Science",
+			Description = "Health Science",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor HospitalityAndTourism = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Hospitality and Tourism",
+			ShortDescription = "Hospitality and Tourism",
+			Description = "Hospitality and Tourism",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor HumanServices = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Human Services",
+			ShortDescription = "Human Services",
+			Description = "Human Services",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor InformationTechnology = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Information Technology",
+			ShortDescription = "Information Technology",
+			Description = "Information Technology",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor LawPublicSafetyCorrectionsAndSecurity = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Law, Public Safety, Corrections and Security",
+			ShortDescription = "Law, Public Safety, Corrections and Security",
+			Description = "Law, Public Safety, Corrections and Security",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor Manufacturing = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Manufacturing",
+			ShortDescription = "Manufacturing",
+			Description = "Manufacturing",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor MarketingSalesAndService = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Marketing, Sales and Service",
+			ShortDescription = "Marketing, Sales and Service",
+			Description = "Marketing, Sales and Service",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor Other = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Other",
+			ShortDescription = "Other",
+			Description = "Other",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor ScienceTechnologyEngineeringAndMathematics = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Science, Technology, Engineering and Mathematics",
+			ShortDescription = "Science, Technology, Engineering and Mathematics",
+			Description = "Science, Technology, Engineering and Mathematics",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+		public static readonly CTEProgramServiceDescriptor TransportationDistributionAndLogistics = new CTEProgramServiceDescriptor
+		{
+			CodeValue = "Transportation, Distribution and Logistics",
+			ShortDescription = "Transportation, Distribution and Logistics",
+			Description = "Transportation, Distribution and Logistics",
+			Namespace = "uri://ed-fi.org/CTEProgramServiceDescriptor",
+		};
+
+	}
+
 	public partial class CurriculumUsedDescriptor
 	{
 		public static readonly CurriculumUsedDescriptor CreativeCurriculumFamilyChildCare = new CurriculumUsedDescriptor
@@ -6380,6 +6608,42 @@
 			ShortDescription = "No action for incident",
 			Description = "No action for incident",
 			Namespace = "uri://ed-fi.org/DisciplineDescriptor",
+		};
+
+	}
+
+	public partial class DisciplineIncidentParticipationCodeDescriptor
+	{
+		public static readonly DisciplineIncidentParticipationCodeDescriptor Perpetrator = new DisciplineIncidentParticipationCodeDescriptor
+		{
+			CodeValue = "Perpetrator",
+			ShortDescription = "Perpetrator",
+			Description = "Perpetrator",
+			Namespace = "uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor",
+		};
+
+		public static readonly DisciplineIncidentParticipationCodeDescriptor Reporter = new DisciplineIncidentParticipationCodeDescriptor
+		{
+			CodeValue = "Reporter",
+			ShortDescription = "Reporter",
+			Description = "Reporter",
+			Namespace = "uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor",
+		};
+
+		public static readonly DisciplineIncidentParticipationCodeDescriptor Victim = new DisciplineIncidentParticipationCodeDescriptor
+		{
+			CodeValue = "Victim",
+			ShortDescription = "Victim",
+			Description = "Victim",
+			Namespace = "uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor",
+		};
+
+		public static readonly DisciplineIncidentParticipationCodeDescriptor Witness = new DisciplineIncidentParticipationCodeDescriptor
+		{
+			CodeValue = "Witness",
+			ShortDescription = "Witness",
+			Description = "Witness",
+			Namespace = "uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor",
 		};
 
 	}
@@ -7644,6 +7908,26 @@
 			ShortDescription = "No grade level",
 			Description = "No grade level",
 			Namespace = "uri://ed-fi.org/GradeLevelDescriptor",
+		};
+
+	}
+
+	public partial class GradePointAverageWeightSystemDescriptor
+	{
+		public static readonly GradePointAverageWeightSystemDescriptor Weighted = new GradePointAverageWeightSystemDescriptor
+		{
+			CodeValue = "Weighted",
+			ShortDescription = "Weighted",
+			Description = "Weighted",
+			Namespace = "uri://ed-fi.org/GradePointAverageWeightSystemDescriptor",
+		};
+
+		public static readonly GradePointAverageWeightSystemDescriptor Unweighted = new GradePointAverageWeightSystemDescriptor
+		{
+			CodeValue = "Unweighted",
+			ShortDescription = "Unweighted",
+			Description = "Unweighted",
+			Namespace = "uri://ed-fi.org/GradePointAverageWeightSystemDescriptor",
 		};
 
 	}
@@ -12572,6 +12856,94 @@
 
 	}
 
+	public partial class LearningStandardEquivalenceStrengthDescriptor
+	{
+		public static readonly LearningStandardEquivalenceStrengthDescriptor Equivalent = new LearningStandardEquivalenceStrengthDescriptor
+		{
+			CodeValue = "Equivalent",
+			ShortDescription = "Equivalent",
+			Description = "Equivalent",
+			Namespace = "uri://ed-fi.org/LearningStandardEquivalenceStrengthDescriptor",
+		};
+
+		public static readonly LearningStandardEquivalenceStrengthDescriptor MostlyEquivalent = new LearningStandardEquivalenceStrengthDescriptor
+		{
+			CodeValue = "Mostly equivalent",
+			ShortDescription = "Mostly equivalent",
+			Description = "Mostly equivalent",
+			Namespace = "uri://ed-fi.org/LearningStandardEquivalenceStrengthDescriptor",
+		};
+
+		public static readonly LearningStandardEquivalenceStrengthDescriptor PartiallyEquivalent = new LearningStandardEquivalenceStrengthDescriptor
+		{
+			CodeValue = "Partially equivalent",
+			ShortDescription = "Partially equivalent",
+			Description = "Partially equivalent",
+			Namespace = "uri://ed-fi.org/LearningStandardEquivalenceStrengthDescriptor",
+		};
+
+		public static readonly LearningStandardEquivalenceStrengthDescriptor MinimallyEquivalent = new LearningStandardEquivalenceStrengthDescriptor
+		{
+			CodeValue = "Minimally equivalent",
+			ShortDescription = "Minimally equivalent",
+			Description = "Minimally equivalent",
+			Namespace = "uri://ed-fi.org/LearningStandardEquivalenceStrengthDescriptor",
+		};
+
+	}
+
+	public partial class LearningStandardScopeDescriptor
+	{
+		public static readonly LearningStandardScopeDescriptor State = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "State",
+			ShortDescription = "State",
+			Description = "State",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+		public static readonly LearningStandardScopeDescriptor LocalEducationAgency = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "Local education agency",
+			ShortDescription = "Local education agency",
+			Description = "Local education agency",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+		public static readonly LearningStandardScopeDescriptor School = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "School",
+			ShortDescription = "School",
+			Description = "School",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+		public static readonly LearningStandardScopeDescriptor Classroom = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "Classroom",
+			ShortDescription = "Classroom",
+			Description = "Classroom",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+		public static readonly LearningStandardScopeDescriptor MultiStateOrNational = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "Multi-state or National",
+			ShortDescription = "Multi-state or National",
+			Description = "Multi-state or National",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+		public static readonly LearningStandardScopeDescriptor International = new LearningStandardScopeDescriptor
+		{
+			CodeValue = "International",
+			ShortDescription = "International",
+			Description = "International",
+			Namespace = "uri://ed-fi.org/LearningStandardScopeDescriptor",
+		};
+
+	}
+
 	public partial class LevelOfEducationDescriptor
 	{
 		public static readonly LevelOfEducationDescriptor AssociateSDegreeTwoYearsOrMore = new LevelOfEducationDescriptor
@@ -12820,106 +13192,107 @@
 
 	}
 
-    public partial class LocaleDescriptor
-    {
-        public static readonly LocaleDescriptor CityLarge = new LocaleDescriptor
-        {
-            CodeValue = "City-Large",
-            ShortDescription = "City-Large",
-            Description = "City-Large",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+	public partial class LocaleDescriptor
+	{
+		public static readonly LocaleDescriptor CityLarge = new LocaleDescriptor
+		{
+			CodeValue = "City-Large",
+			ShortDescription = "City-Large",
+			Description = "City-Large",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor CityMidsize = new LocaleDescriptor
-        {
-            CodeValue = "City-Midsize",
-            ShortDescription = "City-Midsize",
-            Description = "City-Midsize",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor CityMidsize = new LocaleDescriptor
+		{
+			CodeValue = "City-Midsize",
+			ShortDescription = "City-Midsize",
+			Description = "City-Midsize",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor CitySmall = new LocaleDescriptor
-        {
-            CodeValue = "City-Small",
-            ShortDescription = "City-Small",
-            Description = "City-Small",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor CitySmall = new LocaleDescriptor
+		{
+			CodeValue = "City-Small",
+			ShortDescription = "City-Small",
+			Description = "City-Small",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor SuburbanLarge = new LocaleDescriptor
-        {
-            CodeValue = "Suburban-Large",
-            ShortDescription = "Suburban-Large",
-            Description = "Suburban-Large",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor SuburbanLarge = new LocaleDescriptor
+		{
+			CodeValue = "Suburban-Large",
+			ShortDescription = "Suburban-Large",
+			Description = "Suburban-Large",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor SuburbanMidsize = new LocaleDescriptor
-        {
-            CodeValue = "Suburban-Midsize",
-            ShortDescription = "Suburban-Midsize",
-            Description = "Suburban-Midsize",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor SuburbanMidsize = new LocaleDescriptor
+		{
+			CodeValue = "Suburban-Midsize",
+			ShortDescription = "Suburban-Midsize",
+			Description = "Suburban-Midsize",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor SuburbanSmall = new LocaleDescriptor
-        {
-            CodeValue = "Suburban-Small",
-            ShortDescription = "Suburban-Small",
-            Description = "Suburban-Small",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor SuburbanSmall = new LocaleDescriptor
+		{
+			CodeValue = "Suburban-Small",
+			ShortDescription = "Suburban-Small",
+			Description = "Suburban-Small",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor TownFringe = new LocaleDescriptor
-        {
-            CodeValue = "Town-Fringe",
-            ShortDescription = "Town-Fringe",
-            Description = "Town-Fringe",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor TownFringe = new LocaleDescriptor
+		{
+			CodeValue = "Town-Fringe",
+			ShortDescription = "Town-Fringe",
+			Description = "Town-Fringe",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor TownDistant = new LocaleDescriptor
-        {
-            CodeValue = "Town-Distant",
-            ShortDescription = "Town-Distant",
-            Description = "Town-Distant",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor TownDistant = new LocaleDescriptor
+		{
+			CodeValue = "Town-Distant",
+			ShortDescription = "Town-Distant",
+			Description = "Town-Distant",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor TownRemote = new LocaleDescriptor
-        {
-            CodeValue = "Town-Remote",
-            ShortDescription = "Town-Remote",
-            Description = "Town-Remote",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor TownRemote = new LocaleDescriptor
+		{
+			CodeValue = "Town-Remote",
+			ShortDescription = "Town-Remote",
+			Description = "Town-Remote",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor RuralFringe = new LocaleDescriptor
-        {
-            CodeValue = "Rural-Fringe",
-            ShortDescription = "Rural-Fringe",
-            Description = "Rural-Fringe",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor RuralFringe = new LocaleDescriptor
+		{
+			CodeValue = "Rural-Fringe",
+			ShortDescription = "Rural-Fringe",
+			Description = "Rural-Fringe",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor RuralDistant = new LocaleDescriptor
-        {
-            CodeValue = "Rural-Distant",
-            ShortDescription = "Rural-Distant",
-            Description = "Rural-Distant",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
+		public static readonly LocaleDescriptor RuralDistant = new LocaleDescriptor
+		{
+			CodeValue = "Rural-Distant",
+			ShortDescription = "Rural-Distant",
+			Description = "Rural-Distant",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-        public static readonly LocaleDescriptor RuralRemote = new LocaleDescriptor
-        {
-            CodeValue = "Rural-Remote",
-            ShortDescription = "Rural-Remote",
-            Description = "Rural-Remote",
-            Namespace = "uri://ed-fi.org/LocaleDescriptor",
-        };
-    }
+		public static readonly LocaleDescriptor RuralRemote = new LocaleDescriptor
+		{
+			CodeValue = "Rural-Remote",
+			ShortDescription = "Rural-Remote",
+			Description = "Rural-Remote",
+			Namespace = "uri://ed-fi.org/LocaleDescriptor",
+		};
 
-    public partial class LocalEducationAgencyCategoryDescriptor
+	}
+
+	public partial class LocalEducationAgencyCategoryDescriptor
 	{
 		public static readonly LocalEducationAgencyCategoryDescriptor Charter = new LocalEducationAgencyCategoryDescriptor
 		{
@@ -13517,7 +13890,7 @@
 		{
 			CodeValue = "Attempted",
 			ShortDescription = "Attempted",
-			Description = "Attempted",
+			Description = "Attempted but did not complete",
 			Namespace = "uri://ed-fi.org/ParticipationDescriptor",
 		};
 
@@ -13535,6 +13908,50 @@
 			ShortDescription = "Unable Due To Medical Emergency",
 			Description = "Unable Due To Medical Emergency",
 			Namespace = "uri://ed-fi.org/ParticipationDescriptor",
+		};
+
+	}
+
+	public partial class ParticipationStatusDescriptor
+	{
+		public static readonly ParticipationStatusDescriptor Referred = new ParticipationStatusDescriptor
+		{
+			CodeValue = "Referred",
+			ShortDescription = "Referred",
+			Description = "Referred",
+			Namespace = "uri://ed-fi.org/ParticipationStatusDescriptor",
+		};
+
+		public static readonly ParticipationStatusDescriptor Eligible = new ParticipationStatusDescriptor
+		{
+			CodeValue = "Eligible",
+			ShortDescription = "Eligible",
+			Description = "Eligible",
+			Namespace = "uri://ed-fi.org/ParticipationStatusDescriptor",
+		};
+
+		public static readonly ParticipationStatusDescriptor NotEligible = new ParticipationStatusDescriptor
+		{
+			CodeValue = "Not Eligible",
+			ShortDescription = "Not Eligible",
+			Description = "Not Eligible",
+			Namespace = "uri://ed-fi.org/ParticipationStatusDescriptor",
+		};
+
+		public static readonly ParticipationStatusDescriptor ActiveInProgram = new ParticipationStatusDescriptor
+		{
+			CodeValue = "Active in Program",
+			ShortDescription = "Active in Program",
+			Description = "Active in Program",
+			Namespace = "uri://ed-fi.org/ParticipationStatusDescriptor",
+		};
+
+		public static readonly ParticipationStatusDescriptor Refused = new ParticipationStatusDescriptor
+		{
+			CodeValue = "Refused",
+			ShortDescription = "Refused",
+			Description = "Refused",
+			Namespace = "uri://ed-fi.org/ParticipationStatusDescriptor",
 		};
 
 	}
@@ -13827,6 +14244,26 @@
 			ShortDescription = "State-issued ID",
 			Description = "State-issued ID",
 			Namespace = "uri://ed-fi.org/PersonalInformationVerificationDescriptor",
+		};
+
+	}
+
+	public partial class PlatformTypeDescriptor
+	{
+		public static readonly PlatformTypeDescriptor ComputerBased = new PlatformTypeDescriptor
+		{
+			CodeValue = "Computer-based",
+			ShortDescription = "Computer-based",
+			Description = "Computer-based",
+			Namespace = "uri://ed-fi.org/PlatformTypeDescriptor",
+		};
+
+		public static readonly PlatformTypeDescriptor PaperBased = new PlatformTypeDescriptor
+		{
+			CodeValue = "Paper-based",
+			ShortDescription = "Paper-based",
+			Description = "Paper-based",
+			Namespace = "uri://ed-fi.org/PlatformTypeDescriptor",
 		};
 
 	}
@@ -14662,6 +15099,14 @@
 			CodeValue = "Student Retention/Dropout Prevention",
 			ShortDescription = "Student Retention/Dropout Prevention",
 			Description = "Student Retention/Dropout Prevention",
+			Namespace = "uri://ed-fi.org/ProgramTypeDescriptor",
+		};
+
+		public static readonly ProgramTypeDescriptor StudentSchoolFoodService = new ProgramTypeDescriptor
+		{
+			CodeValue = "Student School Food Service",
+			ShortDescription = "Student School Food Service",
+			Description = "Student School Food Service",
 			Namespace = "uri://ed-fi.org/ProgramTypeDescriptor",
 		};
 
@@ -17949,7 +18394,7 @@
 		{
 			CodeValue = "District",
 			ShortDescription = "District",
-			Description = "District",
+			Description = "The student identification system for the student at the district level, generally managed by the district student information system, and the one that assigns the principal IDs used to join student data for district operations.",
 			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
 		};
 
@@ -17969,11 +18414,11 @@
 			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
 		};
 
-		public static readonly StudentIdentificationSystemDescriptor Local = new StudentIdentificationSystemDescriptor
+		public static readonly StudentIdentificationSystemDescriptor DEPRECATEDLocal = new StudentIdentificationSystemDescriptor
 		{
 			CodeValue = "Local",
-			ShortDescription = "Local",
-			Description = "Local",
+			ShortDescription = "DEPRECATED: Local",
+			Description = "DEPRECATED: Local",
 			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
 		};
 
@@ -18013,7 +18458,7 @@
 		{
 			CodeValue = "State",
 			ShortDescription = "State",
-			Description = "State",
+			Description = "The state identification system for students that assigns a state ID to each student.",
 			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
 		};
 
@@ -18022,6 +18467,14 @@
 			CodeValue = "State Migrant",
 			ShortDescription = "State Migrant",
 			Description = "State Migrant",
+			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
+		};
+
+		public static readonly StudentIdentificationSystemDescriptor StudentNumber = new StudentIdentificationSystemDescriptor
+		{
+			CodeValue = "Student Number",
+			ShortDescription = "Student Number",
+			Description = "A category of IDs often provided to enable students and others to remember and use in daily operations. If none exists, the Student Number system is generally equivalent to the District system.",
 			Namespace = "uri://ed-fi.org/StudentIdentificationSystemDescriptor",
 		};
 
@@ -18485,11 +18938,11 @@
 
 	public partial class TitleIPartAParticipantDescriptor
 	{
-		public static readonly TitleIPartAParticipantDescriptor LocalNeglectedProgram = new TitleIPartAParticipantDescriptor
+		public static readonly TitleIPartAParticipantDescriptor DEPRECATEDLocalNeglectedProgram = new TitleIPartAParticipantDescriptor
 		{
 			CodeValue = "Local Neglected Program",
-			ShortDescription = "Local Neglected Program",
-			Description = "Local Neglected Program",
+			ShortDescription = "DEPRECATED: Local Neglected Program",
+			Description = "DEPRECATED: Local Neglected Program",
 			Namespace = "uri://ed-fi.org/TitleIPartAParticipantDescriptor",
 		};
 
@@ -18523,6 +18976,82 @@
 			ShortDescription = "Was not served",
 			Description = "Was not served",
 			Namespace = "uri://ed-fi.org/TitleIPartAParticipantDescriptor",
+		};
+
+	}
+
+	public partial class TitleIPartAProgramServiceDescriptor
+	{
+		public static readonly TitleIPartAProgramServiceDescriptor ReadingLanguageInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Reading/Language Instructional Services",
+			ShortDescription = "Reading/Language Instructional Services",
+			Description = "Reading/Language Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor MathematicsInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Mathematics Instructional Services",
+			ShortDescription = "Mathematics Instructional Services",
+			Description = "Mathematics Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor ScienceInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Science Instructional Services",
+			ShortDescription = "Science Instructional Services",
+			Description = "Science Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor SocialStudiesInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Social Studies Instructional Services",
+			ShortDescription = "Social Studies Instructional Services",
+			Description = "Social Studies Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor CareerAndTechnicalEducationInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "CTE Instructional Services",
+			ShortDescription = "Career and Technical Education Instructional Services",
+			Description = "Career and Technical Education Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor OtherInstructionalServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Other Instructional Services",
+			ShortDescription = "Other Instructional Services",
+			Description = "Other Instructional Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor HealthDentalAndEyeCareSupportServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Health, Dental, and Eye Care Support Services",
+			ShortDescription = "Health, Dental, and Eye Care Support Services",
+			Description = "Health, Dental, and Eye Care Support Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor SupportingGuidanceAdvocacySupportServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Supporting Guidance/Advocacy Support Services",
+			ShortDescription = "Supporting Guidance/Advocacy Support Services",
+			Description = "Supporting Guidance/Advocacy Support Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
+		};
+
+		public static readonly TitleIPartAProgramServiceDescriptor OtherSupportServices = new TitleIPartAProgramServiceDescriptor
+		{
+			CodeValue = "Other Support Services",
+			ShortDescription = "Other Support Services",
+			Description = "Other Support Services",
+			Namespace = "uri://ed-fi.org/TitleIPartAProgramServiceDescriptor",
 		};
 
 	}

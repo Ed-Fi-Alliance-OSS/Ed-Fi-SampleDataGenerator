@@ -1,5 +1,5 @@
-CodeValue,ShortDescription,Description,Namespace,BehaviorMap
-State Offense,State Offense,State Offense,http://www.ed-fi.org/Descriptor/BehaviorDescriptor.xml,State Offense
-School Violation,School Violation,School Violation,http://www.ed-fi.org/Descriptor/BehaviorDescriptor.xml,School Violation
-School Code of Conduct,School Code of Conduct,School Code of Conduct,http://www.ed-fi.org/Descriptor/BehaviorDescriptor.xml,School Code of Conduct
-Other,Other,Other,http://www.ed-fi.org/Descriptor/BehaviorDescriptor.xml,Other
+CodeValue,ShortDescription,Description,Namespace
+State Offense,State Offense,State Offense,uri://ed-fi.org/BehaviorDescriptor
+School Violation,School Violation,School Violation,uri://ed-fi.org/BehaviorDescriptor
+School Code of Conduct,School Code of Conduct,School Code of Conduct,uri://ed-fi.org/BehaviorDescriptor
+Other,Other,Other,uri://ed-fi.org/BehaviorDescriptor

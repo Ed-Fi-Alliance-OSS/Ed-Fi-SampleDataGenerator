@@ -1,0 +1,6 @@
+CodeValue,ShortDescription,Description,Namespace
+Referred,Referred,Referred,uri://ed-fi.org/ParticipationStatusDescriptor
+Eligible,Eligible,Eligible,uri://ed-fi.org/ParticipationStatusDescriptor
+Not Eligible,Not Eligible,Not Eligible,uri://ed-fi.org/ParticipationStatusDescriptor
+Active in Program,Active in Program,Active in Program,uri://ed-fi.org/ParticipationStatusDescriptor
+Refused,Refused,Refused,uri://ed-fi.org/ParticipationStatusDescriptor

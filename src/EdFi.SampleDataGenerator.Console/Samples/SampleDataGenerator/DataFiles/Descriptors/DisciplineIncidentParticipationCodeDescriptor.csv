@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Perpetrator,Perpetrator,Perpetrator,uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor
+Reporter,Reporter,Reporter,uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor
+Victim,Victim,Victim,uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor
+Witness,Witness,Witness,uri://ed-fi.org/DisciplineIncidentParticipationCodeDescriptor

@@ -1,16 +1,16 @@
-CodeValue,ShortDescription,Description,Namespace,StaffIdentificationSystemMap
-Canadian SIN,Canadian SIN,Canadian SIN,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Canadian SIN
-District,District,District,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,District
-Drivers License,Drivers License,Drivers License,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Drivers License
-Federal,Federal,Federal,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Federal
-Health Record,Health Record,Health Record,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Health Record
-Medicaid,Medicaid,Medicaid,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Medicaid
-Other,Other,Other,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Other
-Other Federal,Other Federal,Other Federal,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Other Federal
-PIN,PIN,PIN,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,PIN
-Professional Certificate,Professional Certificate,Professional Certificate,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Professional Certificate
-School,School,School,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,School
-Selective Service,Selective Service,Selective Service,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,Selective Service
-SSN,SSN,SSN,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,SSN
-State,State,State,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,State
-US Visa,US Visa,US Visa,http://www.ed-fi.org/Descriptor/StaffIdentificationSystemDescriptor.xml,US Visa
+CodeValue,ShortDescription,Description,Namespace
+Canadian SIN,Canadian SIN,Canadian SIN,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+District,District,District,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Drivers License,Drivers License,Drivers License,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Federal,Federal,Federal,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Health Record,Health Record,Health Record,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Medicaid,Medicaid,Medicaid,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Other,Other,Other,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Other Federal,Other Federal,Other Federal,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+PIN,PIN,PIN,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Professional Certificate,Professional Certificate,Professional Certificate,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+School,School,School,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+Selective Service,Selective Service,Selective Service,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+SSN,SSN,SSN,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+State,State,State,uri://ed-fi.org/StaffIdentificationSystemDescriptor
+US Visa,US Visa,US Visa,uri://ed-fi.org/StaffIdentificationSystemDescriptor

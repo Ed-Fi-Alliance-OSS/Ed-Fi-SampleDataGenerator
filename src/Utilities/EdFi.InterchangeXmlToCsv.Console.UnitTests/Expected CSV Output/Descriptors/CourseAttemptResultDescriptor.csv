@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Fail,Fail,Fail,uri://ed-fi.org/CourseAttemptResultDescriptor
+Incomplete,Incomplete,Incomplete,uri://ed-fi.org/CourseAttemptResultDescriptor
+Pass,Pass,Pass,uri://ed-fi.org/CourseAttemptResultDescriptor
+Withdrawn,Withdrawn,Withdrawn,uri://ed-fi.org/CourseAttemptResultDescriptor

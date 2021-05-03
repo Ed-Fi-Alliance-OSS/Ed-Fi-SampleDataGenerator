@@ -1,0 +1,14 @@
+CodeValue,ShortDescription,Description,Namespace
+Nonpromotion - Failed to meet testing requirements,Nonpromotion - Failed to meet testing requirements,Nonpromotion - Failed to meet testing requirements,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Illness,Nonpromotion - Illness,Nonpromotion - Illness,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Immaturity,Nonpromotion - Immaturity,Nonpromotion - Immaturity,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Inadequate performance,Nonpromotion - Inadequate performance,Nonpromotion - Inadequate performance,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Insufficient credits,Nonpromotion - Insufficient credits,Nonpromotion - Insufficient credits,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Other,Nonpromotion - Other,Nonpromotion - Other,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Nonpromotion - Prolonged absence,Nonpromotion - Prolonged absence,Nonpromotion - Prolonged absence,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Accelerated promotion,Promotion - Accelerated promotion,Promotion - Accelerated promotion,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Continuous promotion,Promotion - Continuous promotion,Promotion - Continuous promotion,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Other,Promotion - Other,Promotion - Other,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Probationary promotion,Promotion - Probationary promotion,Promotion - Probationary promotion,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Regular promotion,Promotion - Regular promotion,Promotion - Regular promotion,uri://ed-fi.org/EntryGradeLevelReasonDescriptor
+Promotion - Variable progress,Promotion - Variable progress,Promotion - Variable progress,uri://ed-fi.org/EntryGradeLevelReasonDescriptor

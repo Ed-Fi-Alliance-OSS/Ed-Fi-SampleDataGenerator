@@ -1,0 +1,5 @@
+CodeValue,ShortDescription,Description,Namespace
+Effective response,Effective response,Effective response,uri://ed-fi.org/ResponseIndicatorDescriptor
+Ineffective response,Ineffective response,Ineffective response,uri://ed-fi.org/ResponseIndicatorDescriptor
+Nonscorable response,Nonscorable response,Nonscorable response,uri://ed-fi.org/ResponseIndicatorDescriptor
+Partial response,Partial response,Partial response,uri://ed-fi.org/ResponseIndicatorDescriptor

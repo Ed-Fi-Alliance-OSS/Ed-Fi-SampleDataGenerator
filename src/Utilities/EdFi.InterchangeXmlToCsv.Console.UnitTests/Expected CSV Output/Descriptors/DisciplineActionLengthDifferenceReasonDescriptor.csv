@@ -1,0 +1,13 @@
+CodeValue,ShortDescription,Description,Namespace
+Continuation Of Prior Year's Disciplinary Action,Continuation Of Previous Year's Disciplinary Action Assignment,Continuation Of Previous Year's Disciplinary Action Assignment,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+No Difference,No Difference,No Difference,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Other,Other,Other,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+School Year Ended,School Year Ended,School Year Ended,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Completed Term Requirements Sooner Than Expected,Student Completed Term Requirements Sooner Than Expected,Student Completed Term Requirements Sooner Than Expected,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Student Incarcerated,Student Incarcerated,Student Incarcerated,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Student Withdrew From School,Student Withdrew From School,Student Withdrew From School,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Term Decreased Due To Health-Related Circumstances,Term Decreased Due To Extenuating Health-Related Circumstances,Term Decreased Due To Extenuating Health-Related Circumstances,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Term Modified By Court Order,Term Modified By Court Order,Term Modified By Court Order,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Term Modified By District,Term Modified By District,Term Modified By District,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Term Modified By Mutual Agreement,Term Modified By Mutual Agreement,Term Modified By Mutual Agreement,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor
+Term Modified By Placement Program Due To Behavior,Term Modified By Placement Program Due To Student Behavior,Term Modified By Placement Program Due To Student Behavior While In The Placement,uri://ed-fi.org/DisciplineActionLengthDifferenceReasonDescriptor

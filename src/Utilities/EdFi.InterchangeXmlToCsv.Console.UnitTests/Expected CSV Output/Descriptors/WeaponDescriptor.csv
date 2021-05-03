@@ -1,11 +1,11 @@
-CodeValue,ShortDescription,Description,Namespace,WeaponMap
-Club,Club,Club,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Club
-Handgun,Handgun,Handgun,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Handgun
-Knife,Knife,Knife,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Knife
-Other,Other,Other,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Other
-Other Firearm,Other Firearm,Other Firearm,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Firearm
-Other Object,Other Object,Other Object,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Object
-Other Sharp Objects,Other Sharp Objects,Other Sharp Objects,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Other Sharp Objects
-Rifle/Shotgun,Rifle/Shotgun,Rifle/Shotgun,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Rifle/Shotgun
-Substance Used as Weapon,Substance Used as Weapon,Substance Used as Weapon,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Substance Used as Weapon
-Unknown,Unknown,Unknown,http://www.ed-fi.org/Descriptor/WeaponDescriptor.xml,Unknown
+CodeValue,ShortDescription,Description,Namespace
+Club,Club,Club,uri://ed-fi.org/WeaponDescriptor
+Handgun,Handgun,Handgun,uri://ed-fi.org/WeaponDescriptor
+Knife,Knife,Knife,uri://ed-fi.org/WeaponDescriptor
+Other,Other,Other,uri://ed-fi.org/WeaponDescriptor
+Other Firearm,Other Firearm,Other Firearm,uri://ed-fi.org/WeaponDescriptor
+Other Object,Other Object,Other Object,uri://ed-fi.org/WeaponDescriptor
+Other Sharp Objects,Other Sharp Objects,Other Sharp Objects,uri://ed-fi.org/WeaponDescriptor
+Rifle/Shotgun,Rifle/Shotgun,Rifle/Shotgun,uri://ed-fi.org/WeaponDescriptor
+Substance Used as Weapon,Substance Used as Weapon,Substance Used as Weapon,uri://ed-fi.org/WeaponDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/WeaponDescriptor

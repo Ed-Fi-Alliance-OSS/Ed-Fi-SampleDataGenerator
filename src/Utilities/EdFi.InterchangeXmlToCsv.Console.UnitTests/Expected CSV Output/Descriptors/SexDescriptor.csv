@@ -1,0 +1,4 @@
+CodeValue,ShortDescription,Description,Namespace
+Female,Female,Female,uri://ed-fi.org/SexDescriptor
+Male,Male,Male,uri://ed-fi.org/SexDescriptor
+Not Selected,Not Selected,Not Selected,uri://ed-fi.org/SexDescriptor

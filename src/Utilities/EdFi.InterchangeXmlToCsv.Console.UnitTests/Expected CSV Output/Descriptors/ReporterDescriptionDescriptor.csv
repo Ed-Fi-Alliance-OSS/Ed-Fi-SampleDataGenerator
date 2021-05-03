@@ -1,7 +1,7 @@
-CodeValue,ShortDescription,Description,Namespace,ReporterDescriptionMap
-Law enforcement officer,Law enforcement officer,Law enforcement officer,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Law enforcement officer
-Non-school personnel,Non-school personnel,Non-school personnel,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Non-school personnel
-Other,Other,Other,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Other
-Parent/guardian,Parent/guardian,Parent/guardian,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Parent/guardian
-Staff,Staff,Staff,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Staff
-Student,Student,Student,http://www.ed-fi.org/Descriptor/ReporterDescriptionDescriptor.xml,Student
+CodeValue,ShortDescription,Description,Namespace
+Law enforcement officer,Law enforcement officer,Law enforcement officer,uri://ed-fi.org/ReporterDescriptionDescriptor
+Non-school personnel,Non-school personnel,Non-school personnel,uri://ed-fi.org/ReporterDescriptionDescriptor
+Other,Other,Other,uri://ed-fi.org/ReporterDescriptionDescriptor
+Parent/guardian,Parent/guardian,Parent/guardian,uri://ed-fi.org/ReporterDescriptionDescriptor
+Staff,Staff,Staff,uri://ed-fi.org/ReporterDescriptionDescriptor
+Student,Student,Student,uri://ed-fi.org/ReporterDescriptionDescriptor

@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+Administrative,Administrative,Administrative,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Attendance,Attendance,Attendance,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Fax,Fax,Fax,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Food Service,Food Service,Food Service,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Health Clinic,Health Clinic,Health Clinic,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Main,Main,Main,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor

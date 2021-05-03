@@ -16,7 +16,7 @@
 <#@ output extension=".cs" #>
 <#
 string ProjectPath = Host.ResolveAssemblyReference("$(ProjectDir)");
-const string DescriptorDirectoryPath = "Entities\\Schema\\v30\\Descriptors\\";
+const string DescriptorDirectoryPath = "Entities\\Schema\\v32\\Descriptors\\";
 #>
 namespace EdFi.SampleDataGenerator.Core.Entities
 {

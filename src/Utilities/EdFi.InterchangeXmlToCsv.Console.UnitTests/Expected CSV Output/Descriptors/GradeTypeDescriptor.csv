@@ -1,0 +1,8 @@
+CodeValue,ShortDescription,Description,Namespace
+Conduct,Conduct,Conduct,uri://ed-fi.org/GradeTypeDescriptor
+Exam,Exam,Exam,uri://ed-fi.org/GradeTypeDescriptor
+Final,Final,Final,uri://ed-fi.org/GradeTypeDescriptor
+Grading Period,Grading Period,Grading Period,uri://ed-fi.org/GradeTypeDescriptor
+Mid-Term Grade,Mid-Term Grade,Mid-Term Grade,uri://ed-fi.org/GradeTypeDescriptor
+Progress Report,Progress Report,Progress Report,uri://ed-fi.org/GradeTypeDescriptor
+Semester,Semester,Semester,uri://ed-fi.org/GradeTypeDescriptor

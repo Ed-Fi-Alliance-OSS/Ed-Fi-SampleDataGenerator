@@ -1,0 +1,12 @@
+CodeValue,ShortDescription,Description,Namespace
+Academic Intervention,Academic Intervention,Academic Intervention,uri://ed-fi.org/CohortTypeDescriptor
+Attendance Intervention,Attendance Intervention,Attendance Intervention,uri://ed-fi.org/CohortTypeDescriptor
+Classroom Pullout,Classroom Pullout,Classroom Pullout,uri://ed-fi.org/CohortTypeDescriptor
+Counselor List,Counselor List,Counselor List,uri://ed-fi.org/CohortTypeDescriptor
+Discipline Intervention,Discipline Intervention,Discipline Intervention,uri://ed-fi.org/CohortTypeDescriptor
+Extracurricular Activity,Extracurricular Activity,Extracurricular Activity,uri://ed-fi.org/CohortTypeDescriptor
+Field Trip,Field Trip,Field Trip,uri://ed-fi.org/CohortTypeDescriptor
+In-school Suspension,In-school Suspension,In-school Suspension,uri://ed-fi.org/CohortTypeDescriptor
+Other,Other,Other,uri://ed-fi.org/CohortTypeDescriptor
+Principal Watch List,Principal Watch List,Principal Watch List,uri://ed-fi.org/CohortTypeDescriptor
+Study Hall,Study Hall,Study Hall,uri://ed-fi.org/CohortTypeDescriptor

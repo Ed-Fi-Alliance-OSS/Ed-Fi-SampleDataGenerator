@@ -1,11 +1,12 @@
-CodeValue,ShortDescription,Description,Namespace,SeparationReasonMap
-Change of assignment,Change of assignment,Change of assignment,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Discharge
-Employment elsewhere,Employment elsewhere,Employment elsewhere,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Employment elsewhere
-Family/personal relocation,Family/personal relocation,Family/personal relocation,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Family/personal relocation
-Formal study or research,Formal study or research,Formal study or research,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Formal study or research
-Illness/disability/death,Illness/disability/death,Illness/disability/death,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Illness/disability/death
-Layoff,Layoff,Layoff,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Layoff
-Other,Other,Other,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Other
-Personal reason,Personal reason,Personal reason,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Personal reason
-Retirement,Retirement,Retirement,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Retirement
-Unknown,Unknown,Unknown,http://www.ed-fi.org/Descriptor/SeparationReasonDescriptor.xml,Unknown
+CodeValue,ShortDescription,Description,Namespace
+Change of assignment,Change of assignment,Change of assignment,uri://ed-fi.org/SeparationReasonDescriptor
+Employment elsewhere,Employment elsewhere,Employment elsewhere,uri://ed-fi.org/SeparationReasonDescriptor
+Family/personal relocation,Family/personal relocation,Family/personal relocation,uri://ed-fi.org/SeparationReasonDescriptor
+Formal study or research,Formal study or research,Formal study or research,uri://ed-fi.org/SeparationReasonDescriptor
+Illness/disability/death,Illness/disability/death,Illness/disability/death,uri://ed-fi.org/SeparationReasonDescriptor
+Layoff,Layoff,Layoff,uri://ed-fi.org/SeparationReasonDescriptor
+Other,Other,Other,uri://ed-fi.org/SeparationReasonDescriptor
+Personal reason,Personal reason,Personal reason,uri://ed-fi.org/SeparationReasonDescriptor
+Retirement,Retirement,Retirement,uri://ed-fi.org/SeparationReasonDescriptor
+Unknown,Unknown,Unknown,uri://ed-fi.org/SeparationReasonDescriptor
+Discharge,Discharge,Discharge,uri://ed-fi.org/SeparationReasonDescriptor
