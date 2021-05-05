@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Common.Attributes;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Generators;
@@ -10,8 +10,8 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Common.Attribut
     [TestFixture]
     public class AttributeGeneratorTester
     {
-        public readonly IEnumerable<IEntityAttributeGenerator<GlobalDataGeneratorContext, GlobalDataGeneratorConfig>> GlobalAttributeGenerators = GetAttributeGenerators<GlobalDataGeneratorContext, GlobalDataGeneratorConfig>();
-        public readonly IEnumerable<IEntityAttributeGenerator<StudentDataGeneratorContext, StudentDataGeneratorConfig>> StudentAttributeGenerators = GetAttributeGenerators<StudentDataGeneratorContext, StudentDataGeneratorConfig>();
+        public static readonly IEnumerable<IEntityAttributeGenerator<GlobalDataGeneratorContext, GlobalDataGeneratorConfig>> GlobalAttributeGenerators = GetAttributeGenerators<GlobalDataGeneratorContext, GlobalDataGeneratorConfig>();
+        public static readonly IEnumerable<IEntityAttributeGenerator<StudentDataGeneratorContext, StudentDataGeneratorConfig>> StudentAttributeGenerators = GetAttributeGenerators<StudentDataGeneratorContext, StudentDataGeneratorConfig>();
 
         [Test, TestCaseSource(nameof(GlobalAttributeGenerators))]
         public void GlobalAttributeGeneratorsShouldNotDependOnThemselves(IEntityAttributeGenerator<GlobalDataGeneratorContext, GlobalDataGeneratorConfig> instance)

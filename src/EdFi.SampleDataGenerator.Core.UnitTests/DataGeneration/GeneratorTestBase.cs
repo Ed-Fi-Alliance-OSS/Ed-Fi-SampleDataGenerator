@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using EdFi.SampleDataGenerator.Core.Config;
 using EdFi.SampleDataGenerator.Core.Config.DataFiles;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Common;
@@ -159,7 +161,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration
             var config = new TestSampleDataGeneratorConfig
             {
                 BatchSize = null,
-                DataFilePath = ".\\DataFiles",
+                DataFilePath = Path.Combine(AssemblyDirectory, "DataFiles"),
                 OutputPath = ".\\",
                 SeedFilePath = null,
                 OutputMode = OutputMode.Standard,
@@ -191,6 +193,17 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration
             testDataFileConfigProvider.PopulateDataFileConfig(config);
 
             return config;
+        }
+
+        private static string AssemblyDirectory
+        {
+            get
+            {
+                var codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                var uri = new UriBuilder(codeBase);
+                var path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
         }
 
         public static TestSchoolProfile GetTestSchoolProfile()

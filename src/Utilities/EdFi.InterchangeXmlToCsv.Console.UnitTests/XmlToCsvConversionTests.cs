@@ -1,4 +1,6 @@
-﻿using System.IO;
+using System;
+using System.IO;
+using System.Reflection;
 using NUnit.Framework;
 using Shouldly;
 
@@ -7,18 +9,30 @@ namespace EdFi.InterchangeXmlToCsv.Console.UnitTests
     [TestFixture, Explicit]
     public class XmlToCsvConversionTests
     {
-        const string SampleXmlFolderName = "Sample XML";
-        const string ExpectedCsvOutputFolderName = "Expected CSV Output";
-        const string ActualCsvOutputFolderName = "Actual CSV Output";
+        private static readonly string SampleXmlFolderName = Path.Combine(AssemblyDirectory, "Sample XML");
+        private static readonly string ExpectedCsvOutputFolderName = Path.Combine(AssemblyDirectory, "Expected CSV Output");
+        private static readonly string ActualCsvOutputFolderName = Path.Combine(AssemblyDirectory, "Actual CSV Output");
 
-        [TestFixtureSetUp]
+        private static string AssemblyDirectory
+        {
+            get
+            {
+                var codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                var uri = new UriBuilder(codeBase);
+                var path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
+        }
+
+
+        [OneTimeSetUp]
         public void Setup()
         {
             DeleteDirectory(ActualCsvOutputFolderName);
             Directory.CreateDirectory(ActualCsvOutputFolderName);
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void Teardown()
         {
             DeleteDirectory(ActualCsvOutputFolderName);

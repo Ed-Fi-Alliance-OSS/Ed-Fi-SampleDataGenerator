@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -76,7 +76,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Serialization.CsvHelper
             }
 
             var result = stringBuilder.ToString();
-            result.ShouldBe(expectedFileContent);
+            result.StripLineEndings().ShouldBe(expectedFileContent.StripLineEndings());
         }
     }
 }

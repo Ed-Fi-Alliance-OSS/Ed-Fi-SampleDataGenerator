@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using EdFi.SampleDataGenerator.Core.Config;
@@ -43,6 +43,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Coordination
 
             public TInterchangeEntity GetOutput<TInterchangeEntity>(string outputFilePath)
             {
+                _output.Where(x => x.Key == outputFilePath).ShouldHaveSingleItem(outputFilePath);
                 return (TInterchangeEntity)_output.Single(x => x.Key == outputFilePath).Value;
             }
 
@@ -53,6 +54,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Coordination
 
             public Manifest GetManifest(string outputFilePath)
             {
+                _manifests.Where(x => x.Key == outputFilePath).ShouldHaveSingleItem(outputFilePath);
                 return _manifests.Single(x => x.Key == outputFilePath).Value;
             }
         }
@@ -149,9 +151,9 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Coordination
 
             foreach (var targetInterchange in targetInterchanges)
             {
-                manifestPart1.ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 1"));
-                manifestPart2.ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 2"));
-                manifestPart3.ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 3"));
+                manifestPart1.StripLineEndings().ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 1").StripLineEndings().Trim());
+                manifestPart2.StripLineEndings().ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 2").StripLineEndings().Trim());
+                manifestPart3.StripLineEndings().ShouldContain(ExpectedManifestEntry(targetInterchange, "Part 3").StripLineEndings().Trim());
             }
 
             fileOutputService.OutputFilePaths.Length.ShouldBe(30);

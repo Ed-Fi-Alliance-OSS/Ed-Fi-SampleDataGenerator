@@ -6,7 +6,7 @@ rcf/
 logistics/bin
 
 #User-specific files
-/.vs/
+.vs/
 *.suo
 *.csproj.user
 *.ccproj.user

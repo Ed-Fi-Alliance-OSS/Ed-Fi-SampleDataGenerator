@@ -1,4 +1,4 @@
-﻿using EdFi.SampleDataGenerator.Core.DataGeneration.Common.Interchanges;
+using EdFi.SampleDataGenerator.Core.DataGeneration.Common.Interchanges;
 using EdFi.SampleDataGenerator.Core.Serialization.Output;
 using NUnit.Framework;
 using Shouldly;
@@ -16,7 +16,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.Serialization.Output
             manifest.Add(Interchange.Standards, "Standards.xml");
             manifest.Add(Interchange.EducationOrganization, "EducationOrganization.xml");
 
-            manifest.ToXml().ToString().ShouldBe(Expectation);
+            manifest.ToXml().ToString().StripLineEndings().ShouldBe(Expectation.StripLineEndings());
         }
 
         private static string Expectation => @"

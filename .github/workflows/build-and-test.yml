@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: Apache-2.0
+# Licensed to the Ed-Fi Alliance under one or more agreements.
+# The Ed-Fi Alliance licenses this file to you under the Apache License, Version 2.0.
+# See the LICENSE and NOTICES files in the project root for more information.
+
+name: Build and Run Unit Tests
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+  push:
+    paths:
+      - 'src/**'
+    branches:
+      - main
+jobs:
+  build-and-test:
+    name: Build and Run Unit Tests
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: ./src
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
+
+      - name: Prepare nuget.exe
+        uses: nuget/setup-nuget@04b0c2b8d1b97922f67eca497d7cf0bf17b8ffe1
+        with:
+          nuget-version: '5.x'
+
+      - name: Restore packages
+        run: nuget restore Ed-Fi-SDG.sln
+
+      - name: Compile
+        run: dotnet build Ed-Fi-SDG.sln
+
+      - name: Run unit tests
+        run: dotnet test Ed-Fi-SDG.sln

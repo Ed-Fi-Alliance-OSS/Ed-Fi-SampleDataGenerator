@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Common.Attributes;
 using EdFi.SampleDataGenerator.Core.DataGeneration.Generators;
@@ -12,7 +12,7 @@ namespace EdFi.SampleDataGenerator.Core.UnitTests.DataGeneration.Generators.Stud
     [TestFixture]
     public class StudentAttributeGeneratorTester
     {
-        public readonly IEnumerable<IEntityAttributeGenerator<StudentDataGeneratorContext, StudentDataGeneratorConfig>> AllGenerators = GetAllStudentAttributeGenerators();
+        public static readonly IEnumerable<IEntityAttributeGenerator<StudentDataGeneratorContext, StudentDataGeneratorConfig>> AllGenerators = GetAllStudentAttributeGenerators();
         public readonly List<string> StudentAttributes = GetAllStudentAttributeNames();
         private static readonly List<StudentField> StudentFieldMappings = StudentField.GetAll().ToList();
 
